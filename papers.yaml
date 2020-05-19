@@ -14,7 +14,8 @@
 # Here is an illustrative entry for papers
 papers:
   # Title should have only initial letter capitalized
-  - title: Assessing the accuracy of octanol-water partition coefficient predictions in the SAMPL6 Part II log P Challenge
+  # Titles are listed in quotes
+  - title: "Assessing the accuracy of octanol-water partition coefficient predictions in the SAMPL6 Part II log P Challenge"
     authors: # Use same name in publication
     - Mehtap Işık # note the characters are not Isik
     - Teresa Danielle Bergazin 
@@ -36,6 +37,7 @@ papers:
     pdf: https://choderalab.squarespace.com/s/SAMPL6-pKa.pdf
     github: https://github.com/samplchallenges/SAMPL6/
     preprint: https://www.biorxiv.org/content/10.1101/2020.01.20.913178v1
+    # Two newlines are needed after the description
     description: >
       We report the performance assessment of the 91 methods that were submitted 
       to the SAMPL6 blind challenge for predicting octanol-water partition coefficient 
@@ -43,8 +45,9 @@ papers:
       empirical, and mixed approach methods based on RMSE were 0.92±0.13, 0.48±0.06, 0.47±0.05, 
       and 0.50±0.06, respectively.
     
+    
   # Title should have only initial letter capitalized
-  - title: The SAMPL6 SAMPLing challenge: Assessing the reliability and efficiency of binding free energy calculations
+  - title: "The SAMPL6 SAMPLing challenge: Assessing the reliability and efficiency of binding free energy calculations"
     authors:
     - Andrea Rizzi
     - Travis Jensen
@@ -84,3 +87,4 @@ papers:
       computer effort for the same force field and charge model. Surprisingly, we found that 
       most molecular simulation codes cannot agree on the binding free energy was, even for 
       the same force field.
+
