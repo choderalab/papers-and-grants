@@ -88,3 +88,93 @@ papers:
       most molecular simulation codes cannot agree on the binding free energy was, even for 
       the same force field.
 
+
+papers:
+  # Title should have only initial letter capitalized
+  # Titles are listed in quotes
+  - title: "Octanol-water partition coefficient measurements for the SAMPL6 Blind Prediction Challenge"
+    authors: # Use same name in publication
+    - Mehtap Işık 
+    - Dorothy Levorse
+    - David L. Mobley
+    - Timothy Rhodes
+    - John D. Chodera
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    -    
+    # Add these other fields are optional; fill in as much information as is available
+    journal: Journal of Computer Aided Molecular Design
+    volume: 34
+    page: 405 # just first page
+    publication-date: 2019-12-19 # use ISO 8601 date format YYYY-MM-DD
+    year: 2019
+    # These links may be listed in the choderalab.org/publications/ page
+    doi: https://doi.org/10.1007/s10822-019-00271-3
+    pdf: https://choderalab.squarespace.com/s/SAMPL6-pKa.pdf
+    github: https://github.com/MobleyLab/SAMPL6
+    preprint: https://www.biorxiv.org/content/10.1101/757393v3
+    # Two newlines are needed after the description
+    description: >
+      We describe the design and data collection (and associated challenges) for the SAMPL6      
+      part II logP octanol-water blind prediction challenge, where the goal was to benchmark the 
+      accuracy of force fields for druglike molecules (here, molecules 
+      resembling kinase inhibitors).
+      
+ 
+ papers:
+  # Title should have only initial letter capitalized
+  # Titles are listed in quotes
+  - title: "A small-molecule pan-Id antagonist inhibits pathologic ocular neovascularization"
+    authors: # Use same name in publication
+    - Paulina M. Wojnarowicz 
+    - Raquel Lima e Silva
+    - Masayuki Ohanka
+    - Sang Bae Lee
+    - Yvette Chin
+    - Anita Kulukian
+    - Sung-Hee Chang
+    - Bina Desai
+    - Marta Garcia Escolano
+    - Riddhi Shah
+    - Marta Garcia-Cao
+    - Sijia Xu
+    - Rashmi Thakar
+    - Yehuda Goldgur
+    - Meredith A. Miller
+    - Ouathek Ouerfelli
+    - Guangli Yang
+    - Tsutomu Arakawa
+    - Steven K. Albanese
+    - William A. Garland
+    - Glenn Stoller
+    - Jaideep Chaudhary
+    - Rajesh Soni
+    - John Philip
+    - Ronald C. Hendrickson
+    - Antonio Iavarone
+    - Andrew J. Dannenberg
+    - John D. Chodera
+    - Nikola Pavletich
+    - Anna Lasorella
+    - Peter A. Campochiaro
+    - Robert Benezra
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    -  Robert Benezra
+    # Add these other fields are optional; fill in as much information as is available
+    journal: Cell Reports
+    volume: 29
+    page: 62 # just first page
+    publication-date: 2019-10-01 # use ISO 8601 date format YYYY-MM-DD
+    year: 2019
+    # These links may be listed in the choderalab.org/publications/ page
+    doi: https://doi.org/10.1016/j.celrep.2019.08.073
+    https://www.cell.com/cell-reports/fulltext/S2211-1247(19)31128-3
+    pdf: http://www.choderalab.org/s/benezra-cell-reports.pdf
+    github: 
+    preprint: 
+    # Two newlines are needed after the description
+    description: >
+       We report the discovery and characterization of a small molecule, AGX51, with the
+       surprising ability to inhibit the interaction of Id1 with E47, which leads to ubiquitin-mediated
+       degradation of Ids.
