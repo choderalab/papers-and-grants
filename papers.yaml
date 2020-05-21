@@ -30,11 +30,11 @@ papers:
     journal: Journal of Computer Aided Molecular Design
     volume: 34
     page: 335 # just first page
-    publication-date: 2020-02-07 # use ISO 8601 date format YYYY-MM-DD
+    publication-date: 2020-02-27 # use ISO 8601 date format YYYY-MM-DD
     year: 2020
     # These links may be listed in the choderalab.org/publications/ page
     doi: http://dx.doi.org/10.1007/s10822-020-00295-0
-    pdf: https://choderalab.squarespace.com/s/SAMPL6-pKa.pdf
+    pdf: http://www.choderalab.org/s/SAMPL6-pKa.pdf
     github: https://github.com/samplchallenges/SAMPL6/
     preprint: https://www.biorxiv.org/content/10.1101/2020.01.20.913178v1
     # Two newlines are needed after the description
@@ -92,7 +92,7 @@ papers:
 papers:
   # Title should have only initial letter capitalized
   # Titles are listed in quotes
-  - title: "Octanol-water partition coefficient measurements for the SAMPL6 Blind Prediction Challenge"
+  - title: "Octanol-water partition coefficient measurements for the SAMPL6 blind prediction challenge"
     authors: # Use same name in publication
     - Mehtap Işık 
     - Dorothy Levorse
@@ -101,7 +101,8 @@ papers:
     - John D. Chodera
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-    -    
+    - Timothy Rhodes
+    - John D. Chodera   
     # Add these other fields are optional; fill in as much information as is available
     journal: Journal of Computer Aided Molecular Design
     volume: 34
@@ -121,7 +122,6 @@ papers:
       resembling kinase inhibitors).
       
  
- papers:
   # Title should have only initial letter capitalized
   # Titles are listed in quotes
   - title: "A small-molecule pan-Id antagonist inhibits pathologic ocular neovascularization"
@@ -170,9 +170,7 @@ papers:
     # These links may be listed in the choderalab.org/publications/ page
     doi: https://doi.org/10.1016/j.celrep.2019.08.073
     https://www.cell.com/cell-reports/fulltext/S2211-1247(19)31128-3
-    pdf: http://www.choderalab.org/s/benezra-cell-reports.pdf
-    github: 
-    preprint: 
+    pdf: http://www.choderalab.org/s/benezra-cell-reports.pdf 
     # Two newlines are needed after the description
     description: >
        We report the discovery and characterization of a small molecule, AGX51, with the
