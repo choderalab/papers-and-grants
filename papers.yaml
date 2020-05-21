@@ -252,3 +252,35 @@ papers:
        review the findings of a workshop held in Stockholm in Nov 2018 to discuss this need.
        
        
+ # Title should have only initial letter capitalized
+  # Titles are listed in quotes
+  - title: "Ancestral reconstruction reveals mechanisms of ERK regulatory evolution"
+    authors: # Use same name in publication
+    - Dajun Sang, , , , , , , , and  
+    - Sudarshan Pinglay
+    - Rafal P Wiewiora
+    - Myvizhi E Selvan
+    - Hua Jane Lou
+    - John D Chodera
+    - Benjamin E Turk
+    - Zeynep H Gümüş
+    - Liam J Holt
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    -  Liam J Holt
+    # Add these other fields are optional; fill in as much information as is available
+    journal: Journal of Chemical Information and Modeling ASAP
+    volume: 8
+    page:  # just first page
+    publication-date: 2019-08-13 # use ISO 8601 date format YYYY-MM-DD
+    year: 2019
+    # These links may be listed in the choderalab.org/publications/ page
+    doi: https://doi.org/10.7554/eLife.38805.001
+    eLife: https://elifesciences.org/articles/38805
+    pdf: https://elifesciences.org/articles/38805#downloads
+    Folding@home data: https://github.com/choderalab/ERK-ancestral-materials
+    # Two newlines are needed after the description
+    description: >
+       To understand how kinase regulation by phosphorylation emerged, we reconstruct the common ancestor of CDKs and
+       MAPKs, using biochemical experiments and massively parallel molecular simulations to study how a few mutations 
+       were sufficient to switch ERK-family kinases from high- to low-autophosphorylation.
