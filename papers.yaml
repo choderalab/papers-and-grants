@@ -163,7 +163,6 @@ papers:
     year: 2019
     # These links may be listed in the choderalab.org/publications/ page
     doi: https://doi.org/10.1016/j.celrep.2019.08.073
-    https://www.cell.com/cell-reports/fulltext/S2211-1247(19)31128-3
     pdf: http://www.choderalab.org/s/benezra-cell-reports.pdf 
     # Two newlines are needed after the description
     description: >
@@ -193,10 +192,10 @@ papers:
     github: http://github.com/choderalab/gimlet
     # Two newlines are needed after the description
     description: >
-    Graph convolutional and message-passing networks can be a powerful tool for predicting physical properties of 
-    small molecules when coupled to a simple physical model that encodes the relevant invariances. Here, we show 
-    the ability of graph nets to predict partial atomic charges for use in molecular dynamics simulations and
-    physical docking.
+       Graph convolutional and message-passing networks can be a powerful tool for predicting physical properties of 
+       small molecules when coupled to a simple physical model that encodes the relevant invariances. Here, we show 
+       the ability of graph nets to predict partial atomic charges for use in molecular dynamics simulations and
+       physical docking.
     
  
   - title: "Sharing data from molecular simulations"
@@ -273,7 +272,7 @@ papers:
        were sufficient to switch ERK-family kinases from high- to low-autophosphorylation.
 
 
- - title: "Binding thermodynamics of host-guest systems with SMIRNOFF99Frosst 1.0.5 from the Open Force Field Initiative"
+  - title: "Binding thermodynamics of host-guest systems with SMIRNOFF99Frosst 1.0.5 from the Open Force Field Initiative"
     authors: # Use same name in publication
     - David R. Slochower
     - Neil M. Hendriksen   
@@ -301,9 +300,9 @@ papers:
        compactly specifying force fields provide comparable accuracy with 20x fewer parameters.
 
 
-   - title: "Small-molecule targeting of MUSASHI RNA-binding activity in acute myeloid leukemia"
+  - title: "Small-molecule targeting of MUSASHI RNA-binding activity in acute myeloid leukemia"
     authors: # Use same name in publication
-    - Gerard Minuesa , , , , , , , , , 
+    - Gerard Minuesa 
     - Steven K Albanese
     - Arthur Chow   
     - Alexandra Schurer    
@@ -408,7 +407,7 @@ papers:
       by George Holloway, performed by the Ligeti String Quartet with visual accompaniment from Robert Arbon.
       
       
- - title: "What makes a kinase promiscuous for inhibitors?"
+  - title: "What makes a kinase promiscuous for inhibitors?"
     authors: # Use same name in publication
     - Hanson S 
     - Georghiou G    
