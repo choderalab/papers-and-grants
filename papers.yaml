@@ -435,3 +435,33 @@ papers:
       A class of kinases are particularly promiscuous binders of small molecule inhibitors. Using combined
       biomolecular simulations and biochemical studies, we show that the promiscuity of DDR1, one of the 
       major members of this class, is likely due to an unusually stable DFG-out conformation.  
+
+
+  - title: " "
+    authors:  
+    -  
+    - 
+    - 
+    - 
+    - 
+    - 
+
+    corresponding-authors:
+    -
+    - 
+    journal: 
+    volume: 
+    page:  
+    publication-date:   # use ISO 8601 date format YYYY-MM-DD
+    year: 2019
+    # These links may be listed in the choderalab.org/publications/ page
+    doi: 
+    pdf: 
+    github: 
+    bioRxiv: 
+    # Two newlines are needed after the description
+    description: >
+      We XXXXXXXX. and 0.50±0.06, respectively.
+     
+
+
