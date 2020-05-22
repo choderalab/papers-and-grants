@@ -46,7 +46,6 @@ papers:
       and 0.50±0.06, respectively.
     
     
-  # Title should have only initial letter capitalized
   - title: "The SAMPL6 SAMPLing challenge: Assessing the reliability and efficiency of binding free energy calculations"
     authors:
     - Andrea Rizzi
@@ -89,9 +88,6 @@ papers:
       the same force field.
 
 
-papers:
-  # Title should have only initial letter capitalized
-  # Titles are listed in quotes
   - title: "Octanol-water partition coefficient measurements for the SAMPL6 blind prediction challenge"
     authors: # Use same name in publication
     - Mehtap Işık 
@@ -121,9 +117,7 @@ papers:
       accuracy of force fields for druglike molecules (here, molecules 
       resembling kinase inhibitors).
       
- 
-  # Title should have only initial letter capitalized
-  # Titles are listed in quotes
+
   - title: "A small-molecule pan-Id antagonist inhibits pathologic ocular neovascularization"
     authors: # Use same name in publication
     - Paulina M. Wojnarowicz 
@@ -178,9 +172,6 @@ papers:
        degradation of Ids.
 
 
-papers:
-  # Title should have only initial letter capitalized
-  # Titles are listed in quotes
   - title: "Graph nets for partial charge prediction"
     authors: # Use same name in publication
     - Yuanqing Wang 
@@ -208,8 +199,6 @@ papers:
     physical docking.
     
  
-  # Title should have only initial letter capitalized
-  # Titles are listed in quotes
   - title: "Sharing data from molecular simulations"
     authors: # Use same name in publication
     - Abraham MJ 
@@ -252,11 +241,9 @@ papers:
        review the findings of a workshop held in Stockholm in Nov 2018 to discuss this need.
        
        
- # Title should have only initial letter capitalized
-  # Titles are listed in quotes
   - title: "Ancestral reconstruction reveals mechanisms of ERK regulatory evolution"
     authors: # Use same name in publication
-    - Dajun Sang, , , , , , , , and  
+    - Dajun Sang
     - Sudarshan Pinglay
     - Rafal P Wiewiora
     - Myvizhi E Selvan
@@ -284,3 +271,167 @@ papers:
        To understand how kinase regulation by phosphorylation emerged, we reconstruct the common ancestor of CDKs and
        MAPKs, using biochemical experiments and massively parallel molecular simulations to study how a few mutations 
        were sufficient to switch ERK-family kinases from high- to low-autophosphorylation.
+
+
+ - title: "Binding thermodynamics of host-guest systems with SMIRNOFF99Frosst 1.0.5 from the Open Force Field Initiative"
+    authors: # Use same name in publication
+    - David R. Slochower
+    - Neil M. Hendriksen   
+    - Lee-Ping Wang    
+    - John D. Chodera   
+    - David L. Mobley    
+    - Michael K. Gilson
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Michael K. Gilson
+    # Add these other fields are optional; fill in as much information as is available
+    journal: Journal of Chemical Theory and Computation ASAP
+    volume: 15
+    page: 6225  # just first page
+    publication-date: 2019-10-11 # use ISO 8601 date format YYYY-MM-DD
+    year: 2019
+    # These links may be listed in the choderalab.org/publications/ page
+    doi: https://doi.org/10.1021/acs.jctc.9b00748    
+    bioRxiv: https://chemrxiv.org/articles/Binding_thermodynamics_of_host-guest_systems_with_SMIRNOFF99Frosst_1_0_5_from_the_Open_Force_Field_Initiative/9159872
+    GitHub: https://slochower.github.io/smirnoff-host-guest-manuscript/#code-and-data-availability
+    # Two newlines are needed after the description
+    description: >
+       We assess the accuracy of the SMIRNOFF99Frosst 1.0.5 force field in reproducing host-guest binding 
+       thermodynamics in comparison with the GAFF force field, demonstrating how the SMIRNOFF format for 
+       compactly specifying force fields provide comparable accuracy with 20x fewer parameters.
+
+
+   - title: "Small-molecule targeting of MUSASHI RNA-binding activity in acute myeloid leukemia"
+    authors: # Use same name in publication
+    - Gerard Minuesa , , , , , , , , , 
+    - Steven K Albanese
+    - Arthur Chow   
+    - Alexandra Schurer    
+    - Sun-Mi Park    
+    - Christina Z. Rotsides    
+    - James Taggart    
+    - Andrea Rizzi    
+    - Levi N. Naden    
+    - Timothy Chou     
+    - Saroj Gourkanti    
+    - Daniel Cappel-
+    - Maria C Passarelli    
+    - Lauren Fairchild 
+    - Carolina Adura    
+    - Fraser J Glickman     
+    - Jessica Schulman     
+    - Christopher Famulare
+    - Minal Patel    
+    - Gregory M Ross    
+    - Derek S Tan    
+    - Christina S Leslie   
+    - Thijs Beuming    
+    - Yehuda Goldgur    
+    - John D Chodera    
+    - Michael G Kharas     
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Michael G Kharas 
+    # Add these other fields are optional; fill in as much information as is available
+    journal: Nature Communications
+    volume: 10
+    page:   # just first page
+    publication-date: 2019-06-19 # use ISO 8601 date format YYYY-MM-DD
+    year: 2019
+    # These links may be listed in the choderalab.org/publications/ page
+    doi: https://doi.org/10.1038/s41467-019-10523-3
+    bioRxiv: https://doi.org/10.1101/321174    
+    GitHub: https://github.com/choderalab/musashi
+    MSKCC blog post: https://www.mskcc.org/blog/ro-versus-musashi-how-one-molecule-can-turn-cancer-cells-back-normal
+    # Two newlines are needed after the description
+    description: >
+       We use absolute alchemical free energy calculations to identify the likely interaction site for a 
+       small hydrophobic ligand that shows activity against MUSASHI in AML.
+       
+       
+  - title: "The dynamic conformational landscapes of the protein methyltransferase SETD8"
+    authors: # Use same name in publication
+    - Rafal P. Wiewiora   
+    - Shi Chen    
+    - Fanwang Meng    
+    - Nicolas Babault   
+    - Anqi Ma    
+    - Wenyu Yu    
+    - Kun Qian   
+    - Hao Hu,    
+    - Hua Zou    
+    - Junyi Wang   
+    - Shijie Fan    
+    - Gil Blum    
+    - Fabio Pittella-Silva   
+    - Kyle A. Beauchamp   
+    - Wolfram Tempel    
+    - Hualing Jiang
+    - Kaixian Chen   
+    - Robert J. Skene
+    - Y. George Zheng    
+    - Peter J. Brown    
+    - Jian Jin
+    - Cheng Luo
+    - John D. Chodera
+    - Minkui Luo    
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Cheng Luo
+    - John D. Chodera
+    - Minkui Luo       
+    # Add these other fields are optional; fill in as much information as is available
+    journal: eLife
+    volume: 8
+    page:  # just first page
+    publication-date: 2019-05-13 # use ISO 8601 date format YYYY-MM-DD
+    year: 2019
+    # These links may be listed in the choderalab.org/publications/ page
+    doi: http://doi.org/10.7554/eLife.45403    
+    bioRxiv: https://doi.org/10.1101/438994
+    OSF: https://osf.io/2h6p4/    
+    github: https://github.com/choderalab/SETD8-materials    
+    movies: https://www.youtube.com/watch?v=IDLEi-M8Aow
+    MSKCC blog post: https://www.mskcc.org/blog/computational-hive-mind-helps-scientists-solve-enzyme-s-cryptic-movements    
+    # Two newlines are needed after the description
+    description: >
+      In this work, we show how targeted X-ray crystallography using covalent inhibitors and depletion of 
+      native ligands to reveal structures of low-population hidden conformations can be combined with 
+      massively distributed molecular simulation to resolve the functional dynamic landscape of the protein 
+      methyltransferase SETD8 in unprecedented atomistic detail. Using an aggregate of six milliseconds of 
+      fully atomistic simulation from Folding@home, we use Markov state models to illuminate the 
+      conformational dynamics of this important epigenetic protein.
+      
+      All Folding@home simulation trajectories for this paper are available on the Open Science Framework.
+      
+      The trajectories generated for this project were used as the source for a unique musical composition 'Metastable' 
+      by George Holloway, performed by the Ligeti String Quartet with visual accompaniment from Robert Arbon.
+      
+      
+ - title: "What makes a kinase promiscuous for inhibitors?"
+    authors: # Use same name in publication
+    - Hanson S 
+    - Georghiou G    
+    - Miller WT    
+    - Rest JS   
+    - Chodera JD    
+    - Seeliger MA     
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+     - Chodera JD    
+     - Seeliger MA 
+    # Add these other fields are optional; fill in as much information as is available
+    journal: Cell Chemical Biology
+    volume: 26
+    page:  1 # just first page
+    publication-date: 2019-03-21 # use ISO 8601 date format YYYY-MM-DD
+    year: 2019
+    # These links may be listed in the choderalab.org/publications/ page
+    doi: https://doi.org/10.1016/j.chembiol.2018.11.005
+    PDF: http://www.choderalab.org/s/seeliger-ddr1-promiscuity.pdf
+    github: https://github.com/choderalab/DDR1_and_kinase_promiscuity_materials
+    # Two newlines are needed after the description
+    description: >
+      A class of kinases are particularly promiscuous binders of small molecule inhibitors. Using combined
+      biomolecular simulations and biochemical studies, we show that the promiscuity of DDR1, one of the 
+      major members of this class, is likely due to an unusually stable DFG-out conformation.  
