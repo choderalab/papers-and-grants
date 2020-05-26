@@ -640,3 +640,39 @@ papers:
      molecule resembling fragments of selective kinase inhibitors.
 
 
+  - title: "  NEXT PUB"
+    authors: # Use same name in publication
+    - Mehtap Işık
+    - Dorothy Levorse   
+    - Ariën S. Rustenburg
+    - Ikenna E. Ndukwe
+    - Heather Wang
+    - Julie M. Behr 
+    - Mikhail Reibarkh   
+    - Gary E. Martin
+    - Alexey A. Makarov  
+    - David L. Mobley
+    - Timothy Rhodes    
+    - John D. Chodera       
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+     - Timothy Rhodes    
+     - John D. Chodera      
+    # Add these other fields are optional; fill in as much information as is available
+    journal: Journal of Computer-Aided Molecular Design special issue on SAMPL6
+    volume: 32
+    page:  1117 # just first page
+    publication-date: 2018-11-07 # use ISO 8601 date format YYYY-MM-DD
+    year: 2018
+    # These links may be listed in the choderalab.org/publications/ page
+    doi: https://doi.org/10.1007/s10822-018-0168-0
+    PDF:  http://www.choderalab.org/s/sampl6-pka-measurements.pdf    
+    bioRxiv: http://biorxiv.org/cgi/content/short/368787v1
+    Supplementary Tables and Figures:  http://www.choderalab.org/s/sampl6-pKa-measurements-SI-98l4.pdf    github: https://github.com/choderalab/kinase-ecoli-expression-panel
+    Supplementary Data (includes Sirius T3 reports on all measurements):   https://github.com/choderalab/sampl6-pKa-measurements-manuscript/tree/master/supplementary-info    # Two newlines are needed after the description
+    description: >
+     The SAMPL5 blind challenge exercises identified neglect of protonation state effects as 
+     a major accuracy-limiting factor in physical modeling of biomolecular interactions. In 
+     this study, we report the experimental measurements behind a SAMPL6 blind challenges in 
+     which we assess the ability of community codes to predict small molecule pKas for small 
+     molecule resembling fragments of selective kinase inhibitors.
