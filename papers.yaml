@@ -830,3 +830,278 @@ papers:
      We show how Bayesian inference can produce greatly improved estimates of statistical uncertainty 
      from isothermal titration calorimetry (ITC) experiments, allowing the joint distribution of 
      thermodynamic parameter uncertainties to be inferred.
+     
+     
+  - title: "Quantifying configuration-sampling error in Langevin simulations of complex molecular systems"
+    authors: # Use same name in publication
+    - Josh Fass
+    - David Sivak
+    - Gavin E. Crooks
+    - Kyle A. Beauchamp
+    - Benedict Leimkuhler    
+    - John D Chodera
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+     - John D. Chodera 
+    # Add these other fields are optional; fill in as much information as is available
+    journal: entropy
+    volume: 20
+    page:  318  # just first page
+    publication-date: 2018-04-26 # use ISO 8601 date format YYYY-MM-DD
+    year: 2018
+    # These links may be listed in the choderalab.org/publications/ page
+    doi: https://doi.org/10.3390/e20050318
+    PDF: https://choderalab.squarespace.com/s/langevin-entropy-54gc.pdf    
+    GitHub: https://github.com/choderalab/integrator-benchmark   
+    bioRxiv: https://doi.org/10.1101/266619 
+    description: >
+     Molecular dynamics simulations necessarily use a finite timestep, which introduces error 
+     or bias in the sampled configuration space density that grows rapidly with increasing timestep. 
+     For the first time, we show how to compute a natural measure of this error---the KL 
+     divergence---in both phase and configuration space for a widely used family of Langevin 
+     integrators, and show that VRORV is generally superior for simulation of molecular systems.
+     
+
+  - title: "Escaping atom types in force fields using direct chemical perception"
+    authors: # Use same name in publication
+    - David L. Mobley
+    - Caitlin C. Bannan
+    - Andrea Rizzi
+    - Christopher I. Bayly
+    - John D Chodera    
+    - Victoria T Lim
+    - Nathan M. Lim
+    - Kyle A. Beauchamp
+    - Michael R. Shirts
+    - Michael K. Gilson    
+    - Peter K. Eastman
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+     - David L. Mobley 
+    # Add these other fields are optional; fill in as much information as is available
+    journal: Journal of Chemical Theory and Computation
+    volume: 14
+    page:  6076  # just first page
+    publication-date: 2018-10-18 # use ISO 8601 date format YYYY-MM-DD
+    year: 2018
+    # These links may be listed in the choderalab.org/publications/ page
+    doi: http://doi.org/10.1021/acs.jctc.8b00640
+    bioRxiv: https://doi.org/10.1101/286542
+    description: >
+     We describe the philosophy behind a modern approach to molecular mechanics forcefield 
+     parameterization, and present initial results for the first SMIRNOFF-encoded 
+     forcefield: SMIRNOFF99Frosst.
+     
+     
+  - title: "A dynamic mechanism for allosteric activation of Aurora kinase A by activation loop phosphorylation"
+    authors: # Use same name in publication
+    - Emily F. Ruff
+    - Joseph M. Muretta
+    - Andrew Thompson
+    - Eric W. Lake
+    - Soreen Cyphers    
+    - Steven K. Albanese
+    - Sonya M. Hanson
+    - Julie M. Behr
+    - David D. Thomas
+    - John D. Chodera   
+    - Nicholas M. Levinson
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+     - Nicholas M. Levinson
+    # Add these other fields are optional; fill in as much information as is available
+    journal: eLife
+    volume: 7
+    page:    # just first page
+    publication-date: 2018-02-21 # use ISO 8601 date format YYYY-MM-DD
+    year: 2018
+    # These links may be listed in the choderalab.org/publications/ page
+    doi: https://doi.org/10.7554/eLife.32766
+    bioRxiv: https://doi.org/10.1101/205260
+    description: >
+     We show that, contrary to the canonical belief that activation shifts DFG-out to DFG-in 
+     populations, phosphorylation of AurA does not shift DFG-in/out equilibrium but instead 
+     remodels the conformational distribution of the DFG-in state.     
+     
+     
+  - title: "Quantitative self-assembly prediction yields targeted nanomedicines"
+    authors: # Use same name in publication
+    - Yosi Shamay
+    - Janki Shah
+    - Mehtap Işık 
+    - Aviram Mizrachi
+    - Josef Leibold    
+    - Darjus F. Tschaharganeh
+    - Daniel Roxbury
+    - Januka Budhathoki-Uprety
+    - Karla Nawaly
+    - James L. Sugarman   
+    - Emily Baut
+    - Michelle R. Neiman
+    - Megan Dacek
+    - Kripa S. Ganesh
+    - Darren C. Johnson
+    - Ramya Sridharan    
+    - Karen L. Chu
+    - Vinagolu K. Rajasekhar    
+    - Scott W. Lowe
+    - John D. Chodera    
+    - Daniel A. Heller    
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+     - Daniel A. Heller
+    # Add these other fields are optional; fill in as much information as is available
+    journal: Nature Materials 
+    volume: 17
+    page: 361   # just first page
+    publication-date: 2018-02-05 # use ISO 8601 date format YYYY-MM-DD
+    year: 2018
+    # These links may be listed in the choderalab.org/publications/ page
+    doi: http://doi.org/10.1038/s41563-017-0007-z
+    PDF: https://choderalab.squarespace.com/s/nanoparticles.pdf
+    Supporting Info: https://choderalab.squarespace.com/s/nanoparticles-si-zd77.pdf  
+    nano-drugbank: https://github.com/choderalab/nano-drugbank   
+    description: >
+     In a collaboration with the Heller Lab at MSKCC, we show how indocyanine nanoparticles can 
+     package insoluble selective kinase inhibitors with high mass loadings and efficiently 
+     deliver them to tumors. 
+     
+     
+  - title: "Biomolecular simulations under realistic macroscopic salt conditions"
+    authors: # Use same name in publication
+    - Gregory A. Ross
+    - Ariën S. Rustenburg
+    - Patrick B. Grinaway
+    - Josh Fass
+    - John D. Chodera    
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+     - John D. Chodera 
+    # Add these other fields are optional; fill in as much information as is available
+    journal: Journal of Physical Chemistry B
+    volume: 122
+    page: 5466   # just first page
+    publication-date: 2018-04-13 # use ISO 8601 date format YYYY-MM-DD
+    year: 2018
+    # These links may be listed in the choderalab.org/publications/ page
+    doi: http://doi.org/10.1021/acs.jpcb.7b11734
+    bioRxiv: https://doi.org/10.1101/226001
+    simulation code: https://github.com/choderalab/saltswap  
+    resuts and analysis scripts: https://github.com/choderalab/saltswap-results   
+    description: >
+     We show how NCMC can be used to implement an efficient osmostat in molecular dynamics 
+     simulations to model realistic fluctuations in ion environments around biomolecules, and 
+     illustrate how the local salt environment around biological macromolecules can differ 
+     substantially from bulk. 
+     
+     
+  - title: "Binding Modes of Ligands Using Enhanced Sampling (BLUES): Rapid Decorrelation of Ligand Binding Modes Using Nonequilibrium Candidate Monte Carlo"
+    authors: # Use same name in publication
+    - Samuel Gill
+    - Nathan M. Lim
+    - Patrick B. Grinaway
+    - Ariën S. Rustenburg
+    - Josh Fass    
+    - Gregory Ross
+    - John D. Chodera
+    - David Mobley        
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+     - David Mobley 
+    # Add these other fields are optional; fill in as much information as is available
+    journal: Journal of Physical Chemistry B
+    volume: 122
+    page: 5578   # just first page
+    publication-date: 2018-02-27 # use ISO 8601 date format YYYY-MM-DD
+    year: 2018
+    # These links may be listed in the choderalab.org/publications/ page
+    doi: http://doi.org/10.1021/acs.jpcb.7b11820
+    ChemRxiv: https://chemrxiv.org/articles/Binding_Modes_of_Ligands_Using_Enhanced_Sampling_BLUES_Rapid_Decorrelation_of_Ligand_Binding_Modes_Using_Nonequilibrium_Candidate_Monte_Carlo/5406907
+    GitHub: https://github.com/mobleylab/blues    
+    description: >
+     Nonequilibrium candidate Monte Carlo can be used to accelerate the sampling of ligand 
+     binding modes by orders of magnitude over instantaneous Monte Carlo. 
+ 
+ 
+  - title: "OpenMM 7: Rapid Development of High Performance Algorithms for Molecular Dynamics"
+    authors: # Use same name in publication
+    - Peter Eastman
+    - Jason Swails
+    - John D. Chodera
+    - Robert T. McGibbon
+    - Yutong Zhao    
+    - Kyle A. Beauchamp
+    - Lee-Ping Wang
+    - Andrew C. Simmonett        
+    - Matthew P. Harrigan
+    - Chaya D. Stern
+    - Rafal P. Wiewiora
+    - Bernard R. Brooks
+    - Vijay S. Pande    
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+     - Peter Eastman 
+    # Add these other fields are optional; fill in as much information as is available
+    journal: PLoS Computational Biology
+    volume: 13
+    page:    # just first page
+    publication-date: 2017-07-26 # use ISO 8601 date format YYYY-MM-DD
+    year: 2017
+    # These links may be listed in the choderalab.org/publications/ page
+    doi: http://dx.doi.org/10.1371/journal.pcbi.1005659
+    bioRxiv: http://biorxiv.org/content/early/2016/12/06/091801
+    website: http://openmm.org/  
+    GitHub: http://github.com/pandegroup/openmm    
+    description: >
+     We describe the latest version of OpenMM, a GPU-accelerated framework for high performance 
+     molecular simulation applications.
+ 
+ 
+  - title: "Approaches for calculating solvation free energies and enthalpies demonstrated with an update of the FreeSolv database"
+    authors: # Use same name in publication
+    - Guilherme Duarte Ramos Matos
+    - Daisy Y. Kyu
+    - Hannes H. Loeffler
+    - John D. Chodera
+    - Michael R. Shirts    
+    - David Mobley 
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+     - David Mobley    
+    # Add these other fields are optional; fill in as much information as is available
+    journal: Journal of Chemical Engineering Data
+    volume: 62
+    page: 1559   # just first page
+    publication-date: 2017-04-27 # use ISO 8601 date format YYYY-MM-DD
+    year: 2017
+    # These links may be listed in the choderalab.org/publications/ page
+    doi: http://dx.doi.org/10.1021/acs.jced.7b00104
+    bioRxiv: https://doi.org/10.1101/104281
+    GitHub: https://github.com/mobleylab/freesolv    
+    description: >
+     We review alchemical methods for computing solvation free energies and present an update 
+     (version 0.5) to the FreeSolv database of experimental and calculated hydration free 
+     energies of neutral compounds.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     
+     
+     
+     
