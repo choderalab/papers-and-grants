@@ -1084,6 +1084,327 @@ papers:
      energies of neutral compounds.
  
  
+  - title: "L-2-Hydroxyglutarate production arises from noncanonical enzyme function at acidic pH"
+    authors: # Use same name in publication
+    - Intlekofer A
+    - Wang B
+    - Liu H
+    - Shah H
+    - Carmona-Fontaine C    
+    - Rustenburg AS 
+    - Salah S
+    - Gunner MR
+    - Chodera JD
+    - Cross JR
+    - Thompson CB    
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+     - Thompson CB     
+    # Add these other fields are optional; fill in as much information as is available
+    journal: Nature Chemical Biology
+    volume: 13
+    page: 494   # just first page
+    publication-date: 2017-03-06 # use ISO 8601 date format YYYY-MM-DD
+    year: 2017
+    # These links may be listed in the choderalab.org/publications/ page
+    doi: http://dx.doi.org/10.1038/nchembio.2307
+    PDF: https://choderalab.squarespace.com/s/nchembio2307.pdf
+    GitHub: https://github.com/choderalab/LDHA-MCCE  
+    description: >
+     At low pH, metabolic enzymes lactate dehydrogenase and malate dehydrogenase undergo shifts
+     in substrate utilization that have high relevance to cancer metabolism due to surprisingly
+     simple protonation state effects.
+  
+ 
+  - title: "A water-mediated allosteric network governs activation of Aurora kinase A"    
+  - authors: # Use same name in publication
+    - Cyphers S
+    - Ruff E
+    - Behr JM
+    - Chodera JD
+    - Levinson NM      
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+     - Levinson NM     
+    # Add these other fields are optional; fill in as much information as is available
+    journal: Nature Chemical Biology
+    volume: 13
+    page: 402   # just first page
+    publication-date: 2017-02-06 # use ISO 8601 date format YYYY-MM-DD
+    year: 2017
+    # These links may be listed in the choderalab.org/publications/ page
+    doi: http://dx.doi.org/10.1038/nchembio.2296
+    PDF: https://choderalab.squarespace.com/s/nchembio2296.pdf
+    GitHub: http://github.com/choderalab/AurA-materials 
+    description: >
+     Over 50 microseconds of aggregate simulation data on Folding@home reveal a surprisingly 
+     stable hydrogen bond network underlies allosteric activation by Tpx2.
+ 
+ 
+  - title: "Mechanistically distinct cancer-associated mTOR activation clusters predict sensitivity to rapamycin"    
+  - authors: # Use same name in publication
+    - Xu Jianing
+    - Pham CG
+    - Albanese SK
+    - Dong Yiyu
+    - Oyama T      
+    - Lee CH
+    - Rodrik-Outmezguine V
+    - Yao Z
+    - Han S
+    - Chen D     
+    - Parton DL
+    - Chodera JD
+    - Rosen N
+    - Cheng EH
+    - Hsieh J    
+   # Corresponding authors have their email addresses listed
+    corresponding-authors:
+     - Hsieh J 
+    # Add these other fields are optional; fill in as much information as is available
+    journal: Journal of Clinical Investigation
+    volume: 126
+    page: 3526   # just first page
+    publication-date: 2016-08-02 # use ISO 8601 date format YYYY-MM-DD
+    year: 2016
+    # These links may be listed in the choderalab.org/publications/ page
+    doi: http://dx.doi.org/10.1172/JCI86120
+    PDF: https://choderalab.squarespace.com/s/JCI86120.pdf
+    description: >
+     In work with the James Hsieh lab at MSKCC, we examine the surprising origin of how 
+     different clinically-identified cancer-associated mutations in MTOR activate the 
+     kinase through distinct mechanisms. 
+ 
+ 
+  - title: "Measuring experimental cyclohexane-water distribution coefficients for the SAMPL5 challenge"    
+  - authors: # Use same name in publication
+    - Ariën S. Rustenburg
+    - Justin Dancer
+    - Baiwei Lin
+    - Jianweng A. Feng
+    - Daniel F. Ortwine      
+    - David L. Mobley
+    - John D. Chodera
+   # Corresponding authors have their email addresses listed
+    corresponding-authors:
+     - John D. Chodera    
+    # Add these other fields are optional; fill in as much information as is available
+    journal: Journal of Computer-Aided Molecular Design
+    volume: 30
+    page: 945   # just first page
+    publication-date: 2016-10-07 # use ISO 8601 date format YYYY-MM-DD
+    year: 2016
+    # These links may be listed in the choderalab.org/publications/ page
+    doi: http://dx.doi.org/10.1007/s10822-016-9971-7
+    bioRxiv: http://dx.doi.org/10.1101/063081    
+    PDF: http://biorxiv.org/content/early/2016/07/10/063081.full.pdf
+    GitHub: https://github.com/choderalab/sampl5-experimental-logd-data    
+    description: >
+     Solicited manuscript for special issue of the Journal of Computer Aided Molecular Design on 
+     the SAMPL5 Challenge.
+     The SAMPL Challenges have driven predictive physical modeling for ligand:protein binding 
+     forward by focusing the community on a series of blind challenges that evaluate performance 
+     on blind datasets, focus attention on current challenges for physical modeling techniques, 
+     and provide high-quality experimental datasets to the community after the challenge is over. 
+     For many years, challenges focused around hydration free energies have proven to be extremely 
+     useful, with theory now able to determine when experiment is wrong. To replace these challenges, 
+     since no more hydration free energy data is being measured, we proposed to use the partition or 
+     distribution coefficients of small druglike molecules between aqueous and apolar phases. We
+     report the collection of cyclohexane-water partition data for a set of compounds used to 
+     drive the SAMPL5 distribution coefficient challenge, providing the experimental data, 
+     methodology, and insight for future iterations of this challenge. 
+ 
+ 
+  - title: "Ensembler: Enabling high-throughput molecular simulations at the superfamily scale"
+  - authors: # Use same name in publication
+    - Daniel L. Parton
+    - Patrick B. Grinaway
+    - Sonya M. Hanson
+    - Kyle A. Beauchamp
+    - John D. Chodera
+   # Corresponding authors have their email addresses listed
+    corresponding-authors:
+     - John D. Chodera
+    # Add these other fields are optional; fill in as much information as is available
+    journal: PLoS Computational Biology 
+    volume: 12
+    page: 6  # just first page
+    publication-date: 2016-06-23 # use ISO 8601 date format YYYY-MM-DD
+    year: 2016
+    # These links may be listed in the choderalab.org/publications/ page
+    doi: http://dx.doi.org/10.1371/journal.pcbi.1004728
+    PDF: https://choderalab.squarespace.com/s/Ensembler-enabling-high-throughput-molecular-simulations-at-the-superfamily-scale.pdf    
+    bioRxiv: http://dx.doi.org/10.1101/018036    
+    Dryad: http://dx.doi.org/10.5061/dryad.7fg32    
+    GitHub: http://github.com/choderalab/ensembler    
+    description: >
+     We demonstrate a new tool that enables---for the first time---massively parallel molecular 
+     simulation studies of biomolecular dynamics at the superfamily scale, illustrating its 
+     application to protein tyrosine kinases, an important class of drug targets in cancer.
+    
+ 
+  - title: "A simple method for automated equilibration detection in molecular simulations"
+  - authors: # Use same name in publication
+    - John D. Chodera
+   # Corresponding authors have their email addresses listed
+    corresponding-authors:
+     - John D. Chodera
+    # Add these other fields are optional; fill in as much information as is available
+    journal: J. Chem. Theor. Comput. 
+    volume: 12
+    page: 1799  # just first page
+    publication-date: 2016-01-15 # use ISO 8601 date format YYYY-MM-DD
+    year: 2016
+    # These links may be listed in the choderalab.org/publications/ page
+    doi: http://dx.doi.org/10.1021/acs.jctc.5b00784
+    PDF: https://choderalab.squarespace.com/s/A-simple-method-for-automated-equilibration-detection-in-molecular-simulations.pdf    
+    bioRxiv: http://dx.doi.org/10.1101/021659    
+    pymbar.timeseries: http://pymbar.org/    
+    GitHub: https://github.com/choderalab/automatic-equilibration-detection    
+    description: >
+     We present a simple scheme for automatically selecting how much initial simulation data to 
+     discard to equilibration or burn-in based on maximizing the number of statistically uncorrelated 
+     samples in the dataset.
+     Keywords: molecular simulation; molecular dynamics; burn-in; equilibration; production; analysis
+     
+     
+  - title: "Modeling error in experimental assays using the bootstrap principle: Understanding discrepancies between assays using different dispensing technologies"
+  - authors: # Use same name in publication
+    - Sonya M. Hanson
+    - Sean Ekins    
+    - John D. Chodera
+   # Corresponding authors have their email addresses listed
+    corresponding-authors:
+     - John D. Chodera    
+     # Add these other fields are optional; fill in as much information as is available
+    journal: Journal of Computer Aided Molecular Design
+    volume: 29
+    page: 1073  # just first page
+    publication-date: 2015-12-17 # use ISO 8601 date format YYYY-MM-DD
+    year: 2015
+    # These links may be listed in the choderalab.org/publications/ page
+    doi: http://dx.doi.org/10.1007/s10822-015-9888-6
+    PDF: https://choderalab.squarespace.com/s/Modeling-error-in-experimental-assays-using-the-bootstrap-principle-understanding-discrepancies-betw.pdf    
+    bioRxiv: http://dx.doi.org/10.1101/033985  
+    GitHub: https://github.com/choderalab/dispensing-errors-manuscript/blob/master/notebooks/echo-vs-tips.ipynb   
+    Pipeline Blog Post: http://blogs.sciencemag.org/pipeline/archives/2013/05/03/drug_assay_numbers_all_over_the_place
+    description: >
+     The drug development community faced a puzzling challenge when a disturbing paper published in PLoS 
+     One demonstrated results from the same assay performed with different dispensing technologies both 
+     varied wildly and significantly different in magnitude of reported potencies. Inspired by a talk 
+     given at the 2014 CADD GRC by Cosma Shalizi on bootstrapping to model error, we show how this 
+     simple idea can help explain a large amount of the discrepancy in this assay, and provide 
+     simple mathematical tools and an IPython notebook illustrating how easy it is to model the 
+     error and bias in experimental assays even when other information about assay reliability 
+     is unavailable.
+     
+     
+  - title: "Avoiding accuracy-limiting pitfalls in the study of protein-ligand interactions with isothermal titration calorimetry"
+  - authors: # Use same name in publication
+    - Sarah E. Boyce
+    - Joel Tellinghuisen    
+    - John D. Chodera
+   # Corresponding authors have their email addresses listed
+    corresponding-authors:
+     - John D. Chodera    
+     # Add these other fields are optional; fill in as much information as is available
+    journal: Manuscript prior to submission.
+    volume: 
+    page:   # just first page
+    publication-date: 2015-08-03 # use ISO 8601 date format YYYY-MM-DD
+    year: 2015
+    # These links may be listed in the choderalab.org/publications/ page
+    doi: http://dx.doi.org/10.1101/023796
+    PDF: https://choderalab.squarespace.com/s/itc-worksheet.pdf    
+    PDF: https://choderalab.squarespace.com/s/ITC-Worksheet-for-bovine-CAII-CBS.pdf    
+    XLSX: https://choderalab.squarespace.com/s/ITC-Worksheet-for-bovine-CAII-CBS.xlsx    
+    ODS: https://choderalab.squarespace.com/s/ITC-Worksheet-for-bovine-CAII-CBS.ods    
+    bioRxiv: http://dx.doi.org/10.1101/023796  
+    GitHub: https://github.com/choderalab/dispensing-errors-manuscript/blob/master/notebooks/echo-vs-tips.ipynb   
+    Pipeline Blog Post: http://blogs.sciencemag.org/pipeline/archives/2013/05/03/drug_assay_numbers_all_over_the_place
+    description: >
+     We show how to avoid common accuracy-limiting mistakes in isothermal titration calorimetry, and 
+     provide a simple spreadsheet to aid in propagating the dominant source of uncertainty 
+     (titrant concentration errors) into the resulting thermodynamic parameters.
+     Keywords: isothermal titration calorimetry; ITC; propagation of error; entropy-enthalpy compensation
+     
+     
+  - title: "Hypoxia induces production of L-2-hydroxyglutarate"
+  - authors: # Use same name in publication
+    - Andrew M. Intlekofer
+    - Raymond G. Dematteo    
+    - Sriram Venneti
+    - Lydia W.S. Finley
+    - Chao Lu    
+    - Alexander R. Judkins   
+    - Ariën S. Rustenburg
+    - Patrick B. Grinaway    
+    - John D. Chodera   
+    -  Justin R. Cross
+    - Craig B. Thompson   
+    - John D. Chodera  
+   # Corresponding authors have their email addresses listed
+    corresponding-authors:
+     - Craig B. Thompson
+     # Add these other fields are optional; fill in as much information as is available
+    journal: Cell Metabolism
+    volume: 22
+    page: 304  # just first page
+    publication-date: 2015-08-04 # use ISO 8601 date format YYYY-MM-DD
+    year: 2015
+    # These links may be listed in the choderalab.org/publications/ page
+    doi: http://dx.doi.org/10.1016/j.cmet.2015.06.023
+    PDF: https://choderalab.squarespace.com/s/Hypoxia-induces-production-of-L-2-hyroxyglutarate.pdf  
+    description: >
+     None 
+ 
+ 
+  - title: "Towards Automated Benchmarking of Atomistic Forcefields: Neat Liquid Densities and Static Dielectric Constants from the ThermoML Data Archive"
+  - authors: # Use same name in publication
+    - Kyle A. Beauchamp
+    - Julie M. Behr   
+    - Ariën S. Rustenburg
+    - Christopher I. Bayly
+    - Kenneth Kroenlein    
+    - John D. Chodera   
+   # Corresponding authors have their email addresses listed
+    corresponding-authors:
+     - Kyle A. Beauchamp     
+     - John D. Chodera     
+    # Add these other fields are optional; fill in as much information as is available
+    journal: J. Phys. Chem. B 
+    volume: 119
+    page: 12912  # just first page
+    publication-date: 2015-09-04 # use ISO 8601 date format YYYY-MM-DD
+    year: 2015
+    # These links may be listed in the choderalab.org/publications/ page
+    doi: http://dx.doi.org/10.1021/acs.jpcb.5b06703
+    PDF: https://choderalab.squarespace.com/s/benchmark-27z0.pdf
+    GitHub: https://github.com/choderalab/LiquidBenchmark
+    arXiv: http://arxiv.org/abs/1506.00262     
+    description: >
+     Progress in forcefield validation and parameterization has been hindered by the availability 
+     of high-quality machine-readable physical property data for small organic molecules. We show 
+     how the NIST ThermoML dataset provides a solution to this problem, and demonstrate its utility 
+     in benchmarking the GAFF/AM1-BCC small molecule forcefield on neat liquid densities and static 
+     dielectric constants to uncover problems in the representation of low-dielectric environments. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
  
  
@@ -1100,7 +1421,42 @@ papers:
  
  
  
- 
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
      
      
      
