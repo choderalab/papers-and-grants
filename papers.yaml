@@ -1634,6 +1634,293 @@ papers:
      NMR data analysis.
 
 
+  - title: "The molten globule state is unusually deformable under mechanical force" 
+  - authors: # Use same name in publication
+    - Philip J. Elms    
+    - John D. Chodera         
+    - Carlos Bustamante
+    - Susan Marqusee    
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+     - Susan Marqusee    
+    # Add these other fields are optional; fill in as much information as is available
+    journal: Proc. Natl. Acad. Sci. USA 
+    volume: 109
+    page: 3796  # just first page
+    publication-date: 2012-03-06 # use ISO 8601 date format YYYY-MM-DD
+    year: 2012
+    # These links may be listed in the choderalab.org/publications/ page
+    doi: http://dx.doi.org/10.1073/pnas.1115519109
+    PDF: https://choderalab.squarespace.com/s/the-molten-globule-state-is-unusually-deformable-under-mechanical-force.pdf
+    description: >
+     We measure the physical properties of the molten globule state of apo-myoglobin, and 
+     show that it is unusually deformable compared to typical protein native states.
+
+
+  - title: "Replica exchange and expanded ensemble simulations as Gibbs sampling: Simple improvements for enhanced mixing" 
+  - authors: # Use same name in publication    
+    - John D. Chodera         
+    - Michael R. Shirts   
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+     -  Michael R. Shirts    
+    # Add these other fields are optional; fill in as much information as is available
+    journal: J. Chem. Phys.
+    volume: 135
+    page: 194110  # just first page
+    publication-date: 2011-11-21 # use ISO 8601 date format YYYY-MM-DD
+    year: 2011
+    # These links may be listed in the choderalab.org/publications/ page
+    doi: http://dx.doi.org/10.1063/1.3660669
+    PDF: https://choderalab.squarespace.com/s/replica-exchange-and-expanded-ensemble-simulations-as-gibbs-sampling-simple-improvements-for-enhance.pdf
+    description: >
+     We show how a simple change to the way exchanges are handled in the popular replica-exchange 
+     simulation methodology can enormously increase efficiency at no increase in computational cost.
+
+
+  - title: "The ribosome modulates nascent protein folding" 
+  - authors: # Use same name in publication    
+    - Christian M. Kaiser         
+    - Daniel H. Goldman   
+    - John D. Chodera         
+    - Ignacio Tinoco Jr.    
+    - Carlos Bustamante    
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+     - Carlos Bustamante 
+    # Add these other fields are optional; fill in as much information as is available
+    journal: Science
+    volume: 334
+    page: 1723 # just first page
+    publication-date: 2011-12-23 # use ISO 8601 date format YYYY-MM-DD
+    year: 2011
+    # These links may be listed in the choderalab.org/publications/ page
+    doi: http://dx.doi.org/10.1063/1.3660669
+    PDF: https://choderalab.squarespace.com/s/replica-exchange-and-expanded-ensemble-simulations-as-gibbs-sampling-simple-improvements-for-enhance.pdf
+    description: >
+     Using single-molecule force spectroscopy, we show how the ribosome itself modulates the folding 
+     dynamics of nascent protein chains emerging from the exit tunnel.
+
+
+  - title: "Nonequilibrium candidate Monte Carlo is an efficient tool for equilibrium simulation" 
+  - authors: # Use same name in publication    
+    - Jerome P. Nilmeier         
+    - Gavin E. Crooks  
+    - David D. L. Minh         
+    - John D. Chodera       
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+     - John D. Chodera    
+    # Add these other fields are optional; fill in as much information as is available
+    journal: Proc. Natl. Acad. Sci. USA
+    volume: 108
+    page: 1009 # just first page
+    publication-date: 2011-11-08 # use ISO 8601 date format YYYY-MM-DD
+    year: 2011
+    # These links may be listed in the choderalab.org/publications/ page
+    doi: http://dx.doi.org/10.1073/pnas.1106094108
+    PDF: https://choderalab.squarespace.com/s/nonequilibrium-candidate-monte-carlo-is-an-effecient-tool-for-equilibrium-simulation.pdf
+    description: >
+     We present a significant generalization of Monte Carlo methods that provide an enormously useful 
+     tool for enhancing the efficiency of molecular simulations and enabling molecular design. Keywords: NCMC; 
+     Monte Carlo; Metropolis-Hastings; acceptance rates; molecular dynamics 
+ 
+ 
+  - title: "Splitting probabilities as a test of reaction coordinate choice in single-molecule experiments" 
+  - authors: # Use same name in publication             
+    - John D. Chodera 
+    - Vijay S. Pande    
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+     - Vijay S. Pande 
+    # Add these other fields are optional; fill in as much information as is available
+    journal: Phys. Rev. Lett.
+    volume: 107
+    page: 098102 # just first page
+    publication-date: 2011-08-23 # use ISO 8601 date format YYYY-MM-DD
+    year: 2011
+    # These links may be listed in the choderalab.org/publications/ page
+    doi: http://dx.doi.org/10.1103/PhysRevLett.107.098102
+    PDF: https://choderalab.squarespace.com/s/spitting-probabilities-as-a-test-of-reaction-coordinate-choice-in-single-molecule-experiments.pdf
+    description: >
+     We demonstrate a simple test for identifying poor reaction coordinates in single-molecule experiments.
+ 
+ 
+  - title: "A robust approach to estimating rates from time-correlation functions" 
+  - authors: # Use same name in publication             
+    - John D. Chodera 
+    - Phillip J. Elms    
+    - William C. Swope 
+    - Jan-Hendrik Prinz   
+    - Susan Marqusee 
+    - Carlos Bustamante  
+    - Frank Noé 
+    - Vijay S. Pande   
+   # Corresponding authors have their email addresses listed
+    corresponding-authors:
+     - Vijay S. Pande 
+    # Add these other fields are optional; fill in as much information as is available
+    journal: Preprint ahead of submission
+    volume: 
+    page:  # just first page
+    publication-date: 2011-08-10 # use ISO 8601 date format YYYY-MM-DD
+    year: 2011
+    # These links may be listed in the choderalab.org/publications/ page
+    arXiov: https://arxiv.org/abs/1108.2304    
+    PDF: https://arxiv.org/pdf/1108.2304.pdf
+    SI: https://arxiv.org/src/1108.2304v1/anc/rate-theory-supplementary.pdf
+    description: >
+     The estimation of rates from experimental single-molecule data is fraught with peril. We 
+     describe some of the failures of existing methods and suggest a robust way to estimate 
+     rates from time-correlation functions. 
+ 
+ 
+  - title: "The Social Network (of protein conformations)" 
+  - authors: # Use same name in publication             
+    - John D. Chodera 
+    - Vijay S. Pande   
+   # Corresponding authors have their email addresses listed
+    corresponding-authors:
+     - John D. Chodera 
+    # Add these other fields are optional; fill in as much information as is available
+    journal: Proc. Natl. Acad. Sci. USA
+    volume: 108
+    page: 12969 # just first page
+    publication-date: 2011-07-29 # use ISO 8601 date format YYYY-MM-DD
+    year: 2011
+    # These links may be listed in the choderalab.org/publications/ page
+    DOI: http://dx.doi.org/10.1073/pnas.1109571108    
+    PDF: https://choderalab.squarespace.com/s/the-social-network-of-protein-conformations.pdf
+    description: >
+     Commentary: A new methodology for mapping protein conformational spaces is reminiscent of how we 
+     use two-dimensional maps to navigate a three-dimensional world.
+
+
+  - title: "Bayesian hidden Markov model analysis of single-molecule force spectroscopy: Characterizing kinetics under measurement uncertainty" 
+  - authors: # Use same name in publication             
+    - John D. Chodera 
+    - Phillip Elms   
+    - Frank Noé 
+    - Bettina Keller   
+    - Christian M. Kaiser   
+    - Aaron Ewall-Wice 
+    - Susan Marqusee
+    - Carlos Bustamante 
+    - Nina Singhal Hinrichs
+   # Corresponding authors have their email addresses listed
+    corresponding-authors:
+     - John D. Chodera
+    # Add these other fields are optional; fill in as much information as is available
+    journal: preprint
+    volume: 
+    page: # just first page
+    publication-date: 2011-08-06 # use ISO 8601 date format YYYY-MM-DD
+    year: 2011
+    # These links may be listed in the choderalab.org/publications/ page
+    arXiv: http://arxiv.org/abs/1108.1430 
+    description: >
+     We describe the general theory and implementation for a Bayesian extension of hidden Markov models 
+     applicable to the characterization of how measurement uncertainty and finite statistics can impact 
+     the confidence in rate constants and conformational state properties.
+
+
+
+  - title: "Systematic errors in isothermal titration calorimetry: Concentrations and baselines" 
+  - authors: # Use same name in publication             
+    - Joel T. Tellinghuisen 
+    - John D. Chodera  
+   # Corresponding authors have their email addresses listed
+    corresponding-authors:
+     - Joel T. Tellinghuisen
+    # Add these other fields are optional; fill in as much information as is available
+    journal: Analytical Biochemistry
+    volume: 414
+    page: 297 # just first page
+    publication-date: 2011-07-15 # use ISO 8601 date format YYYY-MM-DD
+    year: 2011
+    # These links may be listed in the choderalab.org/publications/ page
+    DOI: http://dx.doi.org/10.1016/j.ab.2011.03.024    
+    PDF: https://choderalab.squarespace.com/s/systematic-errors-in-isothermal-titration-calorimetry-concentrations-and-baselines.pdf
+    description: >
+     A word of caution about large errors in isothermal titration calorimetry measurements arising from 
+     ligand concentration errors.
+
+
+  - title: "Dynamical reweighting: Improved estimates for dynamical properties from simulations at multiple temperatures" 
+  - authors: # Use same name in publication             
+    - John D. Chodera 
+    - William C. Swope
+    - Frank Noé 
+    - Jan-Hendrik Prinz    
+    - Michael R. Shirts 
+    - Vijay S. Pande    
+   # Corresponding authors have their email addresses listed
+    corresponding-authors:
+     - John D. Chodera    
+    # Add these other fields are optional; fill in as much information as is available
+    journal: J. Chem. Phys. 
+    volume: 134
+    page:  244107 # just first page
+    publication-date: 2011-06-24 # use ISO 8601 date format YYYY-MM-DD
+    year: 2011
+    # These links may be listed in the choderalab.org/publications/ page
+    DOI: http://dx.doi.org/10.1063/1.3592152    
+    PDF: https://choderalab.squarespace.com/s/Dynamical-reweighting-improved-estimates-of-dynamical-propeerties-from-simulations-at-multiple-tempe.pdfines.pdf
+    description: >
+     We describe how reweighing techniques can provide optimal estimates of temperature-dependent dynamical 
+     properties from simulations conducted at multiple temperatures.
+
+
+  - title: "Optimal use of data in parallel tempering simulations for the construction of discrete-state Markov models of biomolecular dynamics" 
+  - authors: # Use same name in publication             
+    - Jan-Hendrik Prinz 
+    - John D. Chodera
+    - Vijay S. Pande
+    - Jeremy C. Smith    
+    - Frank Noé   
+   # Corresponding authors have their email addresses listed
+    corresponding-authors:
+     - Jan-Hendrik Prinz     
+     - John D. Chodera
+    # Add these other fields are optional; fill in as much information as is available
+    journal: J. Chem. Phys. 
+    volume: 134
+    page:  244108 # just first page
+    publication-date: 2011-06-24 # use ISO 8601 date format YYYY-MM-DD
+    year: 2011
+    # These links may be listed in the choderalab.org/publications/ page
+    DOI: http://dx.doi.org/10.1063/1.3592153   
+    PDF: https://choderalab.squarespace.com/s/optimal-use-of-data-in-parallel-tempering-simulations-for-the-construction-of-discrete-state-markov.pdf
+    description: >
+     None
+
+
+  - title: "Markov models of molecular kinetics: Generation and validation" 
+  - authors: # Use same name in publication             
+    - Jan-Hendrik Prinz 
+    - Hao Wu
+    - Marco Sarich
+    - Bettina Keller    
+    - Martin Fischbach 
+    - Martin Held
+    - John D. Chodera
+    - Christof Schüttle    
+    - Frank Noé   
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+     - Frank Noé       
+    # Add these other fields are optional; fill in as much information as is available
+    journal: J. Chem. Phys. 
+    volume: 134
+    page:  174105 # just first page
+    publication-date: 2011-05-04 # use ISO 8601 date format YYYY-MM-DD
+    year: 2011
+    # These links may be listed in the choderalab.org/publications/ page
+    DOI: http://dx.doi.org/10.1063/1.3565032   
+    PDF: https://choderalab.squarespace.com/s/markov-models-of-molecular-kinetics-generation-and-validation.pdf
+    description: >
+     A review of current best practices for the generation and validation of Markov state models for 
+     describing the stochastic dynamics of biomolecular systems.
 
 
 
@@ -1644,18 +1931,14 @@ papers:
 
 
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
+
+
+
+
+
+
+
  
  
  
