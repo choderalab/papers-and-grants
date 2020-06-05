@@ -1923,8 +1923,6 @@ papers:
      describing the stochastic dynamics of biomolecular systems.
 
 
-
-
   - title: "Machine learning force fields and coarse-grained variables in molecular dynamics: application to materials and biological systems" 
   - authors: # Use same name in publication             
     - Paraskevi Gkeka
@@ -2052,85 +2050,9 @@ papers:
     description: >
      None
 
-
-  - title: "Development of targeted nanomedicines facilitated by nanoinformatics" 
-  - authors: # Use same name in publication             
-    - Daniel Heller
-    - Yosi Shamay
-    - John Chodera
-    - Mehtap Isik     
-    # Corresponding authors have their email addresses listed
-    corresponding-authors:
-     - Yosi Shamay
-     - John Chodera  
-    # Add these other fields are optional; fill in as much information as is available
-    journal: ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY
-    volume: 258
-    page:   # just first page
-    publication-date: 2019-08-25 # use ISO 8601 date format YYYY-MM-DD
-    year: 2019
-    # These links may be listed in the choderalab.org/publications/ page  
-    Google Scholar:: http://scholar.google.com/scholar?cluster=1344200225301820914&hl=en&oi=scholarr    
-    description: >
-     None
  
  
-  - title: "Small-molecule targeting of MUSASHI RNA-binding activity in acute myeloid leukemia" 
-  - authors: # Use same name in publication             
-    - Gerard Minuesa
-    - Steven K Albanese
-    - Wei Xie
-    - Yaniv Kazansky     
-    - Daniel Worroll
-    - Arthur Chow,
-    - Alexandra Schurer
-    - Sun-Mi Park    
-    - Christina Z Rotsides
-    - James Taggart
-    - Andrea Rizzi
-    - Levi N Naden    
-    - Timothy Chou
-    - Saroj Gourkanti
-    - Daniel Cappel
-    - Maria C Passarelli    
-    - Lauren Fairchild
-    - Carolina Adura
-    - J Fraser Glickman
-    - Jessica Schulman    
-    - Christopher Famulare
-    - Minal Patel
-    - Joseph K Eibl
-    - Gregory M Ross    
-    - Shibani Bhattacharya
-    - Derek S Tan
-    - Christina S Leslie
-    - Thijs Beuming    
-    - Dinshaw J Patel
-    - Yehuda Goldgur
-    - John D Chodera
-    - Michael G Kharas  
-   # Corresponding authors have their email addresses listed
-    corresponding-authors:
-     - Michael G Kharas
-    # Add these other fields are optional; fill in as much information as is available
-    journal: Nature communications
-    volume: 10
-    page: 1   # just first page
-    publication-date: 2019-06-19 # use ISO 8601 date format YYYY-MM-DD
-    year: 2019
-    # These links may be listed in the choderalab.org/publications/ page  
-    HTML from nature.com: https://www.nature.com/articles/s41467-019-10523-3   
-    GitHub: https://github.com/choderalab/musashi    
-    DOI: https://doi.org/10.1038/s41467-019-10523-3    
-    description: >
-     The MUSASHI (MSI) family of RNA binding proteins (MSI1 and MSI2) contribute to a wide spectrum of 
-     cancers including acute myeloid leukemia. We find that the small molecule Ro 08–2750 (Ro) binds 
-     directly and selectively to MSI2 and competes for its RNA binding in biochemical assays. Ro 
-     treatment in mouse and human myeloid leukemia cells results in an increase in differentiation and 
-     apoptosis, inhibition of known MSI-targets, and a shared global gene expression signature similar 
-     to shRNA depletion of MSI2. Ro demonstrates in vivo inhibition of c-MYC and reduces disease burden 
-     in a murine AML leukemia model. Thus, we identify a small molecule that targets MSI’s oncogenic 
-     activity. Our study provides a framework for targeting RNA binding proteins in cancer.
+  
      
      
      
