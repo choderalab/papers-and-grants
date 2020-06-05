@@ -2052,22 +2052,159 @@ papers:
 
  
  
-  
+  - title: "Free energy methods in drug discovery and design: Progress and challenges" 
+  - authors: # Use same name in publication             
+    - John D. Chodera
+    - David L. Mobley
+    - Michael R. Shirts
+    - Richard W. Dixon
+    - Kim M. Branson    
+    - Vijay S. Pande    
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+     - Vijay S. Pande      
+    # Add these other fields are optional; fill in as much information as is available
+    journal: Curr. Opin. Struct. Biol.
+    volume: 21
+    page: 150  # just first page
+    publication-date: 2011-04-01 # use ISO 8601 date format YYYY-MM-DD
+    year: 2011
+    # These links may be listed in the choderalab.org/publications/ page  
+    DOI: http://dx.doi.org/10.1016/j.sbi.2011.01.011    
+    PDF: http://www.choderalab.org/s/free-energy-methods-in-drug-discovery-and-design-progress-and-challenges.pdf    
+    description: >
+     A review of the opportunities and challenges for alchemical free energy calculations in drug discovery
+     and design.  
      
      
+  - title: "Dynamical fingerprints: A theoretical framework for understanding biomolecular processes by combination of simulation and kinetic experiments" 
+  - authors: # Use same name in publication             
+    - Frank Noé
+    - Sören Doose
+    - Isabella Daidone
+    - Marc Löllmann
+    - Markus Sauer    
+    - John D. Chodera 
+    - Jeremy C. Smith    
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Frank Noé
+    # Add these other fields are optional; fill in as much information as is available
+    journal: Proc. Natl. Acad. Sci. USA
+    volume: 108
+    page: 4822  # just first page
+    publication-date: 2011-03-22 # use ISO 8601 date format YYYY-MM-DD
+    year: 2011
+    # These links may be listed in the choderalab.org/publications/ page  
+    DOI: http://dx.doi.org/10.1073/pnas.1004646108    
+    PDF: http://www.choderalab.org/s/dynamical-fingerprints-a-theoretical-framework-for-understanding-biomolecular-processes-by-combinati.pdf    
+    description: >
+     We present a new framework for comparing essential features of the dynamics between experiment and 
+     simulation to identify the kinetics processes contributing to individual relaxation timescales in 
+     perturbation-response or correlation spectroscopy experiments.  
      
      
+  - title: "Estimating equilibrium ensemble averages using multiple time slices from driven nonequilibrium processes" 
+  - authors: # Use same name in publication             
+    - David D. L. Minh
+    - John D. Chodera   
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - John D. Chodera    
+    # Add these other fields are optional; fill in as much information as is available
+    journal: J. Chem. Phys
+    volume: 134
+    page:  # just first page
+    publication-date: 2011-01-12 # use ISO 8601 date format YYYY-MM-DD
+    year: 2011
+    # These links may be listed in the choderalab.org/publications/ page  
+    DOI: http://dx.doi.org/10.1063/1.3516517
+    PDF: http://www.choderalab.org/s/Estimating-equilibrium-ensemble-averages-using-multiple-time-slices-from-driven-nonequilibrium-proce.pdf   
+    description: >
+     We derive a new estimator for estimating equilibrium expectations from nonequilibrium experiments, 
+     and show how it can be used to estimate a variety of useful quantities in simulated single-molecule 
+     force spectroscopy experiments.
      
      
+  - title: "Probability distributions of molecular observables computed from Markov models. II. Uncertainties in observables and their time-evolution" 
+  - authors: # Use same name in publication             
+    - Frank Noé
+    - John D. Chodera   
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Frank Noé    
+    - John D. Chodera    
+    # Add these other fields are optional; fill in as much information as is available
+    journal: J. Chem. Phys
+    volume: 133
+    page:   # just first page
+    publication-date: 2010-09-08 # use ISO 8601 date format YYYY-MM-DD
+    year: 2010
+    # These links may be listed in the choderalab.org/publications/ page  
+    DOI: http://dx.doi.org/10.1063/1.3463406
+    PDF: http://www.choderalab.org/s/probability-distributions-of-molecular-observables-computed-from-Markov-models.pdf   
+    description: >
+     A simple Bayesian approach for the modeling of statistical uncertainties in kinetic and equilibrium 
+     quantities computed from Markov state models of biomolecular dynamics.
      
      
+  - title: "The mechanical properties of PCNA: Implications for the loading and function of a DNA sliding clamp" 
+  - authors: # Use same name in publication             
+    - Joshua L. Adelman
+    - John D. Chodera   
+    - I. W. Kuo
+    - Thomas F. Miller III    
+    - Daniel Barsky   
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Daniel Barsky       
+    # Add these other fields are optional; fill in as much information as is available
+    journal: Biophys. J.
+    volume: 98
+    page: 3062  # just first page
+    publication-date: 2010-06-16 # use ISO 8601 date format YYYY-MM-DD
+    year: 2010
+    # These links may be listed in the choderalab.org/publications/ page  
+    DOI: http://dx.doi.org/10.1016/j.bpj.2010.03.056
+    PDF: http://www.choderalab.org/s/the-mechanical-properties-of-PCNA-implications-for-the-loading-and-function-of-a-DNA-sliding-clamp.pdf  
+    description: >
+     Molecular simulations of the PCNA clamp responsible for DNA polymerase processivity show a surprisingly
+     small energetic penalty for the deformation required for clamp loading.
      
      
-     
-     
-     
-     
-     
+  - title: "Current status of the AMOEBA polarizable force field" 
+  - authors: # Use same name in publication             
+    - Jay W. Ponder
+    - Chuanjie Wu   
+    - Pengyu Ren
+    - Vijay S. Pande   
+    - John D. Chodera   
+    - Joshua L. Adelman
+    - John D. Chodera   
+    - David L. Mobley
+    - Michael J. Schnieders    
+    - Imran Haque       
+    - David S. Lambrecht
+    - Robert A. DiStasio Jr.   
+    - Martin Head-Gordon
+    - Gary N. I. Clark    
+    - Margaret E. Johnson      
+    - Teresa Head-Gordon    
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Teresa Head-Gordon
+    # Add these other fields are optional; fill in as much information as is available
+    journal: J. Phys. Chem. B 
+    volume: 114
+    page: 2549  # just first page
+    publication-date: 2010-02-05 # use ISO 8601 date format YYYY-MM-DD
+    year: 2010
+    # These links may be listed in the choderalab.org/publications/ page  
+    DOI: http://dx.doi.org/10.1021/jp910674d
+    PDF: http://www.choderalab.org/s/current-status-of-the-AMOEBA-polarizable-force-field.pdf  
+    description: >
+     A report on the status of the AMOEBA polarizable force field and its ability to reproduce a diverse 
+     set of physical chemical phenomenon to high accuracy.
      
      
      
