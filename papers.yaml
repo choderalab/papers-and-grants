@@ -2207,26 +2207,348 @@ papers:
      set of physical chemical phenomenon to high accuracy.
      
      
+  - title: "Optimal estimators and asymptotic variances for nonequilibrium path-ensemble averages" 
+  - authors: # Use same name in publication             
+    - David D. D. L. Minh 
+    - John D. Chodera    
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - John D. Chodera     
+    # Add these other fields are optional; fill in as much information as is available
+    journal: J. Chem. Phys.
+    volume: 131
+    page: 134110  # just first page
+    publication-date: 2009-10-06 # use ISO 8601 date format YYYY-MM-DD
+    year: 2009
+    # These links may be listed in the choderalab.org/publications/ page  
+    DOI: http://dx.doi.org/10.1063/1.3242285
+    PDF: http://www.choderalab.org/s/optimal-estimators-and-asymptotic-variances-for-nonequilibrium-path-ensemble-averages.pdf  
+    description: >
+     We derive an optimal estimator and corresponding statistical uncertainties for inferring expectations 
+     of bidirectional nonequilibrium processes.  These estimators have widespread applicability in 
+     single-molecule biophysical force-spectroscopy experiments and nonequilibrium molecular simulations.
      
      
      
+  - title: "Bayesian comparison of Markov models of molecular dynamics with detailed balance constraint" 
+  - authors: # Use same name in publication             
+    - Sergio Bacallado 
+    - John D. Chodera
+    - Vijay S. Pande    
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Vijay S. Pande     
+    # Add these other fields are optional; fill in as much information as is available
+    journal: J. Chem. Phys.
+    volume: 131
+    page: 045106  # just first page
+    publication-date: 2009-07-30 # use ISO 8601 date format YYYY-MM-DD
+    year: 2009
+    # These links may be listed in the choderalab.org/publications/ page  
+    DOI: http://dx.doi.org/10.1063/1.3192309
+    PDF: http://www.choderalab.org/s/Bayesian-comparison-of-Markov-models-of-molecular-dynamics-with-detailed-balance-constraint.pdf  
+    description: >
+     A Bayesian scheme for comparing state space decompositions for Markov state models of biomolecular 
+     dynamics that incorporates the fact that physical systems must obey detailed balance.  This paper 
+     utilizes recent results from Markov chain theory on edge-reinforced random walks.
      
      
+  - title: "Statistically optimal analysis of samples from multiple equilibrium states" 
+  - authors: # Use same name in publication             
+    - Michael R. Shirts 
+    - John D. Chodera   
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - John D. Chodera
+    # Add these other fields are optional; fill in as much information as is available
+    journal: J. Chem. Phys.
+    volume: 129
+    page: 124105  # just first page
+    publication-date: 2008-09-23 # use ISO 8601 date format YYYY-MM-DD
+    year: 2008
+    # These links may be listed in the choderalab.org/publications/ page  
+    DOI: http://dx.doi.org/10.1063/1.2978177
+    PDF: http://www.choderalab.org/s/MBAR-paper.pdf
+    description: >
+     We present a highly general, statistically optimal approach for producing estimates of free energies 
+     and equilibrium expectations from multiple simulations that provably extracts all useful information 
+     from the data. Keywords: Multistate Bennett acceptance ratio; MBAR; Bennett acceptance ratio; 
+     BAR; molecular dynamics; Monte Carlo; replica exchange     
      
      
+  - title: "Technical Report: Self-consistent definition and computation of the electrostatic field for the Amber and related forcefields with particle-mesh Ewald" 
+  - authors: # Use same name in publication             
+    - John D. Chodera   
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - John D. Chodera
+    # Add these other fields are optional; fill in as much information as is available
+    journal: Technical Report
+    volume: 
+    page:   # just first page
+    publication-date: 2008-05-22 # use ISO 8601 date format YYYY-MM-DD
+    year: 2008
+    # These links may be listed in the choderalab.org/publications/ page  
+    PDF: http://www.choderalab.org/s/pme-field.pdf
+    description: >
+     This technical report provides information on the computation of the electric field and its gradient 
+     for the Amber forcefield in particle-mesh Ewald (PME) in AMBER 10.  
      
      
+  - title: "Predicting small-molecule solvation free energies: A blind challenge test for computational chemistry" 
+  - authors: # Use same name in publication             
+    - Anthony Nicholls
+    - David L. Mobley    
+    - J. Peter Guthrie    
+    - John D. Chodera 
+    - Vijay S. Pande     
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Anthony Nicholls    
+    - David L. Mobley    
+    # Add these other fields are optional; fill in as much information as is available
+    journal: J. Med. Chem.
+    volume: 51
+    page: 769  # just first page
+    publication-date: 2008-01-24 # use ISO 8601 date format YYYY-MM-DD
+    year: 2008
+    # These links may be listed in the choderalab.org/publications/ page  
+    DOI: http://dx.doi.org/10.1021/jm070549+    
+    PDF: http://www.choderalab.org/s/predicting-small-molecule-solvation-free-energies-a-blind-challenge-test-for-computational-chemistry.pdf
+    description: >
+     A blind evaluation of the accuracy of alchemical free energy methods for computing gas-to-water 
+     transfer free energies (solvation free energies) of small molecules demonstrates that modern 
+     forcefields are likely sufficiently accurate to be useful in drug design.
      
      
+  - title: "Treating entropy and conformational changes in implicit solvent simulations of small molecules" 
+  - authors: # Use same name in publication             
+    - David L. Mobley       
+    - John D. Chodera 
+    - Ken A. Dill     
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - David L. Mobley        
+    # Add these other fields are optional; fill in as much information as is available
+    journal: J. Phys. Chem. B 
+    volume: 112
+    page: 938  # just first page
+    publication-date: 2008-01-03 # use ISO 8601 date format YYYY-MM-DD
+    year: 2008
+    # These links may be listed in the choderalab.org/publications/ page  
+    DOI: http://dx.doi.org/10.1021/jp0764384   
+    PDF: http://www.choderalab.org/s/treating-entropy-and-conformational-changes-in-implicit-slovent-simulations-of-small-molecules.pdf
+    description: >
+     A quantitative examination of how much conformational entropy contributes to hydration free energies of
+     small molecules, with implications for ligand binding.
      
      
-     
-     
-     
-     
-     
-     
-     
-     
-     
+  - title: "Accurate and efficient corrections for missing dispersion interactions in molecular simulations" 
+  - authors: # Use same name in publication             
+    - Michael R. Shirts       
+    - David L. Mobley 
+    - John D. Chodera    
+    - Vijay S. Pande     
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - David L. Mobley        
+    # Add these other fields are optional; fill in as much information as is available
+    journal: J. Phys. Chem. B 
+    volume: 111
+    page: 13052  # just first page
+    publication-date: 2007-10-19 # use ISO 8601 date format YYYY-MM-DD
+    year: 2007
+    # These links may be listed in the choderalab.org/publications/ page  
+    DOI: http://dx.doi.org/10.1021/jp0735987   
+    PDF: http://www.choderalab.org/s/accurate-and-efficient-corrections-for-missing-dispersion-interactions-in-molecular-simulations.pdf
+    description: >
+     We identify a major source of systematic error in absolute alchemical free energy calculations of 
+     ligand binding and show how a simple procedure can inexpensively and accurately eliminate it.
+  
+  
+  - title: "Alchemical free energy calculations: Ready for prime time?" 
+  - authors: # Use same name in publication             
+    - Michael R. Shirts       
+    - David L. Mobley 
+    - John D. Chodera        
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Michael R. Shirts    
+    - David L. Mobley 
+    - John D. Chodera      
+    # Add these other fields are optional; fill in as much information as is available
+    journal: Annu. Rep. Comput. Chem.
+    volume: 3
+    page: 41  # just first page
+    publication-date: 2007-12-01 # use ISO 8601 date format YYYY-MM-DD
+    year: 2007
+    # These links may be listed in the choderalab.org/publications/ page  
+    DOI: http://dx.doi.org/10.1016/S1574-1400(07)03004-6   
+    PDF: http://www.choderalab.org/s/alchemical-free-energy-calculations-ready-for-prime-time.pdf
+    description: >
+     A review of current alchemical free energy methodologies assessing whether they are ready for 
+     practical use in drug discovery and ligand design.
+  
+  
+  - title: "Predicting absolute ligand binding free energies to a simple model site" 
+  - authors: # Use same name in publication             
+    - David L. Mobley       
+    - Alan P. Graves 
+    - John D. Chodera
+    - Andrea C. McReynolds       
+    - Brian K. Shoichet 
+    - Ken A. Dill     
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Brian K. Shoichet 
+    - Ken A. Dill      
+    # Add these other fields are optional; fill in as much information as is available
+    journal: J. Mol. Biol. 
+    volume: 371
+    page: 1118  # just first page
+    publication-date: 2007-08-24 # use ISO 8601 date format YYYY-MM-DD
+    year: 2007
+    # These links may be listed in the choderalab.org/publications/ page  
+    DOI: http://dx.doi.org/10.1016/j.jmb.2007.06.002   
+    PDF: http://www.choderalab.org/s/predicting-absolute-ligand-binding-free-energies-to-a-simple-model-site.pdf
+    description: >
+     We show how alchemical free energy calculations are capable of accurate blind prediction of 
+     small-molecule binding affinities to a simple model protein binding site.
+  
+  
+  - title: "The protein folding problem: When will it be solved?" 
+  - authors: # Use same name in publication             
+    - Ken A. Dill       
+    - S. Banu Ozkan 
+    - Thomas R. Weikl
+    - John D. Chodera       
+    - Vincent A. Voelz    
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Ken A. Dill     
+    # Add these other fields are optional; fill in as much information as is available
+    journal: Curr. Opin. Struct. Biol.
+    volume: 17
+    page: 342  # just first page
+    publication-date: 2007-06-01 # use ISO 8601 date format YYYY-MM-DD
+    year: 2007
+    # These links may be listed in the choderalab.org/publications/ page  
+    DOI: http://dx.doi.org/10.1016/j.sbi.2007.06.001   
+    PDF: http://www.choderalab.org/s/the-protein-folding-problem-when-will-it-be-solved.pdf
+    description: >
+     A review of the current state of the protein folding problem.
+  
+  
+  - title: "Confine-and-release method: Obtaining correct binding free energies in the presence of protein conformational change" 
+  - authors: # Use same name in publication             
+    - David L. Mobley       
+    - John D. Chodera 
+    - Ken A. Dill    
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Ken A. Dill     
+    # Add these other fields are optional; fill in as much information as is available
+    journal: J. Chem. Theor. Comput.
+    volume: 3
+    page: 1231  # just first page
+    publication-date: 2007-05-23 # use ISO 8601 date format YYYY-MM-DD
+    year: 2007
+    # These links may be listed in the choderalab.org/publications/ page  
+    DOI: http://dx.doi.org/10.1021/ct700032n  
+    PDF: http://www.choderalab.org/s/confine-and-release-method-obtaining-correct-binding-free-energies-in-the-prescence-of-protein-confo.pdf
+    description: >
+     We present a general scheme for obtaining correct ligand binding affinities when protein 
+     conformational change is implicated in ligand binding  
+  
+  
+  - title: "Protein Folding by Zipping and Assembly" 
+  - authors: # Use same name in publication             
+    - S. Banu Ozkan       
+    - G. Albert Wu
+    - John D. Chodera    
+    - Ken A. Dill    
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Ken A. Dill     
+    # Add these other fields are optional; fill in as much information as is available
+    journal: Proc. Natl. Acad. Sci. USA 
+    volume: 104
+    page: 11987  # just first page
+    publication-date: 2007-07-17
+    # use ISO 8601 date format YYYY-MM-DD
+    year: 2007
+    # These links may be listed in the choderalab.org/publications/ page  
+    DOI: http://dx.doi.org/10.1073/pnas.0703700104  
+    PDF: http://www.choderalab.org/s/protein-folding-by-zipping-and-assembly.pdf
+    description: >
+     A review of the utility of the proposed zipping and assembly mechanism for the concomitant formation 
+     of secondary and tertiary structure in protein folding for predicting folding pathways and native 
+     structures.
+  
+  
+  - title: "Automatic discovery of metastable states for the construction of Markov models of macromolecular conformational dynamics" 
+  - authors: # Use same name in publication             
+    - John D. Chodera       
+    - Nina Singhal
+    - William C. Swope
+    - Jed W. Pitera
+    - Vijay S. Pande    
+    - Ken A. Dill    
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - William C. Swope     
+    # Add these other fields are optional; fill in as much information as is available
+    journal: J. Chem. Phys.
+    volume: 126
+    page: 155191  # just first page
+    publication-date: 2007-04-19
+    # use ISO 8601 date format YYYY-MM-DD
+    year: 2007
+    # These links may be listed in the choderalab.org/publications/ page  
+    DOI: http://dx.doi.org/10.1063/1.2714538 
+    PDF: http://www.choderalab.org/s/automatic-discovery-of-metastable-states-for-the-construction-of-markov-models-of-macromolecular-con.pdf
+    description: >
+     Proposing one of the first automated algorithms for discovering kinetically metastable states of 
+     biomolecules from molecular simulations, this paper shows how many biomolecules can possess 
+     numerous distinct long-lived conformational states even though the the equilibrium populations of 
+     these states may too small for standard structural biology techniques to detect.
+  
+  
+  - title: "Comparison of charge models for fixed-charge force fields: Small-molecule hydration free energies in explicit solvent" 
+  - authors: # Use same name in publication             
+    - David L. Mobley       
+    - Élise Dumont
+    - John D. Chodera
+    - Christopher I. Bayly
+    - Matthew D. Cooper   
+    - Ken A. Dill    
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - David L. Mobley     
+    # Add these other fields are optional; fill in as much information as is available
+    journal: J. Phys. Chem. B
+    volume: 111
+    page: 2242  # just first page
+    publication-date: 2007-02-10
+    # use ISO 8601 date format YYYY-MM-DD
+    year: 2007
+    # These links may be listed in the choderalab.org/publications/ page  
+    DOI: http://dx.doi.org/10.1021/jp0667442 
+    PDF: http://www.choderalab.org/s/comparison-of-charge-models-for-fixed-charge-force-fields-small-molecule-free-energies-in-explicit-s.pdf
+    description: >
+     We compare a number of popular methods for deriving charge models for small molecules, deriving lessons 
+     about best practices for accurate simulations.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
      
