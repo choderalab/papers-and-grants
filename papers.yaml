@@ -2626,22 +2626,171 @@ papers:
      of one of the most proficient enzymes known.
   
   
+  - title: "Ensemble docking in drug discovery" 
+  - authors: # Use same name in publication             
+    - Rommie E Amaro      
+    - Jerome Baudry  
+    - John D. Chodera    
+    - Özlem Demir
+    - J Andrew McCammon
+    - Yinglong Miao
+    - Jeremy C Smith    
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Jeremy C Smith     
+    # Add these other fields are optional; fill in as much information as is available
+    journal: Biophysical Journal
+    volume: 114
+    page: 2271  # just first page
+    publication-date: 2018-05-22  # use ISO 8601 date format YYYY-MM-DD
+    year: 2018
+    # These links may be listed in the choderalab.org/publications/ page  
+    DOI: https://doi.org/10.1016/j.bpj.2018.02.038
+    PDF: https://reader.elsevier.com/reader/sd/pii/S0006349518303242?token=85F48C4D928468CDA07A873E3B211CF5A89996E0FC86867073834AB1CE01EF2781E6706EE1C7BD7EE56FBD9F04B9FACB
+    description: >
+     Ensemble docking corresponds to the generation of an “ensemble” of drug target conformations 
+     in computational structure-based drug discovery, often obtained by using molecular dynamics 
+     simulation, that is used in docking candidate ligands. This approach is now well established 
+     in the field of early-stage drug discovery. This review gives a historical account of the 
+     development of ensemble docking and discusses some pertinent methodological advances in 
+     conformational sampling.
   
   
+  - title: "Results of the 2017 Roadmap survey of the Statistical Assessment of Modeling of Proteins and Ligands (SAMPL) challenge community" 
+  - authors: # Use same name in publication             
+    - David L Mobley      
+    - John D. Chodera    
+    - Michael K Gilson    
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - John D. Chodera    
+    # Add these other fields are optional; fill in as much information as is available
+    journal: UC Irvine escholarship.org
+    volume: 
+    page:   # just first page
+    publication-date: 2017-06-21  # use ISO 8601 date format YYYY-MM-DD
+    year: 2017
+    # These links may be listed in the choderalab.org/publications/ page  
+    PDF: https://escholarship.org/content/qt2jq8s2zr/qt2jq8s2zr.pdf
+    description: >
+     The Statistical Assessment of Modeling of Proteins and Ligands (SAMPL) series of blind prediction 
+     challenges provide unbiased, prospective tests of computational methods, serving as a crowdsourcing 
+     mechanism to drive innovation. These challenges solicit submissions from the computational community to 
+     predict properties of interest, such as solvation, partition, or binding of drug-like molecules. 
+     These challenges provided substantial benefit to the community, and have led to roughly 100 publications, 
+     many of which are broadly cited (see attached bibliography). We are currently seeking funding from the 
+     NIH and surveyed the community concerning experiences with SAMPL and how our future plans for SAMPL 
+     can best align with the community’s interests and needs. This document summarizes the results of 
+     this survey and describes our findings. On the whole, the community enthusiastically supports our 
+     plans for the future of SAMPL, and provided modest suggestions to further strengthen our plans. 
+     For up-to-date info please see the SAMPL website.
   
   
+  - title: "Uncertainty Estimation" 
+  - authors: # Use same name in publication             
+    - Frank Noé     
+    - John D. Chodera       
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - John D. Chodera    
+    # Add these other fields are optional; fill in as much information as is available
+    journal: book chapter:  An Introduction to Markov State Models and Their Application to Long Timescale Molecular Simulation    volume: 
+    page: 61  # just first page
+    publication-date: 2014-01-01  # use ISO 8601 date format YYYY-MM-DD
+    year: 2014
+    # These links may be listed in the choderalab.org/publications/ page  
+    PDF: https://scholar.google.com/citations?hl=en&user=nnEg7_8AAAAJ&view_op=list_works&authuser=2&sortby=pubdate#d=gs_md_cita-d&u=%2Fcitations%3Fview_op%3Dview_citation%26hl%3Den%26user%3DnnEg7_8AAAAJ%26cstart%3D20%26pagesize%3D80%26sortby%3Dpubdate%26authuser%3D2%26citation_for_view%3DnnEg7_8AAAAJ%3AStPPYsf1FV0C%26tzom%3D240
+    description: >
+     Markov models provide a useful simplified representation for characterizing the long-time statistical 
+     evolution of biomolecules in a manner that allows direct comparison with experiments as well as the 
+     elucidation of mechanistic pathways for an inherently stochastic process. A vital part of meaningful 
+     comparison with experiment is the characterization of the statistical uncertainty in the predicted 
+     experimental measurement, which may take the form of an equilibrium measurement of some spectroscopic 
+     signal, the time-evolution of this signal following a perturbation, or the observation of some statistic 
+     such as the correlation function of the equilibrium dynamics of a single molecule. Without meaningful 
+     error bars which arise from both approximation and statistical error, there is no way to determine 
+     whether the deviations between model and experiment are statistically meaningful. In this chapter, 
+     we describe …
   
   
+  - title: "Estimation and validation of Markov models" 
+  - authors: # Use same name in publication             
+    - Jan-Hendrik Prinz    
+    - Frank Noé     
+    - John D. Chodera       
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - John D. Chodera    
+    # Add these other fields are optional; fill in as much information as is available
+    journal: book chapter:  An Introduction to Markov State Models and Their Application to Long Timescale Molecular Simulation    
+    volume: 
+    page: 45 # just first page
+    publication-date: 2014-01-01  # use ISO 8601 date format YYYY-MM-DD
+    year: 2014
+    # These links may be listed in the choderalab.org/publications/ page  
+    PDF: https://scholar.google.com/citations?hl=en&user=nnEg7_8AAAAJ&view_op=list_works&authuser=2&sortby=pubdate#d=gs_md_cita-d&u=%2Fcitations%3Fview_op%3Dview_citation%26hl%3Den%26user%3DnnEg7_8AAAAJ%26cstart%3D20%26pagesize%3D80%26sortby%3Dpubdate%26authuser%3D2%26citation_for_view%3DnnEg7_8AAAAJ%3A6jAoOr-ogVAC%26tzom%3D240
+    description: >
+     This chapter describes approaches to estimate a Markov model transition matrices from simulation data 
+     that has been mapped to a discrete state space, and approaches to validate whether this estimate 
+     is consistent with the simulation data at hand.
   
   
+  - title: "Driven Langevin dynamics: heat, work and pseudo-work" 
+  - authors: # Use same name in publication             
+    - David A Sivak    
+    - John D. Chodera     
+    - Gavin E Crooks       
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - David A Sivak    
+    # Add these other fields are optional; fill in as much information as is available
+    journal: arXiv preprint arXiv
+    volume: 1107
+    page: 2967 # just first page
+    publication-date: 2011-07-18  # use ISO 8601 date format YYYY-MM-DD
+    year: 2011
+    # These links may be listed in the choderalab.org/publications/ page  
+    arXiv: https://d1wqtxts1xzle7.cloudfront.net/47085375/Using_Nonequilibrium_Fluctuation_Theorem20160707-8500-1ivdnu3.pdf?1467914204=&response-content-disposition=inline%3B+filename%3DUsing_Nonequilibrium_Fluctuation_Theorem.pdf&Expires=1591814597&Signature=OHFCTqttb1-yRpXKR62K2QqxwgJ1G8vPXmVIACyYsIyKUZ9BVKaFI14gGeAkQm2KQW0x2ggYSpgbzeac1zbllH9bCiYIw-zu-LQ1dE97cLleLucVHZJvGy6YSQves8r4mRvo0FE0WL9746HBONs7T4vgOBIPCcBi8b04XOcVA4oZyEes1~LgXJWVysWAj8Vm~Z2r3AavRoRHXsz4hsU~~s7enBbyAetUp5r9S1IvMCHyMNrLVBbX7f8LxaSDcMems6m0CpMFSj-f5RFMf-BURe0ZBdfJI5q95bSh2FHpT~ao1ZmyBSqvAWIjoe-tBpf3C4ZF2scRcz5WX6TLMDsrzQ__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA    
+    PDF: http://www.academia.edu/download/47085375/Using_Nonequilibrium_Fluctuation_Theorem20160707-8500-1ivdnu3.pdf
+    description: >
+     In order to simulate Langevin dynamics on a digital computer it is necessary to adopt some approximate 
+     algorithm that divides time into discrete steps. 2 However, such schemes have an inherent problem: even 
+     with a time-independent Hamiltonian, they do not preserve the canonical equilibrium distribution, nor 
+     are they microscopically reversible (since trajectories and their timereversal do not have the same 
+     probability), but instead simulate a driven nonequilibrium dynamics. Happily, the complications 
+     generated by this unwanted but inevitable breaking of time-reversal symmetry can be remedied3–6 with 
+     insights from nonequilibrium statistical thermodynamics, and by adopting an integration scheme in which 
+     the breaking of time-reversal symmetry can be isolated and measured.
   
   
-  
-  
-  
-  
-  
-  
+  - title: "Alchemical free energy methods for drug discovery: progress and challenges" 
+  - authors: # Use same name in publication             
+    - John D Chodera    
+    - David L Mobley     
+    - Michael R Shirts
+    - Richard W Dixon    
+    - Kim Branson    
+    - Vijay S Pande     
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:    
+    - Vijay S Pande    
+    # Add these other fields are optional; fill in as much information as is available
+    journal: Current Opinion in Structural Biology
+    volume: 21
+    page: 150 # just first page
+    publication-date: 2011-02-11  # use ISO 8601 date format YYYY-MM-DD
+    year: 2011
+    # These links may be listed in the choderalab.org/publications/ page  
+    DOI: https://dx.doi.org/10.1016%2Fj.sbi.2011.01.011
+    PDF: https://reader.elsevier.com/reader/sd/pii/S0959440X11000261?token=AE5F80C35C9319EA26078098A610CA146621256FDA8F0CC6E5CB6353F9DD645042FC2EB325CB6BEEE23AC6D3B52982F2
+    description: >
+     Improved rational drug design methods are needed to lower the cost and increase the success rate of drug 
+     discovery and development. Alchemical binding free energy calculations, one potential tool for rational 
+     design, have progressed rapidly over the past decade, but still fall short of providing robust tools for 
+     pharmaceutical engineering. Recent studies, especially on model receptor systems, have clarified many of 
+     the challenges that must be overcome for robust predictions of binding affinity to be useful in rational 
+     design. In this review, inspired by a recent joint academic/industry meeting organized by the authors, 
+     we discuss these challenges and suggest a number of promising approaches for overcoming them.
   
   
   
