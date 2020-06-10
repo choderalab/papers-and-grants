@@ -2540,6 +2540,149 @@ papers:
      about best practices for accurate simulations.
   
   
+  - title: "Long-time protein folding dynamics from short-time molecular dynamics simulations" 
+  - authors: # Use same name in publication             
+    - John D. Chodera       
+    - William C. Swope
+    - Jed W. Pitera
+    - Ken A. Dill  
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - John D. Chodera     
+    # Add these other fields are optional; fill in as much information as is available
+    journal: Multiscale Model. Simul. 
+    volume: 5
+    page: 1214  # just first page
+    publication-date: 2006-12-28  # use ISO 8601 date format YYYY-MM-DD
+    year: 2006
+    # These links may be listed in the choderalab.org/publications/ page  
+    DOI: http://dx.doi.org/10.1137/06065146X
+    PDF: http://www.choderalab.org/s/long-time-protein-folding-dynamics-from-short-time-molecular-dynamic-simulations.pdf
+    description: >
+     We show how the long-time dynamics of biomolecular systems can be recapitulated from statistics 
+     collected from short molecular simulations sampling transitions between kinetically 
+     metastable states.
+  
+  
+  - title: "Use of the weighted histogram analysis method for the analysis of simulated and parallel tempering simulations" 
+  - authors: # Use same name in publication             
+    - John D. Chodera       
+    - William C. Swope
+    - Jed W. Pitera
+    - Chaok Seok    
+    - Ken A. Dill  
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - John D. Chodera     
+    # Add these other fields are optional; fill in as much information as is available
+    journal: J. Chem. Theor. Comput.    
+    volume: 3
+    page: 26  # just first page
+    publication-date: 2006-11-09  # use ISO 8601 date format YYYY-MM-DD
+    year: 2007
+    # These links may be listed in the choderalab.org/publications/ page  
+    DOI: http://dx.doi.org/10.1021/ct0502864
+    PDF: http://www.choderalab.org/s/Use-of-the-Weighted-Histogram-Analysis-Method-for-the-Analysis-of-Simulated-and-Parallel-Tempering-S.pdf
+    description: >
+     The weighted histogram analysis method (WHAM), a mainstay of molecular dynamics simulation analysis, 
+     is thoroughly explained and modernized for the analysis of simulated and parallel tempering simulation 
+     data. 
+  
+  
+  - title: "On the use of orientational restraints and symmetry corrections in alchemical free energy calculations" 
+  - authors: # Use same name in publication             
+    - David L. Mobley       
+    - John D. Chodera  
+    - Ken A. Dill  
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - David L. Mobley    
+    # Add these other fields are optional; fill in as much information as is available
+    journal: J. Chem. Phys.     
+    volume: 125
+    page: 084902  # just first page
+    publication-date: 2006-08-22  # use ISO 8601 date format YYYY-MM-DD
+    year: 2006
+    # These links may be listed in the choderalab.org/publications/ page  
+    DOI: http://dx.doi.org/10.1063/1.2221683
+    PDF: http://www.choderalab.org/s/on-the-use-of-orientational-restraints-and-symmetry-corrections-in-alchemical-free-energy-calculatio.pdf
+    description: >
+     We illustrate how orientational restraints can be used to greatly reduce the computational effort in alchemical 
+     calculations of ligand binding free energies, and clarify how symmetry corrections are necessary when 
+     molecules contain symmetric or pseudosymmetric substituents.
+  
+  
+  - title: "MOPED: Method for optimizing physical energy parameters using decoys" 
+  - authors: # Use same name in publication             
+    - Chaok Seok       
+    - J. B. Rosen  
+    - John D. Chodera    
+    - Ken A. Dill  
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Ken A. Dill    
+    # Add these other fields are optional; fill in as much information as is available
+    journal: J. Comput. Chem.     
+    volume: 24
+    page: 89  # just first page
+    publication-date: 2002-12-06  # use ISO 8601 date format YYYY-MM-DD
+    year: 2002
+    # These links may be listed in the choderalab.org/publications/ page  
+    DOI: http://dx.doi.org/10.1002/jcc.10124
+    PDF: http://www.choderalab.org/s/Moped-method-for-optimizing-physical-energy-parameters-using-decoys.pdf
+    description: >
+     We show how the long-time dynamics of biomolecular systems can be recapitulated from statistics collected 
+     from short molecular simulations sampling transitions between kinetically metastable states. 
+  
+  
+  - title: "An alternative explanation for the catalytic proficiency of orotidine 5'-phosphate decarboxylase" 
+  - authors: # Use same name in publication             
+    - Tai-Sung Lee       
+    - Lillian T. Chong  
+    - John D. Chodera    
+    - Peter A. Kollman  
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Tai-Sung Lee    
+    # Add these other fields are optional; fill in as much information as is available
+    journal: J. Am. Chem. Soc.    
+    volume: 123
+    page: 12837  # just first page
+    publication-date: 2001-12-19  # use ISO 8601 date format YYYY-MM-DD
+    year: 2001
+    # These links may be listed in the choderalab.org/publications/ page  
+    DOI: http://dx.doi.org/10.1021/ja011096f
+    PDF: http://www.choderalab.org/s/an-alternative-explanation-for-the-catalytic-proficiency-of-orotidine-5-phosphate-decarboxylase.pdf
+    description: >
+     A combined QM and MD analysis of potential plausible mechanisms to explain the enormous catalytic acceleration 
+     of one of the most proficient enzymes known.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
