@@ -2793,22 +2793,140 @@ papers:
      we discuss these challenges and suggest a number of promising approaches for overcoming them.
   
   
+  - title: "Master equation models of macromolecular dynamics from atomistic simulation" 
+  - authors: # Use same name in publication             
+    - John D Chodera    
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:    
+    - John D Chodera    
+    # Add these other fields are optional; fill in as much information as is available
+    journal: UCSF Dissertation
+    volume: 
+    page:  # just first page
+    publication-date:   # use ISO 8601 date format YYYY-MM-DD
+    year: 2006
+    # These links may be listed in the choderalab.org/publications/ page  
+    Google Scholar Link: https://scholar.google.com/citations?hl=en&user=nnEg7_8AAAAJ&view_op=list_works&authuser=2&sortby=pubdate#d=gs_md_cita-d&u=%2Fcitations%3Fview_op%3Dview_citation%26hl%3Den%26user%3DnnEg7_8AAAAJ%26cstart%3D20%26pagesize%3D80%26sortby%3Dpubdate%26authuser%3D2%26citation_for_view%3DnnEg7_8AAAAJ%3ACd1N8iHLSCsC%26tzom%3D240
+    description: >
+     This dissertation is concerned with the construction, validation, and use of master equation models 
+     for the study of macromolecular conformational dynamics. The master equation formalism is a powerful 
+     tool for describing the dynamics of a system that can be characterized by a discrete-state, 
+     continuous-time Markov process. Once constructed from a large quantities of short trajectories, 
+     the evolution of experimentally measurable dynamical observables can be computed and compared 
+     with experiment. Additionally, information not yet directly accessible to experiment but which 
+     may be useful in aiding understanding or the generation of novel hypotheses, such as folding 
+     pathways, transiently populated conformations, and mean first passage times, can also be easily 
+     obtained. We demonstrate that a master equation model constructed from short trajectories can 
+     describe slow conformational dynamics for a solvated alanine peptide over long times, 
+     propose a number of tests to tell whether a model constructed from short trajectories will 
+     adequately describe dynamics over long times, and describe an algorithm for the automatic construction 
+     of these models from simulation data. While the focus here is on protein folding and dynamics, 
+     these techniques are very general, and can be broadly applied to problems in biomolecular dynamics.
   
   
+  - title: "Technical report: An integrated system for executing and analyzing large-scale molecular dynamics simulations" 
+  - authors: # Use same name in publication             
+    - John D Chodera    
+    - David E Eramian 
+    - Larry Schweitzer 
+    - Ken A Dill    
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:    
+    - John D Chodera    
+    # Add these other fields are optional; fill in as much information as is available
+    journal: UCSF 
+    volume: 
+    page:  # just first page
+    publication-date: 2004-09-03  # use ISO 8601 date format YYYY-MM-DD
+    year: 2004
+    # These links may be listed in the choderalab.org/publications/ page  
+    PDF: https://www.researchgate.net/profile/John_Chodera/publication/266455666_Technical_report_An_integrated_system_for_executing_and_analyzing_large-scale_molecular_dynamics_simulations/links/570bc1e708aee06603519f8e/Technical-report-An-integrated-system-for-executing-and-analyzing-large-scale-molecular-dynamics-simulations.pdf
+    description: >
+     This technical report outlines the requirements of a system for the execution and analysis of parallel 
+     molecular dynamics simulations that allows the easy implementation of efficient modern simulation 
+     algorithms for computing thermodynamic and kinetic quantities with classical molecular dynamics. 
+     Some notes on a possible design for such a system are also included as a first step toward the 
+     construction a generally useful system for the biomolecular simulation community.
   
   
+  - title: "Constructing master equation models of protein folding and dynamics from atomistic simulation" 
+  - authors: # Use same name in publication             
+    - JD Chodera    
+    - KA Dill 
+    - WC Swope 
+    - JW Pitera    
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:    
+    - John D Chodera    
+    # Add these other fields are optional; fill in as much information as is available
+    journal: Protein Science
+    volume: 13
+    page: 101 # just first page
+    publication-date: 2004-08-01  # use ISO 8601 date format YYYY-MM-DD
+    year: 2004
+    # These links may be listed in the choderalab.org/publications/ page  
+    Google Scholar Link: https://scholar.google.com/citations?hl=en&user=nnEg7_8AAAAJ&view_op=list_works&authuser=2&sortby=pubdate#d=gs_md_cita-d&u=%2Fcitations%3Fview_op%3Dview_citation%26hl%3Den%26user%3DnnEg7_8AAAAJ%26cstart%3D20%26pagesize%3D80%26sortby%3Dpubdate%26authuser%3D2%26citation_for_view%3DnnEg7_8AAAAJ%3AA1VvXmYcXXgC%26tzom%3D240
+    description: >
+     None
   
   
+  - title: "Constructing master equation models of peptide dynamics from molecular dynamics simulations. I. Simple solvated systems" 
+  - authors: # Use same name in publication             
+    - JD Chodera    
+    - KA Dill 
+    - WC Swope 
+    - JW Pitera    
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:    
+    - John D Chodera    
+    # Add these other fields are optional; fill in as much information as is available
+    journal: 
+    volume: 
+    page:  # just first page
+    publication-date: 2004-03-24  # use ISO 8601 date format YYYY-MM-DD
+    year: 2004
+    # These links may be listed in the choderalab.org/publications/ page  
+    Google Scholar Link: https://scholar.google.com/citations?hl=en&user=nnEg7_8AAAAJ&view_op=list_works&authuser=2&sortby=pubdate#d=gs_md_cita-d&u=%2Fcitations%3Fview_op%3Dview_citation%26hl%3Den%26user%3DnnEg7_8AAAAJ%26cstart%3D100%26pagesize%3D100%26sortby%3Dpubdate%26authuser%3D2%26citation_for_view%3DnnEg7_8AAAAJ%3AI__7AI8a974C%26tzom%3D240
+    description: >
+     We demonstrate the long-time dynamics of a simple solvated peptide (terminally-blocked alanine) can 
+     described by a discrete-state, continuous-time master equation model constructed from molecular 
+     dynamics simulation data. Manual division of phase space into six states yields Markovian dynamics 
+     in this reduced state space.
   
   
-  
-  
-  
-  
-  
+  - title: "Technical Report: Deriving the discrete-state, continuous master equation from classical statistical mechanics: The Mori-Zwanzig projection operator method"  
+  - authors: # Use same name in publication             
+    - JD Chodera    
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:    
+    - John D Chodera    
+    # Add these other fields are optional; fill in as much information as is available
+    journal: 
+    volume: 
+    page:  # just first page
+    publication-date:   # use ISO 8601 date format YYYY-MM-DD
+    year: 
+    # These links may be listed in the choderalab.org/publications/ page  
+    Google Scholar Link: https://scholar.google.com/citations?hl=en&user=nnEg7_8AAAAJ&view_op=list_works&authuser=2&sortby=pubdate#d=gs_md_cita-d&u=%2Fcitations%3Fview_op%3Dview_citation%26hl%3Den%26user%3DnnEg7_8AAAAJ%26cstart%3D100%26pagesize%3D100%26sortby%3Dpubdate%26authuser%3D2%26citation_for_view%3DnnEg7_8AAAAJ%3ABQCiT8P4igIC%26tzom%3D240
+    description: >
+     Here, we show how the discrete-state, continuous-time memoryless (Markovian) master equation can 
+     be obtained from classical statistical mechanics. Our purpose is to (1) justify that the master 
+     equation can provide a good description of long-time dynamics provided certain conditions are met,
+     (2) determine the necessary set of conditions that must be met and the minimum coarse-grained time 
+     over which the dynamics is accurate,(3) gain insight as to how to construct efficient algorithms for 
+     state decomposition to minimize the time for emergence of Markovian behavior, and (4) expose 
+     alternative expressions for the inter-state transition rates that may provide more efficient routes 
+     to their estimation by computer simulation.
   
   
   
   
   
      
+
+
+
+
+
+
+
