@@ -245,8 +245,8 @@ papers:
     # Two newlines are needed after the description
     funding: none   
     description: >
-       There is a dire need to establish standards for sharing data in the molecular sciences. Here, we 
-       review the findings of a workshop held in Stockholm in Nov 2018 to discuss this need.
+     There is a dire need to establish standards for sharing data in the molecular sciences. Here, we 
+     review the findings of a workshop held in Stockholm in Nov 2018 to discuss this need.
        
        
   - title: "Ancestral reconstruction reveals mechanisms of ERK regulatory evolution"
@@ -277,9 +277,9 @@ papers:
     funding:  
     - NIH Grant R01 GM121505    
     description: >
-       To understand how kinase regulation by phosphorylation emerged, we reconstruct the common ancestor of CDKs and
-       MAPKs, using biochemical experiments and massively parallel molecular simulations to study how a few mutations 
-       were sufficient to switch ERK-family kinases from high- to low-autophosphorylation.
+     To understand how kinase regulation by phosphorylation emerged, we reconstruct the common ancestor of CDKs and
+     MAPKs, using biochemical experiments and massively parallel molecular simulations to study how a few mutations 
+     were sufficient to switch ERK-family kinases from high- to low-autophosphorylation.
 
 
   - title: "Binding thermodynamics of host-guest systems with SMIRNOFF99Frosst 1.0.5 from the Open Force Field Initiative"
@@ -309,9 +309,9 @@ papers:
     - NIH Grant R01 GM121505    
     - NIH Grant R01 GM124270    
     description: >
-       We assess the accuracy of the SMIRNOFF99Frosst 1.0.5 force field in reproducing host-guest binding 
-       thermodynamics in comparison with the GAFF force field, demonstrating how the SMIRNOFF format for 
-       compactly specifying force fields provide comparable accuracy with 20x fewer parameters.
+     We assess the accuracy of the SMIRNOFF99Frosst 1.0.5 force field in reproducing host-guest binding 
+     thermodynamics in comparison with the GAFF force field, demonstrating how the SMIRNOFF format for 
+     compactly specifying force fields provide comparable accuracy with 20x fewer parameters.
 
 
   - title: "Small-molecule targeting of MUSASHI RNA-binding activity in acute myeloid leukemia"
@@ -359,8 +359,8 @@ papers:
     funding:
     - NIH Grant R01 GM121505    
     description: >
-       We use absolute alchemical free energy calculations to identify the likely interaction site for a 
-       small hydrophobic ligand that shows activity against MUSASHI in AML.
+     We use absolute alchemical free energy calculations to identify the likely interaction site for a 
+     small hydrophobic ligand that shows activity against MUSASHI in AML.
        
        
   - title: "The dynamic conformational landscapes of the protein methyltransferase SETD8"
@@ -775,7 +775,7 @@ papers:
      - John D Chodera 
      - David D. L. Minh
     # Add these other fields are optional; fill in as much information as is available
-    journal:PLoS One
+    journal: PLoS One
     volume: 13
     publication-date: 2018-09-13 # use ISO 8601 date format YYYY-MM-DD
     year: 2018
