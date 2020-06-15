@@ -257,7 +257,6 @@ papers:
     # Add these other fields are optional; fill in as much information as is available
     journal: Journal of Chemical Information and Modeling ASAP
     volume: 8
-    page:  # just first page
     publication-date: 2019-08-13 # use ISO 8601 date format YYYY-MM-DD
     year: 2019
     # These links may be listed in the choderalab.org/publications/ page
@@ -334,7 +333,6 @@ papers:
     # Add these other fields are optional; fill in as much information as is available
     journal: Nature Communications
     volume: 10
-    page:   # just first page
     publication-date: 2019-06-19 # use ISO 8601 date format YYYY-MM-DD
     year: 2019
     # These links may be listed in the choderalab.org/publications/ page
@@ -382,7 +380,6 @@ papers:
     # Add these other fields are optional; fill in as much information as is available
     journal: eLife
     volume: 8
-    page:  # just first page
     publication-date: 2019-05-13 # use ISO 8601 date format YYYY-MM-DD
     year: 2019
     # These links may be listed in the choderalab.org/publications/ page
@@ -399,10 +396,7 @@ papers:
       massively distributed molecular simulation to resolve the functional dynamic landscape of the protein 
       methyltransferase SETD8 in unprecedented atomistic detail. Using an aggregate of six milliseconds of 
       fully atomistic simulation from Folding@home, we use Markov state models to illuminate the 
-      conformational dynamics of this important epigenetic protein.
-      
-      All Folding@home simulation trajectories for this paper are available on the Open Science Framework.
-      
+      conformational dynamics of this important epigenetic protein. All Folding@home simulation trajectories for this paper are available on the Open Science Framework.
       The trajectories generated for this project were used as the source for a unique musical composition 'Metastable' 
       by George Holloway, performed by the Ligeti String Quartet with visual accompaniment from Robert Arbon.
       
@@ -819,7 +813,6 @@ papers:
     # Add these other fields are optional; fill in as much information as is available
     journal: PLoS One
     volume: 13
-    page:  # just first page
     publication-date: 2018-09-13 # use ISO 8601 date format YYYY-MM-DD
     year: 2018
     # These links may be listed in the choderalab.org/publications/ page
@@ -912,7 +905,6 @@ papers:
     # Add these other fields are optional; fill in as much information as is available
     journal: eLife
     volume: 7
-    page:    # just first page
     publication-date: 2018-02-21 # use ISO 8601 date format YYYY-MM-DD
     year: 2018
     # These links may be listed in the choderalab.org/publications/ page
@@ -1044,7 +1036,6 @@ papers:
     # Add these other fields are optional; fill in as much information as is available
     journal: PLoS Computational Biology
     volume: 13
-    page:    # just first page
     publication-date: 2017-07-26 # use ISO 8601 date format YYYY-MM-DD
     year: 2017
     # These links may be listed in the choderalab.org/publications/ page
@@ -1308,14 +1299,12 @@ papers:
     corresponding-authors:
      - John D. Chodera    
      # Add these other fields are optional; fill in as much information as is available
-    journal: Manuscript prior to submission.
-    volume: 
-    page:   # just first page
+    journal: Manuscript prior to submission
     publication-date: 2015-08-03 # use ISO 8601 date format YYYY-MM-DD
     year: 2015
     # These links may be listed in the choderalab.org/publications/ page
     doi: http://dx.doi.org/10.1101/023796
-    PDF: https://choderalab.squarespace.com/s/itc-worksheet.pdf    
+    PDF Worksheet: https://choderalab.squarespace.com/s/itc-worksheet.pdf    
     PDF: https://choderalab.squarespace.com/s/ITC-Worksheet-for-bovine-CAII-CBS.pdf    
     XLSX: https://choderalab.squarespace.com/s/ITC-Worksheet-for-bovine-CAII-CBS.xlsx    
     ODS: https://choderalab.squarespace.com/s/ITC-Worksheet-for-bovine-CAII-CBS.ods    
@@ -1423,7 +1412,6 @@ papers:
     # Add these other fields are optional; fill in as much information as is available
     journal: Phys. Rev. X 
     volume: 4
-    page:   # just first page
     publication-date: 2014-02-21 # use ISO 8601 date format YYYY-MM-DD
     year: 2014
     # These links may be listed in the choderalab.org/publications/ page
@@ -1541,7 +1529,6 @@ papers:
     # Add these other fields are optional; fill in as much information as is available
     journal: Phys. Rev. X 
     volume: 3
-    page:   # just first page
     publication-date: 2013-01-29 # use ISO 8601 date format YYYY-MM-DD
     year: 2013
     # These links may be listed in the choderalab.org/publications/ page
@@ -1761,8 +1748,6 @@ papers:
      - Vijay S. Pande 
     # Add these other fields are optional; fill in as much information as is available
     journal: Preprint ahead of submission
-    volume: 
-    page:  # just first page
     publication-date: 2011-08-10 # use ISO 8601 date format YYYY-MM-DD
     year: 2011
     # These links may be listed in the choderalab.org/publications/ page
@@ -1812,8 +1797,6 @@ papers:
      - John D. Chodera
     # Add these other fields are optional; fill in as much information as is available
     journal: preprint
-    volume: 
-    page: # just first page
     publication-date: 2011-08-06 # use ISO 8601 date format YYYY-MM-DD
     year: 2011
     # These links may be listed in the choderalab.org/publications/ page
@@ -1950,7 +1933,6 @@ papers:
     # Add these other fields are optional; fill in as much information as is available
     journal: arXiv preprint
     volume: 2004
-    page:   # just first page
     publication-date: 2020-04-15 # use ISO 8601 date format YYYY-MM-DD
     year: 2020
     # These links may be listed in the choderalab.org/publications/ page  
@@ -2011,7 +1993,6 @@ papers:
     # Add these other fields are optional; fill in as much information as is available
     journal: ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY
     volume: 258
-    page:   # just first page
     publication-date: 2019-08-25 # use ISO 8601 date format YYYY-MM-DD
     year: 2019
     # These links may be listed in the choderalab.org/publications/ page  
@@ -2082,7 +2063,6 @@ papers:
     # Add these other fields are optional; fill in as much information as is available
     journal: J. Chem. Phys
     volume: 134
-    page:  # just first page
     publication-date: 2011-01-12 # use ISO 8601 date format YYYY-MM-DD
     year: 2011
     # These links may be listed in the choderalab.org/publications/ page  
@@ -2252,8 +2232,6 @@ papers:
     - John D. Chodera
     # Add these other fields are optional; fill in as much information as is available
     journal: Technical Report
-    volume: 
-    page:   # just first page
     publication-date: 2008-05-22 # use ISO 8601 date format YYYY-MM-DD
     year: 2008
     # These links may be listed in the choderalab.org/publications/ page  
@@ -2666,8 +2644,6 @@ papers:
     - John D. Chodera    
     # Add these other fields are optional; fill in as much information as is available
     journal: UC Irvine escholarship.org
-    volume: 
-    page:   # just first page
     publication-date: 2017-06-21  # use ISO 8601 date format YYYY-MM-DD
     year: 2017
     # These links may be listed in the choderalab.org/publications/ page  
@@ -2723,7 +2699,6 @@ papers:
     - John D. Chodera    
     # Add these other fields are optional; fill in as much information as is available
     journal: book chapter:  An Introduction to Markov State Models and Their Application to Long Timescale Molecular Simulation    
-    volume: 
     page: 45 # just first page
     publication-date: 2014-01-01  # use ISO 8601 date format YYYY-MM-DD
     year: 2014
@@ -2801,9 +2776,6 @@ papers:
     - John D Chodera    
     # Add these other fields are optional; fill in as much information as is available
     journal: UCSF Dissertation
-    volume: 
-    page:  # just first page
-    publication-date:   # use ISO 8601 date format YYYY-MM-DD
     year: 2006
     # These links may be listed in the choderalab.org/publications/ page  
     Google Scholar Link: https://scholar.google.com/citations?hl=en&user=nnEg7_8AAAAJ&view_op=list_works&authuser=2&sortby=pubdate#d=gs_md_cita-d&u=%2Fcitations%3Fview_op%3Dview_citation%26hl%3Den%26user%3DnnEg7_8AAAAJ%26cstart%3D20%26pagesize%3D80%26sortby%3Dpubdate%26authuser%3D2%26citation_for_view%3DnnEg7_8AAAAJ%3ACd1N8iHLSCsC%26tzom%3D240
@@ -2835,8 +2807,6 @@ papers:
     - John D Chodera    
     # Add these other fields are optional; fill in as much information as is available
     journal: UCSF 
-    volume: 
-    page:  # just first page
     publication-date: 2004-09-03  # use ISO 8601 date format YYYY-MM-DD
     year: 2004
     # These links may be listed in the choderalab.org/publications/ page  
@@ -2880,9 +2850,6 @@ papers:
     corresponding-authors:    
     - John D Chodera    
     # Add these other fields are optional; fill in as much information as is available
-    journal: 
-    volume: 
-    page:  # just first page
     publication-date: 2004-03-24  # use ISO 8601 date format YYYY-MM-DD
     year: 2004
     # These links may be listed in the choderalab.org/publications/ page  
@@ -2900,12 +2867,6 @@ papers:
     # Corresponding authors have their email addresses listed
     corresponding-authors:    
     - John D Chodera    
-    # Add these other fields are optional; fill in as much information as is available
-    journal: 
-    volume: 
-    page:  # just first page
-    publication-date:   # use ISO 8601 date format YYYY-MM-DD
-    year: 
     # These links may be listed in the choderalab.org/publications/ page  
     Google Scholar Link: https://scholar.google.com/citations?hl=en&user=nnEg7_8AAAAJ&view_op=list_works&authuser=2&sortby=pubdate#d=gs_md_cita-d&u=%2Fcitations%3Fview_op%3Dview_citation%26hl%3Den%26user%3DnnEg7_8AAAAJ%26cstart%3D100%26pagesize%3D100%26sortby%3Dpubdate%26authuser%3D2%26citation_for_view%3DnnEg7_8AAAAJ%3ABQCiT8P4igIC%26tzom%3D240
     description: >
