@@ -13,6 +13,8 @@ grant:
     title: "Quantitative dissection of the origin of kinase inhibitor selectivity"
     # 'type' denotes 'federal', 'industry', 'philanthropy'
     type: federal
+    # 'organization' denotes the organization (federal, industrial, or philanthropic) granting the funds
+    organization: "National Institutes of Health"
     # 'direct_costs' denotes the total direct cost in dollars to the lab
     direct_costs: 981250
     # project start and end dates in ISO 8601 format (YYYY-MM-DD)
