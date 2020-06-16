@@ -1,0 +1,27 @@
+%YAML 1.2
+---
+
+# This YAML file contains information about all the grants and contracts (current and completed) that fund the Chodera lab
+#
+# Current grants: http://www.choderalab.org/funding
+
+# Here is an illustrative entry for grants
+grant:
+    # 'id' is the unique identifier by which the grant is referred to in the publications YAML
+  - id: "NIH R01 GM121505"
+    # 'title' is the title of the grant
+    title: "Quantitative dissection of the origin of kinase inhibitor selectivity"
+    # 'type' denotes 'federal', 'industry', 'philanthropy'
+    type: federal
+    # 'direct_costs' denotes the total direct cost in dollars to the lab
+    direct_costs: 981250
+    # project start and end dates in ISO 8601 format (YYYY-MM-DD)
+    project_begin: 2017-09-15
+    project_end_date: 2022-08-31
+    # URL to official grant record, if applicable
+    url: "https://public.era.nih.gov/grantfolder/piAppDetails/genericStatus.do?encryptedParam=vglppgLq-x8.uktQknguXWR0u0of-5pOGLUIYcZhKRWcSBKVmGbuGyU."
+    # Description of the goal of the project (must be followed by two blank lines)
+    description: >
+      The goal of this project is to characterize the role of conformational reorganization energetics in achieving 
+      targeted kinase inhibitor selectivity.
+      
