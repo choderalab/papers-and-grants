@@ -32,11 +32,12 @@ papers:
     page: 335 # just first page
     publication-date: 2020-02-27 # use ISO 8601 date format YYYY-MM-DD
     year: 2020
+    bioRxiv posted-date: 2020-01-21   
     # These links may be listed in the choderalab.org/publications/ page
     doi: http://dx.doi.org/10.1007/s10822-020-00295-0
     pdf: http://www.choderalab.org/s/SAMPL6-pKa.pdf
     github: https://github.com/samplchallenges/SAMPL6/
-    preprint: https://www.biorxiv.org/content/10.1101/2020.01.20.913178v1
+    bioRxiv: https://www.biorxiv.org/content/10.1101/2020.01.20.913178v1
     # Two newlines are needed after the description
     funding: 
     - NIH Grant P30 CA008748    
@@ -77,6 +78,7 @@ papers:
     page: 601 # just first page
     publication-date: 2020-01-27
     year: 2020
+    bioRxiv posted-date: 2020-01-03   
     # These links may be listed in the choderalab.org/publications/ page
     doi: https://doi.org/10.1007/s10822-020-00290-5
     pdf: https://choderalab.squarespace.com/s/SAMPL6-SAMPLing.pdf
@@ -110,6 +112,7 @@ papers:
     page: 405 # just first page
     publication-date: 2019-12-19 # use ISO 8601 date format YYYY-MM-DD
     year: 2019
+    bioRxiv posted-date: 2019-12-02   
     # These links may be listed in the choderalab.org/publications/ page
     doi: https://doi.org/10.1007/s10822-019-00271-3
     pdf: https://choderalab.squarespace.com/s/SAMPL6-pKa.pdf
@@ -193,7 +196,7 @@ papers:
     volume: 15
     page: 44 # just first page
     publication-date: 2019-09-17 # use ISO 8601 date format YYYY-MM-DD
-    year: 2019
+    year: 2019    
     # These links may be listed in the choderalab.org/publications/ page
     arXiv: https://arxiv.org/abs/1909.07903
     github: http://github.com/choderalab/gimlet
@@ -238,6 +241,7 @@ papers:
     page: 10 # just first page
     publication-date: 2019-09-17 # use ISO 8601 date format YYYY-MM-DD
     year: 2019
+    chemRxiv posted-date: 2019-09-09    
     # These links may be listed in the choderalab.org/publications/ page
     doi: https://doi.org/10.1021/acs.jcim.9b00665
     chemRxiv: https://chemrxiv.org/articles/Sharing_Data_from_Molecular_Simulations/9775493
@@ -264,7 +268,7 @@ papers:
     corresponding-authors:
     -  Liam J Holt
     # Add these other fields are optional; fill in as much information as is available
-    journal: Journal of Chemical Information and Modeling ASAP
+    journal: eLife
     volume: 8
     publication-date: 2019-08-13 # use ISO 8601 date format YYYY-MM-DD
     year: 2019
@@ -300,6 +304,7 @@ papers:
     page: 6225  # just first page
     publication-date: 2019-10-11 # use ISO 8601 date format YYYY-MM-DD
     year: 2019
+    bioRxiv posted-date: 2019-06-09
     # These links may be listed in the choderalab.org/publications/ page
     doi: https://doi.org/10.1021/acs.jctc.9b00748    
     bioRxiv: https://chemrxiv.org/articles/Binding_thermodynamics_of_host-guest_systems_with_SMIRNOFF99Frosst_1_0_5_from_the_Open_Force_Field_Initiative/9159872
@@ -352,6 +357,7 @@ papers:
     volume: 10
     publication-date: 2019-06-19 # use ISO 8601 date format YYYY-MM-DD
     year: 2019
+    bioRxiv posted-date: 2018-05-14     
     # These links may be listed in the choderalab.org/publications/ page
     doi: https://doi.org/10.1038/s41467-019-10523-3
     bioRxiv: https://doi.org/10.1101/321174    
@@ -401,6 +407,7 @@ papers:
     volume: 8
     publication-date: 2019-05-13 # use ISO 8601 date format YYYY-MM-DD
     year: 2019
+    bioRxiv posted-date: 2018-10-12   
     # These links may be listed in the choderalab.org/publications/ page
     doi: http://doi.org/10.7554/eLife.45403    
     bioRxiv: https://doi.org/10.1101/438994
@@ -475,6 +482,7 @@ papers:
     page:  837 # just first page
     publication-date: 2018-10-25 # use ISO 8601 date format YYYY-MM-DD
     year: 2018
+    bioRxiv posted-date: 2018-06-20   
     # These links may be listed in the choderalab.org/publications/ page
     doi: https://doi.org/10.1021/acs.jctc.8b00627    
     bioRxiv:  https://doi.org/10.1101/351510    
@@ -508,6 +516,7 @@ papers:
     page:  813 # just first page
     publication-date: 2018-10-25 # use ISO 8601 date format YYYY-MM-DD
     year: 2018
+    bioRxiv posted-date: 2018-06-20   
     # These links may be listed in the choderalab.org/publications/ page
     doi: https://doi.org/10.1021/acs.jctc.8b00626
     bioRxiv: https://doi.org/10.1101/351494
@@ -543,6 +552,7 @@ papers:
     page:  402 # just first page
     publication-date: 2018-10-15 # use ISO 8601 date format YYYY-MM-DD
     year: 2018
+    ChemRxiv posted-date: 2018-10-15    
     # These links may be listed in the choderalab.org/publications/ page
     doi: http://doi.org/10.1021/acs.jctc.8b00821    
     ChemRxiv: https://chemrxiv.org/articles/Toward_Learned_Chemical_Perception_of_Force_Field_Typing_Rules/6230627
