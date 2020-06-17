@@ -25,8 +25,157 @@ grant:
     # Description of the goal of the project (must be followed by two blank lines)
     description: >
       The goal of this project is to characterize the role of conformational reorganization energetics in achieving 
-      targeted kinase inhibitor selectivity.
-      
+      targeted kinase inhibitor selectivity.      
+
+grant:
+    # 'id' is the unique identifier by which the grant is referred to in the publications YAML
+  - id: "NIH R01 GM124270"
+    # 'title' is the title of the grant
+    title: "The goal of this project is to enable blind community challenges that drive progress toward quantitative accuracy in the field of computational physical modeling of drug-receptor interactions."
+    # 'type' denotes 'federal', 'industry', 'philanthropy'
+    type: federal
+    # 'organization' denotes the organization (federal, industrial, or philanthropic) granting the funds
+    organization: "National Institutes of Health"
+    # 'direct_costs' denotes the total direct cost in dollars to the lab
+    direct_costs: 230352
+    # project start and end dates in ISO 8601 format (YYYY-MM-DD)
+    project_begin: 2018-09-11
+    project_end_date: 2022-08-31
+    # URL to official grant record, if applicable
+    url: "https://projectreporter.nih.gov/project_info_description.cfm?aid=9521419&icde=41560906&ddparam=&ddvalue=&ddsub=&cr=3&csb=default&cs=ASC&pball="
+    # Description of the goal of the project (must be followed by two blank lines)
+    description: >
+      The goal of this project is to enable blind community challenges that drive progress toward quantitative 
+      accuracy in the field of computational physical modeling of drug-receptor interactions.
+
+grant:
+    # 'id' is the unique identifier by which the grant is referred to in the publications YAML
+  - id: "Relay Therapeutics Collaboration"
+    # 'title' is the title of the grant
+    title: "Development of efficient open source cloud-enabled free energy based lead optimization algorithms and integrative Bayesian model of experimental biophysical and molecular simulation data"
+    # 'type' denotes 'federal', 'industry', 'philanthropy'
+    type: industry
+    # 'organization' denotes the organization (federal, industrial, or philanthropic) granting the funds
+    organization: "Relay Therapeutics"
+    # 'direct_costs' denotes the total direct cost in dollars to the lab
+    direct_costs: 74074
+    # project start and end dates in ISO 8601 format (YYYY-MM-DD)
+    project_begin: 2018-04-05
+    project_end_date: 2019-04-05
+    # URL to official grant record, if applicable
+    url: "https://relaytx.com/"
+    # Description of the goal of the project (must be followed by two blank lines)
+    description: >
+      The goal of this project is to develop open source scalable cloud workflows for lead optimization using 
+      relative and absolute alchemical free energy calculations, as well as Bayesian integrative modeling 
+      techniques for experimental biophysical data and molecular simulations.
+
+grant:
+    # 'id' is the unique identifier by which the grant is referred to in the publications YAML
+  - id: "Entasis Therapeutics Collaboration"
+    # 'title' is the title of the grant
+    title: "Development of efficient equilibrium and nonequilibrium algorithms for predicting small molecule porin permeation with potential of mean force methods"    
+    # 'type' denotes 'federal', 'industry', 'philanthropy'
+    type: industry
+    # 'organization' denotes the organization (federal, industrial, or philanthropic) granting the funds
+    organization: "Entasis Therapeutics"
+    # 'direct_costs' denotes the total direct cost in dollars to the lab
+    direct_costs: 74074
+    # project start and end dates in ISO 8601 format (YYYY-MM-DD)
+    project_begin: 2018-04-05
+    project_end_date: 2019-04-05
+    # URL to official grant record, if applicable
+    url: "http://www.entasistx.com/"
+    # Description of the goal of the project (must be followed by two blank lines)
+    description: >
+      The goal of this project is to develop algorithms and open source tools for efficient equilibrium and 
+      nonequilibrium potential of mean force calculations for bacterial porins.
+
+grant:
+    # 'id' is the unique identifier by which the grant is referred to in the publications YAML
+  - id: "Vir Biotechnology  Collaboration"
+    # 'title' is the title of the grant
+    title: "Predicting resistance vulnerabilities of an ultra-potent RSV antibody"    
+    # 'type' denotes 'federal', 'industry', 'philanthropy'
+    type: industry
+    # 'organization' denotes the organization (federal, industrial, or philanthropic) granting the funds
+    organization: "Vir Biotechnology"
+    # 'direct_costs' denotes the total direct cost in dollars to the lab
+    direct_costs: 55556
+    # project start and end dates in ISO 8601 format (YYYY-MM-DD)
+    project_begin: 2019-07-25
+    project_end_date: 2021-07-24
+    # URL to official grant record, if applicable
+    url: "https://www.vir.bio/"
+    # Description of the goal of the project (must be followed by two blank lines)
+    description: >
+      The goal of this project is to develop alchemical free energy methods for predicting the impact of 
+      point mutations on antibody:antigen affinities.
+
+grant:
+    # 'id' is the unique identifier by which the grant is referred to in the publications YAML
+  - id: "Parker Institute for Cancer Immunotherapy Pilot Grant"
+    # 'title' is the title of the grant
+    title: "Physics-based computational prediction of cancer-associated mutant MHC class II epitopes"    
+    # 'type' denotes 'federal', 'industry', 'philanthropy'
+    type: philanthropy
+    # 'organization' denotes the organization (federal, industrial, or philanthropic) granting the funds
+    organization: "Parker Institute for Cancer Immunotherapy"
+    # 'direct_costs' denotes the total direct cost in dollars to the lab
+    direct_costs: 75000
+    # project start and end dates in ISO 8601 format (YYYY-MM-DD)
+    project_begin: 2018-04-02
+    project_end_date: 2019-04-01
+    # URL to official grant record, if applicable
+    url: "https://www.parkerici.org/"
+    # Description of the goal of the project (must be followed by two blank lines)
+    description: >
+      None
+
+grant:
+    # 'id' is the unique identifier by which the grant is referred to in the publications YAML
+  - id: "MSKCC Functional Genomics Initiative"
+    # 'title' is the title of the grant
+    title: "Integrated approaches annotate functions of cancer-associated H3K36 methyltransferases"    
+    # 'type' denotes 'federal', 'industry', 'philanthropy'
+    type: philanthropy
+    # 'organization' denotes the organization (federal, industrial, or philanthropic) granting the funds
+    organization: "MSKCC"
+    # 'direct_costs' denotes the total direct cost in dollars to the lab
+    direct_costs: 25000
+    # project start and end dates in ISO 8601 format (YYYY-MM-DD)
+    project_begin: 2018-12-01
+    project_end_date: 2020-11-30
+    # URL to official grant record, if applicable
+    url: "https://www.mskcc.org"
+    # Description of the goal of the project (must be followed by two blank lines)
+    description: >
+      The goal of this project is to use a combined experimental-computational approach to annotate the 
+      functional impact of clinical cancer mutations in H3K36 methyltransferases
+
+grant:
+    # 'id' is the unique identifier by which the grant is referred to in the publications YAML
+  - id: "Einstein BIH Visiting Fellowship"
+    # 'title' is the title of the grant
+    title: "Computational polypharmacology: A new paradigm for selectively promiscuous kinase inhibitors"    
+    # 'type' denotes 'federal', 'industry', 'philanthropy'
+    type: philanthropy
+    # 'organization' denotes the organization (federal, industrial, or philanthropic) granting the funds
+    organization: "Stiftung Charité - Einstein Foundation"
+    # 'direct_costs' denotes the total direct cost in dollars to the lab
+    direct_costs: EIR 150000
+    # project start and end dates in ISO 8601 format (YYYY-MM-DD)
+    project_begin: 2019-02-01
+    project_end_date: 2022-01-31
+    # URL to official grant record, if applicable
+    url: "https://www.stiftung-charite.de/funding/the-private-excellence-initiative-johanna-quandt/?L=1"
+    # Description of the goal of the project (must be followed by two blank lines)
+    description: >
+      The goal of this project is to develop open source tools for integrating structure-informed machine 
+      learning and alchemical free energy calculations for the design of selectively promiscuous kinase inhibitors.
+
+
+
 
 
 
