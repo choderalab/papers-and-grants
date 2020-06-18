@@ -39,7 +39,7 @@ grant:
     # 'direct_costs' denotes the total direct cost in dollars to the lab
     direct_costs: 230352
     # project start and end dates in ISO 8601 format (YYYY-MM-DD)
-    project_begin: 2018-09-11
+    project_begin: 2018-09-10
     project_end_date: 2022-08-31
     # URL to official grant record, if applicable
     url: "https://projectreporter.nih.gov/project_info_description.cfm?aid=9521419&icde=41560906&ddparam=&ddvalue=&ddsub=&cr=3&csb=default&cs=ASC&pball="
@@ -142,7 +142,7 @@ grant:
     # 'organization' denotes the organization (federal, industrial, or philanthropic) granting the funds
     organization: "MSKCC"
     # 'direct_costs' denotes the total direct cost in dollars to the lab
-    direct_costs: 25000
+    direct_costs: 125000
     # project start and end dates in ISO 8601 format (YYYY-MM-DD)
     project_begin: 2018-12-01
     project_end_date: 2020-11-30
@@ -163,7 +163,7 @@ grant:
     # 'organization' denotes the organization (federal, industrial, or philanthropic) granting the funds
     organization: "Stiftung Charité - Einstein Foundation"
     # 'direct_costs' denotes the total direct cost in dollars to the lab
-    direct_costs: EIR 150000
+    direct_costs: EUR 150000
     # project start and end dates in ISO 8601 format (YYYY-MM-DD)
     project_begin: 2019-02-01
     project_end_date: 2022-01-31
@@ -174,33 +174,191 @@ grant:
       The goal of this project is to develop open source tools for integrating structure-informed machine 
       learning and alchemical free energy calculations for the design of selectively promiscuous kinase inhibitors.
 
+grant:
+    # 'id' is the unique identifier by which the grant is referred to in the publications YAML
+  - id: "NIH P30CA008748"
+    # 'title' is the title of the grant
+    title: "MSKCC Cancer Center Grant"
+    # 'type' denotes 'federal', 'industry', 'philanthropy'
+    type: federal
+    # 'organization' denotes the organization (federal, industrial, or philanthropic) granting the funds
+    organization: "National Institutes of Health"
+    # 'direct_costs' denotes the total direct cost in dollars to the lab
+    direct_costs: 
+    # project start and end dates in ISO 8601 format (YYYY-MM-DD)
+    project_begin: 
+    project_end_date: 
+    # URL to official grant record, if applicable
+    url: "http://www.nih.gov/"
+    # Description of the goal of the project (must be followed by two blank lines)
+    description: >
+      None     
 
+grant:
+    # 'id' is the unique identifier by which the grant is referred to in the publications YAML
+  - id: "XtalPi Open Force Field Consortium"
+    # 'title' is the title of the grant
+    title: "Distinguished Postdoctoral Fellowship"
+    # 'type' denotes 'federal', 'industry', 'philanthropy'
+    type: industry
+    # 'organization' denotes the organization (federal, industrial, or philanthropic) granting the funds
+    organization: "XtalPi "
+    # 'direct_costs' denotes the total direct cost in dollars to the lab
+    direct_costs: 
+    # project start and end dates in ISO 8601 format (YYYY-MM-DD)
+    project_begin: 
+    project_end_date: 
+    # URL to official grant record, if applicable
+    url: "http://www.xtalpi.com/"
+    # Description of the goal of the project (must be followed by two blank lines)
+    description: >
+      None 
 
+grant:
+    # 'id' is the unique identifier by which the grant is referred to in the publications YAML
+  - id: "Open Force Field Consortium"
+    # 'title' is the title of the grant
+    title: "Open Force Field Consortium"
+    # 'type' denotes 'federal', 'industry', 'philanthropy'
+    type: philanthropy
+    # 'organization' denotes the organization (federal, industrial, or philanthropic) granting the funds
+    organization: "Open Force Field"
+    # 'direct_costs' denotes the total direct cost in dollars to the lab
+    direct_costs: 
+    # project start and end dates in ISO 8601 format (YYYY-MM-DD)
+    project_begin: 
+    project_end_date: 
+    # URL to official grant record, if applicable
+    url: "https://openforcefield.org/"
+    # Description of the goal of the project (must be followed by two blank lines)
+    description: >
+      The Open Force Field Consortium is composed of academic investigators from the Open Force Field 
+      Initiative and sponsoring Industry Partners collaborating to advance open force field science, 
+      toolkits, and standards for biomolecular drug discovery. 
 
+grant:
+    # 'id' is the unique identifier by which the grant is referred to in the publications YAML
+  - id: "NSF CHE-1738979"
+    # 'title' is the title of the grant
+    title: "NSF Data-Driven Discovery Science in Chemistry (D3SC)"
+    # 'type' denotes 'federal', 'industry', 'philanthropy'
+    type: federal
+    # 'organization' denotes the organization (federal, industrial, or philanthropic) granting the funds
+    organization: "National Science Foundation"
+    # 'direct_costs' denotes the total direct cost in dollars to the lab
+    direct_costs: 104113
+    # project start and end dates in ISO 8601 format (YYYY-MM-DD)
+    project_begin: 2017-08-01
+    project_end_date: 2019-07-31
+    # URL to official grant record, if applicable
+    url: "https://nsf.gov/"
+    # Description of the goal of the project (must be followed by two blank lines)
+    description: >
+      The goal of this proposal is to explore Bayesian approaches to determining forcefield parameters from 
+      experimental data and propagating uncertainty in predictions.
 
+grant:
+    # 'id' is the unique identifier by which the grant is referred to in the publications YAML
+  - id: "Merck KGaA Collaboration"
+    # 'title' is the title of the grant
+    title: "Developing automated workflows for absolute alchemical free energy calculations with YANK"
+    # 'type' denotes 'federal', 'industry', 'philanthropy'
+    type: industry
+    # 'organization' denotes the organization (federal, industrial, or philanthropic) granting the funds
+    organization: "Merck KGaA"
+    # 'direct_costs' denotes the total direct cost in dollars to the lab
+    direct_costs: 387176
+    # project start and end dates in ISO 8601 format (YYYY-MM-DD)
+    project_begin: 2016-07-26
+    project_end_date: 2019-01-25
+    # URL to official grant record, if applicable
+    url: "https://www.emdgroup.com/"
+    # Description of the goal of the project (must be followed by two blank lines)
+    description: >
+      The goal of this project is to develop automated workflows for absolute alchemical free energy 
+      calculations with YANK, an open source code developed in the lab.
 
+grant:
+    # 'id' is the unique identifier by which the grant is referred to in the publications YAML
+  - id: "Silicon Therapeutics Collaboration"
+    # 'title' is the title of the grant
+    title: "Development of efficient open source free energy-based lead optimization algorithms"
+    # 'type' denotes 'federal', 'industry', 'philanthropy'
+    type: industry
+    # 'organization' denotes the organization (federal, industrial, or philanthropic) granting the funds
+    organization: "Silicon Therapeutics"
+    # 'direct_costs' denotes the total direct cost in dollars to the lab
+    direct_costs: 84076
+    # project start and end dates in ISO 8601 format (YYYY-MM-DD)
+    project_begin: 2017-05-17
+    project_end_date: 2018-11-17
+    # URL to official grant record, if applicable
+    url: "http://www.silicontx.com/"
+    # Description of the goal of the project (must be followed by two blank lines)
+    description: >
+      The goal of this project is to compare the performance of single-replica and nonequilibrium 
+      alchemical free energy methods for relative free energy calculations.
 
+grant:
+    # 'id' is the unique identifier by which the grant is referred to in the publications YAML
+  - id: "Starr Foundation Grant I8-A8-058"
+    # 'title' is the title of the grant
+    title: "Designing sinefungin scaffolds as specific protein methyltransferase inhibitors"
+    # 'type' denotes 'federal', 'industry', 'philanthropy'
+    type: philanthropy
+    # 'organization' denotes the organization (federal, industrial, or philanthropic) granting the funds
+    organization: "Starr Foundation"
+    # 'direct_costs' denotes the total direct cost in dollars to the lab
+    direct_costs: 125000
+    # project start and end dates in ISO 8601 format (YYYY-MM-DD)
+    project_begin: 2015-01-01
+    project_end_date: 2017-06-30
+    # URL to official grant record, if applicable
+    url: "  "
+    # Description of the goal of the project (must be followed by two blank lines)
+    description: >
+      The goal of this project is to design selective inhibitors for protein lysine methyltransferases
 
+grant:
+    # 'id' is the unique identifier by which the grant is referred to in the publications YAML
+  - id: "Astra-Zeneca iMED Collaboration"
+    # 'title' is the title of the grant
+    title: "Evaluating the potential for Markov state models of conformational dynamics to advance quantitative prediction of thermodynamics and kinetics of selective kinase inhibitors"
+    # 'type' denotes 'federal', 'industry', 'philanthropy'
+    type: industry
+    # 'organization' denotes the organization (federal, industrial, or philanthropic) granting the funds
+    organization: "Astra-Zeneca iMED "
+    # 'direct_costs' denotes the total direct cost in dollars to the lab
+    direct_costs: 176258
+    # project start and end dates in ISO 8601 format (YYYY-MM-DD)
+    project_begin: 2015-07-30
+    project_end_date: 2017-01-30
+    # URL to official grant record, if applicable
+    url: "  "
+    # Description of the goal of the project (must be followed by two blank lines)
+    description: >
+      The goal of this project is to evaluate the potential for Markov state models of conformational dynamics 
+      to quantitatively predict the thermodynamics and kinetics of selective kinase inhibitors to CK2 and SYK.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+grant:
+    # 'id' is the unique identifier by which the grant is referred to in the publications YAML
+  - id: "Louis V Gerstner Young Investigators Award "
+    # 'title' is the title of the grant
+    title: "Young Investigators Award "
+    # 'type' denotes 'federal', 'industry', 'philanthropy'
+    type: philanthropy
+    # 'organization' denotes the organization (federal, industrial, or philanthropic) granting the funds
+    organization: "Louis V Gerstner"
+    # 'direct_costs' denotes the total direct cost in dollars to the lab
+    direct_costs: 75000
+    # project start and end dates in ISO 8601 format (YYYY-MM-DD)
+    project_begin: 2013-02-01
+    project_end_date: 2016-01-31
+    # URL to official grant record, if applicable
+    url: "  "
+    # Description of the goal of the project (must be followed by two blank lines)
+    description: >
+      None
 
 
 
