@@ -43,6 +43,53 @@ papers:
       empirical, and mixed approach methods based on RMSE were 0.92±0.13, 0.48±0.06, 0.47±0.05, 
       and 0.50±0.06, respectively.
 
+
+  # Title should have only initial letter capitalized
+  - title: "Citizen scientists create an exascale computer to combat COVID-19"
+    authors: # Use same name in publication
+    - Maxwell I. Zimmerman
+    - Justin R. Porter
+    - Michael D. Ward
+    - Sukrit Singh
+    - Neha Vithani
+    - Artur Meller
+    - Upasana L. Mallimadugula
+    - Catherine E. Kuhn
+    - Jonathan H. Borowsky
+    - Rafal P. Wiewiora
+    - Matthew F. D. Hurley
+    - Aoife M Harbison
+    - Carl A Fogarty
+    - Joseph E. Coffland
+    - Elisa Fadda
+    - Vincent A. Voelz
+    - John D. Chodera
+    - Gregory R. Bowman
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Gregory R. Bowman
+    # Add these other fields are optional; fill in as much information as is available
+    bioRxiv posted-date: 2020-06-30   
+    # These links may be listed in the choderalab.org/publications/ page
+    datasets: 
+    - https://osf.io/fs2yv/
+    - http://covid.molssi.org
+    bioRxiv: https://doi.org/10.1101/2020.06.27.175430
+    # Thumbnail image URL
+    thumbnail: kinase-selectivity-paper
+    # Two newlines are needed after the description
+    funding: 
+    - NIH Grant P30 CA008748
+    - NIH Grant R01 GM121505
+    description: >
+      To accelerate a multitude of drug development activities to combat the global threat posed by COVID-19,
+      over a million citizen scientists have banded together through the Folding@home distributed computing 
+      project to create the world’s first Exascale computer and simulate protein dynamics. An unprecedented 
+      0.1 seconds of simulation of the viral proteome reveal how the spike complex uses conformational masking 
+      to evade an immune response, conformational changes implicated in the function of other viral proteins, 
+      and cryptic pockets that are absent in experimental structures. These structures and mechanistic insights 
+      present new targets for the design of therapeutics.
+
     
   # Title should have only initial letter capitalized
   - title: "Assessing the accuracy of octanol-water partition coefficient predictions in the SAMPL6 Part II log P Challenge"
