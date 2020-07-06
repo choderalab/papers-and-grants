@@ -14,7 +14,35 @@
 # Here is an illustrative entry for papers
 papers:
   # Title should have only initial letter capitalized
-  # Titles are listed in quotes
+  - title: "Is structure based drug design ready for selectivity optimization?"
+    authors: # Use same name in publication
+    - Steven K. Albanese
+    - John D. Chodera
+    - Andrea Volkamer
+    - Simon Keng
+    - Robert Abel
+    - Lingle Wang
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Lingle Wang
+    # Add these other fields are optional; fill in as much information as is available
+    bioRxiv posted-date: 2020-07-03   
+    # These links may be listed in the choderalab.org/publications/ page
+    github: https://github.com/choderalab/selectivity
+    bioRxiv: https://www.biorxiv.org/content/10.1101/2020.07.02.185132v1
+    # Two newlines are needed after the description
+    funding: 
+    - NIH Grant P30 CA008748
+    - NIH Grant R01 GM121505
+    description: >
+      We report the performance assessment of the 91 methods that were submitted 
+      to the SAMPL6 blind challenge for predicting octanol-water partition coefficient 
+      (logP) measurements. The average RMSE of the most accurate five MM-based, QM-based, 
+      empirical, and mixed approach methods based on RMSE were 0.92±0.13, 0.48±0.06, 0.47±0.05, 
+      and 0.50±0.06, respectively.
+
+    
+  # Title should have only initial letter capitalized
   - title: "Assessing the accuracy of octanol-water partition coefficient predictions in the SAMPL6 Part II log P Challenge"
     authors: # Use same name in publication
     - Mehtap Işık # note the characters are not Isik
