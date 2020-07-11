@@ -26,21 +26,21 @@ papers:
     corresponding-authors:
     - Lingle Wang
     # Add these other fields are optional; fill in as much information as is available
-    bioRxiv posted-date: 2020-07-03   
+    bioRxiv posted-date: 2020-07-03
     # These links may be listed in the choderalab.org/publications/ page
     github: https://github.com/choderalab/selectivity
     bioRxiv: https://www.biorxiv.org/content/10.1101/2020.07.02.185132v1
     # Thumbnail image URL
     thumbnail: kinase-selectivity-paper
     # Two newlines are needed after the description
-    funding: 
+    funding:
     - NIH Grant P30 CA008748
     - NIH Grant R01 GM121505
     description: >
-      In this paper, we address the We report the performance assessment of the 91 methods that were submitted 
-      to the SAMPL6 blind challenge for predicting octanol-water partition coefficient 
-      (logP) measurements. The average RMSE of the most accurate five MM-based, QM-based, 
-      empirical, and mixed approach methods based on RMSE were 0.92±0.13, 0.48±0.06, 0.47±0.05, 
+      In this paper, we address the We report the performance assessment of the 91 methods that were submitted
+      to the SAMPL6 blind challenge for predicting octanol-water partition coefficient
+      (logP) measurements. The average RMSE of the most accurate five MM-based, QM-based,
+      empirical, and mixed approach methods based on RMSE were 0.92±0.13, 0.48±0.06, 0.47±0.05,
       and 0.50±0.06, respectively.
 
 
@@ -69,47 +69,47 @@ papers:
     corresponding-authors:
     - Gregory R. Bowman
     # Add these other fields are optional; fill in as much information as is available
-    bioRxiv posted-date: 2020-06-30   
+    bioRxiv posted-date: 2020-06-30
     # These links may be listed in the choderalab.org/publications/ page
-    datasets: 
+    datasets:
     - https://osf.io/fs2yv/
     - http://covid.molssi.org
     bioRxiv: https://doi.org/10.1101/2020.06.27.175430
     # Thumbnail image URL
     thumbnail: kinase-selectivity-paper
     # Two newlines are needed after the description
-    funding: 
+    funding:
     - NIH Grant P30 CA008748
     - NIH Grant R01 GM121505
     description: >
       To accelerate a multitude of drug development activities to combat the global threat posed by COVID-19,
-      over a million citizen scientists have banded together through the Folding@home distributed computing 
-      project to create the world’s first Exascale computer and simulate protein dynamics. An unprecedented 
-      0.1 seconds of simulation of the viral proteome reveal how the spike complex uses conformational masking 
-      to evade an immune response, conformational changes implicated in the function of other viral proteins, 
-      and cryptic pockets that are absent in experimental structures. These structures and mechanistic insights 
+      over a million citizen scientists have banded together through the Folding@home distributed computing
+      project to create the world’s first Exascale computer and simulate protein dynamics. An unprecedented
+      0.1 seconds of simulation of the viral proteome reveal how the spike complex uses conformational masking
+      to evade an immune response, conformational changes implicated in the function of other viral proteins,
+      and cryptic pockets that are absent in experimental structures. These structures and mechanistic insights
       present new targets for the design of therapeutics.
 
-    
+
   # Title should have only initial letter capitalized
   - title: "Assessing the accuracy of octanol-water partition coefficient predictions in the SAMPL6 Part II log P Challenge"
     authors: # Use same name in publication
     - Mehtap Işık # note the characters are not Isik
-    - Teresa Danielle Bergazin 
+    - Teresa Danielle Bergazin
     - Thomas Fox
     - Andrea Rizzi
     - John D. Chodera
     - David L. Mobley
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-    - Mehtap Işık    
+    - Mehtap Işık
     # Add these other fields are optional; fill in as much information as is available
     journal: Journal of Computer Aided Molecular Design
     volume: 34
     page: 335 # just first page
     publication-date: 2020-02-27 # use ISO 8601 date format YYYY-MM-DD
     year: 2020
-    bioRxiv posted-date: 2020-01-21   
+    bioRxiv posted-date: 2020-01-21
     # Thumbnail
     thumbnail: sampl6-logP-assessment
     # These links may be listed in the choderalab.org/publications/ page
@@ -118,33 +118,33 @@ papers:
     github: https://github.com/samplchallenges/SAMPL6/
     bioRxiv: https://www.biorxiv.org/content/10.1101/2020.01.20.913178v1
     # Two newlines are needed after the description
-    funding: 
-    - NIH Grant P30 CA008748    
+    funding:
+    - NIH Grant P30 CA008748
     description: >
-      We report the performance assessment of the 91 methods that were submitted 
-      to the SAMPL6 blind challenge for predicting octanol-water partition coefficient 
-      (logP) measurements. The average RMSE of the most accurate five MM-based, QM-based, 
-      empirical, and mixed approach methods based on RMSE were 0.92±0.13, 0.48±0.06, 0.47±0.05, 
+      We report the performance assessment of the 91 methods that were submitted
+      to the SAMPL6 blind challenge for predicting octanol-water partition coefficient
+      (logP) measurements. The average RMSE of the most accurate five MM-based, QM-based,
+      empirical, and mixed approach methods based on RMSE were 0.92±0.13, 0.48±0.06, 0.47±0.05,
       and 0.50±0.06, respectively.
-    
-    
-  - title: "Standard state free energies, not pKas, are ideal for describing small molecule protonation and tautomeric states" 
-  - authors: # Use same name in publication             
+
+
+  - title: "Standard state free energies, not pKas, are ideal for describing small molecule protonation and tautomeric states"
+    authors: # Use same name in publication
     - MR Gunner
     - Taichi Murakami
     - Ariën S Rustenburg
-    - Mehtap Işık    
+    - Mehtap Işık
     - John Chodera
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-     - MR Gunner 
+     - MR Gunner
     # Add these other fields are optional; fill in as much information as is available
     journal: Journal of Computer-Aided Molecular Design
     volume: 34
     page:  561 # just first page
     publication-date: 2020-02-12 # use ISO 8601 date format YYYY-MM-DD
     year: 2020
-    # These links may be listed in the choderalab.org/publications/ page  
+    # These links may be listed in the choderalab.org/publications/ page
     DOI: https://doi.org/10.1007/s10822-020-00280-7
     PDF: https://link.springer.com/content/pdf/10.1007/s10822-020-00280-7.pdf
     # Thumbnail
@@ -155,16 +155,16 @@ papers:
     - NIH grant P30 CA008748
     description: >
      Here, we demonstrate how the physical nature of protonation and tautomeric state effects
-     means that the standard state free energies of each microscopic protonation/tautomeric 
-     state at a single pH is sufficient to describe the complete pH-dependent microscopic 
-     and macroscopic populations. We introduce a new kind of diagram that uses this concept 
+     means that the standard state free energies of each microscopic protonation/tautomeric
+     state at a single pH is sufficient to describe the complete pH-dependent microscopic
+     and macroscopic populations. We introduce a new kind of diagram that uses this concept
      to illustrate a variety of pH-dependent phenomena, and show how it can be used to identify
-     common issues with protonation state prediction algorithms. As a result, we recommend 
-     future blind prediction challenges utilize microstate free energies at a single reference 
+     common issues with protonation state prediction algorithms. As a result, we recommend
+     future blind prediction challenges utilize microstate free energies at a single reference
      pH as the minimal sufficient information for assessing prediction accuracy and utility.
 
 
-- title: "The SAMPL6 SAMPLing challenge: Assessing the reliability and efficiency of binding free energy calculations"
+  - title: "The SAMPL6 SAMPLing challenge: Assessing the reliability and efficiency of binding free energy calculations"
     authors:
     - Andrea Rizzi
     - Travis Jensen
@@ -193,7 +193,7 @@ papers:
     page: 601 # just first page
     publication-date: 2020-01-27
     year: 2020
-    bioRxiv posted-date: 2020-01-03 
+    bioRxiv posted-date: 2020-01-03
     # Thumbnail
     thumbnail: sampl6-sampling
     # These links may be listed in the choderalab.org/publications/ page
@@ -201,20 +201,20 @@ papers:
     pdf: https://choderalab.squarespace.com/s/SAMPL6-SAMPLing.pdf
     github: https://github.com/samplchallenges/SAMPL6/tree/master/host_guest/SAMPLing
     preprint: https://www.biorxiv.org/content/10.1101/795005v2
-    funding: 
-    - NIH Grant R01 GM124270 
+    funding:
+    - NIH Grant R01 GM124270
     - NIH Grant P30 CA008748
     description: >
-      To assess the relative efficiencies of alchemical binding free energy calculations, 
-      the SAMPL6 SAMPLing challenge asked participants to submit predictions as a function of 
-      computer effort for the same force field and charge model. Surprisingly, we found that 
-      most molecular simulation codes cannot agree on the binding free energy was, even for 
+      To assess the relative efficiencies of alchemical binding free energy calculations,
+      the SAMPL6 SAMPLing challenge asked participants to submit predictions as a function of
+      computer effort for the same force field and charge model. Surprisingly, we found that
+      most molecular simulation codes cannot agree on the binding free energy was, even for
       the same force field.
 
 
   - title: "Octanol-water partition coefficient measurements for the SAMPL6 blind prediction challenge"
     authors: # Use same name in publication
-    - Mehtap Işık 
+    - Mehtap Işık
     - Dorothy Levorse
     - David L. Mobley
     - Timothy Rhodes
@@ -222,14 +222,14 @@ papers:
     # Corresponding authors have their email addresses listed
     corresponding-authors:
     - Timothy Rhodes
-    - John D. Chodera   
+    - John D. Chodera
     # Add these other fields are optional; fill in as much information as is available
     journal: Journal of Computer Aided Molecular Design
     volume: 34
     page: 405 # just first page
     publication-date: 2019-12-19 # use ISO 8601 date format YYYY-MM-DD
     year: 2019
-    bioRxiv posted-date: 2019-12-02   
+    bioRxiv posted-date: 2019-12-02
     # Thumbnail
     thumbnail: sampl6-part2-logP
     # These links may be listed in the choderalab.org/publications/ page
@@ -240,15 +240,15 @@ papers:
     # Two newlines are needed after the description
     funding: none
     description: >
-      We describe the design and data collection (and associated challenges) for the SAMPL6      
-      part II logP octanol-water blind prediction challenge, where the goal was to benchmark the 
-      accuracy of force fields for druglike molecules (here, molecules 
+      We describe the design and data collection (and associated challenges) for the SAMPL6
+      part II logP octanol-water blind prediction challenge, where the goal was to benchmark the
+      accuracy of force fields for druglike molecules (here, molecules
       resembling kinase inhibitors).
-      
+
 
   - title: "A small-molecule pan-Id antagonist inhibits pathologic ocular neovascularization"
     authors: # Use same name in publication
-    - Paulina M. Wojnarowicz 
+    - Paulina M. Wojnarowicz
     - Raquel Lima e Silva
     - Masayuki Ohanka
     - Sang Bae Lee
@@ -291,7 +291,7 @@ papers:
     year: 2019
     # These links may be listed in the choderalab.org/publications/ page
     doi: https://doi.org/10.1016/j.celrep.2019.08.073
-    pdf: http://www.choderalab.org/s/benezra-cell-reports.pdf 
+    pdf: http://www.choderalab.org/s/benezra-cell-reports.pdf
     # Two newlines are needed after the description
     funding: none
     description: >
@@ -302,35 +302,35 @@ papers:
 
   - title: "Graph nets for partial charge prediction"
     authors: # Use same name in publication
-    - Yuanqing Wang 
+    - Yuanqing Wang
     - Josh Fass
     - Chaya D. Stern
     - Kun Luo
     - John D. Chodera
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-    - Yuanqing Wang 
+    - Yuanqing Wang
     # Add these other fields are optional; fill in as much information as is available
     journal: arXiv
     volume: 15
     page: 44 # just first page
     publication-date: 2019-09-17 # use ISO 8601 date format YYYY-MM-DD
-    year: 2019    
+    year: 2019
     # These links may be listed in the choderalab.org/publications/ page
     arXiv: https://arxiv.org/abs/1909.07903
     github: http://github.com/choderalab/gimlet
     # Two newlines are needed after the description
-    funding: none   
+    funding: none
     description: >
-       Graph convolutional and message-passing networks can be a powerful tool for predicting physical properties of 
-       small molecules when coupled to a simple physical model that encodes the relevant invariances. Here, we show 
+       Graph convolutional and message-passing networks can be a powerful tool for predicting physical properties of
+       small molecules when coupled to a simple physical model that encodes the relevant invariances. Here, we show
        the ability of graph nets to predict partial atomic charges for use in molecular dynamics simulations and
        physical docking.
-    
- 
+
+
   - title: "Sharing data from molecular simulations"
     authors: # Use same name in publication
-    - Abraham MJ 
+    - Abraham MJ
     - Apostolov R
     - Barnoud J
     - Bauer P
@@ -360,18 +360,18 @@ papers:
     page: 10 # just first page
     publication-date: 2019-09-17 # use ISO 8601 date format YYYY-MM-DD
     year: 2019
-    chemRxiv posted-date: 2019-09-09    
+    chemRxiv posted-date: 2019-09-09
     # These links may be listed in the choderalab.org/publications/ page
     doi: https://doi.org/10.1021/acs.jcim.9b00665
     chemRxiv: https://chemrxiv.org/articles/Sharing_Data_from_Molecular_Simulations/9775493
     pdf: http://www.choderalab.org/s/sharing-data.pdf
     # Two newlines are needed after the description
-    funding: none   
+    funding: none
     description: >
-     There is a dire need to establish standards for sharing data in the molecular sciences. Here, we 
+     There is a dire need to establish standards for sharing data in the molecular sciences. Here, we
      review the findings of a workshop held in Stockholm in Nov 2018 to discuss this need.
-       
-       
+
+
   - title: "Ancestral reconstruction reveals mechanisms of ERK regulatory evolution"
     authors: # Use same name in publication
     - Dajun Sang
@@ -397,22 +397,22 @@ papers:
     pdf: https://elifesciences.org/articles/38805#downloads
     Folding@home data: https://github.com/choderalab/ERK-ancestral-materials
     # Two newlines are needed after the description
-    funding:  
+    funding:
     - NIH Grant R01 GM121505
-    - Folding@Home    
+    - Folding@Home
     description: >
      To understand how kinase regulation by phosphorylation emerged, we reconstruct the common ancestor of CDKs and
-     MAPKs, using biochemical experiments and massively parallel molecular simulations to study how a few mutations 
+     MAPKs, using biochemical experiments and massively parallel molecular simulations to study how a few mutations
      were sufficient to switch ERK-family kinases from high- to low-autophosphorylation.
 
 
   - title: "Binding thermodynamics of host-guest systems with SMIRNOFF99Frosst 1.0.5 from the Open Force Field Initiative"
     authors: # Use same name in publication
     - David R. Slochower
-    - Neil M. Hendriksen   
-    - Lee-Ping Wang    
-    - John D. Chodera   
-    - David L. Mobley    
+    - Neil M. Hendriksen
+    - Lee-Ping Wang
+    - John D. Chodera
+    - David L. Mobley
     - Michael K. Gilson
     # Corresponding authors have their email addresses listed
     corresponding-authors:
@@ -425,143 +425,143 @@ papers:
     year: 2019
     bioRxiv posted-date: 2019-06-09
     # These links may be listed in the choderalab.org/publications/ page
-    doi: https://doi.org/10.1021/acs.jctc.9b00748    
+    doi: https://doi.org/10.1021/acs.jctc.9b00748
     bioRxiv: https://chemrxiv.org/articles/Binding_thermodynamics_of_host-guest_systems_with_SMIRNOFF99Frosst_1_0_5_from_the_Open_Force_Field_Initiative/9159872
     GitHub: https://slochower.github.io/smirnoff-host-guest-manuscript/#code-and-data-availability
     # Two newlines are needed after the description
     funding:
-    - Open Force Field    
-    - NIH Grant P30 CA008748    
-    - NIH Grant R01 GM121505    
-    - NIH Grant R01 GM124270    
+    - Open Force Field
+    - NIH Grant P30 CA008748
+    - NIH Grant R01 GM121505
+    - NIH Grant R01 GM124270
     description: >
-     We assess the accuracy of the SMIRNOFF99Frosst 1.0.5 force field in reproducing host-guest binding 
-     thermodynamics in comparison with the GAFF force field, demonstrating how the SMIRNOFF format for 
+     We assess the accuracy of the SMIRNOFF99Frosst 1.0.5 force field in reproducing host-guest binding
+     thermodynamics in comparison with the GAFF force field, demonstrating how the SMIRNOFF format for
      compactly specifying force fields provide comparable accuracy with 20x fewer parameters.
 
 
   - title: "Small-molecule targeting of MUSASHI RNA-binding activity in acute myeloid leukemia"
     authors: # Use same name in publication
-    - Gerard Minuesa 
+    - Gerard Minuesa
     - Steven K Albanese
-    - Arthur Chow   
-    - Alexandra Schurer    
-    - Sun-Mi Park    
-    - Christina Z. Rotsides    
-    - James Taggart    
-    - Andrea Rizzi    
-    - Levi N. Naden    
-    - Timothy Chou     
-    - Saroj Gourkanti    
+    - Arthur Chow
+    - Alexandra Schurer
+    - Sun-Mi Park
+    - Christina Z. Rotsides
+    - James Taggart
+    - Andrea Rizzi
+    - Levi N. Naden
+    - Timothy Chou
+    - Saroj Gourkanti
     - Daniel Cappel-
-    - Maria C Passarelli    
-    - Lauren Fairchild 
-    - Carolina Adura    
-    - Fraser J Glickman     
-    - Jessica Schulman     
+    - Maria C Passarelli
+    - Lauren Fairchild
+    - Carolina Adura
+    - Fraser J Glickman
+    - Jessica Schulman
     - Christopher Famulare
-    - Minal Patel    
-    - Gregory M Ross    
-    - Derek S Tan    
-    - Christina S Leslie   
-    - Thijs Beuming    
-    - Yehuda Goldgur    
-    - John D Chodera    
-    - Michael G Kharas     
+    - Minal Patel
+    - Gregory M Ross
+    - Derek S Tan
+    - Christina S Leslie
+    - Thijs Beuming
+    - Yehuda Goldgur
+    - John D Chodera
+    - Michael G Kharas
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-    - Michael G Kharas 
+    - Michael G Kharas
     # Add these other fields are optional; fill in as much information as is available
     journal: Nature Communications
     volume: 10
     publication-date: 2019-06-19 # use ISO 8601 date format YYYY-MM-DD
     year: 2019
-    bioRxiv posted-date: 2018-05-14     
+    bioRxiv posted-date: 2018-05-14
     # These links may be listed in the choderalab.org/publications/ page
     doi: https://doi.org/10.1038/s41467-019-10523-3
-    bioRxiv: https://doi.org/10.1101/321174    
+    bioRxiv: https://doi.org/10.1101/321174
     GitHub: https://github.com/choderalab/musashi
     MSKCC blog post: https://www.mskcc.org/blog/ro-versus-musashi-how-one-molecule-can-turn-cancer-cells-back-normal
     # Two newlines are needed after the description
     funding:
-    - NIH Grant R01 GM121505    
+    - NIH Grant R01 GM121505
     description: >
-     We use absolute alchemical free energy calculations to identify the likely interaction site for a 
+     We use absolute alchemical free energy calculations to identify the likely interaction site for a
      small hydrophobic ligand that shows activity against MUSASHI in AML.
-       
-       
+
+
   - title: "The dynamic conformational landscapes of the protein methyltransferase SETD8"
     authors: # Use same name in publication
-    - Rafal P. Wiewiora   
-    - Shi Chen    
-    - Fanwang Meng    
-    - Nicolas Babault   
-    - Anqi Ma    
-    - Wenyu Yu    
-    - Kun Qian   
-    - Hao Hu,    
-    - Hua Zou    
-    - Junyi Wang   
-    - Shijie Fan    
-    - Gil Blum    
-    - Fabio Pittella-Silva   
-    - Kyle A. Beauchamp   
-    - Wolfram Tempel    
+    - Rafal P. Wiewiora
+    - Shi Chen
+    - Fanwang Meng
+    - Nicolas Babault
+    - Anqi Ma
+    - Wenyu Yu
+    - Kun Qian
+    - Hao Hu,
+    - Hua Zou
+    - Junyi Wang
+    - Shijie Fan
+    - Gil Blum
+    - Fabio Pittella-Silva
+    - Kyle A. Beauchamp
+    - Wolfram Tempel
     - Hualing Jiang
-    - Kaixian Chen   
+    - Kaixian Chen
     - Robert J. Skene
-    - Y. George Zheng    
-    - Peter J. Brown    
+    - Y. George Zheng
+    - Peter J. Brown
     - Jian Jin
     - Cheng Luo
     - John D. Chodera
-    - Minkui Luo    
+    - Minkui Luo
     # Corresponding authors have their email addresses listed
     corresponding-authors:
     - Cheng Luo
     - John D. Chodera
-    - Minkui Luo       
+    - Minkui Luo
     # Add these other fields are optional; fill in as much information as is available
     journal: eLife
     volume: 8
     publication-date: 2019-05-13 # use ISO 8601 date format YYYY-MM-DD
     year: 2019
-    bioRxiv posted-date: 2018-10-12   
+    bioRxiv posted-date: 2018-10-12
     # These links may be listed in the choderalab.org/publications/ page
-    doi: http://doi.org/10.7554/eLife.45403    
+    doi: http://doi.org/10.7554/eLife.45403
     bioRxiv: https://doi.org/10.1101/438994
-    OSF: https://osf.io/2h6p4/    
-    github: https://github.com/choderalab/SETD8-materials    
+    OSF: https://osf.io/2h6p4/
+    github: https://github.com/choderalab/SETD8-materials
     movies: https://www.youtube.com/watch?v=IDLEi-M8Aow
-    MSKCC blog post: https://www.mskcc.org/blog/computational-hive-mind-helps-scientists-solve-enzyme-s-cryptic-movements    
+    MSKCC blog post: https://www.mskcc.org/blog/computational-hive-mind-helps-scientists-solve-enzyme-s-cryptic-movements
     # Two newlines are needed after the description
-    funding: 
-    - Folding@Home    
-    - NIH Grant R01 GM121505    
-    - NIH Grant P30 CA008748    
+    funding:
+    - Folding@Home
+    - NIH Grant R01 GM121505
+    - NIH Grant P30 CA008748
     description: >
-      In this work, we show how targeted X-ray crystallography using covalent inhibitors and depletion of 
-      native ligands to reveal structures of low-population hidden conformations can be combined with 
-      massively distributed molecular simulation to resolve the functional dynamic landscape of the protein 
-      methyltransferase SETD8 in unprecedented atomistic detail. Using an aggregate of six milliseconds of 
-      fully atomistic simulation from Folding@home, we use Markov state models to illuminate the 
+      In this work, we show how targeted X-ray crystallography using covalent inhibitors and depletion of
+      native ligands to reveal structures of low-population hidden conformations can be combined with
+      massively distributed molecular simulation to resolve the functional dynamic landscape of the protein
+      methyltransferase SETD8 in unprecedented atomistic detail. Using an aggregate of six milliseconds of
+      fully atomistic simulation from Folding@home, we use Markov state models to illuminate the
       conformational dynamics of this important epigenetic protein. All Folding@home simulation trajectories for this paper are available on the Open Science Framework.
-      The trajectories generated for this project were used as the source for a unique musical composition 'Metastable' 
+      The trajectories generated for this project were used as the source for a unique musical composition 'Metastable'
       by George Holloway, performed by the Ligeti String Quartet with visual accompaniment from Robert Arbon.
-      
-      
+
+
   - title: "What makes a kinase promiscuous for inhibitors?"
     authors: # Use same name in publication
-    - Hanson S 
-    - Georghiou G    
-    - Miller WT    
-    - Rest JS   
-    - Chodera JD    
-    - Seeliger MA     
+    - Hanson S
+    - Georghiou G
+    - Miller WT
+    - Rest JS
+    - Chodera JD
+    - Seeliger MA
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-     - Chodera JD    
-     - Seeliger MA 
+     - Chodera JD
+     - Seeliger MA
     # Add these other fields are optional; fill in as much information as is available
     journal: Cell Chemical Biology
     volume: 26
@@ -574,19 +574,19 @@ papers:
     github: https://github.com/choderalab/DDR1_and_kinase_promiscuity_materials
     # Two newlines are needed after the description
     funding:
-    - NIH Grant R01 GM121505    
-    - NIH Grant P30 CA008748    
-    - Cycle For Survival    
+    - NIH Grant R01 GM121505
+    - NIH Grant P30 CA008748
+    - Cycle For Survival
     description: >
       A class of kinases are particularly promiscuous binders of small molecule inhibitors. Using combined
-      biomolecular simulations and biochemical studies, we show that the promiscuity of DDR1, one of the 
-      major members of this class, is likely due to an unusually stable DFG-out conformation.  
+      biomolecular simulations and biochemical studies, we show that the promiscuity of DDR1, one of the
+      major members of this class, is likely due to an unusually stable DFG-out conformation.
 
 
-  - title: "OpenPathSampling: A Python framework for path sampling simulations. 
+  - title: "OpenPathSampling: A Python framework for path sampling simulations.
              II. Building and customizing path ensembles and sample schemes"
     authors: # Use same name in publication
-    - David W.H. Swenson 
+    - David W.H. Swenson
     - Jan-Hendrik Prinz
     - Frank Noé
     - John D. Chodera
@@ -594,33 +594,33 @@ papers:
     # Corresponding authors have their email addresses listed
     corresponding-authors:
     - John D. Chodera
-    - Peter G. Bolhuis 
+    - Peter G. Bolhuis
     # Add these other fields are optional; fill in as much information as is available
-    journal: Journal of Chemical Theory and Computation 
+    journal: Journal of Chemical Theory and Computation
     volume: 15
     page:  837 # just first page
     publication-date: 2018-10-25 # use ISO 8601 date format YYYY-MM-DD
     year: 2018
-    bioRxiv posted-date: 2018-06-20   
+    bioRxiv posted-date: 2018-06-20
     # These links may be listed in the choderalab.org/publications/ page
-    doi: https://doi.org/10.1021/acs.jctc.8b00627    
-    bioRxiv:  https://doi.org/10.1101/351510    
-    PDF: http://www.choderalab.org/s/ops-2.pdf    
+    doi: https://doi.org/10.1021/acs.jctc.8b00627
+    bioRxiv:  https://doi.org/10.1101/351510
+    PDF: http://www.choderalab.org/s/ops-2.pdf
     github: https://github.com/openpathsampling/openpathsampling
     # Two newlines are needed after the description
     funding:
-    - NIH Grant P30 CA008748     
-    - NIH Grant R01 GM121505     
+    - NIH Grant P30 CA008748
+    - NIH Grant R01 GM121505
     description: >
       To make powerful path sampling techniques broadly accessible and efficient, we have produced
-      a new Python framework for easily implementing path sampling strategies (such as transition 
-      path and interface sampling) in Python. This second publication describes advanced aspects 
+      a new Python framework for easily implementing path sampling strategies (such as transition
+      path and interface sampling) in Python. This second publication describes advanced aspects
       of the theory and details of how to customize path ensembles.
 
 
   - title: "OpenPathSampling: A Python framework for path sampling simulations. I. Basics"
     authors: # Use same name in publication
-    - David W.H. Swenson 
+    - David W.H. Swenson
     - Jan-Hendrik Prinz
     - Frank Noé
     - John D. Chodera
@@ -628,80 +628,80 @@ papers:
     # Corresponding authors have their email addresses listed
     corresponding-authors:
     - John D. Chodera
-    - Peter G. Bolhuis 
+    - Peter G. Bolhuis
     # Add these other fields are optional; fill in as much information as is available
-    journal: Journal of Chemical Theory and Computation 
+    journal: Journal of Chemical Theory and Computation
     volume: 15
     page:  813 # just first page
     publication-date: 2018-10-25 # use ISO 8601 date format YYYY-MM-DD
     year: 2018
-    bioRxiv posted-date: 2018-06-20   
+    bioRxiv posted-date: 2018-06-20
     # These links may be listed in the choderalab.org/publications/ page
     doi: https://doi.org/10.1021/acs.jctc.8b00626
     bioRxiv: https://doi.org/10.1101/351494
-    PDF: http://www.choderalab.org/s/ops-1.pdf    
+    PDF: http://www.choderalab.org/s/ops-1.pdf
     github: https://github.com/openpathsampling/openpathsampling
     # Two newlines are needed after the description
     funding:
-    - NIH Grant P30 CA008748     
-    - NIH Grant R01 GM121505     
+    - NIH Grant P30 CA008748
+    - NIH Grant R01 GM121505
     description: >
       To make powerful path sampling techniques broadly accessible and efficient, we have produced
-      a new Python framework for easily implementing path sampling strategies (such as transition 
-      path and interface sampling) in Python. This first publication describes some of the theory and 
+      a new Python framework for easily implementing path sampling strategies (such as transition
+      path and interface sampling) in Python. This first publication describes some of the theory and
       capabilities behind the approach.
-      
-      
+
+
   - title: "Toward learned chemical perception of force field typing rules"
     authors: # Use same name in publication
     - Camila Zanette
-    - Caitlin C. Bannan    
+    - Caitlin C. Bannan
     - Christopher I. Bayly
     - Josh Fass
-    - Michael K. Gilson    
-    - Michael R. Shirts 
+    - Michael K. Gilson
+    - Michael R. Shirts
     - John Chodera
     - David L. Mobley
     # Corresponding authors have their email addresses listed
     corresponding-authors:
     - David L. Mobley
     # Add these other fields are optional; fill in as much information as is available
-    journal: Journal of Chemical Theory and Computation 
+    journal: Journal of Chemical Theory and Computation
     volume: 15
     page:  402 # just first page
     publication-date: 2018-10-15 # use ISO 8601 date format YYYY-MM-DD
     year: 2018
-    ChemRxiv posted-date: 2018-10-15    
+    ChemRxiv posted-date: 2018-10-15
     # These links may be listed in the choderalab.org/publications/ page
-    doi: http://doi.org/10.1021/acs.jctc.8b00821    
+    doi: http://doi.org/10.1021/acs.jctc.8b00821
     ChemRxiv: https://chemrxiv.org/articles/Toward_Learned_Chemical_Perception_of_Force_Field_Typing_Rules/6230627
     github: https://github.com/openforcefield/smarty
     # Two newlines are needed after the description
     funding:
-    - NSF Grant CHE 1738979    
+    - NSF Grant CHE 1738979
     description: >
-      We show how machine learning can learn typing rules for molecular mechanics force fields 
+      We show how machine learning can learn typing rules for molecular mechanics force fields
       within a Bayesian statistical framework.
-      
-      
+
+
   - title: "Overview of the SAMPL6 host-guest binding affinity prediction challenge"
     authors: # Use same name in publication
     - Andrea Rizzi
-    - Steven Murkli   
+    - Steven Murkli
     - John N. McNeill
     - Wei Yao
     - Matthew Sullivan
-    - Michael K. Gilson 
-    - Michael W. Chiu    
+    - Michael K. Gilson
+    - Michael W. Chiu
     - David L. Mobley
-    - Lyle Isaacs    
-    - Bruce C. Gibb    
-    - David L. Mobley    
-    - John D. Chodera     
+    - Lyle Isaacs
+    - Bruce C. Gibb
+    - David L. Mobley
+    - John D. Chodera
     # Corresponding authors have their email addresses listed
     corresponding-authors:
     - David L. Mobley
-    - John D. Chodera    
+    - John D. Chodera
     # Add these other fields are optional; fill in as much information as is available
     journal: Journal of Computer-Aided Molecular Design special issue on SAMPL6
     volume: 32
@@ -710,35 +710,35 @@ papers:
     year: 2018
     # These links may be listed in the choderalab.org/publications/ page
     doi: https://doi.org/10.1007/s10822-018-0170-6
-    bioRxiv: https://doi.org/10.1101/371724    
+    bioRxiv: https://doi.org/10.1101/371724
     github: https://github.com/MobleyLab/SAMPL6/tree/master/host_guest
     # Two newlines are needed after the description
     funding: none
     description: >
-      We present an overview of the host-guest systems and participant performance for the 
-      SAMPL6 host-guest blind affinity prediction challenges, assessing how well various 
-      physical modeling approaches were able to predict ligand binding affinities for simple 
-      ligand recognition problems where receptor sampling and protonation state effects are 
-      eliminated due to the simplicity of supramolecular hosts. We find that progress is 
+      We present an overview of the host-guest systems and participant performance for the
+      SAMPL6 host-guest blind affinity prediction challenges, assessing how well various
+      physical modeling approaches were able to predict ligand binding affinities for simple
+      ligand recognition problems where receptor sampling and protonation state effects are
+      eliminated due to the simplicity of supramolecular hosts. We find that progress is
       now stagnated likely due to force field limitations.
-      
-      
+
+
   - title: "An open library of human kinase domain constructs for automated bacterial expression"
     authors: # Use same name in publication
     - Steven K. Albanese
-    - Daniel L. Parton   
+    - Daniel L. Parton
     - Mehtap Isik
     - Lucelenie Rodríguez-Laureano
     - Sonya M. Hanson
-    - Julie M. Behr 
-    - Scott Gradia    
+    - Julie M. Behr
+    - Scott Gradia
     - Chris Jeans
-    - Nicholas M. Levinson  
-    - Markus A. Seeliger    
-    - John D. Chodera       
+    - Nicholas M. Levinson
+    - Markus A. Seeliger
+    - John D. Chodera
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-    - John D. Chodera      
+    - John D. Chodera
     # Add these other fields are optional; fill in as much information as is available
     journal: Biochemistry
     volume: 57
@@ -746,42 +746,42 @@ papers:
     publication-date: 2018-07-13 # use ISO 8601 date format YYYY-MM-DD
     year: 2018
     # These links may be listed in the choderalab.org/publications/ page
-    doi: http://dx.doi.org/10.1021/acs.biochem.7b01081    
-    PDF: http://www.choderalab.org/s/kinase-expression-panel.pdf    
-    bioRxiv: http://dx.doi.org/10.1101/038711    
+    doi: http://dx.doi.org/10.1021/acs.biochem.7b01081
+    PDF: http://www.choderalab.org/s/kinase-expression-panel.pdf
+    bioRxiv: http://dx.doi.org/10.1101/038711
     github: https://github.com/choderalab/kinase-ecoli-expression-panel
-    github.io: http://choderalab.github.io/kinome-data/kinase_constructs-addgene_hip_sgc.html    
-    AddGene: https://www.addgene.org/kits/chodera-kinase-domains    
+    github.io: http://choderalab.github.io/kinome-data/kinase_constructs-addgene_hip_sgc.html
+    AddGene: https://www.addgene.org/kits/chodera-kinase-domains
     # Two newlines are needed after the description
     funding:
-    - NIH Grant P30 CA008748    
-    - NIH Grant R01 GM121505    
+    - NIH Grant P30 CA008748
+    - NIH Grant R01 GM121505
     description: >
-      Human kinase catalytic domains---the therapeutic target of selective kinase inhibitors 
-      used in the treatment of cancer and other diseases---are notoriously difficult and expensive 
-      to express in insect or human cells. Here, we utilize the phosphatase co-expression technology 
-      developed by Markus Seeliger (now at Stony Brook) to develop a library of human kinase 
+      Human kinase catalytic domains---the therapeutic target of selective kinase inhibitors
+      used in the treatment of cancer and other diseases---are notoriously difficult and expensive
+      to express in insect or human cells. Here, we utilize the phosphatase co-expression technology
+      developed by Markus Seeliger (now at Stony Brook) to develop a library of human kinase
       catalytic domains for facile and inexpensive expression in bacteria.
-      
-      
+
+
   - title: "pKa measurements for the SAMPL6 prediction challenge for a set of kinase inhibitor-like fragments"
     authors: # Use same name in publication
     - Mehtap Işık
-    - Dorothy Levorse   
+    - Dorothy Levorse
     - Ariën S. Rustenburg
     - Ikenna E. Ndukwe
     - Heather Wang
-    - Julie M. Behr 
-    - Mikhail Reibarkh   
+    - Julie M. Behr
+    - Mikhail Reibarkh
     - Gary E. Martin
-    - Alexey A. Makarov  
+    - Alexey A. Makarov
     - David L. Mobley
-    - Timothy Rhodes    
-    - John D. Chodera       
+    - Timothy Rhodes
+    - John D. Chodera
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-     - Timothy Rhodes    
-     - John D. Chodera      
+     - Timothy Rhodes
+     - John D. Chodera
     # Add these other fields are optional; fill in as much information as is available
     journal: Journal of Computer-Aided Molecular Design special issue on SAMPL6
     volume: 32
@@ -790,51 +790,52 @@ papers:
     year: 2018
     # These links may be listed in the choderalab.org/publications/ page
     doi: https://doi.org/10.1007/s10822-018-0168-0
-    PDF:  http://www.choderalab.org/s/sampl6-pka-measurements.pdf    
+    PDF:  http://www.choderalab.org/s/sampl6-pka-measurements.pdf
     bioRxiv: http://biorxiv.org/cgi/content/short/368787v1
-    Supplementary Tables and Figures:  http://www.choderalab.org/s/sampl6-pKa-measurements-SI-98l4.pdf    github: https://github.com/choderalab/kinase-ecoli-expression-panel
+    Supplementary Tables and Figures:  http://www.choderalab.org/s/sampl6-pKa-measurements-SI-98l4.pdf
+    github: https://github.com/choderalab/kinase-ecoli-expression-panel
     Supplementary Data (includes Sirius T3 reports on all measurements):   https://github.com/choderalab/sampl6-pKa-measurements-manuscript/tree/master/supplementary-info    # Two newlines are needed after the description
     funding:
-    - NIH Grant R01 GM124270    
-    - NIH Grant P30 CA008748    
+    - NIH Grant R01 GM124270
+    - NIH Grant P30 CA008748
     description: >
-     The SAMPL5 blind challenge exercises identified neglect of protonation state effects as 
-     a major accuracy-limiting factor in physical modeling of biomolecular interactions. In 
-     this study, we report the experimental measurements behind a SAMPL6 blind challenges in 
-     which we assess the ability of community codes to predict small molecule pKas for small 
+     The SAMPL5 blind challenge exercises identified neglect of protonation state effects as
+     a major accuracy-limiting factor in physical modeling of biomolecular interactions. In
+     this study, we report the experimental measurements behind a SAMPL6 blind challenges in
+     which we assess the ability of community codes to predict small molecule pKas for small
      molecule resembling fragments of selective kinase inhibitors.
 
 
   - title: "Acquired resistance to IDH inhibition through trans or cis dimer-interface mutations"
     authors: # Use same name in publication
     - Andrew M. Intlekofer
-    - Alan H. Shih  
+    - Alan H. Shih
     - Bo Wang
     - Abbas Nazir
     - Ariën S. Rustenburg
     - Steven K. Albanese
-    - Minal Patel  
+    - Minal Patel
     - Christopher Famulare
-    - Fabian M. Correa 
+    - Fabian M. Correa
     - Naofumi Takemoto
-    - Vidushi Durani  
-    - Hui Liu       
+    - Vidushi Durani
+    - Hui Liu
     - Justin Taylor
     - Noushin Farnoud
     - Elli Papaemmanuil
     - Justin R. Cross
     - Martin S. Tallman
-    - Maria E. Arcila  
+    - Maria E. Arcila
     - Mikhail Roshal
     - Gregory A. Petsko
     - Bin Wu
-    - Sung Choe  
-    - Zenon D. Konteatis          
+    - Sung Choe
+    - Zenon D. Konteatis
     - Scott A. Biller
     - John D. Chodera
     - Craig B. Thompson
     - Ross L. Levine
-    - Eytan M. Stein   
+    - Eytan M. Stein
     # Corresponding authors have their email addresses listed
     corresponding-authors:
      - Craig B. Thompson
@@ -848,27 +849,27 @@ papers:
     year: 2018
     # These links may be listed in the choderalab.org/publications/ page
     doi: https://doi.org/10.1038/s41586-018-0251-7
-    PDF: http://www.choderalab.org/s/idh1-tljz.pdf   
+    PDF: http://www.choderalab.org/s/idh1-tljz.pdf
     funding: none
     description: >
      We probe the biochemical and biophysical mechanisms underlying an unusual set of clinical
-     resistance mutations that appeared in trans in the IDH2 dimer interface in cancer patients 
+     resistance mutations that appeared in trans in the IDH2 dimer interface in cancer patients
      treated with IDH2 inhibitors.
-     
-     
+
+
   - title: "Predicting resistance of clinical Abl mutations to targeted kinase inhibitors using alchemical free-energy calculations"
     authors: # Use same name in publication
     - Kevin Hauser
-    - Christopher Negron 
+    - Christopher Negron
     - Steven K. Albanese
     - Soumya Ray
     - Thomas Steinbrecher
     - Robert Abel
     - John D. Chodera
-    - Lingle Wang 
+    - Lingle Wang
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-     - Lingle Wang    
+     - Lingle Wang
     # Add these other fields are optional; fill in as much information as is available
     journal: Communications Biology
     volume: 1
@@ -877,34 +878,34 @@ papers:
     year: 2018
     # These links may be listed in the choderalab.org/publications/ page
     doi: https://doi.org/10.1038/s42003-018-0075-x
-    PDF: http://www.choderalab.org/s/abl-resistance-mutations.pdf   
+    PDF: http://www.choderalab.org/s/abl-resistance-mutations.pdf
     input files and analysis scripts: https://github.com/kehauser/Predicting-resistance-of-clinical-Abl-mutations-to-targeted-kinase-inhibitors-using-FEP
     funding:
-    - NIH Grant P30 CA008748    
+    - NIH Grant P30 CA008748
     - NIH Grant R01 GM121505
-    - Cycle For Survival     
+    - Cycle For Survival
     description: >
      In our first collaborative paper with Schrödinger, we present the first comprehensive benchmark
-     assessing the ability for alchemical free energy calculations to predict clinical mutational 
-     resistance or susceptibility to targeted kinase inhibitors using the well-studied kinase Abl, 
+     assessing the ability for alchemical free energy calculations to predict clinical mutational
+     resistance or susceptibility to targeted kinase inhibitors using the well-studied kinase Abl,
      the target of therapy for chronic myelogenous leukemia (CML).
-     
-     
+
+
   - title: "Bayesian analysis of isothermal titration calorimetry for binding thermodynamics"
     authors: # Use same name in publication
     - Trung Hai Nguyen
-    - Arien S. Rustenburg  
+    - Arien S. Rustenburg
     - Stefan G. Krimmer
     - Hexi Zhang
     - John D. Clark
     - Paul A. Novick
-    - Kim Branson  
+    - Kim Branson
     - Vijay S. Pande
-    - John D Chodera 
-    - David D. L. Minh   
+    - John D Chodera
+    - David D. L. Minh
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-     - John D Chodera 
+     - John D Chodera
      - David D. L. Minh
     # Add these other fields are optional; fill in as much information as is available
     journal: PLoS One
@@ -913,26 +914,26 @@ papers:
     year: 2018
     # These links may be listed in the choderalab.org/publications/ page
     doi: https://doi.org/10.1371/journal.pone.0203224
-    bioRxiv: https://doi.org/10.1101/327676  
-    GitHub: https://github.com/choderalab/bayesian-itc    
+    bioRxiv: https://doi.org/10.1101/327676
+    GitHub: https://github.com/choderalab/bayesian-itc
     funding: none
     description: >
-     We show how Bayesian inference can produce greatly improved estimates of statistical uncertainty from isothermal 
-     titration calorimetry (ITC) experiments, allowing the joint distribution of thermodynamic parameter uncertainties 
+     We show how Bayesian inference can produce greatly improved estimates of statistical uncertainty from isothermal
+     titration calorimetry (ITC) experiments, allowing the joint distribution of thermodynamic parameter uncertainties
      to be inferred.
-     
-     
+
+
   - title: "Quantifying configuration-sampling error in Langevin simulations of complex molecular systems"
     authors: # Use same name in publication
     - Josh Fass
     - David Sivak
     - Gavin E. Crooks
     - Kyle A. Beauchamp
-    - Benedict Leimkuhler    
+    - Benedict Leimkuhler
     - John D Chodera
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-     - John D. Chodera 
+     - John D. Chodera
     # Add these other fields are optional; fill in as much information as is available
     journal: entropy
     volume: 20
@@ -941,20 +942,20 @@ papers:
     year: 2018
     # These links may be listed in the choderalab.org/publications/ page
     doi: https://doi.org/10.3390/e20050318
-    PDF: https://choderalab.squarespace.com/s/langevin-entropy-54gc.pdf    
-    GitHub: https://github.com/choderalab/integrator-benchmark   
-    bioRxiv: https://doi.org/10.1101/266619 
-    funding: 
-    - NIH Grant P30 CA008748    
-    - NIH Grant R01 GM121505    
-    - NSF Grant CHE 1738979    
+    PDF: https://choderalab.squarespace.com/s/langevin-entropy-54gc.pdf
+    GitHub: https://github.com/choderalab/integrator-benchmark
+    bioRxiv: https://doi.org/10.1101/266619
+    funding:
+    - NIH Grant P30 CA008748
+    - NIH Grant R01 GM121505
+    - NSF Grant CHE 1738979
     description: >
-     Molecular dynamics simulations necessarily use a finite timestep, which introduces error 
-     or bias in the sampled configuration space density that grows rapidly with increasing timestep. 
-     For the first time, we show how to compute a natural measure of this error---the KL 
-     divergence---in both phase and configuration space for a widely used family of Langevin 
+     Molecular dynamics simulations necessarily use a finite timestep, which introduces error
+     or bias in the sampled configuration space density that grows rapidly with increasing timestep.
+     For the first time, we show how to compute a natural measure of this error---the KL
+     divergence---in both phase and configuration space for a widely used family of Langevin
      integrators, and show that VRORV is generally superior for simulation of molecular systems.
-     
+
 
   - title: "Escaping atom types in force fields using direct chemical perception"
     authors: # Use same name in publication
@@ -962,16 +963,16 @@ papers:
     - Caitlin C. Bannan
     - Andrea Rizzi
     - Christopher I. Bayly
-    - John D Chodera    
+    - John D Chodera
     - Victoria T Lim
     - Nathan M. Lim
     - Kyle A. Beauchamp
     - Michael R. Shirts
-    - Michael K. Gilson    
+    - Michael K. Gilson
     - Peter K. Eastman
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-     - David L. Mobley 
+     - David L. Mobley
     # Add these other fields are optional; fill in as much information as is available
     journal: Journal of Chemical Theory and Computation
     volume: 14
@@ -982,25 +983,25 @@ papers:
     doi: http://doi.org/10.1021/acs.jctc.8b00640
     bioRxiv: https://doi.org/10.1101/286542
     funding:
-    - NSF Grant CHE 1738979    
+    - NSF Grant CHE 1738979
     description: >
-     We describe the philosophy behind a modern approach to molecular mechanics forcefield 
-     parameterization, and present initial results for the first SMIRNOFF-encoded 
+     We describe the philosophy behind a modern approach to molecular mechanics forcefield
+     parameterization, and present initial results for the first SMIRNOFF-encoded
      forcefield: SMIRNOFF99Frosst.
-     
-     
+
+
   - title: "A dynamic mechanism for allosteric activation of Aurora kinase A by activation loop phosphorylation"
     authors: # Use same name in publication
     - Emily F. Ruff
     - Joseph M. Muretta
     - Andrew Thompson
     - Eric W. Lake
-    - Soreen Cyphers    
+    - Soreen Cyphers
     - Steven K. Albanese
     - Sonya M. Hanson
     - Julie M. Behr
     - David D. Thomas
-    - John D. Chodera   
+    - John D. Chodera
     - Nicholas M. Levinson
     # Corresponding authors have their email addresses listed
     corresponding-authors:
@@ -1014,42 +1015,42 @@ papers:
     doi: https://doi.org/10.7554/eLife.32766
     bioRxiv: https://doi.org/10.1101/205260
     funding:
-    - NIH Grant P30 CA008748    
-    - NIH Grant R01 GM121505    
+    - NIH Grant P30 CA008748
+    - NIH Grant R01 GM121505
     description: >
-     We show that, contrary to the canonical belief that activation shifts DFG-out to DFG-in 
-     populations, phosphorylation of AurA does not shift DFG-in/out equilibrium but instead 
-     remodels the conformational distribution of the DFG-in state.     
-     
-     
+     We show that, contrary to the canonical belief that activation shifts DFG-out to DFG-in
+     populations, phosphorylation of AurA does not shift DFG-in/out equilibrium but instead
+     remodels the conformational distribution of the DFG-in state.
+
+
   - title: "Quantitative self-assembly prediction yields targeted nanomedicines"
     authors: # Use same name in publication
     - Yosi Shamay
     - Janki Shah
-    - Mehtap Işık 
+    - Mehtap Işık
     - Aviram Mizrachi
-    - Josef Leibold    
+    - Josef Leibold
     - Darjus F. Tschaharganeh
     - Daniel Roxbury
     - Januka Budhathoki-Uprety
     - Karla Nawaly
-    - James L. Sugarman   
+    - James L. Sugarman
     - Emily Baut
     - Michelle R. Neiman
     - Megan Dacek
     - Kripa S. Ganesh
     - Darren C. Johnson
-    - Ramya Sridharan    
+    - Ramya Sridharan
     - Karen L. Chu
-    - Vinagolu K. Rajasekhar    
+    - Vinagolu K. Rajasekhar
     - Scott W. Lowe
-    - John D. Chodera    
-    - Daniel A. Heller    
+    - John D. Chodera
+    - Daniel A. Heller
     # Corresponding authors have their email addresses listed
     corresponding-authors:
      - Daniel A. Heller
     # Add these other fields are optional; fill in as much information as is available
-    journal: Nature Materials 
+    journal: Nature Materials
     volume: 17
     page: 361   # just first page
     publication-date: 2018-02-05 # use ISO 8601 date format YYYY-MM-DD
@@ -1057,27 +1058,27 @@ papers:
     # These links may be listed in the choderalab.org/publications/ page
     doi: http://doi.org/10.1038/s41563-017-0007-z
     PDF: https://choderalab.squarespace.com/s/nanoparticles.pdf
-    Supporting Info: https://choderalab.squarespace.com/s/nanoparticles-si-zd77.pdf  
-    nano-drugbank: https://github.com/choderalab/nano-drugbank   
+    Supporting Info: https://choderalab.squarespace.com/s/nanoparticles-si-zd77.pdf
+    nano-drugbank: https://github.com/choderalab/nano-drugbank
     funding:
     - NIH Grant P30 CA008748
-    - Cycle For Survival    
+    - Cycle For Survival
     description: >
-     In a collaboration with the Heller Lab at MSKCC, we show how indocyanine nanoparticles can 
-     package insoluble selective kinase inhibitors with high mass loadings and efficiently 
-     deliver them to tumors. 
-     
-     
+     In a collaboration with the Heller Lab at MSKCC, we show how indocyanine nanoparticles can
+     package insoluble selective kinase inhibitors with high mass loadings and efficiently
+     deliver them to tumors.
+
+
   - title: "Biomolecular simulations under realistic macroscopic salt conditions"
     authors: # Use same name in publication
     - Gregory A. Ross
     - Ariën S. Rustenburg
     - Patrick B. Grinaway
     - Josh Fass
-    - John D. Chodera    
+    - John D. Chodera
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-     - John D. Chodera 
+     - John D. Chodera
     # Add these other fields are optional; fill in as much information as is available
     journal: Journal of Physical Chemistry B
     volume: 122
@@ -1087,31 +1088,31 @@ papers:
     # These links may be listed in the choderalab.org/publications/ page
     doi: http://doi.org/10.1021/acs.jpcb.7b11734
     bioRxiv: https://doi.org/10.1101/226001
-    simulation code: https://github.com/choderalab/saltswap  
-    resuts and analysis scripts: https://github.com/choderalab/saltswap-results   
+    simulation code: https://github.com/choderalab/saltswap
+    resuts and analysis scripts: https://github.com/choderalab/saltswap-results
     funding:
-    - NIH Grant P30 CA008748    
-    - NSF Grant CHE 1738979    
+    - NIH Grant P30 CA008748
+    - NSF Grant CHE 1738979
     description: >
-     We show how NCMC can be used to implement an efficient osmostat in molecular dynamics 
-     simulations to model realistic fluctuations in ion environments around biomolecules, and 
-     illustrate how the local salt environment around biological macromolecules can differ 
-     substantially from bulk. 
-     
-     
+     We show how NCMC can be used to implement an efficient osmostat in molecular dynamics
+     simulations to model realistic fluctuations in ion environments around biomolecules, and
+     illustrate how the local salt environment around biological macromolecules can differ
+     substantially from bulk.
+
+
   - title: "Binding Modes of Ligands Using Enhanced Sampling (BLUES): Rapid Decorrelation of Ligand Binding Modes Using Nonequilibrium Candidate Monte Carlo"
     authors: # Use same name in publication
     - Samuel Gill
     - Nathan M. Lim
     - Patrick B. Grinaway
     - Ariën S. Rustenburg
-    - Josh Fass    
+    - Josh Fass
     - Gregory Ross
     - John D. Chodera
-    - David Mobley        
+    - David Mobley
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-     - David Mobley 
+     - David Mobley
     # Add these other fields are optional; fill in as much information as is available
     journal: Journal of Physical Chemistry B
     volume: 122
@@ -1121,32 +1122,32 @@ papers:
     # These links may be listed in the choderalab.org/publications/ page
     doi: http://doi.org/10.1021/acs.jpcb.7b11820
     ChemRxiv: https://chemrxiv.org/articles/Binding_Modes_of_Ligands_Using_Enhanced_Sampling_BLUES_Rapid_Decorrelation_of_Ligand_Binding_Modes_Using_Nonequilibrium_Candidate_Monte_Carlo/5406907
-    GitHub: https://github.com/mobleylab/blues    
+    GitHub: https://github.com/mobleylab/blues
     funding:
-    - NIH Grant P30 CA008748    
+    - NIH Grant P30 CA008748
     description: >
-     Nonequilibrium candidate Monte Carlo can be used to accelerate the sampling of ligand 
-     binding modes by orders of magnitude over instantaneous Monte Carlo. 
- 
- 
+     Nonequilibrium candidate Monte Carlo can be used to accelerate the sampling of ligand
+     binding modes by orders of magnitude over instantaneous Monte Carlo.
+
+
   - title: "OpenMM 7: Rapid Development of High Performance Algorithms for Molecular Dynamics"
     authors: # Use same name in publication
     - Peter Eastman
     - Jason Swails
     - John D. Chodera
     - Robert T. McGibbon
-    - Yutong Zhao    
+    - Yutong Zhao
     - Kyle A. Beauchamp
     - Lee-Ping Wang
-    - Andrew C. Simmonett        
+    - Andrew C. Simmonett
     - Matthew P. Harrigan
     - Chaya D. Stern
     - Rafal P. Wiewiora
     - Bernard R. Brooks
-    - Vijay S. Pande    
+    - Vijay S. Pande
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-     - Peter Eastman 
+     - Peter Eastman
     # Add these other fields are optional; fill in as much information as is available
     journal: PLoS Computational Biology
     volume: 13
@@ -1155,27 +1156,27 @@ papers:
     # These links may be listed in the choderalab.org/publications/ page
     doi: http://dx.doi.org/10.1371/journal.pcbi.1005659
     bioRxiv: http://biorxiv.org/content/early/2016/12/06/091801
-    website: http://openmm.org/  
-    GitHub: http://github.com/pandegroup/openmm    
+    website: http://openmm.org/
+    GitHub: http://github.com/pandegroup/openmm
     funding:
-    - NIH Grant P30 CA008748    
-    - Starr Foundation Grant I8-A8-058    
+    - NIH Grant P30 CA008748
+    - Starr Foundation Grant I8-A8-058
     description: >
-     We describe the latest version of OpenMM, a GPU-accelerated framework for high performance 
+     We describe the latest version of OpenMM, a GPU-accelerated framework for high performance
      molecular simulation applications.
- 
- 
+
+
   - title: "Approaches for calculating solvation free energies and enthalpies demonstrated with an update of the FreeSolv database"
     authors: # Use same name in publication
     - Guilherme Duarte Ramos Matos
     - Daisy Y. Kyu
     - Hannes H. Loeffler
     - John D. Chodera
-    - Michael R. Shirts    
-    - David Mobley 
+    - Michael R. Shirts
+    - David Mobley
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-     - David Mobley    
+     - David Mobley
     # Add these other fields are optional; fill in as much information as is available
     journal: Journal of Chemical Engineering Data
     volume: 62
@@ -1185,31 +1186,31 @@ papers:
     # These links may be listed in the choderalab.org/publications/ page
     doi: http://dx.doi.org/10.1021/acs.jced.7b00104
     bioRxiv: https://doi.org/10.1101/104281
-    GitHub: https://github.com/mobleylab/freesolv    
+    GitHub: https://github.com/mobleylab/freesolv
     funding:
-    - NIH Grant P30 CA008748    
+    - NIH Grant P30 CA008748
     description: >
-     We review alchemical methods for computing solvation free energies and present an update 
-     (version 0.5) to the FreeSolv database of experimental and calculated hydration free 
+     We review alchemical methods for computing solvation free energies and present an update
+     (version 0.5) to the FreeSolv database of experimental and calculated hydration free
      energies of neutral compounds.
- 
- 
+
+
   - title: "L-2-Hydroxyglutarate production arises from noncanonical enzyme function at acidic pH"
     authors: # Use same name in publication
     - Intlekofer A
     - Wang B
     - Liu H
     - Shah H
-    - Carmona-Fontaine C    
-    - Rustenburg AS 
+    - Carmona-Fontaine C
+    - Rustenburg AS
     - Salah S
     - Gunner MR
     - Chodera JD
     - Cross JR
-    - Thompson CB    
+    - Thompson CB
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-     - Thompson CB     
+     - Thompson CB
     # Add these other fields are optional; fill in as much information as is available
     journal: Nature Chemical Biology
     volume: 13
@@ -1219,25 +1220,25 @@ papers:
     # These links may be listed in the choderalab.org/publications/ page
     doi: http://dx.doi.org/10.1038/nchembio.2307
     PDF: https://choderalab.squarespace.com/s/nchembio2307.pdf
-    GitHub: https://github.com/choderalab/LDHA-MCCE  
+    GitHub: https://github.com/choderalab/LDHA-MCCE
     funding:
-    - NIH Grant P30 CA008748    
+    - NIH Grant P30 CA008748
     description: >
      At low pH, metabolic enzymes lactate dehydrogenase and malate dehydrogenase undergo shifts
      in substrate utilization that have high relevance to cancer metabolism due to surprisingly
      simple protonation state effects.
-  
- 
-  - title: "A water-mediated allosteric network governs activation of Aurora kinase A"    
+
+
+  - title: "A water-mediated allosteric network governs activation of Aurora kinase A"
   - authors: # Use same name in publication
     - Cyphers S
     - Ruff E
     - Behr JM
     - Chodera JD
-    - Levinson NM      
+    - Levinson NM
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-     - Levinson NM     
+     - Levinson NM
     # Add these other fields are optional; fill in as much information as is available
     journal: Nature Chemical Biology
     volume: 13
@@ -1247,34 +1248,34 @@ papers:
     # These links may be listed in the choderalab.org/publications/ page
     doi: http://dx.doi.org/10.1038/nchembio.2296
     PDF: https://choderalab.squarespace.com/s/nchembio2296.pdf
-    GitHub: http://github.com/choderalab/AurA-materials 
+    GitHub: http://github.com/choderalab/AurA-materials
     funding:
-    - NIH Grant P30 CA008748    
+    - NIH Grant P30 CA008748
     description: >
-     Over 50 microseconds of aggregate simulation data on Folding@home reveal a surprisingly 
+     Over 50 microseconds of aggregate simulation data on Folding@home reveal a surprisingly
      stable hydrogen bond network underlies allosteric activation by Tpx2.
- 
- 
-  - title: "Mechanistically distinct cancer-associated mTOR activation clusters predict sensitivity to rapamycin"    
+
+
+  - title: "Mechanistically distinct cancer-associated mTOR activation clusters predict sensitivity to rapamycin"
   - authors: # Use same name in publication
     - Xu Jianing
     - Pham CG
     - Albanese SK
     - Dong Yiyu
-    - Oyama T      
+    - Oyama T
     - Lee CH
     - Rodrik-Outmezguine V
     - Yao Z
     - Han S
-    - Chen D     
+    - Chen D
     - Parton DL
     - Chodera JD
     - Rosen N
     - Cheng EH
-    - Hsieh J    
+    - Hsieh J
    # Corresponding authors have their email addresses listed
     corresponding-authors:
-     - Hsieh J 
+     - Hsieh J
     # Add these other fields are optional; fill in as much information as is available
     journal: Journal of Clinical Investigation
     volume: 126
@@ -1286,25 +1287,25 @@ papers:
     PDF: https://choderalab.squarespace.com/s/JCI86120.pdf
     funding:
     - NIH Grant P30 CA008748
-    - Folding@Home    
+    - Folding@Home
     description: >
-     In work with the James Hsieh lab at MSKCC, we examine the surprising origin of how 
-     different clinically-identified cancer-associated mutations in MTOR activate the 
-     kinase through distinct mechanisms. 
- 
- 
-  - title: "Measuring experimental cyclohexane-water distribution coefficients for the SAMPL5 challenge"    
+     In work with the James Hsieh lab at MSKCC, we examine the surprising origin of how
+     different clinically-identified cancer-associated mutations in MTOR activate the
+     kinase through distinct mechanisms.
+
+
+  - title: "Measuring experimental cyclohexane-water distribution coefficients for the SAMPL5 challenge"
   - authors: # Use same name in publication
     - Ariën S. Rustenburg
     - Justin Dancer
     - Baiwei Lin
     - Jianweng A. Feng
-    - Daniel F. Ortwine      
+    - Daniel F. Ortwine
     - David L. Mobley
     - John D. Chodera
    # Corresponding authors have their email addresses listed
     corresponding-authors:
-     - John D. Chodera    
+     - John D. Chodera
     # Add these other fields are optional; fill in as much information as is available
     journal: Journal of Computer-Aided Molecular Design
     volume: 30
@@ -1313,27 +1314,27 @@ papers:
     year: 2016
     # These links may be listed in the choderalab.org/publications/ page
     doi: http://dx.doi.org/10.1007/s10822-016-9971-7
-    bioRxiv: http://dx.doi.org/10.1101/063081    
+    bioRxiv: http://dx.doi.org/10.1101/063081
     PDF: http://biorxiv.org/content/early/2016/07/10/063081.full.pdf
-    GitHub: https://github.com/choderalab/sampl5-experimental-logd-data    
+    GitHub: https://github.com/choderalab/sampl5-experimental-logd-data
     funding:
-    - NIH Grant P30 CA008748    
+    - NIH Grant P30 CA008748
     description: >
-     Solicited manuscript for special issue of the Journal of Computer Aided Molecular Design on 
+     Solicited manuscript for special issue of the Journal of Computer Aided Molecular Design on
      the SAMPL5 Challenge.
-     The SAMPL Challenges have driven predictive physical modeling for ligand:protein binding 
-     forward by focusing the community on a series of blind challenges that evaluate performance 
-     on blind datasets, focus attention on current challenges for physical modeling techniques, 
-     and provide high-quality experimental datasets to the community after the challenge is over. 
-     For many years, challenges focused around hydration free energies have proven to be extremely 
-     useful, with theory now able to determine when experiment is wrong. To replace these challenges, 
-     since no more hydration free energy data is being measured, we proposed to use the partition or 
+     The SAMPL Challenges have driven predictive physical modeling for ligand:protein binding
+     forward by focusing the community on a series of blind challenges that evaluate performance
+     on blind datasets, focus attention on current challenges for physical modeling techniques,
+     and provide high-quality experimental datasets to the community after the challenge is over.
+     For many years, challenges focused around hydration free energies have proven to be extremely
+     useful, with theory now able to determine when experiment is wrong. To replace these challenges,
+     since no more hydration free energy data is being measured, we proposed to use the partition or
      distribution coefficients of small druglike molecules between aqueous and apolar phases. We
-     report the collection of cyclohexane-water partition data for a set of compounds used to 
-     drive the SAMPL5 distribution coefficient challenge, providing the experimental data, 
-     methodology, and insight for future iterations of this challenge. 
- 
- 
+     report the collection of cyclohexane-water partition data for a set of compounds used to
+     drive the SAMPL5 distribution coefficient challenge, providing the experimental data,
+     methodology, and insight for future iterations of this challenge.
+
+
   - title: "Ensembler: Enabling high-throughput molecular simulations at the superfamily scale"
   - authors: # Use same name in publication
     - Daniel L. Parton
@@ -1345,24 +1346,24 @@ papers:
     corresponding-authors:
      - John D. Chodera
     # Add these other fields are optional; fill in as much information as is available
-    journal: PLoS Computational Biology 
+    journal: PLoS Computational Biology
     volume: 12
     page: 6  # just first page
     publication-date: 2016-06-23 # use ISO 8601 date format YYYY-MM-DD
     year: 2016
     # These links may be listed in the choderalab.org/publications/ page
     doi: http://dx.doi.org/10.1371/journal.pcbi.1004728
-    PDF: https://choderalab.squarespace.com/s/Ensembler-enabling-high-throughput-molecular-simulations-at-the-superfamily-scale.pdf    
-    bioRxiv: http://dx.doi.org/10.1101/018036    
-    Dryad: http://dx.doi.org/10.5061/dryad.7fg32    
-    GitHub: http://github.com/choderalab/ensembler    
+    PDF: https://choderalab.squarespace.com/s/Ensembler-enabling-high-throughput-molecular-simulations-at-the-superfamily-scale.pdf
+    bioRxiv: http://dx.doi.org/10.1101/018036
+    Dryad: http://dx.doi.org/10.5061/dryad.7fg32
+    GitHub: http://github.com/choderalab/ensembler
     funding: none
     description: >
-     We demonstrate a new tool that enables---for the first time---massively parallel molecular 
-     simulation studies of biomolecular dynamics at the superfamily scale, illustrating its 
+     We demonstrate a new tool that enables---for the first time---massively parallel molecular
+     simulation studies of biomolecular dynamics at the superfamily scale, illustrating its
      application to protein tyrosine kinases, an important class of drug targets in cancer.
-    
- 
+
+
   - title: "A simple method for automated equilibration detection in molecular simulations"
   - authors: # Use same name in publication
     - John D. Chodera
@@ -1370,33 +1371,33 @@ papers:
     corresponding-authors:
      - John D. Chodera
     # Add these other fields are optional; fill in as much information as is available
-    journal: Journal of Chemical Theory and Computation 
+    journal: Journal of Chemical Theory and Computation
     volume: 12
     page: 1799  # just first page
     publication-date: 2016-01-15 # use ISO 8601 date format YYYY-MM-DD
     year: 2016
     # These links may be listed in the choderalab.org/publications/ page
     doi: http://dx.doi.org/10.1021/acs.jctc.5b00784
-    PDF: https://choderalab.squarespace.com/s/A-simple-method-for-automated-equilibration-detection-in-molecular-simulations.pdf    
-    bioRxiv: http://dx.doi.org/10.1101/021659    
-    pymbar.timeseries: http://pymbar.org/    
-    GitHub: https://github.com/choderalab/automatic-equilibration-detection    
+    PDF: https://choderalab.squarespace.com/s/A-simple-method-for-automated-equilibration-detection-in-molecular-simulations.pdf
+    bioRxiv: http://dx.doi.org/10.1101/021659
+    pymbar.timeseries: http://pymbar.org/
+    GitHub: https://github.com/choderalab/automatic-equilibration-detection
     funding: none
     description: >
-     We present a simple scheme for automatically selecting how much initial simulation data to 
-     discard to equilibration or burn-in based on maximizing the number of statistically uncorrelated 
+     We present a simple scheme for automatically selecting how much initial simulation data to
+     discard to equilibration or burn-in based on maximizing the number of statistically uncorrelated
      samples in the dataset.
      Keywords: molecular simulation; molecular dynamics; burn-in; equilibration; production; analysis
-     
-     
+
+
   - title: "Modeling error in experimental assays using the bootstrap principle: Understanding discrepancies between assays using different dispensing technologies"
   - authors: # Use same name in publication
     - Sonya M. Hanson
-    - Sean Ekins    
+    - Sean Ekins
     - John D. Chodera
    # Corresponding authors have their email addresses listed
     corresponding-authors:
-     - John D. Chodera    
+     - John D. Chodera
      # Add these other fields are optional; fill in as much information as is available
     journal: Journal of Computer Aided Molecular Design
     volume: 29
@@ -1405,65 +1406,65 @@ papers:
     year: 2015
     # These links may be listed in the choderalab.org/publications/ page
     doi: http://dx.doi.org/10.1007/s10822-015-9888-6
-    PDF: https://choderalab.squarespace.com/s/Modeling-error-in-experimental-assays-using-the-bootstrap-principle-understanding-discrepancies-betw.pdf    
-    bioRxiv: http://dx.doi.org/10.1101/033985  
-    GitHub: https://github.com/choderalab/dispensing-errors-manuscript/blob/master/notebooks/echo-vs-tips.ipynb   
+    PDF: https://choderalab.squarespace.com/s/Modeling-error-in-experimental-assays-using-the-bootstrap-principle-understanding-discrepancies-betw.pdf
+    bioRxiv: http://dx.doi.org/10.1101/033985
+    GitHub: https://github.com/choderalab/dispensing-errors-manuscript/blob/master/notebooks/echo-vs-tips.ipynb
     Pipeline Blog Post: http://blogs.sciencemag.org/pipeline/archives/2013/05/03/drug_assay_numbers_all_over_the_place
     funding: none
     description: >
-     The drug development community faced a puzzling challenge when a disturbing paper published in PLoS 
-     One demonstrated results from the same assay performed with different dispensing technologies both 
-     varied wildly and significantly different in magnitude of reported potencies. Inspired by a talk 
-     given at the 2014 CADD GRC by Cosma Shalizi on bootstrapping to model error, we show how this 
-     simple idea can help explain a large amount of the discrepancy in this assay, and provide 
-     simple mathematical tools and an IPython notebook illustrating how easy it is to model the 
-     error and bias in experimental assays even when other information about assay reliability 
+     The drug development community faced a puzzling challenge when a disturbing paper published in PLoS
+     One demonstrated results from the same assay performed with different dispensing technologies both
+     varied wildly and significantly different in magnitude of reported potencies. Inspired by a talk
+     given at the 2014 CADD GRC by Cosma Shalizi on bootstrapping to model error, we show how this
+     simple idea can help explain a large amount of the discrepancy in this assay, and provide
+     simple mathematical tools and an IPython notebook illustrating how easy it is to model the
+     error and bias in experimental assays even when other information about assay reliability
      is unavailable.
-     
-     
+
+
   - title: "Avoiding accuracy-limiting pitfalls in the study of protein-ligand interactions with isothermal titration calorimetry"
   - authors: # Use same name in publication
     - Sarah E. Boyce
-    - Joel Tellinghuisen    
+    - Joel Tellinghuisen
     - John D. Chodera
    # Corresponding authors have their email addresses listed
     corresponding-authors:
-     - John D. Chodera    
+     - John D. Chodera
      # Add these other fields are optional; fill in as much information as is available
     journal: Manuscript prior to submission
     publication-date: 2015-08-03 # use ISO 8601 date format YYYY-MM-DD
     year: 2015
     # These links may be listed in the choderalab.org/publications/ page
     doi: http://dx.doi.org/10.1101/023796
-    PDF Worksheet: https://choderalab.squarespace.com/s/itc-worksheet.pdf    
-    PDF: https://choderalab.squarespace.com/s/ITC-Worksheet-for-bovine-CAII-CBS.pdf    
-    XLSX: https://choderalab.squarespace.com/s/ITC-Worksheet-for-bovine-CAII-CBS.xlsx    
-    ODS: https://choderalab.squarespace.com/s/ITC-Worksheet-for-bovine-CAII-CBS.ods    
-    bioRxiv: http://dx.doi.org/10.1101/023796  
-    GitHub: https://github.com/choderalab/dispensing-errors-manuscript/blob/master/notebooks/echo-vs-tips.ipynb   
+    PDF Worksheet: https://choderalab.squarespace.com/s/itc-worksheet.pdf
+    PDF: https://choderalab.squarespace.com/s/ITC-Worksheet-for-bovine-CAII-CBS.pdf
+    XLSX: https://choderalab.squarespace.com/s/ITC-Worksheet-for-bovine-CAII-CBS.xlsx
+    ODS: https://choderalab.squarespace.com/s/ITC-Worksheet-for-bovine-CAII-CBS.ods
+    bioRxiv: http://dx.doi.org/10.1101/023796
+    GitHub: https://github.com/choderalab/dispensing-errors-manuscript/blob/master/notebooks/echo-vs-tips.ipynb
     Pipeline Blog Post: http://blogs.sciencemag.org/pipeline/archives/2013/05/03/drug_assay_numbers_all_over_the_place
     funding: none
     description: >
-     We show how to avoid common accuracy-limiting mistakes in isothermal titration calorimetry, and 
-     provide a simple spreadsheet to aid in propagating the dominant source of uncertainty 
+     We show how to avoid common accuracy-limiting mistakes in isothermal titration calorimetry, and
+     provide a simple spreadsheet to aid in propagating the dominant source of uncertainty
      (titrant concentration errors) into the resulting thermodynamic parameters.
      Keywords: isothermal titration calorimetry; ITC; propagation of error; entropy-enthalpy compensation
-     
-     
+
+
   - title: "Hypoxia induces production of L-2-hydroxyglutarate"
   - authors: # Use same name in publication
     - Andrew M. Intlekofer
-    - Raymond G. Dematteo    
+    - Raymond G. Dematteo
     - Sriram Venneti
     - Lydia W.S. Finley
-    - Chao Lu    
-    - Alexander R. Judkins   
+    - Chao Lu
+    - Alexander R. Judkins
     - Ariën S. Rustenburg
-    - Patrick B. Grinaway    
-    - John D. Chodera   
+    - Patrick B. Grinaway
+    - John D. Chodera
     -  Justin R. Cross
-    - Craig B. Thompson   
-    - John D. Chodera  
+    - Craig B. Thompson
+    - John D. Chodera
    # Corresponding authors have their email addresses listed
     corresponding-authors:
      - Craig B. Thompson
@@ -1475,26 +1476,26 @@ papers:
     year: 2015
     # These links may be listed in the choderalab.org/publications/ page
     doi: http://dx.doi.org/10.1016/j.cmet.2015.06.023
-    PDF: https://choderalab.squarespace.com/s/Hypoxia-induces-production-of-L-2-hyroxyglutarate.pdf  
+    PDF: https://choderalab.squarespace.com/s/Hypoxia-induces-production-of-L-2-hyroxyglutarate.pdf
     funding: none
     description: >
-     None 
- 
- 
+     None
+
+
   - title: "Towards Automated Benchmarking of Atomistic Forcefields: Neat Liquid Densities and Static Dielectric Constants from the ThermoML Data Archive"
   - authors: # Use same name in publication
     - Kyle A. Beauchamp
-    - Julie M. Behr   
+    - Julie M. Behr
     - Ariën S. Rustenburg
     - Christopher I. Bayly
-    - Kenneth Kroenlein    
-    - John D. Chodera   
+    - Kenneth Kroenlein
+    - John D. Chodera
    # Corresponding authors have their email addresses listed
     corresponding-authors:
-     - Kyle A. Beauchamp     
-     - John D. Chodera     
+     - Kyle A. Beauchamp
+     - John D. Chodera
     # Add these other fields are optional; fill in as much information as is available
-    journal: Journal of Physical Chemistry B 
+    journal: Journal of Physical Chemistry B
     volume: 119
     page: 12912  # just first page
     publication-date: 2015-09-04 # use ISO 8601 date format YYYY-MM-DD
@@ -1503,26 +1504,26 @@ papers:
     doi: http://dx.doi.org/10.1021/acs.jpcb.5b06703
     PDF: https://choderalab.squarespace.com/s/benchmark-27z0.pdf
     GitHub: https://github.com/choderalab/LiquidBenchmark
-    arXiv: http://arxiv.org/abs/1506.00262     
+    arXiv: http://arxiv.org/abs/1506.00262
     funding: none
     description: >
-     Progress in forcefield validation and parameterization has been hindered by the availability 
-     of high-quality machine-readable physical property data for small organic molecules. We show 
-     how the NIST ThermoML dataset provides a solution to this problem, and demonstrate its utility 
-     in benchmarking the GAFF/AM1-BCC small molecule forcefield on neat liquid densities and static 
-     dielectric constants to uncover problems in the representation of low-dielectric environments. 
+     Progress in forcefield validation and parameterization has been hindered by the availability
+     of high-quality machine-readable physical property data for small organic molecules. We show
+     how the NIST ThermoML dataset provides a solution to this problem, and demonstrate its utility
+     in benchmarking the GAFF/AM1-BCC small molecule forcefield on neat liquid densities and static
+     dielectric constants to uncover problems in the representation of low-dielectric environments.
 
 
-  - title: "Markov state models of biomolecular conformational dynamics" 
+  - title: "Markov state models of biomolecular conformational dynamics"
   - authors: # Use same name in publication
     - John D. Chodera
     - Frank Noé
    # Corresponding authors have their email addresses listed
     corresponding-authors:
      - John D. Chodera
-     - Frank Noé     
+     - Frank Noé
     # Add these other fields are optional; fill in as much information as is available
-    journal: Current Opinion in Structural Biology 
+    journal: Current Opinion in Structural Biology
     volume: 25
     page: 135  # just first page
     publication-date: 2014-04-01 # use ISO 8601 date format YYYY-MM-DD
@@ -1532,20 +1533,20 @@ papers:
     PDF: https://choderalab.squarespace.com/s/14_CurrOpin_ChoderaNoe_MSMReview.pdf
     funding: none
     description: >
-     A review of the exciting developments in the stochastic modeling of biomolecular dynamics 
-     over the last few years.     
+     A review of the exciting developments in the stochastic modeling of biomolecular dynamics
+     over the last few years.
 
 
-  - title: "Spectral rate theory for two-state kinetics" 
+  - title: "Spectral rate theory for two-state kinetics"
   - authors: # Use same name in publication
-    - Jan-Hendrik Prinz    
+    - Jan-Hendrik Prinz
     - John D. Chodera
     - Frank Noé
    # Corresponding authors have their email addresses listed
     corresponding-authors:
-     - Frank Noé     
+     - Frank Noé
     # Add these other fields are optional; fill in as much information as is available
-    journal: Physical Review X 
+    journal: Physical Review X
     volume: 4
     publication-date: 2014-02-21 # use ISO 8601 date format YYYY-MM-DD
     year: 2014
@@ -1554,19 +1555,19 @@ papers:
     PDF: https://choderalab.squarespace.com/s/Spectral-rate-theory-of-two-state-kinetics.pdf
     funding: none
     description: >
-     We present a new mathematical framework for unifying various two-state rate theories presented in the 
-     physical chemistry literature over many decades, and provide a quantitative way to measure reaction 
+     We present a new mathematical framework for unifying various two-state rate theories presented in the
+     physical chemistry literature over many decades, and provide a quantitative way to measure reaction
      coordinate quality.
 
 
-  - title: "Time step rescaling recovers continuous-time dynamical properties for discrete-time Langevin integration of nonequilibrium systems" 
+  - title: "Time step rescaling recovers continuous-time dynamical properties for discrete-time Langevin integration of nonequilibrium systems"
   - authors: # Use same name in publication
-    - David A. Sivak    
+    - David A. Sivak
     - John D. Chodera
     - Gavin E. Crooks
    # Corresponding authors have their email addresses listed
     corresponding-authors:
-     - David A. Sivak     
+     - David A. Sivak
     # Add these other fields are optional; fill in as much information as is available
     journal: Journal of Physical Chemistry B
     volume: 118
@@ -1578,19 +1579,19 @@ papers:
     PDF: https://choderalab.squarespace.com/s/Time-step-rescaling-recovers-continuous-time-dynamical-properties-for-discrete-time-Langevin-intergr.pdf
     funding: none
     description: >
-     We derive a simple, easy to implement Langevin integrator that has universally useful properties in 
-     molecular simulations.  
+     We derive a simple, easy to implement Langevin integrator that has universally useful properties in
+     molecular simulations.
 
 
-  - title: "Identifying ligand binding sites and poses using GPU-accelerated Hamiltonian replica exchange molecular dynamics" 
+  - title: "Identifying ligand binding sites and poses using GPU-accelerated Hamiltonian replica exchange molecular dynamics"
   - authors: # Use same name in publication
-    - Kai Wang K    
+    - Kai Wang K
     - John D. Chodera
     - Yanzhi Yang
-    - Michael R. Shirts   
+    - Michael R. Shirts
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-     - Michael R. Shirts     
+     - Michael R. Shirts
     # Add these other fields are optional; fill in as much information as is available
     journal: Journal of Computer-Aided Molecular Design
     volume: 27
@@ -1602,21 +1603,21 @@ papers:
     PDF: https://choderalab.squarespace.com/s/J-Comput-Aided-Mol-Des-2013-Wang.pdf
     funding: none
     description: >
-     We show how bound ligand poses can be identified even when the location of the binding sites 
-     are unknown using the machinery of alchemical modern free energy calculations on graphics 
-     processors. 
+     We show how bound ligand poses can be identified even when the location of the binding sites
+     are unknown using the machinery of alchemical modern free energy calculations on graphics
+     processors.
 
 
-  - title: "Systematic improvement of a classical molecular model of water" 
+  - title: "Systematic improvement of a classical molecular model of water"
   - authors: # Use same name in publication
-    - Lee-Ping Wang    
+    - Lee-Ping Wang
     - Teresa L. Head-Gordon
     - Jay W. Ponder
-    - Pengyu Ren   
-    - John D. Chodera    
+    - Pengyu Ren
+    - John D. Chodera
     - Peter K. Eastman
     - Todd J. Martinez
-    - Vijay S. Pande    
+    - Vijay S. Pande
     # Corresponding authors have their email addresses listed
     corresponding-authors:
      - Vijay S. Pande
@@ -1631,17 +1632,17 @@ papers:
     PDF: https://choderalab.squarespace.com/s/Systematic-improvement-of-a-classical-molecular-model-of-water.pdf
     funding: none
     description: >
-     A new inexpensive polarizable model of liquid water for next-generation forcefields is derived using an 
+     A new inexpensive polarizable model of liquid water for next-generation forcefields is derived using an
      automated parameterization engine.
 
 
-  - title: "Entropy-enthalpy compensation: Role and ramifications for rational ligand design" 
+  - title: "Entropy-enthalpy compensation: Role and ramifications for rational ligand design"
   - authors: # Use same name in publication
-    - John D. Chodera    
-    - David L. Mobley   
+    - John D. Chodera
+    - David L. Mobley
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-     - John D. Chodera    
+     - John D. Chodera
      - David L. Mobley
     # Add these other fields are optional; fill in as much information as is available
     journal: Annual Review of Biophysics
@@ -1654,18 +1655,18 @@ papers:
     PDF: https://choderalab.squarespace.com/s/Annu-Rev-Biophys-2013-Chodera.pdf
     funding: none
     description: >
-     Entropy-enthalpy compensation is likely a universal phenomena, but not as severe as widely thought, and 
+     Entropy-enthalpy compensation is likely a universal phenomena, but not as severe as widely thought, and
      likely not of enormous concern for drug discovery and ligand design.
 
 
-  - title: "Using nonequilibrium fluctuation theorems to understand and correct errors in equilibrium and nonequilibrium discrete Langevin dynamics simulations" 
+  - title: "Using nonequilibrium fluctuation theorems to understand and correct errors in equilibrium and nonequilibrium discrete Langevin dynamics simulations"
   - authors: # Use same name in publication
-    - David A. Sivak    
-    - John D. Chodera    
-    - Gavin E. Crooks   
+    - David A. Sivak
+    - John D. Chodera
+    - Gavin E. Crooks
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-     - David A. Sivak   
+     - David A. Sivak
     # Add these other fields are optional; fill in as much information as is available
     journal: Physical Review X
     volume: 3
@@ -1676,30 +1677,30 @@ papers:
     PDF: https://choderalab.squarespace.com/s/using-nonequilibrium-flucuation-theorems-to-understand-and-correct-errors-in-equilibrium-and-nonequi.pdf
     funding:
     description: >
-     The finite-timestep errors in molecular dynamics simulations can be interpreted as a form of 
-     nonequilibrium work.  We show how this leads to straightforward schemes for correcting for these errors 
-     or assessing their impact. Keywords: velocity verlet with Velocity randomization; VVVR; nonequilibrium 
+     The finite-timestep errors in molecular dynamics simulations can be interpreted as a form of
+     nonequilibrium work.  We show how this leads to straightforward schemes for correcting for these errors
+     or assessing their impact. Keywords: velocity verlet with Velocity randomization; VVVR; nonequilibrium
      free energy; integrator error; nonequilibrium integration
 
 
-  - title: "OpenMM 4: A reusable, extensible, hardware independent library for high performance molecular simulation" 
+  - title: "OpenMM 4: A reusable, extensible, hardware independent library for high performance molecular simulation"
   - authors: # Use same name in publication
-    - Peter Eastman    
-    - Mark S. Friedrichs    
-    - John D. Chodera   
-    - Randy J. Radmer    
-    - Chris M. Bruns    
-    - Joy P. Ku    
-    - Kyle A. Beauchamp    
-    - T. J. Lane    
-    - Lee-Ping Wang    
-    - Diwakar Shukla    
-    - Tony Tye    
-    - Mike Houston   
-    - Timo Stich    
-    - Christoph Klein    
-    - Michael R. Shirts    
-    - Vijay S. Pande  
+    - Peter Eastman
+    - Mark S. Friedrichs
+    - John D. Chodera
+    - Randy J. Radmer
+    - Chris M. Bruns
+    - Joy P. Ku
+    - Kyle A. Beauchamp
+    - T. J. Lane
+    - Lee-Ping Wang
+    - Diwakar Shukla
+    - Tony Tye
+    - Mike Houston
+    - Timo Stich
+    - Christoph Klein
+    - Michael R. Shirts
+    - Vijay S. Pande
     # Corresponding authors have their email addresses listed
     corresponding-authors:
      - Peter Eastman
@@ -1717,15 +1718,15 @@ papers:
      We describe the latest version of an open-source, GPU-accelerated library and toolkit for molecular simulation.
 
 
-  - title: "The limitations of constant-force-feedback experiments" 
+  - title: "The limitations of constant-force-feedback experiments"
   - authors: # Use same name in publication
-    - Phillip J. Elms    
-    - John D. Chodera    
-    - Carlos J. Bustamante   
-    - Susan Marqusee      
+    - Phillip J. Elms
+    - John D. Chodera
+    - Carlos J. Bustamante
+    - Susan Marqusee
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-     - Susan Marqusee     
+     - Susan Marqusee
     # Add these other fields are optional; fill in as much information as is available
     journal: National Academy of Sciences
     volume: 103
@@ -1737,15 +1738,15 @@ papers:
     PDF: https://choderalab.squarespace.com/s/PNAS-2012-Elms-3796-801.pdf
     funding: none
     description: >
-     Popular constant-force-feedback single-molecule experiments can cause severe artifacts in 
-     single-molecule force spectroscopy data.  We demonstrate a simple alternative that eliminates 
+     Popular constant-force-feedback single-molecule experiments can cause severe artifacts in
+     single-molecule force spectroscopy data.  We demonstrate a simple alternative that eliminates
      these artifacts.
 
 
-  - title: "On the use of experimental observations to bias simulated ensembles" 
+  - title: "On the use of experimental observations to bias simulated ensembles"
   - authors: # Use same name in publication
-    - Jed W. Pitera    
-    - John D. Chodera         
+    - Jed W. Pitera
+    - John D. Chodera
     # Corresponding authors have their email addresses listed
     corresponding-authors:
      -Jed W. Pitera
@@ -1760,22 +1761,22 @@ papers:
     PDF: https://choderalab.squarespace.com/s/on-the-use-of-experimental-observations-to-bias-simulated-ensembles.pdf
     funding: none
     description: >
-     We show how the concept of maximum entropy can be used to recover unbiased conformational distributions 
-     from experimental data, and how this concept relates to the popular `ensemble refinement' schemes for 
+     We show how the concept of maximum entropy can be used to recover unbiased conformational distributions
+     from experimental data, and how this concept relates to the popular `ensemble refinement' schemes for
      NMR data analysis.
 
 
-  - title: "The molten globule state is unusually deformable under mechanical force" 
+  - title: "The molten globule state is unusually deformable under mechanical force"
   - authors: # Use same name in publication
-    - Philip J. Elms    
-    - John D. Chodera         
+    - Philip J. Elms
+    - John D. Chodera
     - Carlos Bustamante
-    - Susan Marqusee    
+    - Susan Marqusee
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-     - Susan Marqusee    
+     - Susan Marqusee
     # Add these other fields are optional; fill in as much information as is available
-    journal: Proceedings of the National Academy of Sciences USA 
+    journal: Proceedings of the National Academy of Sciences USA
     volume: 109
     page: 3796  # just first page
     publication-date: 2012-03-06 # use ISO 8601 date format YYYY-MM-DD
@@ -1785,17 +1786,17 @@ papers:
     PDF: https://choderalab.squarespace.com/s/the-molten-globule-state-is-unusually-deformable-under-mechanical-force.pdf
     funding: none
     description: >
-     We measure the physical properties of the molten globule state of apo-myoglobin, and 
+     We measure the physical properties of the molten globule state of apo-myoglobin, and
      show that it is unusually deformable compared to typical protein native states.
 
 
-  - title: "Replica exchange and expanded ensemble simulations as Gibbs sampling: Simple improvements for enhanced mixing" 
-  - authors: # Use same name in publication    
-    - John D. Chodera         
-    - Michael R. Shirts   
+  - title: "Replica exchange and expanded ensemble simulations as Gibbs sampling: Simple improvements for enhanced mixing"
+  - authors: # Use same name in publication
+    - John D. Chodera
+    - Michael R. Shirts
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-     -  Michael R. Shirts    
+     -  Michael R. Shirts
     # Add these other fields are optional; fill in as much information as is available
     journal: Journal of Chemical Physics
     volume: 135
@@ -1807,20 +1808,20 @@ papers:
     PDF: https://choderalab.squarespace.com/s/replica-exchange-and-expanded-ensemble-simulations-as-gibbs-sampling-simple-improvements-for-enhance.pdf
     funding: none
     description: >
-     We show how a simple change to the way exchanges are handled in the popular replica-exchange 
+     We show how a simple change to the way exchanges are handled in the popular replica-exchange
      simulation methodology can enormously increase efficiency at no increase in computational cost.
 
 
-  - title: "The ribosome modulates nascent protein folding" 
-  - authors: # Use same name in publication    
-    - Christian M. Kaiser         
-    - Daniel H. Goldman   
-    - John D. Chodera         
-    - Ignacio Tinoco Jr.    
-    - Carlos Bustamante    
+  - title: "The ribosome modulates nascent protein folding"
+  - authors: # Use same name in publication
+    - Christian M. Kaiser
+    - Daniel H. Goldman
+    - John D. Chodera
+    - Ignacio Tinoco Jr.
+    - Carlos Bustamante
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-     - Carlos Bustamante 
+     - Carlos Bustamante
     # Add these other fields are optional; fill in as much information as is available
     journal: Science
     volume: 334
@@ -1832,19 +1833,19 @@ papers:
     PDF: https://choderalab.squarespace.com/s/replica-exchange-and-expanded-ensemble-simulations-as-gibbs-sampling-simple-improvements-for-enhance.pdf
     funding: none
     description: >
-     Using single-molecule force spectroscopy, we show how the ribosome itself modulates the folding 
+     Using single-molecule force spectroscopy, we show how the ribosome itself modulates the folding
      dynamics of nascent protein chains emerging from the exit tunnel.
 
 
-  - title: "Nonequilibrium candidate Monte Carlo is an efficient tool for equilibrium simulation" 
-  - authors: # Use same name in publication    
-    - Jerome P. Nilmeier         
-    - Gavin E. Crooks  
-    - David D. L. Minh         
-    - John D. Chodera       
+  - title: "Nonequilibrium candidate Monte Carlo is an efficient tool for equilibrium simulation"
+  - authors: # Use same name in publication
+    - Jerome P. Nilmeier
+    - Gavin E. Crooks
+    - David D. L. Minh
+    - John D. Chodera
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-     - John D. Chodera    
+     - John D. Chodera
     # Add these other fields are optional; fill in as much information as is available
     journal: Proceedings of the National Academy of Sciences USA
     volume: 108
@@ -1856,18 +1857,18 @@ papers:
     PDF: https://choderalab.squarespace.com/s/nonequilibrium-candidate-monte-carlo-is-an-effecient-tool-for-equilibrium-simulation.pdf
     funding: none
     description: >
-     We present a significant generalization of Monte Carlo methods that provide an enormously useful 
-     tool for enhancing the efficiency of molecular simulations and enabling molecular design. Keywords: NCMC; 
-     Monte Carlo; Metropolis-Hastings; acceptance rates; molecular dynamics 
- 
- 
-  - title: "Splitting probabilities as a test of reaction coordinate choice in single-molecule experiments" 
-  - authors: # Use same name in publication             
-    - John D. Chodera 
-    - Vijay S. Pande    
+     We present a significant generalization of Monte Carlo methods that provide an enormously useful
+     tool for enhancing the efficiency of molecular simulations and enabling molecular design. Keywords: NCMC;
+     Monte Carlo; Metropolis-Hastings; acceptance rates; molecular dynamics
+
+
+  - title: "Splitting probabilities as a test of reaction coordinate choice in single-molecule experiments"
+  - authors: # Use same name in publication
+    - John D. Chodera
+    - Vijay S. Pande
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-     - Vijay S. Pande 
+     - Vijay S. Pande
     # Add these other fields are optional; fill in as much information as is available
     journal: Physical Review Letters
     volume: 107
@@ -1880,43 +1881,43 @@ papers:
     funding: none
     description: >
      We demonstrate a simple test for identifying poor reaction coordinates in single-molecule experiments.
- 
- 
-  - title: "A robust approach to estimating rates from time-correlation functions" 
-  - authors: # Use same name in publication             
-    - John D. Chodera 
-    - Phillip J. Elms    
-    - William C. Swope 
-    - Jan-Hendrik Prinz   
-    - Susan Marqusee 
-    - Carlos Bustamante  
-    - Frank Noé 
-    - Vijay S. Pande   
+
+
+  - title: "A robust approach to estimating rates from time-correlation functions"
+  - authors: # Use same name in publication
+    - John D. Chodera
+    - Phillip J. Elms
+    - William C. Swope
+    - Jan-Hendrik Prinz
+    - Susan Marqusee
+    - Carlos Bustamante
+    - Frank Noé
+    - Vijay S. Pande
    # Corresponding authors have their email addresses listed
     corresponding-authors:
-     - Vijay S. Pande 
+     - Vijay S. Pande
     # Add these other fields are optional; fill in as much information as is available
     journal: Preprint ahead of submission
     publication-date: 2011-08-10 # use ISO 8601 date format YYYY-MM-DD
     year: 2011
     # These links may be listed in the choderalab.org/publications/ page
-    arXiov: https://arxiv.org/abs/1108.2304    
+    arXiov: https://arxiv.org/abs/1108.2304
     PDF: https://arxiv.org/pdf/1108.2304.pdf
     SI: https://arxiv.org/src/1108.2304v1/anc/rate-theory-supplementary.pdf
     funding: none
     description: >
-     The estimation of rates from experimental single-molecule data is fraught with peril. We 
-     describe some of the failures of existing methods and suggest a robust way to estimate 
-     rates from time-correlation functions. 
- 
- 
-  - title: "The Social Network (of protein conformations)" 
-  - authors: # Use same name in publication             
-    - John D. Chodera 
-    - Vijay S. Pande   
+     The estimation of rates from experimental single-molecule data is fraught with peril. We
+     describe some of the failures of existing methods and suggest a robust way to estimate
+     rates from time-correlation functions.
+
+
+  - title: "The Social Network (of protein conformations)"
+  - authors: # Use same name in publication
+    - John D. Chodera
+    - Vijay S. Pande
    # Corresponding authors have their email addresses listed
     corresponding-authors:
-     - John D. Chodera 
+     - John D. Chodera
     # Add these other fields are optional; fill in as much information as is available
     journal: Proceedings of the National Academy of Sciences USA
     volume: 108
@@ -1924,24 +1925,24 @@ papers:
     publication-date: 2011-07-29 # use ISO 8601 date format YYYY-MM-DD
     year: 2011
     # These links may be listed in the choderalab.org/publications/ page
-    DOI: http://dx.doi.org/10.1073/pnas.1109571108    
+    DOI: http://dx.doi.org/10.1073/pnas.1109571108
     PDF: https://choderalab.squarespace.com/s/the-social-network-of-protein-conformations.pdf
     funding: none
     description: >
-     Commentary: A new methodology for mapping protein conformational spaces is reminiscent of how we 
+     Commentary: A new methodology for mapping protein conformational spaces is reminiscent of how we
      use two-dimensional maps to navigate a three-dimensional world.
 
 
-  - title: "Bayesian hidden Markov model analysis of single-molecule force spectroscopy: Characterizing kinetics under measurement uncertainty" 
-  - authors: # Use same name in publication             
-    - John D. Chodera 
-    - Phillip Elms   
-    - Frank Noé 
-    - Bettina Keller   
-    - Christian M. Kaiser   
-    - Aaron Ewall-Wice 
+  - title: "Bayesian hidden Markov model analysis of single-molecule force spectroscopy: Characterizing kinetics under measurement uncertainty"
+  - authors: # Use same name in publication
+    - John D. Chodera
+    - Phillip Elms
+    - Frank Noé
+    - Bettina Keller
+    - Christian M. Kaiser
+    - Aaron Ewall-Wice
     - Susan Marqusee
-    - Carlos Bustamante 
+    - Carlos Bustamante
     - Nina Singhal Hinrichs
    # Corresponding authors have their email addresses listed
     corresponding-authors:
@@ -1951,19 +1952,19 @@ papers:
     publication-date: 2011-08-06 # use ISO 8601 date format YYYY-MM-DD
     year: 2011
     # These links may be listed in the choderalab.org/publications/ page
-    arXiv: http://arxiv.org/abs/1108.1430 
+    arXiv: http://arxiv.org/abs/1108.1430
     funding: none
     description: >
-     We describe the general theory and implementation for a Bayesian extension of hidden Markov models 
-     applicable to the characterization of how measurement uncertainty and finite statistics can impact 
+     We describe the general theory and implementation for a Bayesian extension of hidden Markov models
+     applicable to the characterization of how measurement uncertainty and finite statistics can impact
      the confidence in rate constants and conformational state properties.
 
 
 
-  - title: "Systematic errors in isothermal titration calorimetry: Concentrations and baselines" 
-  - authors: # Use same name in publication             
-    - Joel T. Tellinghuisen 
-    - John D. Chodera  
+  - title: "Systematic errors in isothermal titration calorimetry: Concentrations and baselines"
+  - authors: # Use same name in publication
+    - Joel T. Tellinghuisen
+    - John D. Chodera
    # Corresponding authors have their email addresses listed
     corresponding-authors:
      - Joel T. Tellinghuisen
@@ -1974,79 +1975,79 @@ papers:
     publication-date: 2011-07-15 # use ISO 8601 date format YYYY-MM-DD
     year: 2011
     # These links may be listed in the choderalab.org/publications/ page
-    DOI: http://dx.doi.org/10.1016/j.ab.2011.03.024    
+    DOI: http://dx.doi.org/10.1016/j.ab.2011.03.024
     PDF: https://choderalab.squarespace.com/s/systematic-errors-in-isothermal-titration-calorimetry-concentrations-and-baselines.pdf
     funding: none
     description: >
-     A word of caution about large errors in isothermal titration calorimetry measurements arising from 
+     A word of caution about large errors in isothermal titration calorimetry measurements arising from
      ligand concentration errors.
 
 
-  - title: "Dynamical reweighting: Improved estimates for dynamical properties from simulations at multiple temperatures" 
-  - authors: # Use same name in publication             
-    - John D. Chodera 
+  - title: "Dynamical reweighting: Improved estimates for dynamical properties from simulations at multiple temperatures"
+  - authors: # Use same name in publication
+    - John D. Chodera
     - William C. Swope
-    - Frank Noé 
-    - Jan-Hendrik Prinz    
-    - Michael R. Shirts 
-    - Vijay S. Pande    
+    - Frank Noé
+    - Jan-Hendrik Prinz
+    - Michael R. Shirts
+    - Vijay S. Pande
    # Corresponding authors have their email addresses listed
     corresponding-authors:
-     - John D. Chodera    
+     - John D. Chodera
     # Add these other fields are optional; fill in as much information as is available
-    journal: Journal of Chemical Physics 
+    journal: Journal of Chemical Physics
     volume: 134
     page:  244107 # just first page
     publication-date: 2011-06-24 # use ISO 8601 date format YYYY-MM-DD
     year: 2011
     # These links may be listed in the choderalab.org/publications/ page
-    DOI: http://dx.doi.org/10.1063/1.3592152    
+    DOI: http://dx.doi.org/10.1063/1.3592152
     PDF: https://choderalab.squarespace.com/s/Dynamical-reweighting-improved-estimates-of-dynamical-propeerties-from-simulations-at-multiple-tempe.pdfines.pdf
     funding: none
     description: >
-     We describe how reweighing techniques can provide optimal estimates of temperature-dependent dynamical 
+     We describe how reweighing techniques can provide optimal estimates of temperature-dependent dynamical
      properties from simulations conducted at multiple temperatures.
 
 
-  - title: "Optimal use of data in parallel tempering simulations for the construction of discrete-state Markov models of biomolecular dynamics" 
-  - authors: # Use same name in publication             
-    - Jan-Hendrik Prinz 
+  - title: "Optimal use of data in parallel tempering simulations for the construction of discrete-state Markov models of biomolecular dynamics"
+  - authors: # Use same name in publication
+    - Jan-Hendrik Prinz
     - John D. Chodera
     - Vijay S. Pande
-    - Jeremy C. Smith    
-    - Frank Noé   
+    - Jeremy C. Smith
+    - Frank Noé
    # Corresponding authors have their email addresses listed
     corresponding-authors:
-     - Jan-Hendrik Prinz     
+     - Jan-Hendrik Prinz
      - John D. Chodera
     # Add these other fields are optional; fill in as much information as is available
-    journal: Journal of Chemical Physics 
+    journal: Journal of Chemical Physics
     volume: 134
     page:  244108 # just first page
     publication-date: 2011-06-24 # use ISO 8601 date format YYYY-MM-DD
     year: 2011
     # These links may be listed in the choderalab.org/publications/ page
-    DOI: http://dx.doi.org/10.1063/1.3592153   
+    DOI: http://dx.doi.org/10.1063/1.3592153
     PDF: https://choderalab.squarespace.com/s/optimal-use-of-data-in-parallel-tempering-simulations-for-the-construction-of-discrete-state-markov.pdf
     funding: none
     description: >
      None
 
 
-  - title: "Markov models of molecular kinetics: Generation and validation" 
-  - authors: # Use same name in publication             
-    - Jan-Hendrik Prinz 
+  - title: "Markov models of molecular kinetics: Generation and validation"
+  - authors: # Use same name in publication
+    - Jan-Hendrik Prinz
     - Hao Wu
     - Marco Sarich
-    - Bettina Keller    
-    - Martin Fischbach 
+    - Bettina Keller
+    - Martin Fischbach
     - Martin Held
     - John D. Chodera
-    - Christof Schüttle    
-    - Frank Noé   
+    - Christof Schüttle
+    - Frank Noé
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-     - Frank Noé       
+     - Frank Noé
     # Add these other fields are optional; fill in as much information as is available
     journal: Journal of Chemical Physics
     volume: 134
@@ -2054,92 +2055,92 @@ papers:
     publication-date: 2011-05-04 # use ISO 8601 date format YYYY-MM-DD
     year: 2011
     # These links may be listed in the choderalab.org/publications/ page
-    DOI: http://dx.doi.org/10.1063/1.3565032   
+    DOI: http://dx.doi.org/10.1063/1.3565032
     PDF: https://choderalab.squarespace.com/s/markov-models-of-molecular-kinetics-generation-and-validation.pdf
     funding: none
     description: >
-     A review of current best practices for the generation and validation of Markov state models for 
+     A review of current best practices for the generation and validation of Markov state models for
      describing the stochastic dynamics of biomolecular systems.
 
 
-  - title: "Machine learning force fields and coarse-grained variables in molecular dynamics: application to materials and biological systems" 
-  - authors: # Use same name in publication             
+  - title: "Machine learning force fields and coarse-grained variables in molecular dynamics: application to materials and biological systems"
+  - authors: # Use same name in publication
     - Paraskevi Gkeka
     - Gabriel Stoltz
     - Amir Barati Farimani
-    - Zineb Belkacemi    
-    - Michele Ceriotti 
+    - Zineb Belkacemi
+    - Michele Ceriotti
     - John Chodera
-    - Aaron R Dinner    
-    - Andrew Ferguson   
-    - Jean-Bernard Maillet 
+    - Aaron R Dinner
+    - Andrew Ferguson
+    - Jean-Bernard Maillet
     - Hervé Minoux
     - Christine Peter
-    - Fabio Pietrucci    
-    - Ana Silveira 
+    - Fabio Pietrucci
+    - Ana Silveira
     - Alexandre Tkatchenko
     - Zofia Trstanova
-    - Rafal Wiewiora    
-    - Tony Lelièvre 
+    - Rafal Wiewiora
+    - Tony Lelièvre
     # Corresponding authors have their email addresses listed
     corresponding-authors:
      - Paraskevi Gkeka
      - Gabriel Stoltz
-     - Tony Lelièvre    
+     - Tony Lelièvre
     # Add these other fields are optional; fill in as much information as is available
     journal: arXiv preprint
     volume: 2004
     publication-date: 2020-04-15 # use ISO 8601 date format YYYY-MM-DD
     year: 2020
-    # These links may be listed in the choderalab.org/publications/ page  
+    # These links may be listed in the choderalab.org/publications/ page
     PDF: https://arxiv.org/pdf/2004.06950
     funding: none
     description: >
-     Machine learning encompasses a set of tools and algorithms which are now becoming popular in almost 
-     all scientific and technological fields. This is true for molecular dynamics as well, where machine 
-     learning offers promises of extracting valuable information from the enormous amounts of data 
-     generated by simulation of complex systems. We provide here a review of our current understanding 
-     of goals, benefits, and limitations of machine learning techniques for computational studies on 
-     atomistic systems, focusing on the construction of empirical force fields from ab-initio 
-     databases and the determination of reaction coordinates for free energy computation and enhanced 
+     Machine learning encompasses a set of tools and algorithms which are now becoming popular in almost
+     all scientific and technological fields. This is true for molecular dynamics as well, where machine
+     learning offers promises of extracting valuable information from the enormous amounts of data
+     generated by simulation of complex systems. We provide here a review of our current understanding
+     of goals, benefits, and limitations of machine learning techniques for computational studies on
+     atomistic systems, focusing on the construction of empirical force fields from ab-initio
+     databases and the determination of reaction coordinates for free energy computation and enhanced
      sampling.
-     
- 
-  - title: "Free energy methods in drug discovery and design: Progress and challenges" 
-  - authors: # Use same name in publication             
+
+
+  - title: "Free energy methods in drug discovery and design: Progress and challenges"
+  - authors: # Use same name in publication
     - John D. Chodera
     - David L. Mobley
     - Michael R. Shirts
     - Richard W. Dixon
-    - Kim M. Branson    
-    - Vijay S. Pande    
+    - Kim M. Branson
+    - Vijay S. Pande
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-     - Vijay S. Pande      
+     - Vijay S. Pande
     # Add these other fields are optional; fill in as much information as is available
     journal: Current Opinion in Structural Biology
     volume: 21
     page: 150  # just first page
     publication-date: 2011-04-01 # use ISO 8601 date format YYYY-MM-DD
     year: 2011
-    # These links may be listed in the choderalab.org/publications/ page  
-    DOI: http://dx.doi.org/10.1016/j.sbi.2011.01.011    
-    PDF: http://www.choderalab.org/s/free-energy-methods-in-drug-discovery-and-design-progress-and-challenges.pdf    
+    # These links may be listed in the choderalab.org/publications/ page
+    DOI: http://dx.doi.org/10.1016/j.sbi.2011.01.011
+    PDF: http://www.choderalab.org/s/free-energy-methods-in-drug-discovery-and-design-progress-and-challenges.pdf
     funding: none
     description: >
      A review of the opportunities and challenges for alchemical free energy calculations in drug discovery
-     and design.  
-     
-     
-  - title: "Dynamical fingerprints: A theoretical framework for understanding biomolecular processes by combination of simulation and kinetic experiments" 
-  - authors: # Use same name in publication             
+     and design.
+
+
+  - title: "Dynamical fingerprints: A theoretical framework for understanding biomolecular processes by combination of simulation and kinetic experiments"
+  - authors: # Use same name in publication
     - Frank Noé
     - Sören Doose
     - Isabella Daidone
     - Marc Löllmann
-    - Markus Sauer    
-    - John D. Chodera 
-    - Jeremy C. Smith    
+    - Markus Sauer
+    - John D. Chodera
+    - Jeremy C. Smith
     # Corresponding authors have their email addresses listed
     corresponding-authors:
     - Frank Noé
@@ -2149,174 +2150,174 @@ papers:
     page: 4822  # just first page
     publication-date: 2011-03-22 # use ISO 8601 date format YYYY-MM-DD
     year: 2011
-    # These links may be listed in the choderalab.org/publications/ page  
-    DOI: http://dx.doi.org/10.1073/pnas.1004646108    
-    PDF: http://www.choderalab.org/s/dynamical-fingerprints-a-theoretical-framework-for-understanding-biomolecular-processes-by-combinati.pdf    
+    # These links may be listed in the choderalab.org/publications/ page
+    DOI: http://dx.doi.org/10.1073/pnas.1004646108
+    PDF: http://www.choderalab.org/s/dynamical-fingerprints-a-theoretical-framework-for-understanding-biomolecular-processes-by-combinati.pdf
     funding: none
     description: >
-     We present a new framework for comparing essential features of the dynamics between experiment and 
-     simulation to identify the kinetics processes contributing to individual relaxation timescales in 
-     perturbation-response or correlation spectroscopy experiments.  
-     
-     
-  - title: "Estimating equilibrium ensemble averages using multiple time slices from driven nonequilibrium processes" 
-  - authors: # Use same name in publication             
+     We present a new framework for comparing essential features of the dynamics between experiment and
+     simulation to identify the kinetics processes contributing to individual relaxation timescales in
+     perturbation-response or correlation spectroscopy experiments.
+
+
+  - title: "Estimating equilibrium ensemble averages using multiple time slices from driven nonequilibrium processes"
+  - authors: # Use same name in publication
     - David D. L. Minh
-    - John D. Chodera   
+    - John D. Chodera
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-    - John D. Chodera    
+    - John D. Chodera
     # Add these other fields are optional; fill in as much information as is available
     journal: Journal of Chemical Physics
     volume: 134
     publication-date: 2011-01-12 # use ISO 8601 date format YYYY-MM-DD
     year: 2011
-    # These links may be listed in the choderalab.org/publications/ page  
+    # These links may be listed in the choderalab.org/publications/ page
     DOI: http://dx.doi.org/10.1063/1.3516517
-    PDF: http://www.choderalab.org/s/Estimating-equilibrium-ensemble-averages-using-multiple-time-slices-from-driven-nonequilibrium-proce.pdf   
+    PDF: http://www.choderalab.org/s/Estimating-equilibrium-ensemble-averages-using-multiple-time-slices-from-driven-nonequilibrium-proce.pdf
     funding: none
     description: >
-     We derive a new estimator for estimating equilibrium expectations from nonequilibrium experiments, 
-     and show how it can be used to estimate a variety of useful quantities in simulated single-molecule 
+     We derive a new estimator for estimating equilibrium expectations from nonequilibrium experiments,
+     and show how it can be used to estimate a variety of useful quantities in simulated single-molecule
      force spectroscopy experiments.
-     
-     
-  - title: "Probability distributions of molecular observables computed from Markov models. II. Uncertainties in observables and their time-evolution" 
-  - authors: # Use same name in publication             
+
+
+  - title: "Probability distributions of molecular observables computed from Markov models. II. Uncertainties in observables and their time-evolution"
+  - authors: # Use same name in publication
     - Frank Noé
-    - John D. Chodera   
+    - John D. Chodera
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-    - Frank Noé    
-    - John D. Chodera    
+    - Frank Noé
+    - John D. Chodera
     # Add these other fields are optional; fill in as much information as is available
     journal: Journal of Chemical Physics
     volume: 133
     page:   # just first page
     publication-date: 2010-09-08 # use ISO 8601 date format YYYY-MM-DD
     year: 2010
-    # These links may be listed in the choderalab.org/publications/ page  
+    # These links may be listed in the choderalab.org/publications/ page
     DOI: http://dx.doi.org/10.1063/1.3463406
-    PDF: http://www.choderalab.org/s/probability-distributions-of-molecular-observables-computed-from-Markov-models.pdf   
+    PDF: http://www.choderalab.org/s/probability-distributions-of-molecular-observables-computed-from-Markov-models.pdf
     funding: none
     description: >
-     A simple Bayesian approach for the modeling of statistical uncertainties in kinetic and equilibrium 
+     A simple Bayesian approach for the modeling of statistical uncertainties in kinetic and equilibrium
      quantities computed from Markov state models of biomolecular dynamics.
-     
-     
-  - title: "The mechanical properties of PCNA: Implications for the loading and function of a DNA sliding clamp" 
-  - authors: # Use same name in publication             
+
+
+  - title: "The mechanical properties of PCNA: Implications for the loading and function of a DNA sliding clamp"
+  - authors: # Use same name in publication
     - Joshua L. Adelman
-    - John D. Chodera   
+    - John D. Chodera
     - I. W. Kuo
-    - Thomas F. Miller III    
-    - Daniel Barsky   
+    - Thomas F. Miller III
+    - Daniel Barsky
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-    - Daniel Barsky       
+    - Daniel Barsky
     # Add these other fields are optional; fill in as much information as is available
     journal: Biophysical Journal
     volume: 98
     page: 3062  # just first page
     publication-date: 2010-06-16 # use ISO 8601 date format YYYY-MM-DD
     year: 2010
-    # These links may be listed in the choderalab.org/publications/ page  
+    # These links may be listed in the choderalab.org/publications/ page
     DOI: http://dx.doi.org/10.1016/j.bpj.2010.03.056
-    PDF: http://www.choderalab.org/s/the-mechanical-properties-of-PCNA-implications-for-the-loading-and-function-of-a-DNA-sliding-clamp.pdf  
+    PDF: http://www.choderalab.org/s/the-mechanical-properties-of-PCNA-implications-for-the-loading-and-function-of-a-DNA-sliding-clamp.pdf
     funding: none
     description: >
      Molecular simulations of the PCNA clamp responsible for DNA polymerase processivity show a surprisingly
      small energetic penalty for the deformation required for clamp loading.
-     
-     
-  - title: "Current status of the AMOEBA polarizable force field" 
-  - authors: # Use same name in publication             
+
+
+  - title: "Current status of the AMOEBA polarizable force field"
+  - authors: # Use same name in publication
     - Jay W. Ponder
-    - Chuanjie Wu   
+    - Chuanjie Wu
     - Pengyu Ren
-    - Vijay S. Pande   
-    - John D. Chodera   
+    - Vijay S. Pande
+    - John D. Chodera
     - Joshua L. Adelman
-    - John D. Chodera   
+    - John D. Chodera
     - David L. Mobley
-    - Michael J. Schnieders    
-    - Imran Haque       
+    - Michael J. Schnieders
+    - Imran Haque
     - David S. Lambrecht
-    - Robert A. DiStasio Jr.   
+    - Robert A. DiStasio Jr.
     - Martin Head-Gordon
-    - Gary N. I. Clark    
-    - Margaret E. Johnson      
-    - Teresa Head-Gordon    
+    - Gary N. I. Clark
+    - Margaret E. Johnson
+    - Teresa Head-Gordon
     # Corresponding authors have their email addresses listed
     corresponding-authors:
     - Teresa Head-Gordon
     # Add these other fields are optional; fill in as much information as is available
-    journal: Journal of Physical Chemistry B 
+    journal: Journal of Physical Chemistry B
     volume: 114
     page: 2549  # just first page
     publication-date: 2010-02-05 # use ISO 8601 date format YYYY-MM-DD
     year: 2010
-    # These links may be listed in the choderalab.org/publications/ page  
+    # These links may be listed in the choderalab.org/publications/ page
     DOI: http://dx.doi.org/10.1021/jp910674d
-    PDF: http://www.choderalab.org/s/current-status-of-the-AMOEBA-polarizable-force-field.pdf  
+    PDF: http://www.choderalab.org/s/current-status-of-the-AMOEBA-polarizable-force-field.pdf
     funding: none
     description: >
-     A report on the status of the AMOEBA polarizable force field and its ability to reproduce a diverse 
+     A report on the status of the AMOEBA polarizable force field and its ability to reproduce a diverse
      set of physical chemical phenomenon to high accuracy.
-     
-     
-  - title: "Optimal estimators and asymptotic variances for nonequilibrium path-ensemble averages" 
-  - authors: # Use same name in publication             
-    - David D. D. L. Minh 
-    - John D. Chodera    
+
+
+  - title: "Optimal estimators and asymptotic variances for nonequilibrium path-ensemble averages"
+  - authors: # Use same name in publication
+    - David D. D. L. Minh
+    - John D. Chodera
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-    - John D. Chodera     
+    - John D. Chodera
     # Add these other fields are optional; fill in as much information as is available
     journal: Journal of Chemical Physics
     volume: 131
     page: 134110  # just first page
     publication-date: 2009-10-06 # use ISO 8601 date format YYYY-MM-DD
     year: 2009
-    # These links may be listed in the choderalab.org/publications/ page  
+    # These links may be listed in the choderalab.org/publications/ page
     DOI: http://dx.doi.org/10.1063/1.3242285
-    PDF: http://www.choderalab.org/s/optimal-estimators-and-asymptotic-variances-for-nonequilibrium-path-ensemble-averages.pdf  
+    PDF: http://www.choderalab.org/s/optimal-estimators-and-asymptotic-variances-for-nonequilibrium-path-ensemble-averages.pdf
     funding: none
     description: >
-     We derive an optimal estimator and corresponding statistical uncertainties for inferring expectations 
-     of bidirectional nonequilibrium processes.  These estimators have widespread applicability in 
+     We derive an optimal estimator and corresponding statistical uncertainties for inferring expectations
+     of bidirectional nonequilibrium processes.  These estimators have widespread applicability in
      single-molecule biophysical force-spectroscopy experiments and nonequilibrium molecular simulations.
-     
-     
-     
-  - title: "Bayesian comparison of Markov models of molecular dynamics with detailed balance constraint" 
-  - authors: # Use same name in publication             
-    - Sergio Bacallado 
+
+
+
+  - title: "Bayesian comparison of Markov models of molecular dynamics with detailed balance constraint"
+  - authors: # Use same name in publication
+    - Sergio Bacallado
     - John D. Chodera
-    - Vijay S. Pande    
+    - Vijay S. Pande
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-    - Vijay S. Pande     
+    - Vijay S. Pande
     # Add these other fields are optional; fill in as much information as is available
     journal: Journal of Chemical Physics
     volume: 131
     page: 045106  # just first page
     publication-date: 2009-07-30 # use ISO 8601 date format YYYY-MM-DD
     year: 2009
-    # These links may be listed in the choderalab.org/publications/ page  
+    # These links may be listed in the choderalab.org/publications/ page
     DOI: http://dx.doi.org/10.1063/1.3192309
-    PDF: http://www.choderalab.org/s/Bayesian-comparison-of-Markov-models-of-molecular-dynamics-with-detailed-balance-constraint.pdf  
+    PDF: http://www.choderalab.org/s/Bayesian-comparison-of-Markov-models-of-molecular-dynamics-with-detailed-balance-constraint.pdf
     funding: none
     description: >
-     A Bayesian scheme for comparing state space decompositions for Markov state models of biomolecular 
-     dynamics that incorporates the fact that physical systems must obey detailed balance.  This paper 
+     A Bayesian scheme for comparing state space decompositions for Markov state models of biomolecular
+     dynamics that incorporates the fact that physical systems must obey detailed balance.  This paper
      utilizes recent results from Markov chain theory on edge-reinforced random walks.
-     
-     
-  - title: "Statistically optimal analysis of samples from multiple equilibrium states" 
-  - authors: # Use same name in publication             
-    - Michael R. Shirts 
-    - John D. Chodera   
+
+
+  - title: "Statistically optimal analysis of samples from multiple equilibrium states"
+  - authors: # Use same name in publication
+    - Michael R. Shirts
+    - John D. Chodera
     # Corresponding authors have their email addresses listed
     corresponding-authors:
     - John D. Chodera
@@ -2326,20 +2327,20 @@ papers:
     page: 124105  # just first page
     publication-date: 2008-09-23 # use ISO 8601 date format YYYY-MM-DD
     year: 2008
-    # These links may be listed in the choderalab.org/publications/ page  
+    # These links may be listed in the choderalab.org/publications/ page
     DOI: http://dx.doi.org/10.1063/1.2978177
     PDF: http://www.choderalab.org/s/MBAR-paper.pdf
     funding: none
     description: >
-     We present a highly general, statistically optimal approach for producing estimates of free energies 
-     and equilibrium expectations from multiple simulations that provably extracts all useful information 
-     from the data. Keywords: Multistate Bennett acceptance ratio; MBAR; Bennett acceptance ratio; 
-     BAR; molecular dynamics; Monte Carlo; replica exchange     
-     
-     
-  - title: "Technical Report: Self-consistent definition and computation of the electrostatic field for the Amber and related forcefields with particle-mesh Ewald" 
-  - authors: # Use same name in publication             
-    - John D. Chodera   
+     We present a highly general, statistically optimal approach for producing estimates of free energies
+     and equilibrium expectations from multiple simulations that provably extracts all useful information
+     from the data. Keywords: Multistate Bennett acceptance ratio; MBAR; Bennett acceptance ratio;
+     BAR; molecular dynamics; Monte Carlo; replica exchange
+
+
+  - title: "Technical Report: Self-consistent definition and computation of the electrostatic field for the Amber and related forcefields with particle-mesh Ewald"
+  - authors: # Use same name in publication
+    - John D. Chodera
     # Corresponding authors have their email addresses listed
     corresponding-authors:
     - John D. Chodera
@@ -2347,224 +2348,224 @@ papers:
     journal: Technical Report
     publication-date: 2008-05-22 # use ISO 8601 date format YYYY-MM-DD
     year: 2008
-    # These links may be listed in the choderalab.org/publications/ page  
+    # These links may be listed in the choderalab.org/publications/ page
     PDF: http://www.choderalab.org/s/pme-field.pdf
     funding: none
     description: >
-     This technical report provides information on the computation of the electric field and its gradient 
-     for the Amber forcefield in particle-mesh Ewald (PME) in AMBER 10.  
-     
-     
-  - title: "Predicting small-molecule solvation free energies: A blind challenge test for computational chemistry" 
-  - authors: # Use same name in publication             
+     This technical report provides information on the computation of the electric field and its gradient
+     for the Amber forcefield in particle-mesh Ewald (PME) in AMBER 10.
+
+
+  - title: "Predicting small-molecule solvation free energies: A blind challenge test for computational chemistry"
+  - authors: # Use same name in publication
     - Anthony Nicholls
-    - David L. Mobley    
-    - J. Peter Guthrie    
-    - John D. Chodera 
-    - Vijay S. Pande     
+    - David L. Mobley
+    - J. Peter Guthrie
+    - John D. Chodera
+    - Vijay S. Pande
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-    - Anthony Nicholls    
-    - David L. Mobley    
+    - Anthony Nicholls
+    - David L. Mobley
     # Add these other fields are optional; fill in as much information as is available
     journal: Journal of Medicinal Chemistry
     volume: 51
     page: 769  # just first page
     publication-date: 2008-01-24 # use ISO 8601 date format YYYY-MM-DD
     year: 2008
-    # These links may be listed in the choderalab.org/publications/ page  
-    DOI: http://dx.doi.org/10.1021/jm070549+    
+    # These links may be listed in the choderalab.org/publications/ page
+    DOI: http://dx.doi.org/10.1021/jm070549+
     PDF: http://www.choderalab.org/s/predicting-small-molecule-solvation-free-energies-a-blind-challenge-test-for-computational-chemistry.pdf
     funding: none
     description: >
-     A blind evaluation of the accuracy of alchemical free energy methods for computing gas-to-water 
-     transfer free energies (solvation free energies) of small molecules demonstrates that modern 
+     A blind evaluation of the accuracy of alchemical free energy methods for computing gas-to-water
+     transfer free energies (solvation free energies) of small molecules demonstrates that modern
      forcefields are likely sufficiently accurate to be useful in drug design.
-     
-     
-  - title: "Treating entropy and conformational changes in implicit solvent simulations of small molecules" 
-  - authors: # Use same name in publication             
-    - David L. Mobley       
-    - John D. Chodera 
-    - Ken A. Dill     
+
+
+  - title: "Treating entropy and conformational changes in implicit solvent simulations of small molecules"
+  - authors: # Use same name in publication
+    - David L. Mobley
+    - John D. Chodera
+    - Ken A. Dill
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-    - David L. Mobley        
+    - David L. Mobley
     # Add these other fields are optional; fill in as much information as is available
-    journal: Journal of Physical Chemistry B 
+    journal: Journal of Physical Chemistry B
     volume: 112
     page: 938  # just first page
     publication-date: 2008-01-03 # use ISO 8601 date format YYYY-MM-DD
     year: 2008
-    # These links may be listed in the choderalab.org/publications/ page  
-    DOI: http://dx.doi.org/10.1021/jp0764384   
+    # These links may be listed in the choderalab.org/publications/ page
+    DOI: http://dx.doi.org/10.1021/jp0764384
     PDF: http://www.choderalab.org/s/treating-entropy-and-conformational-changes-in-implicit-slovent-simulations-of-small-molecules.pdf
     funding: none
     description: >
      A quantitative examination of how much conformational entropy contributes to hydration free energies of
      small molecules, with implications for ligand binding.
-     
-     
-  - title: "Accurate and efficient corrections for missing dispersion interactions in molecular simulations" 
-  - authors: # Use same name in publication             
-    - Michael R. Shirts       
-    - David L. Mobley 
-    - John D. Chodera    
-    - Vijay S. Pande     
+
+
+  - title: "Accurate and efficient corrections for missing dispersion interactions in molecular simulations"
+  - authors: # Use same name in publication
+    - Michael R. Shirts
+    - David L. Mobley
+    - John D. Chodera
+    - Vijay S. Pande
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-    - David L. Mobley        
+    - David L. Mobley
     # Add these other fields are optional; fill in as much information as is available
-    journal: Journal of Physical Chemistry B  
+    journal: Journal of Physical Chemistry B
     volume: 111
     page: 13052  # just first page
     publication-date: 2007-10-19 # use ISO 8601 date format YYYY-MM-DD
     year: 2007
-    # These links may be listed in the choderalab.org/publications/ page  
-    DOI: http://dx.doi.org/10.1021/jp0735987   
+    # These links may be listed in the choderalab.org/publications/ page
+    DOI: http://dx.doi.org/10.1021/jp0735987
     PDF: http://www.choderalab.org/s/accurate-and-efficient-corrections-for-missing-dispersion-interactions-in-molecular-simulations.pdf
     funding: none
     description: >
-     We identify a major source of systematic error in absolute alchemical free energy calculations of 
+     We identify a major source of systematic error in absolute alchemical free energy calculations of
      ligand binding and show how a simple procedure can inexpensively and accurately eliminate it.
-  
-  
-  - title: "Alchemical free energy calculations: Ready for prime time?" 
-  - authors: # Use same name in publication             
-    - Michael R. Shirts       
-    - David L. Mobley 
-    - John D. Chodera        
+
+
+  - title: "Alchemical free energy calculations: Ready for prime time?"
+  - authors: # Use same name in publication
+    - Michael R. Shirts
+    - David L. Mobley
+    - John D. Chodera
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-    - Michael R. Shirts    
-    - David L. Mobley 
-    - John D. Chodera      
+    - Michael R. Shirts
+    - David L. Mobley
+    - John D. Chodera
     # Add these other fields are optional; fill in as much information as is available
     journal: Annual Reports in Computational Chemistry
     volume: 3
     page: 41  # just first page
     publication-date: 2007-12-01 # use ISO 8601 date format YYYY-MM-DD
     year: 2007
-    # These links may be listed in the choderalab.org/publications/ page  
-    DOI: http://dx.doi.org/10.1016/S1574-1400(07)03004-6   
+    # These links may be listed in the choderalab.org/publications/ page
+    DOI: http://dx.doi.org/10.1016/S1574-1400(07)03004-6
     PDF: http://www.choderalab.org/s/alchemical-free-energy-calculations-ready-for-prime-time.pdf
     funding: none
     description: >
-     A review of current alchemical free energy methodologies assessing whether they are ready for 
+     A review of current alchemical free energy methodologies assessing whether they are ready for
      practical use in drug discovery and ligand design.
-  
-  
-  - title: "Predicting absolute ligand binding free energies to a simple model site" 
-  - authors: # Use same name in publication             
-    - David L. Mobley       
-    - Alan P. Graves 
+
+
+  - title: "Predicting absolute ligand binding free energies to a simple model site"
+  - authors: # Use same name in publication
+    - David L. Mobley
+    - Alan P. Graves
     - John D. Chodera
-    - Andrea C. McReynolds       
-    - Brian K. Shoichet 
-    - Ken A. Dill     
+    - Andrea C. McReynolds
+    - Brian K. Shoichet
+    - Ken A. Dill
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-    - Brian K. Shoichet 
-    - Ken A. Dill      
+    - Brian K. Shoichet
+    - Ken A. Dill
     # Add these other fields are optional; fill in as much information as is available
-    journal: Journal of Molecular Biology 
+    journal: Journal of Molecular Biology
     volume: 371
     page: 1118  # just first page
     publication-date: 2007-08-24 # use ISO 8601 date format YYYY-MM-DD
     year: 2007
-    # These links may be listed in the choderalab.org/publications/ page  
-    DOI: http://dx.doi.org/10.1016/j.jmb.2007.06.002   
+    # These links may be listed in the choderalab.org/publications/ page
+    DOI: http://dx.doi.org/10.1016/j.jmb.2007.06.002
     PDF: http://www.choderalab.org/s/predicting-absolute-ligand-binding-free-energies-to-a-simple-model-site.pdf
     funding: none
     description: >
-     We show how alchemical free energy calculations are capable of accurate blind prediction of 
+     We show how alchemical free energy calculations are capable of accurate blind prediction of
      small-molecule binding affinities to a simple model protein binding site.
-  
-  
-  - title: "The protein folding problem: When will it be solved?" 
-  - authors: # Use same name in publication             
-    - Ken A. Dill       
-    - S. Banu Ozkan 
+
+
+  - title: "The protein folding problem: When will it be solved?"
+  - authors: # Use same name in publication
+    - Ken A. Dill
+    - S. Banu Ozkan
     - Thomas R. Weikl
-    - John D. Chodera       
-    - Vincent A. Voelz    
+    - John D. Chodera
+    - Vincent A. Voelz
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-    - Ken A. Dill     
+    - Ken A. Dill
     # Add these other fields are optional; fill in as much information as is available
     journal: Current Opinion in Structural Biology
     volume: 17
     page: 342  # just first page
     publication-date: 2007-06-01 # use ISO 8601 date format YYYY-MM-DD
     year: 2007
-    # These links may be listed in the choderalab.org/publications/ page  
-    DOI: http://dx.doi.org/10.1016/j.sbi.2007.06.001   
+    # These links may be listed in the choderalab.org/publications/ page
+    DOI: http://dx.doi.org/10.1016/j.sbi.2007.06.001
     PDF: http://www.choderalab.org/s/the-protein-folding-problem-when-will-it-be-solved.pdf
     funding: none
     description: >
      A review of the current state of the protein folding problem.
-  
-  
-  - title: "Confine-and-release method: Obtaining correct binding free energies in the presence of protein conformational change" 
-  - authors: # Use same name in publication             
-    - David L. Mobley       
-    - John D. Chodera 
-    - Ken A. Dill    
+
+
+  - title: "Confine-and-release method: Obtaining correct binding free energies in the presence of protein conformational change"
+  - authors: # Use same name in publication
+    - David L. Mobley
+    - John D. Chodera
+    - Ken A. Dill
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-    - Ken A. Dill     
+    - Ken A. Dill
     # Add these other fields are optional; fill in as much information as is available
     journal: Journal of Chemical Theory and Computation
     volume: 3
     page: 1231  # just first page
     publication-date: 2007-05-23 # use ISO 8601 date format YYYY-MM-DD
     year: 2007
-    # These links may be listed in the choderalab.org/publications/ page  
-    DOI: http://dx.doi.org/10.1021/ct700032n  
+    # These links may be listed in the choderalab.org/publications/ page
+    DOI: http://dx.doi.org/10.1021/ct700032n
     PDF: http://www.choderalab.org/s/confine-and-release-method-obtaining-correct-binding-free-energies-in-the-prescence-of-protein-confo.pdf
     funding: none
     description: >
-     We present a general scheme for obtaining correct ligand binding affinities when protein 
-     conformational change is implicated in ligand binding  
-  
-  
-  - title: "Protein Folding by Zipping and Assembly" 
-  - authors: # Use same name in publication             
-    - S. Banu Ozkan       
+     We present a general scheme for obtaining correct ligand binding affinities when protein
+     conformational change is implicated in ligand binding
+
+
+  - title: "Protein Folding by Zipping and Assembly"
+  - authors: # Use same name in publication
+    - S. Banu Ozkan
     - G. Albert Wu
-    - John D. Chodera    
-    - Ken A. Dill    
+    - John D. Chodera
+    - Ken A. Dill
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-    - Ken A. Dill     
+    - Ken A. Dill
     # Add these other fields are optional; fill in as much information as is available
-    journal: Proceedings of the National Academy of Sciences USA 
+    journal: Proceedings of the National Academy of Sciences USA
     volume: 104
     page: 11987  # just first page
     publication-date: 2007-07-17
     # use ISO 8601 date format YYYY-MM-DD
     year: 2007
-    # These links may be listed in the choderalab.org/publications/ page  
-    DOI: http://dx.doi.org/10.1073/pnas.0703700104  
+    # These links may be listed in the choderalab.org/publications/ page
+    DOI: http://dx.doi.org/10.1073/pnas.0703700104
     PDF: http://www.choderalab.org/s/protein-folding-by-zipping-and-assembly.pdf
     funding: none
     description: >
-     A review of the utility of the proposed zipping and assembly mechanism for the concomitant formation 
-     of secondary and tertiary structure in protein folding for predicting folding pathways and native 
+     A review of the utility of the proposed zipping and assembly mechanism for the concomitant formation
+     of secondary and tertiary structure in protein folding for predicting folding pathways and native
      structures.
-  
-  
-  - title: "Automatic discovery of metastable states for the construction of Markov models of macromolecular conformational dynamics" 
-  - authors: # Use same name in publication             
-    - John D. Chodera       
+
+
+  - title: "Automatic discovery of metastable states for the construction of Markov models of macromolecular conformational dynamics"
+  - authors: # Use same name in publication
+    - John D. Chodera
     - Nina Singhal
     - William C. Swope
     - Jed W. Pitera
-    - Vijay S. Pande    
-    - Ken A. Dill    
+    - Vijay S. Pande
+    - Ken A. Dill
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-    - William C. Swope     
+    - William C. Swope
     # Add these other fields are optional; fill in as much information as is available
     journal: Jouyrnal of Chemical Physics
     volume: 126
@@ -2572,28 +2573,28 @@ papers:
     publication-date: 2007-04-19
     # use ISO 8601 date format YYYY-MM-DD
     year: 2007
-    # These links may be listed in the choderalab.org/publications/ page  
-    DOI: http://dx.doi.org/10.1063/1.2714538 
+    # These links may be listed in the choderalab.org/publications/ page
+    DOI: http://dx.doi.org/10.1063/1.2714538
     PDF: http://www.choderalab.org/s/automatic-discovery-of-metastable-states-for-the-construction-of-markov-models-of-macromolecular-con.pdf
     funding: none
     description: >
-     Proposing one of the first automated algorithms for discovering kinetically metastable states of 
-     biomolecules from molecular simulations, this paper shows how many biomolecules can possess 
-     numerous distinct long-lived conformational states even though the the equilibrium populations of 
+     Proposing one of the first automated algorithms for discovering kinetically metastable states of
+     biomolecules from molecular simulations, this paper shows how many biomolecules can possess
+     numerous distinct long-lived conformational states even though the the equilibrium populations of
      these states may too small for standard structural biology techniques to detect.
-  
-  
-  - title: "Comparison of charge models for fixed-charge force fields: Small-molecule hydration free energies in explicit solvent" 
-  - authors: # Use same name in publication             
-    - David L. Mobley       
+
+
+  - title: "Comparison of charge models for fixed-charge force fields: Small-molecule hydration free energies in explicit solvent"
+  - authors: # Use same name in publication
+    - David L. Mobley
     - Élise Dumont
     - John D. Chodera
     - Christopher I. Bayly
-    - Matthew D. Cooper   
-    - Ken A. Dill    
+    - Matthew D. Cooper
+    - Ken A. Dill
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-    - David L. Mobley     
+    - David L. Mobley
     # Add these other fields are optional; fill in as much information as is available
     journal: Journal of Physical Chemistry B
     volume: 111
@@ -2601,433 +2602,420 @@ papers:
     publication-date: 2007-02-10
     # use ISO 8601 date format YYYY-MM-DD
     year: 2007
-    # These links may be listed in the choderalab.org/publications/ page  
-    DOI: http://dx.doi.org/10.1021/jp0667442 
+    # These links may be listed in the choderalab.org/publications/ page
+    DOI: http://dx.doi.org/10.1021/jp0667442
     PDF: http://www.choderalab.org/s/comparison-of-charge-models-for-fixed-charge-force-fields-small-molecule-free-energies-in-explicit-s.pdf
     funding: none
     description: >
-     We compare a number of popular methods for deriving charge models for small molecules, deriving lessons 
+     We compare a number of popular methods for deriving charge models for small molecules, deriving lessons
      about best practices for accurate simulations.
-  
-  
-  - title: "Long-time protein folding dynamics from short-time molecular dynamics simulations" 
-  - authors: # Use same name in publication             
-    - John D. Chodera       
+
+
+  - title: "Long-time protein folding dynamics from short-time molecular dynamics simulations"
+  - authors: # Use same name in publication
+    - John D. Chodera
     - William C. Swope
     - Jed W. Pitera
-    - Ken A. Dill  
+    - Ken A. Dill
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-    - John D. Chodera     
+    - John D. Chodera
     # Add these other fields are optional; fill in as much information as is available
-    journal: Multiscale Modeling & Simulation 
+    journal: Multiscale Modeling & Simulation
     volume: 5
     page: 1214  # just first page
     publication-date: 2006-12-28  # use ISO 8601 date format YYYY-MM-DD
     year: 2006
-    # These links may be listed in the choderalab.org/publications/ page  
+    # These links may be listed in the choderalab.org/publications/ page
     DOI: http://dx.doi.org/10.1137/06065146X
     PDF: http://www.choderalab.org/s/long-time-protein-folding-dynamics-from-short-time-molecular-dynamic-simulations.pdf
     funding:
     description: >
-     We show how the long-time dynamics of biomolecular systems can be recapitulated from statistics 
-     collected from short molecular simulations sampling transitions between kinetically 
+     We show how the long-time dynamics of biomolecular systems can be recapitulated from statistics
+     collected from short molecular simulations sampling transitions between kinetically
      metastable states.
-  
-  
-  - title: "Use of the weighted histogram analysis method for the analysis of simulated and parallel tempering simulations" 
-  - authors: # Use same name in publication             
-    - John D. Chodera       
+
+
+  - title: "Use of the weighted histogram analysis method for the analysis of simulated and parallel tempering simulations"
+  - authors: # Use same name in publication
+    - John D. Chodera
     - William C. Swope
     - Jed W. Pitera
-    - Chaok Seok    
-    - Ken A. Dill  
+    - Chaok Seok
+    - Ken A. Dill
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-    - John D. Chodera     
+    - John D. Chodera
     # Add these other fields are optional; fill in as much information as is available
-    journal: Journal of Chemical Theory and Computation    
+    journal: Journal of Chemical Theory and Computation
     volume: 3
     page: 26  # just first page
     publication-date: 2006-11-09  # use ISO 8601 date format YYYY-MM-DD
     year: 2007
-    # These links may be listed in the choderalab.org/publications/ page  
+    # These links may be listed in the choderalab.org/publications/ page
     DOI: http://dx.doi.org/10.1021/ct0502864
     PDF: http://www.choderalab.org/s/Use-of-the-Weighted-Histogram-Analysis-Method-for-the-Analysis-of-Simulated-and-Parallel-Tempering-S.pdf
     funding:
     description: >
-     The weighted histogram analysis method (WHAM), a mainstay of molecular dynamics simulation analysis, 
-     is thoroughly explained and modernized for the analysis of simulated and parallel tempering simulation 
-     data. 
-  
-  
-  - title: "On the use of orientational restraints and symmetry corrections in alchemical free energy calculations" 
-  - authors: # Use same name in publication             
-    - David L. Mobley       
-    - John D. Chodera  
-    - Ken A. Dill  
+     The weighted histogram analysis method (WHAM), a mainstay of molecular dynamics simulation analysis,
+     is thoroughly explained and modernized for the analysis of simulated and parallel tempering simulation
+     data.
+
+
+  - title: "On the use of orientational restraints and symmetry corrections in alchemical free energy calculations"
+  - authors: # Use same name in publication
+    - David L. Mobley
+    - John D. Chodera
+    - Ken A. Dill
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-    - David L. Mobley    
+    - David L. Mobley
     # Add these other fields are optional; fill in as much information as is available
-    journal: Journal of Chemical Physics    
+    journal: Journal of Chemical Physics
     volume: 125
     page: 084902  # just first page
     publication-date: 2006-08-22  # use ISO 8601 date format YYYY-MM-DD
     year: 2006
-    # These links may be listed in the choderalab.org/publications/ page  
+    # These links may be listed in the choderalab.org/publications/ page
     DOI: http://dx.doi.org/10.1063/1.2221683
     PDF: http://www.choderalab.org/s/on-the-use-of-orientational-restraints-and-symmetry-corrections-in-alchemical-free-energy-calculatio.pdf
     funding:
     description: >
-     We illustrate how orientational restraints can be used to greatly reduce the computational effort in alchemical 
-     calculations of ligand binding free energies, and clarify how symmetry corrections are necessary when 
+     We illustrate how orientational restraints can be used to greatly reduce the computational effort in alchemical
+     calculations of ligand binding free energies, and clarify how symmetry corrections are necessary when
      molecules contain symmetric or pseudosymmetric substituents.
-  
-  
-  - title: "MOPED: Method for optimizing physical energy parameters using decoys" 
-  - authors: # Use same name in publication             
-    - Chaok Seok       
-    - J. B. Rosen  
-    - John D. Chodera    
-    - Ken A. Dill  
+
+
+  - title: "MOPED: Method for optimizing physical energy parameters using decoys"
+  - authors: # Use same name in publication
+    - Chaok Seok
+    - J. B. Rosen
+    - John D. Chodera
+    - Ken A. Dill
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-    - Ken A. Dill    
+    - Ken A. Dill
     # Add these other fields are optional; fill in as much information as is available
-    journal: Journal of Computational Chemistry     
+    journal: Journal of Computational Chemistry
     volume: 24
     page: 89  # just first page
     publication-date: 2002-12-06  # use ISO 8601 date format YYYY-MM-DD
     year: 2002
-    # These links may be listed in the choderalab.org/publications/ page  
+    # These links may be listed in the choderalab.org/publications/ page
     DOI: http://dx.doi.org/10.1002/jcc.10124
     PDF: http://www.choderalab.org/s/Moped-method-for-optimizing-physical-energy-parameters-using-decoys.pdf
     funding: none
     description: >
-     We show how the long-time dynamics of biomolecular systems can be recapitulated from statistics collected 
-     from short molecular simulations sampling transitions between kinetically metastable states. 
-  
-  
-  - title: "An alternative explanation for the catalytic proficiency of orotidine 5'-phosphate decarboxylase" 
-  - authors: # Use same name in publication             
-    - Tai-Sung Lee       
-    - Lillian T. Chong  
-    - John D. Chodera    
-    - Peter A. Kollman  
+     We show how the long-time dynamics of biomolecular systems can be recapitulated from statistics collected
+     from short molecular simulations sampling transitions between kinetically metastable states.
+
+
+  - title: "An alternative explanation for the catalytic proficiency of orotidine 5'-phosphate decarboxylase"
+  - authors: # Use same name in publication
+    - Tai-Sung Lee
+    - Lillian T. Chong
+    - John D. Chodera
+    - Peter A. Kollman
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-    - Tai-Sung Lee    
+    - Tai-Sung Lee
     # Add these other fields are optional; fill in as much information as is available
-    journal: Journal of the American Chemical Society   
+    journal: Journal of the American Chemical Society
     volume: 123
     page: 12837  # just first page
     publication-date: 2001-12-19  # use ISO 8601 date format YYYY-MM-DD
     year: 2001
-    # These links may be listed in the choderalab.org/publications/ page  
+    # These links may be listed in the choderalab.org/publications/ page
     DOI: http://dx.doi.org/10.1021/ja011096f
     PDF: http://www.choderalab.org/s/an-alternative-explanation-for-the-catalytic-proficiency-of-orotidine-5-phosphate-decarboxylase.pdf
     funding: none
     description: >
-     A combined QM and MD analysis of potential plausible mechanisms to explain the enormous catalytic acceleration 
+     A combined QM and MD analysis of potential plausible mechanisms to explain the enormous catalytic acceleration
      of one of the most proficient enzymes known.
-  
-  
-  - title: "Ensemble docking in drug discovery" 
-  - authors: # Use same name in publication             
-    - Rommie E Amaro      
-    - Jerome Baudry  
-    - John D. Chodera    
+
+
+  - title: "Ensemble docking in drug discovery"
+  - authors: # Use same name in publication
+    - Rommie E Amaro
+    - Jerome Baudry
+    - John D. Chodera
     - Özlem Demir
     - J Andrew McCammon
     - Yinglong Miao
-    - Jeremy C Smith    
+    - Jeremy C Smith
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-    - Jeremy C Smith     
+    - Jeremy C Smith
     # Add these other fields are optional; fill in as much information as is available
     journal: Biophysical Journal
     volume: 114
     page: 2271  # just first page
     publication-date: 2018-05-22  # use ISO 8601 date format YYYY-MM-DD
     year: 2018
-    # These links may be listed in the choderalab.org/publications/ page  
+    # These links may be listed in the choderalab.org/publications/ page
     DOI: https://doi.org/10.1016/j.bpj.2018.02.038
     PDF: https://reader.elsevier.com/reader/sd/pii/S0006349518303242?token=85F48C4D928468CDA07A873E3B211CF5A89996E0FC86867073834AB1CE01EF2781E6706EE1C7BD7EE56FBD9F04B9FACB
     funding: none
     description: >
-     Ensemble docking corresponds to the generation of an “ensemble” of drug target conformations 
-     in computational structure-based drug discovery, often obtained by using molecular dynamics 
-     simulation, that is used in docking candidate ligands. This approach is now well established 
-     in the field of early-stage drug discovery. This review gives a historical account of the 
-     development of ensemble docking and discusses some pertinent methodological advances in 
+     Ensemble docking corresponds to the generation of an “ensemble” of drug target conformations
+     in computational structure-based drug discovery, often obtained by using molecular dynamics
+     simulation, that is used in docking candidate ligands. This approach is now well established
+     in the field of early-stage drug discovery. This review gives a historical account of the
+     development of ensemble docking and discusses some pertinent methodological advances in
      conformational sampling.
-  
-  
-  - title: "Results of the 2017 Roadmap survey of the Statistical Assessment of Modeling of Proteins and Ligands (SAMPL) challenge community" 
-  - authors: # Use same name in publication             
-    - David L Mobley      
-    - John D. Chodera    
-    - Michael K Gilson    
+
+
+  - title: "Results of the 2017 Roadmap survey of the Statistical Assessment of Modeling of Proteins and Ligands (SAMPL) challenge community"
+  - authors: # Use same name in publication
+    - David L Mobley
+    - John D. Chodera
+    - Michael K Gilson
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-    - John D. Chodera    
+    - John D. Chodera
     # Add these other fields are optional; fill in as much information as is available
     journal: UC Irvine escholarship.org
     publication-date: 2017-06-21  # use ISO 8601 date format YYYY-MM-DD
     year: 2017
-    # These links may be listed in the choderalab.org/publications/ page  
+    # These links may be listed in the choderalab.org/publications/ page
     PDF: https://escholarship.org/content/qt2jq8s2zr/qt2jq8s2zr.pdf
     funding: none
     description: >
-     The Statistical Assessment of Modeling of Proteins and Ligands (SAMPL) series of blind prediction 
-     challenges provide unbiased, prospective tests of computational methods, serving as a crowdsourcing 
-     mechanism to drive innovation. These challenges solicit submissions from the computational community to 
-     predict properties of interest, such as solvation, partition, or binding of drug-like molecules. 
-     These challenges provided substantial benefit to the community, and have led to roughly 100 publications, 
-     many of which are broadly cited (see attached bibliography). We are currently seeking funding from the 
-     NIH and surveyed the community concerning experiences with SAMPL and how our future plans for SAMPL 
-     can best align with the community’s interests and needs. This document summarizes the results of 
-     this survey and describes our findings. On the whole, the community enthusiastically supports our 
-     plans for the future of SAMPL, and provided modest suggestions to further strengthen our plans. 
+     The Statistical Assessment of Modeling of Proteins and Ligands (SAMPL) series of blind prediction
+     challenges provide unbiased, prospective tests of computational methods, serving as a crowdsourcing
+     mechanism to drive innovation. These challenges solicit submissions from the computational community to
+     predict properties of interest, such as solvation, partition, or binding of drug-like molecules.
+     These challenges provided substantial benefit to the community, and have led to roughly 100 publications,
+     many of which are broadly cited (see attached bibliography). We are currently seeking funding from the
+     NIH and surveyed the community concerning experiences with SAMPL and how our future plans for SAMPL
+     can best align with the community’s interests and needs. This document summarizes the results of
+     this survey and describes our findings. On the whole, the community enthusiastically supports our
+     plans for the future of SAMPL, and provided modest suggestions to further strengthen our plans.
      For up-to-date info please see the SAMPL website.
-  
-  
-  - title: "Uncertainty Estimation" 
-  - authors: # Use same name in publication             
-    - Frank Noé     
-    - John D. Chodera       
+
+
+  - title: "Uncertainty Estimation"
+  - authors: # Use same name in publication
+    - Frank Noé
+    - John D. Chodera
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-    - John D. Chodera    
+    - John D. Chodera
     # Add these other fields are optional; fill in as much information as is available
-    journal: book chapter:  An Introduction to Markov State Models and Their Application to Long Timescale Molecular Simulation    volume: 
+    book: An Introduction to Markov State Models and Their Application to Long Timescale Molecular Simulation
     page: 61  # just first page
     publication-date: 2014-01-01  # use ISO 8601 date format YYYY-MM-DD
     year: 2014
-    # These links may be listed in the choderalab.org/publications/ page  
+    # These links may be listed in the choderalab.org/publications/ page
     PDF: https://scholar.google.com/citations?hl=en&user=nnEg7_8AAAAJ&view_op=list_works&authuser=2&sortby=pubdate#d=gs_md_cita-d&u=%2Fcitations%3Fview_op%3Dview_citation%26hl%3Den%26user%3DnnEg7_8AAAAJ%26cstart%3D20%26pagesize%3D80%26sortby%3Dpubdate%26authuser%3D2%26citation_for_view%3DnnEg7_8AAAAJ%3AStPPYsf1FV0C%26tzom%3D240
     funding: none
     description: >
-     Markov models provide a useful simplified representation for characterizing the long-time statistical 
-     evolution of biomolecules in a manner that allows direct comparison with experiments as well as the 
-     elucidation of mechanistic pathways for an inherently stochastic process. A vital part of meaningful 
-     comparison with experiment is the characterization of the statistical uncertainty in the predicted 
-     experimental measurement, which may take the form of an equilibrium measurement of some spectroscopic 
-     signal, the time-evolution of this signal following a perturbation, or the observation of some statistic 
-     such as the correlation function of the equilibrium dynamics of a single molecule. Without meaningful 
-     error bars which arise from both approximation and statistical error, there is no way to determine 
-     whether the deviations between model and experiment are statistically meaningful. In this chapter, 
+     Markov models provide a useful simplified representation for characterizing the long-time statistical
+     evolution of biomolecules in a manner that allows direct comparison with experiments as well as the
+     elucidation of mechanistic pathways for an inherently stochastic process. A vital part of meaningful
+     comparison with experiment is the characterization of the statistical uncertainty in the predicted
+     experimental measurement, which may take the form of an equilibrium measurement of some spectroscopic
+     signal, the time-evolution of this signal following a perturbation, or the observation of some statistic
+     such as the correlation function of the equilibrium dynamics of a single molecule. Without meaningful
+     error bars which arise from both approximation and statistical error, there is no way to determine
+     whether the deviations between model and experiment are statistically meaningful. In this chapter,
      we describe …
-  
-  
-  - title: "Estimation and validation of Markov models" 
-  - authors: # Use same name in publication             
-    - Jan-Hendrik Prinz    
-    - Frank Noé     
-    - John D. Chodera       
+
+
+  - title: "Estimation and validation of Markov models"
+  - authors: # Use same name in publication
+    - Jan-Hendrik Prinz
+    - Frank Noé
+    - John D. Chodera
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-    - John D. Chodera    
+    - John D. Chodera
     # Add these other fields are optional; fill in as much information as is available
-    journal: book chapter:  An Introduction to Markov State Models and Their Application to Long Timescale Molecular Simulation    
+    book: An Introduction to Markov State Models and Their Application to Long Timescale Molecular Simulation
     page: 45 # just first page
     publication-date: 2014-01-01  # use ISO 8601 date format YYYY-MM-DD
     year: 2014
-    # These links may be listed in the choderalab.org/publications/ page  
+    # These links may be listed in the choderalab.org/publications/ page
     PDF: https://scholar.google.com/citations?hl=en&user=nnEg7_8AAAAJ&view_op=list_works&authuser=2&sortby=pubdate#d=gs_md_cita-d&u=%2Fcitations%3Fview_op%3Dview_citation%26hl%3Den%26user%3DnnEg7_8AAAAJ%26cstart%3D20%26pagesize%3D80%26sortby%3Dpubdate%26authuser%3D2%26citation_for_view%3DnnEg7_8AAAAJ%3A6jAoOr-ogVAC%26tzom%3D240
     funding: none
     description: >
-     This chapter describes approaches to estimate a Markov model transition matrices from simulation data 
-     that has been mapped to a discrete state space, and approaches to validate whether this estimate 
+     This chapter describes approaches to estimate a Markov model transition matrices from simulation data
+     that has been mapped to a discrete state space, and approaches to validate whether this estimate
      is consistent with the simulation data at hand.
-  
-  
-  - title: "Driven Langevin dynamics: heat, work and pseudo-work" 
-  - authors: # Use same name in publication             
-    - David A Sivak    
-    - John D. Chodera     
-    - Gavin E Crooks       
+
+
+  - title: "Driven Langevin dynamics: heat, work and pseudo-work"
+  - authors: # Use same name in publication
+    - David A Sivak
+    - John D. Chodera
+    - Gavin E Crooks
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-    - David A Sivak    
+    - David A Sivak
     # Add these other fields are optional; fill in as much information as is available
     journal: arXiv preprint arXiv
     volume: 1107
     page: 2967 # just first page
     publication-date: 2011-07-18  # use ISO 8601 date format YYYY-MM-DD
     year: 2011
-    # These links may be listed in the choderalab.org/publications/ page  
-    arXiv: https://d1wqtxts1xzle7.cloudfront.net/47085375/Using_Nonequilibrium_Fluctuation_Theorem20160707-8500-1ivdnu3.pdf?1467914204=&response-content-disposition=inline%3B+filename%3DUsing_Nonequilibrium_Fluctuation_Theorem.pdf&Expires=1591814597&Signature=OHFCTqttb1-yRpXKR62K2QqxwgJ1G8vPXmVIACyYsIyKUZ9BVKaFI14gGeAkQm2KQW0x2ggYSpgbzeac1zbllH9bCiYIw-zu-LQ1dE97cLleLucVHZJvGy6YSQves8r4mRvo0FE0WL9746HBONs7T4vgOBIPCcBi8b04XOcVA4oZyEes1~LgXJWVysWAj8Vm~Z2r3AavRoRHXsz4hsU~~s7enBbyAetUp5r9S1IvMCHyMNrLVBbX7f8LxaSDcMems6m0CpMFSj-f5RFMf-BURe0ZBdfJI5q95bSh2FHpT~ao1ZmyBSqvAWIjoe-tBpf3C4ZF2scRcz5WX6TLMDsrzQ__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA    
+    # These links may be listed in the choderalab.org/publications/ page
+    arXiv: https://d1wqtxts1xzle7.cloudfront.net/47085375/Using_Nonequilibrium_Fluctuation_Theorem20160707-8500-1ivdnu3.pdf?1467914204=&response-content-disposition=inline%3B+filename%3DUsing_Nonequilibrium_Fluctuation_Theorem.pdf&Expires=1591814597&Signature=OHFCTqttb1-yRpXKR62K2QqxwgJ1G8vPXmVIACyYsIyKUZ9BVKaFI14gGeAkQm2KQW0x2ggYSpgbzeac1zbllH9bCiYIw-zu-LQ1dE97cLleLucVHZJvGy6YSQves8r4mRvo0FE0WL9746HBONs7T4vgOBIPCcBi8b04XOcVA4oZyEes1~LgXJWVysWAj8Vm~Z2r3AavRoRHXsz4hsU~~s7enBbyAetUp5r9S1IvMCHyMNrLVBbX7f8LxaSDcMems6m0CpMFSj-f5RFMf-BURe0ZBdfJI5q95bSh2FHpT~ao1ZmyBSqvAWIjoe-tBpf3C4ZF2scRcz5WX6TLMDsrzQ__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
     PDF: http://www.academia.edu/download/47085375/Using_Nonequilibrium_Fluctuation_Theorem20160707-8500-1ivdnu3.pdf
     funding: none
     description: >
-     In order to simulate Langevin dynamics on a digital computer it is necessary to adopt some approximate 
-     algorithm that divides time into discrete steps. 2 However, such schemes have an inherent problem: even 
-     with a time-independent Hamiltonian, they do not preserve the canonical equilibrium distribution, nor 
-     are they microscopically reversible (since trajectories and their timereversal do not have the same 
-     probability), but instead simulate a driven nonequilibrium dynamics. Happily, the complications 
-     generated by this unwanted but inevitable breaking of time-reversal symmetry can be remedied3–6 with 
-     insights from nonequilibrium statistical thermodynamics, and by adopting an integration scheme in which 
+     In order to simulate Langevin dynamics on a digital computer it is necessary to adopt some approximate
+     algorithm that divides time into discrete steps. 2 However, such schemes have an inherent problem: even
+     with a time-independent Hamiltonian, they do not preserve the canonical equilibrium distribution, nor
+     are they microscopically reversible (since trajectories and their timereversal do not have the same
+     probability), but instead simulate a driven nonequilibrium dynamics. Happily, the complications
+     generated by this unwanted but inevitable breaking of time-reversal symmetry can be remedied3–6 with
+     insights from nonequilibrium statistical thermodynamics, and by adopting an integration scheme in which
      the breaking of time-reversal symmetry can be isolated and measured.
-  
-  
-  - title: "Alchemical free energy methods for drug discovery: progress and challenges" 
-  - authors: # Use same name in publication             
-    - John D Chodera    
-    - David L Mobley     
+
+
+  - title: "Alchemical free energy methods for drug discovery: progress and challenges"
+  - authors: # Use same name in publication
+    - John D Chodera
+    - David L Mobley
     - Michael R Shirts
-    - Richard W Dixon    
-    - Kim Branson    
-    - Vijay S Pande     
+    - Richard W Dixon
+    - Kim Branson
+    - Vijay S Pande
     # Corresponding authors have their email addresses listed
-    corresponding-authors:    
-    - Vijay S Pande    
+    corresponding-authors:
+    - Vijay S Pande
     # Add these other fields are optional; fill in as much information as is available
     journal: Current Opinion in Structural Biology
     volume: 21
     page: 150 # just first page
     publication-date: 2011-02-11  # use ISO 8601 date format YYYY-MM-DD
     year: 2011
-    # These links may be listed in the choderalab.org/publications/ page  
+    # These links may be listed in the choderalab.org/publications/ page
     DOI: https://dx.doi.org/10.1016%2Fj.sbi.2011.01.011
     PDF: https://reader.elsevier.com/reader/sd/pii/S0959440X11000261?token=AE5F80C35C9319EA26078098A610CA146621256FDA8F0CC6E5CB6353F9DD645042FC2EB325CB6BEEE23AC6D3B52982F2
     funding: none
     description: >
-     Improved rational drug design methods are needed to lower the cost and increase the success rate of drug 
-     discovery and development. Alchemical binding free energy calculations, one potential tool for rational 
-     design, have progressed rapidly over the past decade, but still fall short of providing robust tools for 
-     pharmaceutical engineering. Recent studies, especially on model receptor systems, have clarified many of 
-     the challenges that must be overcome for robust predictions of binding affinity to be useful in rational 
-     design. In this review, inspired by a recent joint academic/industry meeting organized by the authors, 
+     Improved rational drug design methods are needed to lower the cost and increase the success rate of drug
+     discovery and development. Alchemical binding free energy calculations, one potential tool for rational
+     design, have progressed rapidly over the past decade, but still fall short of providing robust tools for
+     pharmaceutical engineering. Recent studies, especially on model receptor systems, have clarified many of
+     the challenges that must be overcome for robust predictions of binding affinity to be useful in rational
+     design. In this review, inspired by a recent joint academic/industry meeting organized by the authors,
      we discuss these challenges and suggest a number of promising approaches for overcoming them.
-  
-  
-  - title: "Master equation models of macromolecular dynamics from atomistic simulation" 
-  - authors: # Use same name in publication             
-    - John D Chodera    
+
+
+  - title: "Master equation models of macromolecular dynamics from atomistic simulation"
+  - authors: # Use same name in publication
+    - John D Chodera
     # Corresponding authors have their email addresses listed
-    corresponding-authors:    
-    - John D Chodera    
+    corresponding-authors:
+    - John D Chodera
     # Add these other fields are optional; fill in as much information as is available
     journal: UCSF Dissertation
     year: 2006
-    # These links may be listed in the choderalab.org/publications/ page  
+    # These links may be listed in the choderalab.org/publications/ page
     Google Scholar Link: https://scholar.google.com/citations?hl=en&user=nnEg7_8AAAAJ&view_op=list_works&authuser=2&sortby=pubdate#d=gs_md_cita-d&u=%2Fcitations%3Fview_op%3Dview_citation%26hl%3Den%26user%3DnnEg7_8AAAAJ%26cstart%3D20%26pagesize%3D80%26sortby%3Dpubdate%26authuser%3D2%26citation_for_view%3DnnEg7_8AAAAJ%3ACd1N8iHLSCsC%26tzom%3D240
     funding: none
     description: >
-     This dissertation is concerned with the construction, validation, and use of master equation models 
-     for the study of macromolecular conformational dynamics. The master equation formalism is a powerful 
-     tool for describing the dynamics of a system that can be characterized by a discrete-state, 
-     continuous-time Markov process. Once constructed from a large quantities of short trajectories, 
-     the evolution of experimentally measurable dynamical observables can be computed and compared 
-     with experiment. Additionally, information not yet directly accessible to experiment but which 
-     may be useful in aiding understanding or the generation of novel hypotheses, such as folding 
-     pathways, transiently populated conformations, and mean first passage times, can also be easily 
-     obtained. We demonstrate that a master equation model constructed from short trajectories can 
-     describe slow conformational dynamics for a solvated alanine peptide over long times, 
-     propose a number of tests to tell whether a model constructed from short trajectories will 
-     adequately describe dynamics over long times, and describe an algorithm for the automatic construction 
-     of these models from simulation data. While the focus here is on protein folding and dynamics, 
+     This dissertation is concerned with the construction, validation, and use of master equation models
+     for the study of macromolecular conformational dynamics. The master equation formalism is a powerful
+     tool for describing the dynamics of a system that can be characterized by a discrete-state,
+     continuous-time Markov process. Once constructed from a large quantities of short trajectories,
+     the evolution of experimentally measurable dynamical observables can be computed and compared
+     with experiment. Additionally, information not yet directly accessible to experiment but which
+     may be useful in aiding understanding or the generation of novel hypotheses, such as folding
+     pathways, transiently populated conformations, and mean first passage times, can also be easily
+     obtained. We demonstrate that a master equation model constructed from short trajectories can
+     describe slow conformational dynamics for a solvated alanine peptide over long times,
+     propose a number of tests to tell whether a model constructed from short trajectories will
+     adequately describe dynamics over long times, and describe an algorithm for the automatic construction
+     of these models from simulation data. While the focus here is on protein folding and dynamics,
      these techniques are very general, and can be broadly applied to problems in biomolecular dynamics.
-  
-  
-  - title: "Technical report: An integrated system for executing and analyzing large-scale molecular dynamics simulations" 
-  - authors: # Use same name in publication             
-    - John D Chodera    
-    - David E Eramian 
-    - Larry Schweitzer 
-    - Ken A Dill    
+
+
+  - title: "Technical report: An integrated system for executing and analyzing large-scale molecular dynamics simulations"
+  - authors: # Use same name in publication
+    - John D Chodera
+    - David E Eramian
+    - Larry Schweitzer
+    - Ken A Dill
     # Corresponding authors have their email addresses listed
-    corresponding-authors:    
-    - John D Chodera    
+    corresponding-authors:
+    - John D Chodera
     # Add these other fields are optional; fill in as much information as is available
-    journal: UCSF 
+    journal: UCSF
     publication-date: 2004-09-03  # use ISO 8601 date format YYYY-MM-DD
     year: 2004
-    # These links may be listed in the choderalab.org/publications/ page  
+    # These links may be listed in the choderalab.org/publications/ page
     PDF: https://www.researchgate.net/profile/John_Chodera/publication/266455666_Technical_report_An_integrated_system_for_executing_and_analyzing_large-scale_molecular_dynamics_simulations/links/570bc1e708aee06603519f8e/Technical-report-An-integrated-system-for-executing-and-analyzing-large-scale-molecular-dynamics-simulations.pdf
     funding: none
     description: >
-     This technical report outlines the requirements of a system for the execution and analysis of parallel 
-     molecular dynamics simulations that allows the easy implementation of efficient modern simulation 
-     algorithms for computing thermodynamic and kinetic quantities with classical molecular dynamics. 
-     Some notes on a possible design for such a system are also included as a first step toward the 
+     This technical report outlines the requirements of a system for the execution and analysis of parallel
+     molecular dynamics simulations that allows the easy implementation of efficient modern simulation
+     algorithms for computing thermodynamic and kinetic quantities with classical molecular dynamics.
+     Some notes on a possible design for such a system are also included as a first step toward the
      construction a generally useful system for the biomolecular simulation community.
-  
-  
-  - title: "Constructing master equation models of protein folding and dynamics from atomistic simulation" 
-  - authors: # Use same name in publication             
-    - JD Chodera    
-    - KA Dill 
-    - WC Swope 
-    - JW Pitera    
+
+
+  - title: "Constructing master equation models of protein folding and dynamics from atomistic simulation"
+  - authors: # Use same name in publication
+    - JD Chodera
+    - KA Dill
+    - WC Swope
+    - JW Pitera
     # Corresponding authors have their email addresses listed
-    corresponding-authors:    
-    - John D Chodera    
+    corresponding-authors:
+    - John D Chodera
     # Add these other fields are optional; fill in as much information as is available
     journal: Protein Science
     volume: 13
     page: 101 # just first page
     publication-date: 2004-08-01  # use ISO 8601 date format YYYY-MM-DD
     year: 2004
-    # These links may be listed in the choderalab.org/publications/ page  
+    # These links may be listed in the choderalab.org/publications/ page
     Google Scholar Link: https://scholar.google.com/citations?hl=en&user=nnEg7_8AAAAJ&view_op=list_works&authuser=2&sortby=pubdate#d=gs_md_cita-d&u=%2Fcitations%3Fview_op%3Dview_citation%26hl%3Den%26user%3DnnEg7_8AAAAJ%26cstart%3D20%26pagesize%3D80%26sortby%3Dpubdate%26authuser%3D2%26citation_for_view%3DnnEg7_8AAAAJ%3AA1VvXmYcXXgC%26tzom%3D240
     funding: none
     description: >
      None
-  
-  
-  - title: "Constructing master equation models of peptide dynamics from molecular dynamics simulations. I. Simple solvated systems" 
-  - authors: # Use same name in publication             
-    - JD Chodera    
-    - KA Dill 
-    - WC Swope 
-    - JW Pitera    
+
+
+  - title: "Constructing master equation models of peptide dynamics from molecular dynamics simulations. I. Simple solvated systems"
+  - authors: # Use same name in publication
+    - JD Chodera
+    - KA Dill
+    - WC Swope
+    - JW Pitera
     # Corresponding authors have their email addresses listed
-    corresponding-authors:    
-    - John D Chodera    
+    corresponding-authors:
+    - John D Chodera
     # Add these other fields are optional; fill in as much information as is available
     publication-date: 2004-03-24  # use ISO 8601 date format YYYY-MM-DD
     year: 2004
-    # These links may be listed in the choderalab.org/publications/ page  
+    # These links may be listed in the choderalab.org/publications/ page
     Google Scholar Link: https://scholar.google.com/citations?hl=en&user=nnEg7_8AAAAJ&view_op=list_works&authuser=2&sortby=pubdate#d=gs_md_cita-d&u=%2Fcitations%3Fview_op%3Dview_citation%26hl%3Den%26user%3DnnEg7_8AAAAJ%26cstart%3D100%26pagesize%3D100%26sortby%3Dpubdate%26authuser%3D2%26citation_for_view%3DnnEg7_8AAAAJ%3AI__7AI8a974C%26tzom%3D240
     funding: none
     description: >
-     We demonstrate the long-time dynamics of a simple solvated peptide (terminally-blocked alanine) can 
-     described by a discrete-state, continuous-time master equation model constructed from molecular 
-     dynamics simulation data. Manual division of phase space into six states yields Markovian dynamics 
+     We demonstrate the long-time dynamics of a simple solvated peptide (terminally-blocked alanine) can
+     described by a discrete-state, continuous-time master equation model constructed from molecular
+     dynamics simulation data. Manual division of phase space into six states yields Markovian dynamics
      in this reduced state space.
-  
-  
-  - title: "Technical Report: Deriving the discrete-state, continuous master equation from classical statistical mechanics: The Mori-Zwanzig projection operator method"  
-  - authors: # Use same name in publication             
-    - JD Chodera    
+
+
+  - title: "Technical Report: Deriving the discrete-state, continuous master equation from classical statistical mechanics: The Mori-Zwanzig projection operator method"
+  - authors: # Use same name in publication
+    - JD Chodera
     # Corresponding authors have their email addresses listed
-    corresponding-authors:    
-    - John D Chodera    
-    # These links may be listed in the choderalab.org/publications/ page  
+    corresponding-authors:
+    - John D Chodera
+    # These links may be listed in the choderalab.org/publications/ page
     Google Scholar Link: https://scholar.google.com/citations?hl=en&user=nnEg7_8AAAAJ&view_op=list_works&authuser=2&sortby=pubdate#d=gs_md_cita-d&u=%2Fcitations%3Fview_op%3Dview_citation%26hl%3Den%26user%3DnnEg7_8AAAAJ%26cstart%3D100%26pagesize%3D100%26sortby%3Dpubdate%26authuser%3D2%26citation_for_view%3DnnEg7_8AAAAJ%3ABQCiT8P4igIC%26tzom%3D240
     funding: none
     description: >
-     Here, we show how the discrete-state, continuous-time memoryless (Markovian) master equation can 
-     be obtained from classical statistical mechanics. Our purpose is to (1) justify that the master 
+     Here, we show how the discrete-state, continuous-time memoryless (Markovian) master equation can
+     be obtained from classical statistical mechanics. Our purpose is to (1) justify that the master
      equation can provide a good description of long-time dynamics provided certain conditions are met,
-     (2) determine the necessary set of conditions that must be met and the minimum coarse-grained time 
-     over which the dynamics is accurate,(3) gain insight as to how to construct efficient algorithms for 
-     state decomposition to minimize the time for emergence of Markovian behavior, and (4) expose 
-     alternative expressions for the inter-state transition rates that may provide more efficient routes 
+     (2) determine the necessary set of conditions that must be met and the minimum coarse-grained time
+     over which the dynamics is accurate,(3) gain insight as to how to construct efficient algorithms for
+     state decomposition to minimize the time for emergence of Markovian behavior, and (4) expose
+     alternative expressions for the inter-state transition rates that may provide more efficient routes
      to their estimation by computer simulation.
-  
-  
-  
-  
-  
-     
-
-
-
-
-
-
-
