@@ -6,7 +6,32 @@
 # Current grants: http://www.choderalab.org/funding
 
 # Here is an illustrative entry for grants
-grant:
+
+    # 'id' is the unique identifier by which the grant is referred to in the publications YAML
+  - id: "NIH P30 CA008748"
+    # 'title' is the title of the grant
+    title: "Cancer Center Support Grant"
+    # 'pi' is the lead investigator
+    pi: Craig B. Thompson
+    # 'role' is the role in the grant
+    role: Senior/Key Personnel
+    # 'type' denotes 'federal', 'industry', 'philanthropy'
+    type: federal
+    # 'organization' denotes the organization (federal, industrial, or philanthropic) granting the funds
+    organization: "National Institutes of Health"
+    # 'direct_costs' denotes the total direct cost in dollars to the lab
+    direct_costs: 0
+    # project start and end dates in ISO 8601 format (YYYY-MM-DD)
+    project_begin: 1997-01-20
+    project_end_date: 2023-12-31
+    # URL to official grant record, if applicable
+    url: "https://projectreporter.nih.gov/project_info_details.cfm?aid=10050633&icde=50797695"
+    # Description of the goal of the project (must be followed by two blank lines)
+    description: >
+      This grant supports Memorial Sloan Kettering Cancer Center (MSK), a free-standing NCI-designated Comprehensive Cancer
+      Center dedicated to improving the standards of cancer treatment, prevention and control.
+
+
     # 'id' is the unique identifier by which the grant is referred to in the publications YAML
   - id: "NIH R01 GM121505"
     # 'title' is the title of the grant
@@ -24,10 +49,10 @@ grant:
     url: "https://public.era.nih.gov/grantfolder/piAppDetails/genericStatus.do?encryptedParam=vglppgLq-x8.uktQknguXWR0u0of-5pOGLUIYcZhKRWcSBKVmGbuGyU."
     # Description of the goal of the project (must be followed by two blank lines)
     description: >
-      The goal of this project is to characterize the role of conformational reorganization energetics in achieving 
+      The goal of this project is to characterize the role of conformational reorganization energetics in achieving
       targeted kinase inhibitor selectivity.      
 
-grant:
+
     # 'id' is the unique identifier by which the grant is referred to in the publications YAML
   - id: "NIH R01 GM124270"
     # 'title' is the title of the grant
@@ -45,10 +70,10 @@ grant:
     url: "https://projectreporter.nih.gov/project_info_description.cfm?aid=9521419&icde=41560906&ddparam=&ddvalue=&ddsub=&cr=3&csb=default&cs=ASC&pball="
     # Description of the goal of the project (must be followed by two blank lines)
     description: >
-      The goal of this project is to enable blind community challenges that drive progress toward quantitative 
+      The goal of this project is to enable blind community challenges that drive progress toward quantitative
       accuracy in the field of computational physical modeling of drug-receptor interactions.
 
-grant:
+
     # 'id' is the unique identifier by which the grant is referred to in the publications YAML
   - id: "Relay Therapeutics Collaboration"
     # 'title' is the title of the grant
@@ -66,15 +91,15 @@ grant:
     url: "https://relaytx.com/"
     # Description of the goal of the project (must be followed by two blank lines)
     description: >
-      The goal of this project is to develop open source scalable cloud workflows for lead optimization using 
-      relative and absolute alchemical free energy calculations, as well as Bayesian integrative modeling 
+      The goal of this project is to develop open source scalable cloud workflows for lead optimization using
+      relative and absolute alchemical free energy calculations, as well as Bayesian integrative modeling
       techniques for experimental biophysical data and molecular simulations.
 
-grant:
+
     # 'id' is the unique identifier by which the grant is referred to in the publications YAML
   - id: "Entasis Therapeutics Collaboration"
     # 'title' is the title of the grant
-    title: "Development of efficient equilibrium and nonequilibrium algorithms for predicting small molecule porin permeation with potential of mean force methods"    
+    title: "Development of efficient equilibrium and nonequilibrium algorithms for predicting small molecule porin permeation with potential of mean force methods"
     # 'type' denotes 'federal', 'industry', 'philanthropy'
     type: industry
     # 'organization' denotes the organization (federal, industrial, or philanthropic) granting the funds
@@ -88,14 +113,14 @@ grant:
     url: "http://www.entasistx.com/"
     # Description of the goal of the project (must be followed by two blank lines)
     description: >
-      The goal of this project is to develop algorithms and open source tools for efficient equilibrium and 
+      The goal of this project is to develop algorithms and open source tools for efficient equilibrium and
       nonequilibrium potential of mean force calculations for bacterial porins.
 
-grant:
+
     # 'id' is the unique identifier by which the grant is referred to in the publications YAML
   - id: "Vir Biotechnology  Collaboration"
     # 'title' is the title of the grant
-    title: "Predicting resistance vulnerabilities of an ultra-potent RSV antibody"    
+    title: "Predicting resistance vulnerabilities of an ultra-potent RSV antibody"
     # 'type' denotes 'federal', 'industry', 'philanthropy'
     type: industry
     # 'organization' denotes the organization (federal, industrial, or philanthropic) granting the funds
@@ -109,14 +134,14 @@ grant:
     url: "https://www.vir.bio/"
     # Description of the goal of the project (must be followed by two blank lines)
     description: >
-      The goal of this project is to develop alchemical free energy methods for predicting the impact of 
+      The goal of this project is to develop alchemical free energy methods for predicting the impact of
       point mutations on antibody:antigen affinities.
 
-grant:
+
     # 'id' is the unique identifier by which the grant is referred to in the publications YAML
   - id: "Parker Institute for Cancer Immunotherapy Pilot Grant"
     # 'title' is the title of the grant
-    title: "Physics-based computational prediction of cancer-associated mutant MHC class II epitopes"    
+    title: "Physics-based computational prediction of cancer-associated mutant MHC class II epitopes"
     # 'type' denotes 'federal', 'industry', 'philanthropy'
     type: philanthropy
     # 'organization' denotes the organization (federal, industrial, or philanthropic) granting the funds
@@ -132,11 +157,11 @@ grant:
     description: >
       None
 
-grant:
+
     # 'id' is the unique identifier by which the grant is referred to in the publications YAML
   - id: "MSKCC Functional Genomics Initiative"
     # 'title' is the title of the grant
-    title: "Integrated approaches annotate functions of cancer-associated H3K36 methyltransferases"    
+    title: "Integrated approaches annotate functions of cancer-associated H3K36 methyltransferases"
     # 'type' denotes 'federal', 'industry', 'philanthropy'
     type: philanthropy
     # 'organization' denotes the organization (federal, industrial, or philanthropic) granting the funds
@@ -150,14 +175,14 @@ grant:
     url: "https://www.mskcc.org"
     # Description of the goal of the project (must be followed by two blank lines)
     description: >
-      The goal of this project is to use a combined experimental-computational approach to annotate the 
+      The goal of this project is to use a combined experimental-computational approach to annotate the
       functional impact of clinical cancer mutations in H3K36 methyltransferases
 
-grant:
+
     # 'id' is the unique identifier by which the grant is referred to in the publications YAML
   - id: "Einstein BIH Visiting Fellowship"
     # 'title' is the title of the grant
-    title: "Computational polypharmacology: A new paradigm for selectively promiscuous kinase inhibitors"    
+    title: "Computational polypharmacology: A new paradigm for selectively promiscuous kinase inhibitors"
     # 'type' denotes 'federal', 'industry', 'philanthropy'
     type: philanthropy
     # 'organization' denotes the organization (federal, industrial, or philanthropic) granting the funds
@@ -171,10 +196,10 @@ grant:
     url: "https://www.stiftung-charite.de/funding/the-private-excellence-initiative-johanna-quandt/?L=1"
     # Description of the goal of the project (must be followed by two blank lines)
     description: >
-      The goal of this project is to develop open source tools for integrating structure-informed machine 
+      The goal of this project is to develop open source tools for integrating structure-informed machine
       learning and alchemical free energy calculations for the design of selectively promiscuous kinase inhibitors.
 
-grant:
+
     # 'id' is the unique identifier by which the grant is referred to in the publications YAML
   - id: "NIH P30CA008748"
     # 'title' is the title of the grant
@@ -184,17 +209,17 @@ grant:
     # 'organization' denotes the organization (federal, industrial, or philanthropic) granting the funds
     organization: "National Institutes of Health"
     # 'direct_costs' denotes the total direct cost in dollars to the lab
-    direct_costs: 
+    direct_costs:
     # project start and end dates in ISO 8601 format (YYYY-MM-DD)
-    project_begin: 
-    project_end_date: 
+    project_begin:
+    project_end_date:
     # URL to official grant record, if applicable
     url: "http://www.nih.gov/"
     # Description of the goal of the project (must be followed by two blank lines)
     description: >
       None     
 
-grant:
+
     # 'id' is the unique identifier by which the grant is referred to in the publications YAML
   - id: "XtalPi Open Force Field Consortium"
     # 'title' is the title of the grant
@@ -204,17 +229,17 @@ grant:
     # 'organization' denotes the organization (federal, industrial, or philanthropic) granting the funds
     organization: "XtalPi "
     # 'direct_costs' denotes the total direct cost in dollars to the lab
-    direct_costs: 
+    direct_costs:
     # project start and end dates in ISO 8601 format (YYYY-MM-DD)
-    project_begin: 
-    project_end_date: 
+    project_begin:
+    project_end_date:
     # URL to official grant record, if applicable
     url: "http://www.xtalpi.com/"
     # Description of the goal of the project (must be followed by two blank lines)
     description: >
       None 
 
-grant:
+
     # 'id' is the unique identifier by which the grant is referred to in the publications YAML
   - id: "Open Force Field Consortium"
     # 'title' is the title of the grant
@@ -224,19 +249,19 @@ grant:
     # 'organization' denotes the organization (federal, industrial, or philanthropic) granting the funds
     organization: "Open Force Field"
     # 'direct_costs' denotes the total direct cost in dollars to the lab
-    direct_costs: 
+    direct_costs:
     # project start and end dates in ISO 8601 format (YYYY-MM-DD)
-    project_begin: 
-    project_end_date: 
+    project_begin:
+    project_end_date:
     # URL to official grant record, if applicable
     url: "https://openforcefield.org/"
     # Description of the goal of the project (must be followed by two blank lines)
     description: >
-      The Open Force Field Consortium is composed of academic investigators from the Open Force Field 
-      Initiative and sponsoring Industry Partners collaborating to advance open force field science, 
+      The Open Force Field Consortium is composed of academic investigators from the Open Force Field
+      Initiative and sponsoring Industry Partners collaborating to advance open force field science,
       toolkits, and standards for biomolecular drug discovery. 
 
-grant:
+
     # 'id' is the unique identifier by which the grant is referred to in the publications YAML
   - id: "NSF CHE-1738979"
     # 'title' is the title of the grant
@@ -254,10 +279,10 @@ grant:
     url: "https://nsf.gov/"
     # Description of the goal of the project (must be followed by two blank lines)
     description: >
-      The goal of this proposal is to explore Bayesian approaches to determining forcefield parameters from 
+      The goal of this proposal is to explore Bayesian approaches to determining forcefield parameters from
       experimental data and propagating uncertainty in predictions.
 
-grant:
+
     # 'id' is the unique identifier by which the grant is referred to in the publications YAML
   - id: "Merck KGaA Collaboration"
     # 'title' is the title of the grant
@@ -275,10 +300,10 @@ grant:
     url: "https://www.emdgroup.com/"
     # Description of the goal of the project (must be followed by two blank lines)
     description: >
-      The goal of this project is to develop automated workflows for absolute alchemical free energy 
+      The goal of this project is to develop automated workflows for absolute alchemical free energy
       calculations with YANK, an open source code developed in the lab.
 
-grant:
+
     # 'id' is the unique identifier by which the grant is referred to in the publications YAML
   - id: "Silicon Therapeutics Collaboration"
     # 'title' is the title of the grant
@@ -296,10 +321,10 @@ grant:
     url: "http://www.silicontx.com/"
     # Description of the goal of the project (must be followed by two blank lines)
     description: >
-      The goal of this project is to compare the performance of single-replica and nonequilibrium 
+      The goal of this project is to compare the performance of single-replica and nonequilibrium
       alchemical free energy methods for relative free energy calculations.
 
-grant:
+
     # 'id' is the unique identifier by which the grant is referred to in the publications YAML
   - id: "Starr Foundation Grant I8-A8-058"
     # 'title' is the title of the grant
@@ -319,7 +344,7 @@ grant:
     description: >
       The goal of this project is to design selective inhibitors for protein lysine methyltransferases
 
-grant:
+
     # 'id' is the unique identifier by which the grant is referred to in the publications YAML
   - id: "Astra-Zeneca iMED Collaboration"
     # 'title' is the title of the grant
@@ -337,10 +362,10 @@ grant:
     url: "  "
     # Description of the goal of the project (must be followed by two blank lines)
     description: >
-      The goal of this project is to evaluate the potential for Markov state models of conformational dynamics 
+      The goal of this project is to evaluate the potential for Markov state models of conformational dynamics
       to quantitatively predict the thermodynamics and kinetics of selective kinase inhibitors to CK2 and SYK.
 
-grant:
+
     # 'id' is the unique identifier by which the grant is referred to in the publications YAML
   - id: "Louis V Gerstner Young Investigators Award "
     # 'title' is the title of the grant
@@ -359,35 +384,3 @@ grant:
     # Description of the goal of the project (must be followed by two blank lines)
     description: >
       None
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

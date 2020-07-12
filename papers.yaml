@@ -12,7 +12,6 @@
 # Google Scholar : https://scholar.google.com/citations?hl=en&user=nnEg7_8AAAAJ&view_op=list_works&authuser=2&sortby=pubdate
 
 # Here is an illustrative entry for papers
-papers:
   # Title should have only initial letter capitalized
   - title: "Is structure based drug design ready for selectivity optimization?"
     authors: # Use same name in publication
@@ -26,23 +25,28 @@ papers:
     corresponding-authors:
     - Lingle Wang
     # Add these other fields are optional; fill in as much information as is available
-    bioRxiv posted-date: 2020-07-03
+    preprint:
+      url: https://www.biorxiv.org/content/10.1101/2020.07.02.185132v1
+      date: 2020-07-03
     # These links may be listed in the choderalab.org/publications/ page
-    github: https://github.com/choderalab/selectivity
-    bioRxiv: https://www.biorxiv.org/content/10.1101/2020.07.02.185132v1
+    links:
+      - action: Download code and data
+        short: GitHub
+        url: https://github.com/choderalab/selectivity
     # Thumbnail image URL
     thumbnail: kinase-selectivity-paper
     # Two newlines are needed after the description
     funding:
-    - NIH Grant P30 CA008748
-    - NIH Grant R01 GM121505
+    - NIH P30 CA008748
+    - NIH R01 GM121505
     description: >
-      In this paper, we address the We report the performance assessment of the 91 methods that were submitted
-      to the SAMPL6 blind challenge for predicting octanol-water partition coefficient
-      (logP) measurements. The average RMSE of the most accurate five MM-based, QM-based,
-      empirical, and mixed approach methods based on RMSE were 0.92±0.13, 0.48±0.06, 0.47±0.05,
-      and 0.50±0.06, respectively.
-
+      We asked whether the similarity of binding sites in related kinases might result
+      in a fortuitous cancellation of errors in using alchemical free energy calculations
+      to predict kinase inhibitor selectivities. Surprisingly, we find that even distantly
+      related kinases have sufficient correlation in their errors that predicting changes in selectivity
+      can be much more accurate than predicting changes in potency due to this effect, and
+      show how this could lead to large reductions in the number of molecules that must
+      be synthesized to achieve a desired selectivity goal.
 
   # Title should have only initial letter capitalized
   - title: "Citizen scientists create an exascale computer to combat COVID-19"
@@ -69,18 +73,23 @@ papers:
     corresponding-authors:
     - Gregory R. Bowman
     # Add these other fields are optional; fill in as much information as is available
-    bioRxiv posted-date: 2020-06-30
+    preprint:
+      url: https://www.biorxiv.org/content/10.1101/2020.06.27.175430v1
+      date: 2020-06-30
     # These links may be listed in the choderalab.org/publications/ page
-    datasets:
-    - https://osf.io/fs2yv/
-    - http://covid.molssi.org
-    bioRxiv: https://doi.org/10.1101/2020.06.27.175430
+    links:
+      - action: Download data through the Open Science Framework
+        short: OSF
+        url: https://osf.io/fs2yv/
+      - action: Browse datasets on the MolSSI COVID-19 Molecular Structure and Therapeutics Hub
+        short: MolSSI COVID-19 Hub
+        url: http://covid.molssi.org
     # Thumbnail image URL
     thumbnail: kinase-selectivity-paper
     # Two newlines are needed after the description
     funding:
-    - NIH Grant P30 CA008748
-    - NIH Grant R01 GM121505
+    - NIH P30 CA008748
+    - NIH R01 GM121505
     description: >
       To accelerate a multitude of drug development activities to combat the global threat posed by COVID-19,
       over a million citizen scientists have banded together through the Folding@home distributed computing
@@ -104,22 +113,30 @@ papers:
     corresponding-authors:
     - Mehtap Işık
     # Add these other fields are optional; fill in as much information as is available
-    journal: Journal of Computer Aided Molecular Design
-    volume: 34
-    page: 335 # just first page
-    publication-date: 2020-02-27 # use ISO 8601 date format YYYY-MM-DD
-    year: 2020
-    bioRxiv posted-date: 2020-01-21
+    published:
+      doi: http://dx.doi.org/10.1007/s10822-020-00295-0
+      journal: Journal of Computer Aided Molecular Design
+      volume: 34
+      page: 335 # just first page
+      year: 2020
+      dates:
+        published: 2020-02-27
+        received: 2019-11-07
+        accepted: 2020-01-24
+    preprint:
+      url: https://www.biorxiv.org/content/10.1101/2020.01.20.913178v1
+      date: 2020-01-21
     # Thumbnail
     thumbnail: sampl6-logP-assessment
-    # These links may be listed in the choderalab.org/publications/ page
-    doi: http://dx.doi.org/10.1007/s10822-020-00295-0
     pdf: http://www.choderalab.org/s/SAMPL6-pKa.pdf
-    github: https://github.com/samplchallenges/SAMPL6/
-    bioRxiv: https://www.biorxiv.org/content/10.1101/2020.01.20.913178v1
+    # These links may be listed in the choderalab.org/publications/ page
+    links:
+      - action: Download code and data from GitHub
+        short: GitHub
+        url: https://github.com/samplchallenges/SAMPL6/
     # Two newlines are needed after the description
     funding:
-    - NIH Grant P30 CA008748
+    - NIH P30 CA008748
     description: >
       We report the performance assessment of the 91 methods that were submitted
       to the SAMPL6 blind challenge for predicting octanol-water partition coefficient
@@ -139,20 +156,25 @@ papers:
     corresponding-authors:
      - MR Gunner
     # Add these other fields are optional; fill in as much information as is available
-    journal: Journal of Computer-Aided Molecular Design
-    volume: 34
-    page:  561 # just first page
-    publication-date: 2020-02-12 # use ISO 8601 date format YYYY-MM-DD
-    year: 2020
-    # These links may be listed in the choderalab.org/publications/ page
-    DOI: https://doi.org/10.1007/s10822-020-00280-7
-    PDF: https://link.springer.com/content/pdf/10.1007/s10822-020-00280-7.pdf
+    published:
+      doi: https://doi.org/10.1007/s10822-020-00280-7
+      journal: Journal of Computer-Aided Molecular Design
+      volume: 34
+      page:  561 # just first page
+      year: 2020
+      dates:
+        published: 2020-02-12 # use ISO 8601 date format YYYY-MM-DD
+    links:
+      - action: Download code and plots from GitHub
+        short: GitHub
+        url: https://github.com/choderalab/titrato
     # Thumbnail
     thumbnail: pka-free-energies
+    pdf: https://link.springer.com/content/pdf/10.1007/s10822-020-00280-7.pdf
     # Funding
     funding:
-    - NIH grant R01 GM124270
-    - NIH grant P30 CA008748
+    - NIH R01 GM124270
+    - NIH P30 CA008748
     description: >
      Here, we demonstrate how the physical nature of protonation and tautomeric state effects
      means that the standard state free energies of each microscopic protonation/tautomeric
@@ -188,22 +210,28 @@ papers:
     - David L. Mobley
     - John D. Chodera
     # Add these other fields are optional; fill in as much information as is available
-    journal: Journal of Computer Aided Molecular Design
-    volume: 34
-    page: 601 # just first page
-    publication-date: 2020-01-27
-    year: 2020
-    bioRxiv posted-date: 2020-01-03
+    preprint:
+      url: https://www.biorxiv.org/content/10.1101/795005v2
+      date: 2020-01-03
+    published:
+      doi: https://doi.org/10.1007/s10822-020-00290-5
+      journal: Journal of Computer Aided Molecular Design
+      volume: 34
+      page: 601 # just first page
+      year: 2020
+      dates:
+        published: 2020-01-27
+    links:
+      - action: Download code and data
+        short: GitHub
+        url: https://github.com/samplchallenges/SAMPL6/tree/master/host_guest/SAMPLing
     # Thumbnail
     thumbnail: sampl6-sampling
-    # These links may be listed in the choderalab.org/publications/ page
-    doi: https://doi.org/10.1007/s10822-020-00290-5
     pdf: https://choderalab.squarespace.com/s/SAMPL6-SAMPLing.pdf
-    github: https://github.com/samplchallenges/SAMPL6/tree/master/host_guest/SAMPLing
-    preprint: https://www.biorxiv.org/content/10.1101/795005v2
+    # These links may be listed in the choderalab.org/publications/ page
     funding:
-    - NIH Grant R01 GM124270
-    - NIH Grant P30 CA008748
+    - NIH R01 GM124270
+    - NIH P30 CA008748
     description: >
       To assess the relative efficiencies of alchemical binding free energy calculations,
       the SAMPL6 SAMPLing challenge asked participants to submit predictions as a function of
@@ -224,21 +252,29 @@ papers:
     - Timothy Rhodes
     - John D. Chodera
     # Add these other fields are optional; fill in as much information as is available
-    journal: Journal of Computer Aided Molecular Design
-    volume: 34
-    page: 405 # just first page
-    publication-date: 2019-12-19 # use ISO 8601 date format YYYY-MM-DD
-    year: 2019
-    bioRxiv posted-date: 2019-12-02
+    published:
+      doi: https://doi.org/10.1007/s10822-019-00271-3
+      journal: Journal of Computer Aided Molecular Design
+      volume: 34
+      page: 405 # just first page
+      year: 2019
+      dates:
+        published: 2019-12-19 # use ISO 8601 date format YYYY-MM-DD
+    preprint:
+      url: https://www.biorxiv.org/content/10.1101/757393v3
+      date: 2019-12-02
+    links:
+      - action: Download code and data from GitHub
+        short: GitHub
+        github: https://github.com/MobleyLab/SAMPL6
     # Thumbnail
     thumbnail: sampl6-part2-logP
-    # These links may be listed in the choderalab.org/publications/ page
-    doi: https://doi.org/10.1007/s10822-019-00271-3
     pdf: https://choderalab.squarespace.com/s/SAMPL6-pKa.pdf
-    github: https://github.com/MobleyLab/SAMPL6
-    preprint: https://www.biorxiv.org/content/10.1101/757393v3
+    # These links may be listed in the choderalab.org/publications/ page
     # Two newlines are needed after the description
-    funding: none
+    funding:
+      - NIH P30 CA008748
+      - NIH R01 GM124270
     description: >
       We describe the design and data collection (and associated challenges) for the SAMPL6
       part II logP octanol-water blind prediction challenge, where the goal was to benchmark the
@@ -282,18 +318,22 @@ papers:
     - Robert Benezra
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-    -  Robert Benezra
+    - Robert Benezra
     # Add these other fields are optional; fill in as much information as is available
-    journal: Cell Reports
-    volume: 29
-    page: 62 # just first page
-    publication-date: 2019-10-01 # use ISO 8601 date format YYYY-MM-DD
-    year: 2019
+    published:
+      doi: https://doi.org/10.1016/j.celrep.2019.08.073
+      journal: Cell Reports
+      volume: 29
+      page: 62 # just first page
+      year: 2019
+      dates:
+        published: 2019-10-01 # use ISO 8601 date format YYYY-MM-DD
     # These links may be listed in the choderalab.org/publications/ page
-    doi: https://doi.org/10.1016/j.celrep.2019.08.073
+    thumbnail: id1
     pdf: http://www.choderalab.org/s/benezra-cell-reports.pdf
     # Two newlines are needed after the description
-    funding: none
+    funding:
+      - NIH P30 CA008748
     description: >
      We report the discovery and characterization of a small molecule, AGX51, with the
      surprising ability to inhibit the interaction of Id1 with E47, which leads to ubiquitin-mediated
@@ -311,21 +351,26 @@ papers:
     corresponding-authors:
     - Yuanqing Wang
     # Add these other fields are optional; fill in as much information as is available
-    journal: arXiv
-    volume: 15
-    page: 44 # just first page
-    publication-date: 2019-09-17 # use ISO 8601 date format YYYY-MM-DD
-    year: 2019
+    preprint:
+      url: https://arxiv.org/abs/1909.07903
+      date: 2019-09-17
     # These links may be listed in the choderalab.org/publications/ page
-    arXiv: https://arxiv.org/abs/1909.07903
-    github: http://github.com/choderalab/gimlet
+    links:
+      - action: Download the code from GitHub
+        short: GitHub
+        url: http://github.com/choderalab/gimlet
     # Two newlines are needed after the description
-    funding: none
+    funding:
+      - NIH P30 CA008748
+      - NIH R01 GM121505
+      - NSF CHE 1738979
+      - MolSSI Fellowship to Chaya Stern
     description: >
        Graph convolutional and message-passing networks can be a powerful tool for predicting physical properties of
        small molecules when coupled to a simple physical model that encodes the relevant invariances. Here, we show
-       the ability of graph nets to predict partial atomic charges for use in molecular dynamics simulations and
-       physical docking.
+       the ability of graph nets to rapidly predict high-quality partial atomic charges of small drug-like molecules
+       for use in molecular dynamics simulations, physical docking calculations, and alchemical free energy calculations
+       for computing affinity and selectivity to various target proteins.
 
 
   - title: "Sharing data from molecular simulations"
@@ -355,18 +400,20 @@ papers:
     corresponding-authors:
     -  Chavent M
     # Add these other fields are optional; fill in as much information as is available
-    journal: Journal of Chemical Information and Modeling ASAP
-    volume: 59
-    page: 10 # just first page
-    publication-date: 2019-09-17 # use ISO 8601 date format YYYY-MM-DD
-    year: 2019
-    chemRxiv posted-date: 2019-09-09
+    preprint:
+      url: https://chemrxiv.org/articles/Sharing_Data_from_Molecular_Simulations/9775493
+      date: 2019-09-09
+    published:
+      doi: https://doi.org/10.1021/acs.jcim.9b00665
+      journal: Journal of Chemical Information and Modeling ASAP
+      volume: 59
+      page: 10 # just first page
+      year: 2019
     # These links may be listed in the choderalab.org/publications/ page
-    doi: https://doi.org/10.1021/acs.jcim.9b00665
-    chemRxiv: https://chemrxiv.org/articles/Sharing_Data_from_Molecular_Simulations/9775493
+    thumbnail: sharing-data
     pdf: http://www.choderalab.org/s/sharing-data.pdf
     # Two newlines are needed after the description
-    funding: none
+    funding: [] # empty list
     description: >
      There is a dire need to establish standards for sharing data in the molecular sciences. Here, we
      review the findings of a workshop held in Stockholm in Nov 2018 to discuss this need.
@@ -387,19 +434,26 @@ papers:
     corresponding-authors:
     -  Liam J Holt
     # Add these other fields are optional; fill in as much information as is available
-    journal: eLife
-    volume: 8
-    publication-date: 2019-08-13 # use ISO 8601 date format YYYY-MM-DD
-    year: 2019
+    publication:
+      doi: https://doi.org/10.7554/eLife.38805.001
+      journal: eLife
+      volume: 8
+      page: e38805
+      year: 2019
+      dates:
+        publication: 2019-08-13 # use ISO 8601 date format YYYY-MM-DD
     # These links may be listed in the choderalab.org/publications/ page
-    doi: https://doi.org/10.7554/eLife.38805.001
-    eLife: https://elifesciences.org/articles/38805
+    links:
+      - action: Download trajectory data from
+        short: GitHub
+        url: https://github.com/choderalab/ERK-ancestral-materials
+    # Thumbnail and PDF
+    thumbnail: erk-reconstruction
     pdf: https://elifesciences.org/articles/38805#downloads
-    Folding@home data: https://github.com/choderalab/ERK-ancestral-materials
     # Two newlines are needed after the description
     funding:
-    - NIH Grant R01 GM121505
-    - Folding@Home
+    - NIH P30 CA008748
+    - NIH R01 GM121505
     description: >
      To understand how kinase regulation by phosphorylation emerged, we reconstruct the common ancestor of CDKs and
      MAPKs, using biochemical experiments and massively parallel molecular simulations to study how a few mutations
@@ -418,22 +472,28 @@ papers:
     corresponding-authors:
     - Michael K. Gilson
     # Add these other fields are optional; fill in as much information as is available
-    journal: Journal of Chemical Theory and Computation ASAP
-    volume: 15
-    page: 6225  # just first page
-    publication-date: 2019-10-11 # use ISO 8601 date format YYYY-MM-DD
-    year: 2019
-    bioRxiv posted-date: 2019-06-09
+    preprint:
+      url: https://chemrxiv.org/articles/Binding_thermodynamics_of_host-guest_systems_with_SMIRNOFF99Frosst_1_0_5_from_the_Open_Force_Field_Initiative/9159872
+      date: 2019-06-09
+    published:
+      doi: https://doi.org/10.1021/acs.jctc.9b00748
+      journal: Journal of Chemical Theory and Computation ASAP
+      volume: 15
+      page: 6225  # just first page
+      year: 2019
+      dates:
+        published: 2019-10-11 # use ISO 8601 date format YYYY-MM-DD
     # These links may be listed in the choderalab.org/publications/ page
-    doi: https://doi.org/10.1021/acs.jctc.9b00748
-    bioRxiv: https://chemrxiv.org/articles/Binding_thermodynamics_of_host-guest_systems_with_SMIRNOFF99Frosst_1_0_5_from_the_Open_Force_Field_Initiative/9159872
-    GitHub: https://slochower.github.io/smirnoff-host-guest-manuscript/#code-and-data-availability
+    links:
+      - action: Download code and data from GitHub
+        short: GitHub
+        url: https://slochower.github.io/smirnoff-host-guest-manuscript/#code-and-data-availability
     # Two newlines are needed after the description
     funding:
-    - Open Force Field
-    - NIH Grant P30 CA008748
-    - NIH Grant R01 GM121505
-    - NIH Grant R01 GM124270
+    - Open Force Field Consortium
+    - NIH P30 CA008748
+    - NIH R01 GM121505
+    - NIH R01 GM124270
     description: >
      We assess the accuracy of the SMIRNOFF99Frosst 1.0.5 force field in reproducing host-guest binding
      thermodynamics in comparison with the GAFF force field, demonstrating how the SMIRNOFF format for
@@ -472,19 +532,28 @@ papers:
     corresponding-authors:
     - Michael G Kharas
     # Add these other fields are optional; fill in as much information as is available
-    journal: Nature Communications
-    volume: 10
-    publication-date: 2019-06-19 # use ISO 8601 date format YYYY-MM-DD
-    year: 2019
-    bioRxiv posted-date: 2018-05-14
+    preprint:
+      url: https://doi.org/10.1101/321174
+      date: 2018-05-14
+    published:
+      doi: https://doi.org/10.1038/s41467-019-10523-3
+      journal: Nature Communications
+      volume: 10
+      year: 2019
+      dates:
+        published: 2019-06-19 # use ISO 8601 date format YYYY-MM-DD
     # These links may be listed in the choderalab.org/publications/ page
-    doi: https://doi.org/10.1038/s41467-019-10523-3
-    bioRxiv: https://doi.org/10.1101/321174
-    GitHub: https://github.com/choderalab/musashi
-    MSKCC blog post: https://www.mskcc.org/blog/ro-versus-musashi-how-one-molecule-can-turn-cancer-cells-back-normal
+    links:
+      - action: Download models and data from GitHub
+        short: GitHub
+        url: https://github.com/choderalab/musashi
+      - action: Read the MSKCC blog post
+        short: MSKCC blog post
+        url: https://www.mskcc.org/blog/ro-versus-musashi-how-one-molecule-can-turn-cancer-cells-back-normal
     # Two newlines are needed after the description
     funding:
-    - NIH Grant R01 GM121505
+    - NIH P30 CA008748
+    - NIH R01 GM121505
     description: >
      We use absolute alchemical free energy calculations to identify the likely interaction site for a
      small hydrophobic ligand that shows activity against MUSASHI in AML.
@@ -522,60 +591,84 @@ papers:
     - John D. Chodera
     - Minkui Luo
     # Add these other fields are optional; fill in as much information as is available
-    journal: eLife
-    volume: 8
-    publication-date: 2019-05-13 # use ISO 8601 date format YYYY-MM-DD
-    year: 2019
-    bioRxiv posted-date: 2018-10-12
+    published:
+      doi: http://doi.org/10.7554/eLife.45403
+      journal: eLife
+      volume: 8
+      year: 2019
+      dates:
+        published: 2019-05-13 # use ISO 8601 date format YYYY-MM-DD
+    preprint:
+      url: https://www.biorxiv.org/content/10.1101/438994v1
+      date: 2018-10-12
     # These links may be listed in the choderalab.org/publications/ page
-    doi: http://doi.org/10.7554/eLife.45403
-    bioRxiv: https://doi.org/10.1101/438994
-    OSF: https://osf.io/2h6p4/
-    github: https://github.com/choderalab/SETD8-materials
-    movies: https://www.youtube.com/watch?v=IDLEi-M8Aow
-    MSKCC blog post: https://www.mskcc.org/blog/computational-hive-mind-helps-scientists-solve-enzyme-s-cryptic-movements
+    links:
+      - action: Download the code and data
+        short: GitHub
+        url: https://github.com/choderalab/SETD8-materials
+      - action: Download the Folding@home datasets
+        short: OSF
+        url: https://osf.io/2h6p4/
+      - action: Watch movies of SETD8 dynamics
+        short: Movies
+        url: https://www.youtube.com/watch?v=IDLEi-M8Aow
+      - action: Read the MSKCC Blog post
+        short: MSKCC Blog post
+        url: https://www.mskcc.org/blog/computational-hive-mind-helps-scientists-solve-enzyme-s-cryptic-movements
+      - action: Watch the string quartet composed around this work ("Metastable Impressions")
+        short: String quartet (YouTube)
+        url: https://www.youtube.com/watch?v=zmXO6AZMOYU
+
     # Two newlines are needed after the description
     funding:
     - Folding@Home
-    - NIH Grant R01 GM121505
-    - NIH Grant P30 CA008748
+    - NIH R01 GM121505
+    - NIH P30 CA008748
     description: >
       In this work, we show how targeted X-ray crystallography using covalent inhibitors and depletion of
       native ligands to reveal structures of low-population hidden conformations can be combined with
       massively distributed molecular simulation to resolve the functional dynamic landscape of the protein
       methyltransferase SETD8 in unprecedented atomistic detail. Using an aggregate of six milliseconds of
-      fully atomistic simulation from Folding@home, we use Markov state models to illuminate the
-      conformational dynamics of this important epigenetic protein. All Folding@home simulation trajectories for this paper are available on the Open Science Framework.
+      fully atomistic simulation from Folding@home, we use a new approach to constructing Markov state models
+      of conformational dynamics to to illuminate the conformations corresponding energetics for this important epigenetic protein.
+      All Folding@home simulation trajectories for this paper are available on the Open Science Framework.
       The trajectories generated for this project were used as the source for a unique musical composition 'Metastable'
       by George Holloway, performed by the Ligeti String Quartet with visual accompaniment from Robert Arbon.
 
 
   - title: "What makes a kinase promiscuous for inhibitors?"
     authors: # Use same name in publication
-    - Hanson S
-    - Georghiou G
-    - Miller WT
-    - Rest JS
-    - Chodera JD
-    - Seeliger MA
+    - Sonya M. Hanson
+    - George Georghiou
+    - Manish K. Thakur
+    - W. Todd Miller
+    - Joshua S. Rest
+    - John D. Chodera
+    - Markus A. Seeliger
     # Corresponding authors have their email addresses listed
     corresponding-authors:
-     - Chodera JD
-     - Seeliger MA
+     - John D. Chodera
+     - Markus A. Seeliger
     # Add these other fields are optional; fill in as much information as is available
-    journal: Cell Chemical Biology
-    volume: 26
-    page:  1 # just first page
-    publication-date: 2019-03-21 # use ISO 8601 date format YYYY-MM-DD
-    year: 2019
+    published:
+      doi: https://doi.org/10.1016/j.chembiol.2018.11.005
+      journal: Cell Chemical Biology
+      volume: 26
+      page:  1 # just first page
+      year: 2019
+      dates:
+        published: 2019-03-21 # use ISO 8601 date format YYYY-MM-DD
     # These links may be listed in the choderalab.org/publications/ page
-    doi: https://doi.org/10.1016/j.chembiol.2018.11.005
-    PDF: http://www.choderalab.org/s/seeliger-ddr1-promiscuity.pdf
-    github: https://github.com/choderalab/DDR1_and_kinase_promiscuity_materials
+    links:
+      - action: Download the code and data from GitHub
+        short: GitHub
+        url: https://github.com/choderalab/DDR1_and_kinase_promiscuity_materials
+    thumbnail: ddr1-dfg-pmf
+    pdf: http://www.choderalab.org/s/seeliger-ddr1-promiscuity.pdf
     # Two newlines are needed after the description
     funding:
-    - NIH Grant R01 GM121505
-    - NIH Grant P30 CA008748
+    - NIH R01 GM121505
+    - NIH P30 CA008748
     - Cycle For Survival
     description: >
       A class of kinases are particularly promiscuous binders of small molecule inhibitors. Using combined
@@ -596,21 +689,28 @@ papers:
     - John D. Chodera
     - Peter G. Bolhuis
     # Add these other fields are optional; fill in as much information as is available
-    journal: Journal of Chemical Theory and Computation
-    volume: 15
-    page:  837 # just first page
-    publication-date: 2018-10-25 # use ISO 8601 date format YYYY-MM-DD
-    year: 2018
-    bioRxiv posted-date: 2018-06-20
+    publication:
+      doi: https://doi.org/10.1021/acs.jctc.8b00627
+      journal: Journal of Chemical Theory and Computation
+      volume: 15
+      page:  837 # just first page
+      year: 2018
+      dates:
+        published: 2018-10-25 # use ISO 8601 date format YYYY-MM-DD
+    preprint:
+      url: https://www.biorxiv.org/content/10.1101/351510v1
+      date: 2018-06-20
     # These links may be listed in the choderalab.org/publications/ page
-    doi: https://doi.org/10.1021/acs.jctc.8b00627
-    bioRxiv:  https://doi.org/10.1101/351510
-    PDF: http://www.choderalab.org/s/ops-2.pdf
-    github: https://github.com/openpathsampling/openpathsampling
+    links:
+      - action: Download the code
+        short: GitHub
+        url: https://github.com/openpathsampling/openpathsampling
+    thumbnail: ops
+    pdf: http://www.choderalab.org/s/ops-2.pdf
     # Two newlines are needed after the description
     funding:
-    - NIH Grant P30 CA008748
-    - NIH Grant R01 GM121505
+    - NIH P30 CA008748
+    - NIH R01 GM121505
     description: >
       To make powerful path sampling techniques broadly accessible and efficient, we have produced
       a new Python framework for easily implementing path sampling strategies (such as transition
@@ -630,21 +730,27 @@ papers:
     - John D. Chodera
     - Peter G. Bolhuis
     # Add these other fields are optional; fill in as much information as is available
-    journal: Journal of Chemical Theory and Computation
-    volume: 15
-    page:  813 # just first page
-    publication-date: 2018-10-25 # use ISO 8601 date format YYYY-MM-DD
-    year: 2018
-    bioRxiv posted-date: 2018-06-20
+    preprint:
+      url: https://www.biorxiv.org/content/10.1101/351494v1
+      date: 2018-06-20
+    published:
+      doi: https://doi.org/10.1021/acs.jctc.8b00626
+      journal: Journal of Chemical Theory and Computation
+      volume: 15
+      page:  813 # just first page
+      year: 2018
+      dates:
+        published: 2018-10-25 # use ISO 8601 date format YYYY-MM-DD
     # These links may be listed in the choderalab.org/publications/ page
-    doi: https://doi.org/10.1021/acs.jctc.8b00626
-    bioRxiv: https://doi.org/10.1101/351494
-    PDF: http://www.choderalab.org/s/ops-1.pdf
-    github: https://github.com/openpathsampling/openpathsampling
+    links:
+      - action: Download the code
+        short: GitHub
+        url: https://github.com/openpathsampling/openpathsampling
+    pdf: http://www.choderalab.org/s/ops-1.pdf
     # Two newlines are needed after the description
     funding:
-    - NIH Grant P30 CA008748
-    - NIH Grant R01 GM121505
+    - NIH P30 CA008748
+    - NIH R01 GM121505
     description: >
       To make powerful path sampling techniques broadly accessible and efficient, we have produced
       a new Python framework for easily implementing path sampling strategies (such as transition
@@ -666,19 +772,25 @@ papers:
     corresponding-authors:
     - David L. Mobley
     # Add these other fields are optional; fill in as much information as is available
-    journal: Journal of Chemical Theory and Computation
-    volume: 15
-    page:  402 # just first page
-    publication-date: 2018-10-15 # use ISO 8601 date format YYYY-MM-DD
-    year: 2018
-    ChemRxiv posted-date: 2018-10-15
+    published:
+      doi: http://doi.org/10.1021/acs.jctc.8b00821
+      journal: Journal of Chemical Theory and Computation
+      volume: 15
+      page:  402 # just first page
+      year: 2018
+      dates:
+        published: 2018-10-15 # use ISO 8601 date format YYYY-MM-DD
+    preprint:
+      url: https://chemrxiv.org/articles/Toward_Learned_Chemical_Perception_of_Force_Field_Typing_Rules/6230627
+      date: 2018-10-15
     # These links may be listed in the choderalab.org/publications/ page
-    doi: http://doi.org/10.1021/acs.jctc.8b00821
-    ChemRxiv: https://chemrxiv.org/articles/Toward_Learned_Chemical_Perception_of_Force_Field_Typing_Rules/6230627
-    github: https://github.com/openforcefield/smarty
+    links:
+      - action: Download the code and data
+        short: GitHub
+        url: https://github.com/openforcefield/smarty
     # Two newlines are needed after the description
     funding:
-    - NSF Grant CHE 1738979
+    - NSF CHE 1738979
     description: >
       We show how machine learning can learn typing rules for molecular mechanics force fields
       within a Bayesian statistical framework.
@@ -754,8 +866,8 @@ papers:
     AddGene: https://www.addgene.org/kits/chodera-kinase-domains
     # Two newlines are needed after the description
     funding:
-    - NIH Grant P30 CA008748
-    - NIH Grant R01 GM121505
+    - NIH P30 CA008748
+    - NIH R01 GM121505
     description: >
       Human kinase catalytic domains---the therapeutic target of selective kinase inhibitors
       used in the treatment of cancer and other diseases---are notoriously difficult and expensive
@@ -796,8 +908,8 @@ papers:
     github: https://github.com/choderalab/kinase-ecoli-expression-panel
     Supplementary Data (includes Sirius T3 reports on all measurements):   https://github.com/choderalab/sampl6-pKa-measurements-manuscript/tree/master/supplementary-info    # Two newlines are needed after the description
     funding:
-    - NIH Grant R01 GM124270
-    - NIH Grant P30 CA008748
+    - NIH R01 GM124270
+    - NIH P30 CA008748
     description: >
      The SAMPL5 blind challenge exercises identified neglect of protonation state effects as
      a major accuracy-limiting factor in physical modeling of biomolecular interactions. In
@@ -881,8 +993,8 @@ papers:
     PDF: http://www.choderalab.org/s/abl-resistance-mutations.pdf
     input files and analysis scripts: https://github.com/kehauser/Predicting-resistance-of-clinical-Abl-mutations-to-targeted-kinase-inhibitors-using-FEP
     funding:
-    - NIH Grant P30 CA008748
-    - NIH Grant R01 GM121505
+    - NIH P30 CA008748
+    - NIH R01 GM121505
     - Cycle For Survival
     description: >
      In our first collaborative paper with Schrödinger, we present the first comprehensive benchmark
@@ -946,9 +1058,9 @@ papers:
     GitHub: https://github.com/choderalab/integrator-benchmark
     bioRxiv: https://doi.org/10.1101/266619
     funding:
-    - NIH Grant P30 CA008748
-    - NIH Grant R01 GM121505
-    - NSF Grant CHE 1738979
+    - NIH P30 CA008748
+    - NIH R01 GM121505
+    - NSF CHE 1738979
     description: >
      Molecular dynamics simulations necessarily use a finite timestep, which introduces error
      or bias in the sampled configuration space density that grows rapidly with increasing timestep.
@@ -983,7 +1095,7 @@ papers:
     doi: http://doi.org/10.1021/acs.jctc.8b00640
     bioRxiv: https://doi.org/10.1101/286542
     funding:
-    - NSF Grant CHE 1738979
+    - NSF CHE 1738979
     description: >
      We describe the philosophy behind a modern approach to molecular mechanics forcefield
      parameterization, and present initial results for the first SMIRNOFF-encoded
@@ -1015,8 +1127,8 @@ papers:
     doi: https://doi.org/10.7554/eLife.32766
     bioRxiv: https://doi.org/10.1101/205260
     funding:
-    - NIH Grant P30 CA008748
-    - NIH Grant R01 GM121505
+    - NIH P30 CA008748
+    - NIH R01 GM121505
     description: >
      We show that, contrary to the canonical belief that activation shifts DFG-out to DFG-in
      populations, phosphorylation of AurA does not shift DFG-in/out equilibrium but instead
@@ -1061,7 +1173,7 @@ papers:
     Supporting Info: https://choderalab.squarespace.com/s/nanoparticles-si-zd77.pdf
     nano-drugbank: https://github.com/choderalab/nano-drugbank
     funding:
-    - NIH Grant P30 CA008748
+    - NIH P30 CA008748
     - Cycle For Survival
     description: >
      In a collaboration with the Heller Lab at MSKCC, we show how indocyanine nanoparticles can
@@ -1091,8 +1203,8 @@ papers:
     simulation code: https://github.com/choderalab/saltswap
     resuts and analysis scripts: https://github.com/choderalab/saltswap-results
     funding:
-    - NIH Grant P30 CA008748
-    - NSF Grant CHE 1738979
+    - NIH P30 CA008748
+    - NSF CHE 1738979
     description: >
      We show how NCMC can be used to implement an efficient osmostat in molecular dynamics
      simulations to model realistic fluctuations in ion environments around biomolecules, and
@@ -1124,7 +1236,7 @@ papers:
     ChemRxiv: https://chemrxiv.org/articles/Binding_Modes_of_Ligands_Using_Enhanced_Sampling_BLUES_Rapid_Decorrelation_of_Ligand_Binding_Modes_Using_Nonequilibrium_Candidate_Monte_Carlo/5406907
     GitHub: https://github.com/mobleylab/blues
     funding:
-    - NIH Grant P30 CA008748
+    - NIH P30 CA008748
     description: >
      Nonequilibrium candidate Monte Carlo can be used to accelerate the sampling of ligand
      binding modes by orders of magnitude over instantaneous Monte Carlo.
@@ -1159,8 +1271,8 @@ papers:
     website: http://openmm.org/
     GitHub: http://github.com/pandegroup/openmm
     funding:
-    - NIH Grant P30 CA008748
-    - Starr Foundation Grant I8-A8-058
+    - NIH P30 CA008748
+    - Starr Foundation I8-A8-058
     description: >
      We describe the latest version of OpenMM, a GPU-accelerated framework for high performance
      molecular simulation applications.
@@ -1188,7 +1300,7 @@ papers:
     bioRxiv: https://doi.org/10.1101/104281
     GitHub: https://github.com/mobleylab/freesolv
     funding:
-    - NIH Grant P30 CA008748
+    - NIH P30 CA008748
     description: >
      We review alchemical methods for computing solvation free energies and present an update
      (version 0.5) to the FreeSolv database of experimental and calculated hydration free
@@ -1222,7 +1334,7 @@ papers:
     PDF: https://choderalab.squarespace.com/s/nchembio2307.pdf
     GitHub: https://github.com/choderalab/LDHA-MCCE
     funding:
-    - NIH Grant P30 CA008748
+    - NIH P30 CA008748
     description: >
      At low pH, metabolic enzymes lactate dehydrogenase and malate dehydrogenase undergo shifts
      in substrate utilization that have high relevance to cancer metabolism due to surprisingly
@@ -1250,7 +1362,7 @@ papers:
     PDF: https://choderalab.squarespace.com/s/nchembio2296.pdf
     GitHub: http://github.com/choderalab/AurA-materials
     funding:
-    - NIH Grant P30 CA008748
+    - NIH P30 CA008748
     description: >
      Over 50 microseconds of aggregate simulation data on Folding@home reveal a surprisingly
      stable hydrogen bond network underlies allosteric activation by Tpx2.
@@ -1286,7 +1398,7 @@ papers:
     doi: http://dx.doi.org/10.1172/JCI86120
     PDF: https://choderalab.squarespace.com/s/JCI86120.pdf
     funding:
-    - NIH Grant P30 CA008748
+    - NIH P30 CA008748
     - Folding@Home
     description: >
      In work with the James Hsieh lab at MSKCC, we examine the surprising origin of how
@@ -1318,7 +1430,7 @@ papers:
     PDF: http://biorxiv.org/content/early/2016/07/10/063081.full.pdf
     GitHub: https://github.com/choderalab/sampl5-experimental-logd-data
     funding:
-    - NIH Grant P30 CA008748
+    - NIH P30 CA008748
     description: >
      Solicited manuscript for special issue of the Journal of Computer Aided Molecular Design on
      the SAMPL5 Challenge.
