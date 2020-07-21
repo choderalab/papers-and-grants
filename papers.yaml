@@ -101,6 +101,41 @@
 
 
   # Title should have only initial letter capitalized
+  - title: "Crowdsourcing drug discovery for pandemics"
+    authors: # Use same name in publication
+    - John D. Chodera
+    - Alpha A. Lee
+    - Nir London
+    - Frank von Delft
+    corresponding-authors:
+    - John D. Chodera
+    - Alpha A. Lee
+    - Nir London
+    - Frank von Delft
+    # Add these other fields are optional; fill in as much information as is available
+    published:
+      doi: https://doi.org/10.1038/s41557-020-0496-2
+      journal: Nature Chemistry
+      volume: 12
+      page: 581 # just first page
+      year: 2020
+      dates:
+        published: 2020-06-18
+    # Thumbnail
+    thumbnail: covid-moonshot
+    pdf: http://www.choderalab.org/s/SAMPL6-pKa.pdf
+    # These links may be listed in the choderalab.org/publications/ page
+    links:
+      - action: Download code and data from GitHub
+        short: GitHub
+        url: https://github.com/samplchallenges/SAMPL6/
+    # Two newlines are needed after the description
+    funding: null
+    description: >
+      XXX
+
+
+  # Title should have only initial letter capitalized
   - title: "Assessing the accuracy of octanol-water partition coefficient predictions in the SAMPL6 Part II log P Challenge"
     authors: # Use same name in publication
     - Mehtap Işık # note the characters are not Isik
@@ -409,6 +444,8 @@
       volume: 59
       page: 10 # just first page
       year: 2019
+      dates:
+        published: 2019-09-17
     # These links may be listed in the choderalab.org/publications/ page
     thumbnail: sharing-data
     pdf: http://www.choderalab.org/s/sharing-data.pdf
@@ -434,14 +471,14 @@
     corresponding-authors:
     -  Liam J Holt
     # Add these other fields are optional; fill in as much information as is available
-    publication:
+    published:
       doi: https://doi.org/10.7554/eLife.38805.001
       journal: eLife
       volume: 8
       page: e38805
       year: 2019
       dates:
-        publication: 2019-08-13 # use ISO 8601 date format YYYY-MM-DD
+        published: 2019-08-13 # use ISO 8601 date format YYYY-MM-DD
     # These links may be listed in the choderalab.org/publications/ page
     links:
       - action: Download trajectory data from
@@ -477,7 +514,7 @@
       date: 2019-06-09
     published:
       doi: https://doi.org/10.1021/acs.jctc.9b00748
-      journal: Journal of Chemical Theory and Computation ASAP
+      journal: Journal of Chemical Theory and Computation
       volume: 15
       page: 6225  # just first page
       year: 2019
@@ -495,9 +532,12 @@
     - NIH R01 GM121505
     - NIH R01 GM124270
     description: >
-     We assess the accuracy of the SMIRNOFF99Frosst 1.0.5 force field in reproducing host-guest binding
-     thermodynamics in comparison with the GAFF force field, demonstrating how the SMIRNOFF format for
-     compactly specifying force fields provide comparable accuracy with 20x fewer parameters.
+     We have recently developed the SMIRNOFF99Frosst 1.0.5 small molecule force field, a compact, minimalistic
+     general small molecule force field intended for accurately modeling the interactions of small molecules with
+     receptors. Here, we assess the ability of this force field to accurately reproduce the binding thermodynamics
+     of host-guest systems featuring druglike small molecules, where high-quality calorimetric data is readily available.
+     We show that SMIRNOFF99Frosst peforms well in comparison with the older GAFF force fields, despite having 20x
+     fewer parameters.
 
 
   - title: "Small-molecule targeting of MUSASHI RNA-binding activity in acute myeloid leukemia"
@@ -689,7 +729,7 @@
     - John D. Chodera
     - Peter G. Bolhuis
     # Add these other fields are optional; fill in as much information as is available
-    publication:
+    published:
       doi: https://doi.org/10.1021/acs.jctc.8b00627
       journal: Journal of Chemical Theory and Computation
       volume: 15

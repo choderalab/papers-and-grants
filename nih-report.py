@@ -65,6 +65,49 @@ def preprinted_during_reporting_period(paper):
     return False
 
 ################################################################################
+# Rendering function
+################################################################################
+
+def show_paper(paper):
+    """Render the paper as Markdown
+    """
+    try:
+        # Title
+        print(f"**{paper['title']}**")
+        # Journal
+        if 'published' in paper:
+            published = paper['published']
+            print("*{journal}* {volume}:{page}, {year}".format(**published))
+            print(f"DOI: {published['doi']}")
+        elif 'preprint' in paper:
+            preprint = paper['preprint']
+            print(f"Preprint: {preprint['url']}")
+
+        # Authors
+        for index, author in enumerate(paper['authors']):
+            if index == 0:
+                print(f"{author}", end='')
+            if index == len(paper['authors']) - 1:
+                print(f", and {author}")
+            else:
+                print(f", {author}", end='')
+
+        # Links
+        if 'links' in paper:
+            for link in paper['links']:
+                print(f"**{link['action']}:** {link['url']}")
+
+        # Description
+        if 'description' in paper:
+            print(f"*{paper['description'].rstrip()}*")
+
+    except Exception as e:
+        # Give up on rendering if we get stuck
+        print(e)
+        pass
+
+
+################################################################################
 # Load the databases
 ################################################################################
 
@@ -88,13 +131,15 @@ def load_databases():
 
     return db
 
-
 if __name__ == '__main__':
 
     # Load the databases
     db = load_databases()
 
     # Extract all publications in the reporting period
+    from collections import defaultdict
+    papers_to_report = defaultdict(list)
+
     papers = db['papers']
     for paper in papers:
         # Identify those papers that were funded by the grant
@@ -103,14 +148,17 @@ if __name__ == '__main__':
 
         # Identify papers published in the reporting range
         if published_during_reporting_period(paper):
-            print('PUBLISHED:')
-            print(paper)
-            print('')
+            papers_to_report['papers were published'].append(paper)
         elif accepted_during_reporting_period(paper):
-            print('ACCEPTED:')
-            print(paper)
-            print('')
+            papers_to_report['manuscripts were accepted'].append(paper)
         elif preprinted_during_reporting_period(paper):
-            print('PREPRINT:')
-            print(paper)
+            papers_to_report['preprints were posted'].append(paper)
+
+    for category in ['papers were published', 'manuscripts were accepted', 'preprints were posted']:
+        if (category in papers_to_report) and (len(papers_to_report[category]) > 0):
+            print(f'Since the last reporting period, the following {category}, funded by this grant in part or whole:')
+            for paper in papers_to_report[category]:
+                print('')
+                show_paper(paper)
+
             print('')
