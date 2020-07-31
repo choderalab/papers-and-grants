@@ -11,6 +11,44 @@
 #
 # Google Scholar : https://scholar.google.com/citations?hl=en&user=nnEg7_8AAAAJ&view_op=list_works&authuser=2&sortby=pubdate
 
+  # Title should have only initial letter capitalized
+  - title: "Towards chemical accuracy for alchemical free energy calculations with hybrid physics-based machine learning / molecular mechanics potentials"
+    authors: # Use same name in publication
+    - Dominic A. Rufa
+    - Hannah E. Bruce Macdonald
+    - Josh Fass
+    - Marcus Wieder
+    - Patrick A. Grinaway
+    - Adrian E. Rotiberg
+    - Olexandr Isayev
+    - John D. Chodera
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - John D. Chodera
+    # Add these other fields are optional; fill in as much information as is available
+    preprint:
+      url: https://www.biorxiv.org/content/10.1101/2020.07.29.227959v1
+      date: 2020-07-30
+    # These links may be listed in the choderalab.org/publications/ page
+    links:
+      - action: Download code and data
+        short: GitHub
+        url: https://github.com/choderalab/qmlify
+    # Thumbnail image URL
+    thumbnail: hybrid-qm-mm
+    # Two newlines are needed after the description
+    funding:
+    - NIH P30 CA008748
+    - NIH R01 GM121505
+    description: >
+      In this first use of hybrid machine learning / molecular mechanics (ML/MM) potentials 
+      for alchemical free energy calculations, we demonstrate how the improved modeling of 
+      intramolecular ligand energetics offered by the quantum machine learning potential 
+      ANI-2x can significantly improve the accuracy in predicting kinase inhibitor binding 
+      free energy by reducing the error from 0.97~kcal/mol to 0.47~kcal/mol, which could 
+      drastically reduce the number of compounds that must be synthesized in lead 
+      optimization campaigns for minimal additional computational cost.
+
 # Here is an illustrative entry for papers
   # Title should have only initial letter capitalized
   - title: "Is structure based drug design ready for selectivity optimization?"
