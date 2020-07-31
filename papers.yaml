@@ -40,6 +40,7 @@
     funding:
     - NIH P30 CA008748
     - NIH R01 GM121505
+    - NIH R01 GM132386
     description: >
       In this first use of hybrid machine learning / molecular mechanics (ML/MM) potentials 
       for alchemical free energy calculations, we demonstrate how the improved modeling of 
