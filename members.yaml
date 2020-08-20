@@ -17,6 +17,7 @@
   CV: https://choderalab.squarespace.com/s/Chodera-CV-2020-01-31-73fn.pdf
   biosketch: https://choderalab.squarespace.com/s/Biosketch-Chodera-2018-12-16.pdf
   google-scholar: http://goo.gl/qO0JW
+  image: john-chodera.jpg
   affiliations: >
      Associate Member, Computational Biology Program, Sloan Kettering Institute 
      Associate Member, Memorial Sloan Kettering Cancer Center
@@ -27,6 +28,7 @@
 - name: Erica Goldberger
   position: Technician
   email: erica.goldberger@choderalab.org
+  image: erica-goldberger.jpg
   telephone: 646.888.2577
   ORCID: 0000-0002-0642-7107
   linkedin: https://www.linkedin.com/in/erica-goldberger-8a7a5640/
@@ -36,15 +38,38 @@
 - name: Hannah Bruce Macdonald
   position: Postdoctoral Research Fellow
   status: former
+  image: hannah-brucemacdonald.jpg
   fellowships:
   - MolSSI Investment Fellowship
   project: Theory and algorithms for scalable, adaptive free energy calculations
   email: hannah.brucemacdonald@choderalab.org
   ORCID: 0000-0002-5562-6866
-  start-date: 2020-
+  start-date: 2018-10-01
   end-date: 2020-09-30
   google-scholar: https://scholar.google.com/citations?user=vFLk28gAAAAJ&hl=en&oi=ao
-  current-position: Scientist
-  current-affiliation: Merck Research Laboratories
+  current-position:
+    title: Scientist
+    institution: Merck Research Laboratories, London
+    url: https://www.merck.com/
   
-
+- name: Patrick B. Grinaway
+  position: PhD student, Program in Physiology, Biophysics, and Systems Biology
+  status: former
+  image: patrick-grinaway.jpg
+  project: Advanced statistical sampling methods for free energy calculations; distributed computing
+  start-date: 2013-07-01
+  end-date: 2018-12-31
+  current-position:
+    title: Scientist
+    institution: Onai
+    url: http://onai.com
+    
+- name: Jessica Tom
+  position: Summer Student
+  status: former
+  image: summer-2018-students.jpg
+  project: Expression of Abl mutants
+  start-date: 2018-07-01
+  end-date: 2018-09-01
+  
+  
