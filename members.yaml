@@ -7,7 +7,7 @@
 
 # Here is an illustrative entry for members
 - name: John D. Chodera
-  role: Lab Head
+  position: Lab Head
   status: current
   email: john.chodera@choderalab.org
   telephone: 646.888.3400
@@ -25,11 +25,26 @@
      BIH Einstein Visiting Professor, Charité Universitätmedizin, Berlin
 
 - name: Erica Goldberger
-  role: Technician
+  position: Technician
   email: erica.goldberger@choderalab.org
   telephone: 646.888.2577
   ORCID: 0000-0002-0642-7107
   linkedin: https://www.linkedin.com/in/erica-goldberger-8a7a5640/
   affiliations: >
      Technician, Chodera lab
+   
+- name: Hannah Bruce Macdonald
+  position: Postdoctoral Research Fellow
+  status: former
+  fellowships:
+  - MolSSI Investment Fellowship
+  project: Theory and algorithms for scalable, adaptive free energy calculations
+  email: hannah.brucemacdonald@choderalab.org
+  ORCID: 0000-0002-5562-6866
+  start-date: 2020-
+  end-date: 2020-09-30
+  google-scholar: https://scholar.google.com/citations?user=vFLk28gAAAAJ&hl=en&oi=ao
+  current-position: Scientist
+  current-affiliation: Merck Research Laboratories
+  
 
