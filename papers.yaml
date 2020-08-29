@@ -11,19 +11,6 @@
 #
 # Google Scholar : https://scholar.google.com/citations?hl=en&user=nnEg7_8AAAAJ&view_op=list_works&authuser=2&sortby=pubdate
 
-
-- title: "Capturing non-local through-bond effects when fragmenting molecules for quantum chemical torsion scans"
-  authors: "Chaya D. Stern, Christopher I. Bayly, Daniel G. A. Smith, Josh Fass, Lee-Ping Wang, David L. Mobley, and John D. Chodera"
-  summary: "We show how the Wiberg Bond Order (WBO) can be used to construct small molecule fragmentation schemes that will avoid disrupting the chemical environment around torsions. The resulting fragmentation scheme powers the QCSubmit tool used to fragment and inject small molecule datasets into the QCFractal computation pipeline for deposition into the QCArchive quantum chemistry archive the Open Force Field Initiative uses for constructing force fields, as well as powering bespoke torsion refitting for individual molecules."
-  img: fragmenter.png
-  date: 2020-08-28
-  preprint:
-    server: bioRxiv
-    url: https://www.biorxiv.org/content/10.1101/2020.08.27.270934v1
-    license: "CC BY 4.0"
-    date: 2020-08-28
-  code: openforcefield/fragmenter
-
   # Title should have only initial letter capitalized
   - title: "Capturing non-local through-bond effects when fragmenting molecules for quantum chemical torsion scans"
     authors: # Use same name in publication
@@ -59,17 +46,16 @@
     thumbnail: fragmenter
     # Two newlines are needed after the description
     funding:
-    - NIH P30 CA008748
-    - NIH R01 GM121505
+    - NSF GRFP DGE-1257284
     - NIH R01 GM132386
+    - NIH P30 CA008748
     description: >
-      In this first use of hybrid machine learning / molecular mechanics (ML/MM) potentials
-      for alchemical free energy calculations, we demonstrate how the improved modeling of
-      intramolecular ligand energetics offered by the quantum machine learning potential
-      ANI-2x can significantly improve the accuracy in predicting kinase inhibitor binding
-      free energy by reducing the error from 0.97~kcal/mol to 0.47~kcal/mol, which could
-      drastically reduce the number of compounds that must be synthesized in lead
-      optimization campaigns for minimal additional computational cost.
+      We show how the Wiberg Bond Order (WBO) can be used to construct small molecule fragmentation
+      schemes that will avoid disrupting the chemical environment around torsions. The resulting
+      fragmentation scheme powers the Open Force Field Initiative QCSubmit tool used to fragment and
+      inject small molecule datasets into the QCFractal computation pipeline for deposition
+      into the QCArchive quantum chemistry archive the Open Force Field Initiative uses for constructing
+      force fields, as well as powering bespoke torsion refitting for individual molecules.
 
   # Title should have only initial letter capitalized
   - title: "Towards chemical accuracy for alchemical free energy calculations with hybrid physics-based machine learning / molecular mechanics potentials"
