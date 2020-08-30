@@ -49,6 +49,7 @@
     - NSF GRFP DGE-1257284
     - NIH R01 GM132386
     - NIH P30 CA008748
+    - Open Force Field Consortium
     description: >
       We show how the Wiberg Bond Order (WBO) can be used to construct small molecule fragmentation
       schemes that will avoid disrupting the chemical environment around torsions. The resulting
@@ -56,6 +57,50 @@
       inject small molecule datasets into the QCFractal computation pipeline for deposition
       into the QCArchive quantum chemistry archive the Open Force Field Initiative uses for constructing
       force fields, as well as powering bespoke torsion refitting for individual molecules.
+
+  # Title should have only initial letter capitalized
+  - title: "Best practices for alchemical free energy calculations"
+    authors: # Use same name in publication
+    - Antonia S. J. S. Mey
+    - Bryce Allen
+    - Hannah E. Bruce Macdonald
+    - John D. Chodera
+    - Maximilian Kuhn
+    - Julien Michel
+    - David L. Mobley
+    - Levi N. Naden
+    - Samarjeet Prasad
+    - Andrea Rizzi
+    - Jenke Scheen
+    - Michael R. Shirts
+    - Gary Tresadern
+    - Huafeng Xu
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Antonia S. J. S. Mey
+    - John D. Chodera
+    - David L. Mobley
+    - Michael R. Shirts
+    # Add these other fields are optional; fill in as much information as is available
+    preprint:
+      url:
+      date: 2020-08-21
+    # These links may be listed in the choderalab.org/publications/ page
+    links:
+      - action: Raise an issue on the manuscript source repository
+        short: GitHub
+        url: https://github.com/michellab/alchemical-best-practices
+    # Thumbnail image URL
+    thumbnail: fragmenter
+    # Two newlines are needed after the description
+    funding:
+    - NIH P30 CA008748
+    - NIH R01 GM121505
+    - NIH R01 GM132386
+    description: >
+      This living review for the Living Journal of Computational Molecular Sciences
+      (LiveCoMS) covers the essential considerations for running alchemical free
+      energy calculations for rational molecular design for drug discovery.
 
   # Title should have only initial letter capitalized
   - title: "Towards chemical accuracy for alchemical free energy calculations with hybrid physics-based machine learning / molecular mechanics potentials"
@@ -209,16 +254,57 @@
         published: 2020-06-18
     # Thumbnail
     thumbnail: covid-moonshot
-    pdf: http://www.choderalab.org/s/SAMPL6-pKa.pdf
+    pdf: https://choderalab.squarespace.com/s/crowdsourcing-drug-discovery.pdf
     # These links may be listed in the choderalab.org/publications/ page
     links:
-      - action: Download code and data from GitHub
-        short: GitHub
-        url: https://github.com/samplchallenges/SAMPL6/
+      - action: Visit the COVID Moonshot
+        short: COVID Moonshot
+        url: http://postera.ai/covid
     # Two newlines are needed after the description
     funding: null
     description: >
-      XXX
+      The COVID-19 pandemic has left the world scrambling to find effective therapies
+      to stem the tidal wave of death and put an end to the worldwide disruption
+      caused by SARS-CoV-2. In this Correspondence, we argue for the need for a new open,
+      collaborative drug discovery model (exemplified by our COVID Moonshot collaboration)
+      that breaks free of the limitations of industry-led competitive drug discovery efforts
+      that necessarily restrict information flow and hinder rapid progress by prioritizing
+      profits and patent protection over human lives.
+
+
+  # Title should have only initial letter capitalized
+  - title: "Machine learning force fields and coarse-grained variables in molecular dynamics: application to materials and biological systems"
+    authors: # Use same name in publication
+    - Paraskevi Gkeka
+    - Gabriel Stoltz
+    - Amir Barati Farimani
+    - Zineb Belkacemi
+    - Michele Ceriotti
+    - John Chodera
+    - Aaron R. Dinner
+    - Andrew Ferguson
+    - Jean-Bernard Maillet
+    - Hervé Minoux
+    - Christine Peter
+    - Fabio Pietrucci
+    - Ana Silveira
+    - Alexandre Tkatchenko
+    - Zofia Trstanova
+    - Rafal Wiewiora
+    - Tony Lelièvre
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Paraskevi Gkeka
+    - Gabriel Stoltz
+    - Tony Lelièvre
+    # Add these other fields are optional; fill in as much information as is available
+    preprint:
+      url: https://arxiv.org/abs/2004.06950
+      date: 2020-08-15
+    # Thumbnail image URL
+    thumbnail: coarse-graining
+    description: >
+      We review the state of the art in applying machine learning to coarse grain force fields in space and time to study mutliscale dynamics.
 
 
   # Title should have only initial letter capitalized
