@@ -12,6 +12,41 @@
 # Google Scholar : https://scholar.google.com/citations?hl=en&user=nnEg7_8AAAAJ&view_op=list_works&authuser=2&sortby=pubdate
 
   # Title should have only initial letter capitalized
+  - title: "End-to-end differentiable molecular mechanics force field construction"
+    authors: # Use same name in publication
+    - Yuanqing Wang
+    - Josh Fass
+    - John D. Chodera
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - John D. Chodera
+    # Add these other fields are optional; fill in as much information as is available
+    preprint:
+      url: https://arxiv.org/abs/2010.01196
+      date: 2020-10-02
+    # These links may be listed in the choderalab.org/publications/ page
+    links:
+      - action: Download code
+        short: GitHub
+        url: https://github.com/choderalab/espaloma
+    # Thumbnail image URL
+    thumbnail: espaloma
+    # Two newlines are needed after the description
+    funding:   
+    - NIH P30 CA008748
+    - NIH R01 GM121505
+    - NIH R01 GM132386
+    - NSF CHE 1738979
+    - Open Force Field Consortium
+    description: >
+      We show how the Wiberg Bond Order (WBO) can be used to construct small molecule fragmentation
+      schemes that will avoid disrupting the chemical environment around torsions. The resulting
+      fragmentation scheme powers the Open Force Field Initiative QCSubmit tool used to fragment and
+      inject small molecule datasets into the QCFractal computation pipeline for deposition
+      into the QCArchive quantum chemistry archive the Open Force Field Initiative uses for constructing
+      force fields, as well as powering bespoke torsion refitting for individual molecules.
+
+  # Title should have only initial letter capitalized
   - title: "Capturing non-local through-bond effects when fragmenting molecules for quantum chemical torsion scans"
     authors: # Use same name in publication
     - Chaya D. Stern
