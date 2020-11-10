@@ -1,0 +1,18 @@
+- name: Jaime Rodríguez-Guerra
+ position: Postdoc researcher
+ affiliations: >
+   Charité Universitätsmedizin Berlin
+ fellowships:
+ - BIH Einstein
+ status: current
+   start-date: 2019.03.18
+ email: jaime.rodriguez-guerra@choderalab.org
+ twitter: https://twitter.com/jaime_rgp
+ linkedin: https://www.linkedin.com/in/jaimergp/
+ ORCID: 0000-0001-8974-1566
+ google-scholar: https://scholar.google.com/citations?user=imKyayEAAAAJ
+ project: Scalable alchemical free energy calculations and machine learning for kinase drug discovery
+ associations: >
+   kinoml, miame, pymbar, openmmtools
+ interests: >
+   scientific software development, api design, continuous integration, packaging

@@ -1,0 +1,19 @@
+- name: Ivy Zhang
+ position: Graduate Student
+ affiliations: >
+   Tri-Institutional PhD Program in Computational Biology and Medicine
+ fellowships:
+ - MolSSI Seed Fellowship
+ status: current
+   start-date: 2019.06.01
+ email: ivy.zhang@choderalab.org
+ twitter: https://twitter.com/ivyzhang__
+ linkedin: https://www.linkedin.com/in/ivy-zhang-40812410a/
+ ORCID: 0000-0003-0628-6276
+ google-scholar: https://scholar.google.com/citations?user=yfMuCWIAAAAJ&hl=en
+ project: Alchemical free energy calculations for predicting the impact of point mutations on small molecule and protein binding
+ associations: >
+   perses, openmmtools, folding@home
+ interests: >
+   free energy calculations, protein-protein interactions, folding@home
+ 
