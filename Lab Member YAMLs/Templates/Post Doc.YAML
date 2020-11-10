@@ -1,0 +1,23 @@
+- name:
+ position: Postdoctoral Research Fellow
+ affiliations: >
+   Berlin Institute of Health (BIH) Einstein Foundation - Stiftung Charité Group
+   Open Force Field Consortium
+   XtalPi Inc.
+   Redesign Science Inc
+ fellowships:
+ - MolSSI Investment Fellowship
+ status: current
+ start-date:
+ email:
+ telephone:
+ twitter:
+ linkedin:
+ ORCID:
+ google-scholar:
+ CV:
+ project: name
+ associations: >
+   perses, openmmtools, folding@home, yank, rocsalt, assaytools,
+ interests: >
+   machine learning, free energy calculations, small molecule, SAMPL challenge, protein-protein interactions, automation, force fields, folding@home, bayesian modeling, MSM, pymbar,
