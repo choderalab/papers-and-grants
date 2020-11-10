@@ -1,0 +1,18 @@
+- name: David Schaller
+ position: Postdoctoral Research Fellow
+ affiliations: >
+  Charité Universitätsmedizin Berlin
+  Bayer AG
+  Joint Mentorship with Prof. Dr. Andrea Volkamer (https://volkamerlab.org/)
+ status: current
+   start-date: 2020.05.01
+ email: david.schaller@choderalab.org
+ twitter: _davidschaller_
+ linkedin: https://www.linkedin.com/in/davidschaller/
+ ORCID: 0000-0002-1881-4518
+ google-scholar: https://scholar.google.com/citations?user=UM23iiEAAAAJ
+ project: Free Energy Calculations and Machine Learning for Kinase Drug Discovery with Focus on Mutations
+ associations: >
+  kinoml, perses, folding@home
+ interests: >
+  structure-based modeling, free energy calculations, mutations, python, molecular interactions, machine learning
