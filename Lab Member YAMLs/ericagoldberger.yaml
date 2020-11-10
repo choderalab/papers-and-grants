@@ -1,0 +1,14 @@
+- name: Erica Goldberger
+ position: Research Technician
+ affiliations: >
+  Memorial Sloan Kettering Cancer Center
+ status: current
+   start-date: 2019.06.30
+ email: erica.goldberger@choderalab.org
+ telephone: 646.888.2577
+ twitter: erigoldbe
+ linkedin: https://www.linkedin.com/in/erica-goldberger-8a7a5640/
+ ORCID: 0000-0002-0642-7107
+ CV:
+interests: >
+ automation, wet lab, protein-protein interactions, kinase, bayesian inference

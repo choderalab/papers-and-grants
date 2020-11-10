@@ -1,0 +1,16 @@
+- name: Hannah Bruce Macdonald
+  position: Postdoctoral Research Fellow
+  status: former
+  image: hannah-brucemacdonald.jpg
+  fellowships:
+  - MolSSI Investment Fellowship
+  project: Theory and algorithms for scalable, adaptive free energy calculations
+  email: hannah.brucemacdonald@choderalab.org
+  ORCID: 0000-0002-5562-6866
+  start-date: 2018-10-01
+  end-date: 2020-09-30
+  google-scholar: https://scholar.google.com/citations?user=vFLk28gAAAAJ&hl=en&oi=ao
+  current-position:
+    title: Scientist
+    institution: Merck Research Laboratories, London
+    url: https://www.merck.com/
