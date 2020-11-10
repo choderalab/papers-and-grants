@@ -1,0 +1,17 @@
+- name: William Glass
+ position: Postdoctoral Research Fellow
+ affiliations: >
+   Memorial Sloan Kettering Cancer Center
+   Bayer
+ status: current
+ start-date: 18.05.2020
+ email: william.glass@choderalab.org
+ twitter: @W_Glass
+ linkedin: https://www.linkedin.com/in/william-glass-49318394/
+ ORCID: 0000-0002-4099-9280
+ google-scholar: https://scholar.google.com/citations?user=4gyyCH0AAAAJ&hl
+ project: Alchemical free energy calculations to asses the impact of point mutations for kinase drug discovery and small molecule binding.
+ associations: >
+   Perses, KinoML, Folding@Home, COVID Moonshot
+ interests: >
+   free energy calculations, small molecule, protein-protein interactions, protein-ligand interactions, folding@home, MSM, molecular dynamics
