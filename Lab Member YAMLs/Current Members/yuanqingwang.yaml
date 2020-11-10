@@ -1,0 +1,16 @@
+- name: Yuanqing Wang
+ position: Graduate Student
+ affiliations: >
+   Weill Cornell Medicine Physiology, Biophysics, and System Biology Ph.D. Program
+ fellowships:
+ status: current
+   start-date: 2019.06.01
+ email: yuanqing.wang@choderalab.org
+ twitter: @YuanqingWang
+ linkedin: https://www.linkedin.com/in/yuanqing-wang/
+ ORCID: 0000-0003-4403-2015
+ google-scholar: https://scholar.google.com/citations?user=Njp5EY4AAAAJ&hl=en
+ project: Bridging the gap between physical and statistical modeling of (marco)molecules
+ associations: >
+ interests: >
+   graph neural models, Bayesian inference
