@@ -1,0 +1,23 @@
+
+- name: Talia B. Kimber
+ position: Graduate Student
+ affiliations: >
+  Memorial Sloan Kettering Cancer Center
+  Charité Universitätsmedizin Berlin
+  Freie Universitätsmedizin Berlin, Department of Mathematics and Computer Science
+  Joint Mentorship with Prof. Frank Noé (https://www.mi.fu-berlin.de/en/math/groups/comp-mol-bio/staff/noe/index.html) and Prof. Andrea Volkamer (https://volkamerlab.org/)
+ fellowships:
+ - Berlin Institute of Health (BIH) Einstein Foundation - Stiftung Charité Group
+ status: current
+   start-date: 2020.04.15
+ email: talia.kimber@choderalab.org
+ twitter: https://twitter.com/TaliaKimber
+ linkedin: https://www.linkedin.com/in/taliakimber
+ ORCID: 0000-0002-8881-920X
+ google-scholar: https://scholar.google.com/citations?user=i3sMZ-cAAAAJ&hl=en&oi=ao
+ CV:
+ project: Machine learning for kinase drug discovery
+ associations: >
+  kinoml, miame
+ interests: >
+  machine learning, drug discovery, binding free energy prediction
