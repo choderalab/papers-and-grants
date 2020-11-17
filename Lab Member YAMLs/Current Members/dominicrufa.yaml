@@ -1,0 +1,17 @@
+- name: Dominic Rufa
+ position: Graduate Student
+ affiliations: >
+  Memorial Sloan Kettering Cancer Center
+ fellowships:
+ status: current
+  start-date: 2019.06.1
+ email: dominic.rufa@choderalab.org
+ linkedin:
+ ORCID: 0000-0003-0930-9445
+ google-scholar: https://scholar.google.com/citations?user=QIyEUo0AAAAJ&hl=en
+ CV:
+ project: nonequilibrium free energy calculations for drug discovery
+ associations:
+   perses,
+ interests:
+   free energy calculations

@@ -1,26 +1,65 @@
-- name:
- position: Graduate Student
- affiliations: >
-   Weill Cornell Physiology, Biophysics, and Systems Biology PhD Program
-   Weill Cornell Biochemistry and Structural Biology PhD Program
-   Tri-Institutional PhD Program in Computational Biology and Medicine
-   Tri-Institutional PhD Program in Chemical Biology
-   Louis V. Gerstner, Jr. Graduate School of Biomedical Sciences
-   Berlin Institute of Health (BIH) Einstein Foundation - Stiftung Charité Group
-   Joint Mentorship with Dr. Richard Hite (URL to lab)
- fellowships:
- - MolSSI Investment Fellowship
- status: current
+- name:  
+   position: (Job Title) (Graduate Student) (Postoctoral Research Scholar/Fellow)
+   affiliations: >
+      (Choose all that apply) (List all companies you are associated with that fund you)
+      Weill Cornell Physiology, Biophysics, and Systems Biology PhD Program
+      Weill Cornell Biochemistry and Structural Biology PhD Program
+      Tri-Institutional PhD Program in Computational Biology and Medicine
+      Tri-Institutional PhD Program in Chemical Biology
+      Louis V. Gerstner, Jr. Graduate School of Biomedical Sciences
+      Berlin Institute of Health (BIH) Einstein Foundation - Stiftung Charité Group
+      Charité Universitätsmedizin Berlin
+      Joint Mentorship with NAME (URL to lab)
+   fellowships: >
+      (Any awards you have won)
+      MolSSI Investment Fellowship
+   status: current
    start-date: year.month.day
- email:
- telephone:
- twitter:
- linkedin:
- ORCID:
- google-scholar:
- CV:
- project: name
- associations: >
-   perses, openmmtools, folding@home, yank, rocsalt
- interests: >
-   machine learning, free energy calculations, small molecule, SAMPL challenge, protein-protein interactions, automation, force fields, folding@home, bayesian modeling
+   email: @choderalab.org
+   twitter: handle (NO@)
+   linkedin: URL
+   ORCID: 
+   google-scholar: URL
+   CV: URL to PDF
+   project: (Thesis Title)
+   associations: >
+      (List all tools/programs you are using/working on)(Listed are current tags)
+      self-adjusted mixture sampling (SAMS), 
+      chemical synthesis, 
+      perses, 
+      openmmtools,
+      folding@home, 
+      miame,
+      adaptive sampling,
+      markov state models (MSM),
+      pymbar,
+      Open Force Field Consortium,
+      COVID Moonshot
+   interests: >
+      (List ALL possible buzz words that are interests of yours)(Listed are current tags)
+      free energy calculations,
+      folding@home,
+      markov state models (MSM), 
+      bayesian inference, 
+      automation, 
+      wet lab, 
+      protein-protein interactions, 
+      drug discovery,
+      Open Force Field Initiative,
+      project management,
+      small molecule,
+      enhanced sampling,
+      structure-based drug discovery,
+      molecular dynamics,
+      cryo-EM,
+      molecular docking,
+      machine learning,
+      mutations,
+      molecular interactions,
+      scientific software development,
+      api design,
+      continuous integration,
+      packaging,
+      molecular dynamics,
+      graph neural models
+  
