@@ -1,0 +1,21 @@
+- name: Melissa Boby
+position: Graduate Student
+ affiliations: >
+  Weill Cornell Pharmacology PhD Program
+  Memorial Sloan Kettering Cancer Center
+ fellowships:
+ - T32 Training Grant in Pharmacological Sciences
+ status: current
+  start-date: 2019.June.1
+ email: Melissa.boby@choderalab.org
+ telephone: 646-888-2229
+ twitter:
+ linkedin: https://www.linkedin.com/in/melissa-boby-50121288/
+ ORCID: 0000-0003-1920-206X
+ google-scholar:
+ CV:
+ project: Design, Synthesis, and Evaluation of MenE Inhibitors as Novel Antibiotics
+ associations: >
+  Chemical synthesis, perses
+ interests: >
+  free energy calculations, docking, small molecule, protein-protein interactions, automation, antibiotics, computer aided drug design

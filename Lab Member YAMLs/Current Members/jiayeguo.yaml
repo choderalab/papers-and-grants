@@ -1,0 +1,17 @@
+- name: Jiaye Guo
+ position: Postdoctoral Research Scholar
+ affiliations: >
+  Memorial Sloan Kettering Cancer Center
+ fellowships:
+ status: current
+  start-date: 2018.09.03
+ email: jiaye.guo@choderalab.org
+ linkedin: https://www.linkedin.com/in/jiaye-guo-47140b51/
+ ORCID: 0000-0001-7439-1479
+ google-scholar:
+ CV:
+ project: kinase conformation sampling and drug discovery using enhanced sampling and machine learning
+ associations: >
+  SAMS, kinoml, Folding@Home, MSM
+ interests: >
+  enhanced sampling, kinase conformations, molecular docking, structure-based drug discovery, MSM
