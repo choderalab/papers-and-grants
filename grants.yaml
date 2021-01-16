@@ -118,7 +118,7 @@
 
 
     # 'id' is the unique identifier by which the grant is referred to in the publications YAML
-  - id: "Vir Biotechnology  Collaboration"
+  - id: "Vir Biotechnology Collaboration"
     # 'title' is the title of the grant
     title: "Predicting resistance vulnerabilities of an ultra-potent RSV antibody"
     # 'type' denotes 'federal', 'industry', 'philanthropy'
@@ -126,10 +126,10 @@
     # 'organization' denotes the organization (federal, industrial, or philanthropic) granting the funds
     organization: "Vir Biotechnology"
     # 'direct_costs' denotes the total direct cost in dollars to the lab
-    direct_costs: 55556
+    direct_costs: 123750
     # project start and end dates in ISO 8601 format (YYYY-MM-DD)
-    project_begin: 2019-07-25
-    project_end_date: 2021-07-24
+    project_begin: 2021-01-15
+    project_end_date: 2023-01-14
     # URL to official grant record, if applicable
     url: "https://www.vir.bio/"
     # Description of the goal of the project (must be followed by two blank lines)
@@ -137,6 +137,26 @@
       The goal of this project is to develop alchemical free energy methods for predicting the impact of
       point mutations on antibody:antigen affinities.
 
+
+    # 'id' is the unique identifier by which the grant is referred to in the publications YAML
+  - id: "Interline Therapeutics Collaboration"
+    # 'title' is the title of the grant
+    title: "Developing predictive modeling techniques for modulating protein-protein interactions with small molecules"
+    # 'type' denotes 'federal', 'industry', 'philanthropy'
+    type: industry
+    # 'organization' denotes the organization (federal, industrial, or philanthropic) granting the funds
+    organization: "Interline Therapeutics"
+    # 'direct_costs' denotes the total direct cost in dollars to the lab
+    direct_costs: 495427
+    # project start and end dates in ISO 8601 format (YYYY-MM-DD)
+    project_begin: 2019-07-25
+    project_end_date: 2021-07-24
+    # URL to official grant record, if applicable
+    url: "https://www.foresitelabs.com/"
+    # Description of the goal of the project (must be followed by two blank lines)
+    description: >
+      The goal of this project is to develop predictive models for modulating protein-protein interactions with small molecules.
+      
 
     # 'id' is the unique identifier by which the grant is referred to in the publications YAML
   - id: "Parker Institute for Cancer Immunotherapy Pilot Grant"
