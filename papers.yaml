@@ -12,6 +12,40 @@
 # Google Scholar : https://scholar.google.com/citations?hl=en&user=nnEg7_8AAAAJ&view_op=list_works&authuser=2&sortby=pubdate
 
   # Title should have only initial letter capitalized
+  - title: "A white-knuckle ride of open COVID drug discovery"
+    authors: # Use same name in publication
+    - Frank von Delft
+    - Mark Calmiano
+    - John D. Chodera
+    - Ed Griffen
+    - Alpha Lee
+    - Nir London
+    - Tatiana Matviuk
+    - Ben Perry
+    - Matt Robinson
+    - Annette von Delft
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Frank von Delft
+    # Add these other fields are optional; fill in as much information as is available
+    published:
+      doi: https://doi.org/10.1038/d41586-021-01571-1
+      journal: Nature
+      volume: 594
+      page: 330 # just first page
+      year: 2021
+      dates:
+        published: 2021-06-17
+    # Thumbnail image URL
+    thumbnail: covid-moonshot-nature-commentary.jpg
+    # Two newlines are needed after the description
+    description: >
+      The COVID Moonshot is an open science effort to discover a direct-acting SARS-CoV-2 oral antiviral.
+      Here, we share lessons from this effort, including the missed opportunity to develop a phase 2 ready 
+      drug more than a decade ago that could have halted the COVID-19 pandemic in its tracks.
+
+
+  # Title should have only initial letter capitalized
   - title: "End-to-end differentiable molecular mechanics force field construction"
     authors: # Use same name in publication
     - Yuanqing Wang
@@ -45,6 +79,7 @@
       inject small molecule datasets into the QCFractal computation pipeline for deposition
       into the QCArchive quantum chemistry archive the Open Force Field Initiative uses for constructing
       force fields, as well as powering bespoke torsion refitting for individual molecules.
+
 
   # Title should have only initial letter capitalized
   - title: "Capturing non-local through-bond effects when fragmenting molecules for quantum chemical torsion scans"
@@ -93,6 +128,7 @@
       into the QCArchive quantum chemistry archive the Open Force Field Initiative uses for constructing
       force fields, as well as powering bespoke torsion refitting for individual molecules.
 
+
   # Title should have only initial letter capitalized
   - title: "Best practices for alchemical free energy calculations"
     authors: # Use same name in publication
@@ -136,6 +172,7 @@
       This living review for the Living Journal of Computational Molecular Sciences
       (LiveCoMS) covers the essential considerations for running alchemical free
       energy calculations for rational molecular design for drug discovery.
+
 
   # Title should have only initial letter capitalized
   - title: "Towards chemical accuracy for alchemical free energy calculations with hybrid physics-based machine learning / molecular mechanics potentials"
