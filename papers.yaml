@@ -252,7 +252,7 @@
       be synthesized to achieve a desired selectivity goal.
 
   # Title should have only initial letter capitalized
-  - title: "Citizen scientists create an exascale computer to combat COVID-19"
+  - title: "SARS-CoV-2 simulations go exascale to predict dramatic spike opening and cryptic pockets across the proteome"
     authors: # Use same name in publication
     - Maxwell I. Zimmerman
     - Justin R. Porter
@@ -279,6 +279,14 @@
     preprint:
       url: https://www.biorxiv.org/content/10.1101/2020.06.27.175430v1
       date: 2020-06-30
+    published:
+      doi: https://doi.org/10.1038/s41557-021-00707-0
+      journal: Nature Chemistry
+      volume: 13
+      page: 651 # just first page
+      year: 2021
+      dates:
+        published: 2021-05-24      
     # These links may be listed in the choderalab.org/publications/ page
     links:
       - action: Download data through the Open Science Framework
@@ -288,7 +296,7 @@
         short: MolSSI COVID-19 Hub
         url: http://covid.molssi.org
     # Thumbnail image URL
-    thumbnail: kinase-selectivity-paper
+    thumbnail: foldingathome-covid-cryptic-pockets
     # Two newlines are needed after the description
     funding:
     - NIH P30 CA008748
