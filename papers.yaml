@@ -12,6 +12,45 @@
 # Google Scholar : https://scholar.google.com/citations?hl=en&user=nnEg7_8AAAAJ&view_op=list_works&authuser=2&sortby=pubdate
 
   # Title should have only initial letter capitalized
+  - title: "Best practices for constructing, preparing, and evaluating protein-ligand binding affinity benchmarks"
+    authors: # Use same name in publication
+    - David F. Hahn
+    - Christopher I. Bayly
+    - Hannah E. Bruce Macdonald
+    - John D. Chodera
+    - Antonia S. J. S. Mey
+    - David L. Mobley
+    - Laura Perez Benito
+    - Christina E. M. Schindler
+    - Gary Tresadern
+    - Gregory L. Warren
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - David F. Hahn
+    # Add these other fields are optional; fill in as much information as is available
+    preprint:
+      url: https://arxiv.org/abs/2105.06222
+      date: 2021-05-13
+    # These links may be listed in the choderalab.org/publications/ page
+    links:
+      - action: Raise an issue on the manuscript source repository
+        short: GitHub
+        url: https://github.com/openforcefield/FE-Benchmarks-Best-Practices
+    # Thumbnail image URL
+    thumbnail: affinity-benchmark-best-practices
+    # Two newlines are needed after the description
+    funding:
+    - NIH P30 CA008748
+    - NIH R01 GM108889
+    - NIH R01 GM132386
+    description: >
+      This living best practices paper for the Living Journal of Computational Molecular Sciences 
+      describes the current community consensus in how to curate experimental benchmark data for 
+      assessing predictive affinity models for drug discovery, how to prepare these systems for 
+      affinity calculations, and how to assess the results to compare performance.
+
+
+  # Title should have only initial letter capitalized
   - title: "Bayesian inference-driven model parameterization and model selection for 2CLJQ fluid models"
     authors: # Use same name in publication
     - Owen C. Madin
