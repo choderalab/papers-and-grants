@@ -12,6 +12,113 @@
 # Google Scholar : https://scholar.google.com/citations?hl=en&user=nnEg7_8AAAAJ&view_op=list_works&authuser=2&sortby=pubdate
 
   # Title should have only initial letter capitalized
+  - title: "Circulating SARS-CoV-2 spike N439K variants maintain fitness while evading antibody-mediated immunity"
+    authors: # Use same name in publication
+    - Emma C. Thomson
+    - Laura E. Rosen
+    - James G. Shepherd
+    - Roberto Spreafico
+    - Ana da Silva Filipe
+    - Jason A Wojcechowskyj
+    - Chris Davis
+    - Luca Piccoli
+    - David J Pascall
+    - Josh Dillen
+    - Spyros Lytras
+    - Nadine Czudnochowski 
+    - Rajiv Shah
+    - Marcel Meury
+    - Natasha Jesudason
+    - Anna De Marco
+    - Kathy Li
+    - Jessica Bassi
+    - Aine O’Toole
+    - Dora Pinto
+    - Rachel M. Colquhoun
+    - Katja Culap
+    - Ben Jackson
+    - Fabrizia Zatta
+    - Andrew Rambaut
+    - Stefano Jaconi
+    - Vattipally B. Sreenu
+    - Jay Nix
+    - Ivy Zhang
+    - Ruth F. Jarrett
+    - William G Glass
+    - Martina Beltramello
+    - Kyriaki Nomikou
+    - Matteo Pizzuto
+    - Lily Tong
+    - Elisabetta Cameroni
+    - Tristan I. Croll
+    - Natasha Johnson
+    - Julia Di Iulio
+    - Arthur Wickenhagen
+    - Alessandro Ceschi
+    - Aoife M. Harbison
+    - Daniel Mair
+    - Paolo Ferrari
+    - Katherine Smollett
+    - Federica Sallusto
+    - Stephen Carmichael
+    - Christian Garzoni
+    - Jenna Nichols
+    - Massimo Galli
+    - Joseph Hughes
+    - Agostino Riva
+    - Antonia Ho
+    - Marco Schiuma
+    - Malcolm G Semple
+    - Peter JM Openshaw
+    - Elisa Fadda
+    - J. Kenneth Baillie
+    - John D. Chodera
+    - Suzannah J. Rihn
+    - Samantha J. Lycett
+    - Herbert W. Virgin
+    - Amalio Telenti
+    - Davide Corti
+    - David L. Robertson
+    - Gyorgy Snell
+    - ISARIC4C Investigators
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Gyorgy Snell
+    # Add these other fields are optional; fill in as much information as is available
+    preprint:
+      url: https://www.biorxiv.org/content/10.1101/2020.11.04.355842v1
+      date: 2020-11-05
+    published:
+      doi: https://doi.org/10.1016/j.cell.2021.01.037
+      journal: Cell
+      volume: 184
+      page: 1171 # just first page
+      year: 2021
+      dates:
+        published: 2021-03-04
+    # These links may be listed in the choderalab.org/publications/ page
+    links:
+      - action: Download supplementary data from Mendeley Data
+        short: Mendeley Data
+        url: https://data.mendeley.com/datasets/2wrgws3545
+      - action: Download Folding@home data
+        short: Folding@home
+        url: https://covid.molssi.org//simulations/#foldinghome-simulations-of-the-sars-cov-2-spike-rbd-bound-to-human-ace2
+    # Thumbnail image URL
+    thumbnail: vir-cell-xray
+    # Two newlines are needed after the description
+    funding:
+    - NIH P30 CA008748
+    - NIH R01 GM121505
+    - NIH R01 GM132386
+    description: >
+      New mutations that enhance the affinity of SARS-CoV-2 spike protein for human ACE2—and potentially pose threats to 
+      antibody-based therapeutics and vaccines for COVID-19—are already emerging in the wild. We characterize and describe
+      sentinel mutations of SARS-CoV-2 in the wild that herald challenges for combatting COVID-19, and use simulations of 
+      the RBD-ACE2 interface on Folding@home to biophysically characterize why these mutations can lead to enhanced affinity.
+
+
+  # Title should have only initial letter capitalized
   - title: "What Markov State Models can and cannot do: Correlation versus path-based observables in protein-folding models"
     authors: # Use same name in publication
     - Ernesto Suárez
