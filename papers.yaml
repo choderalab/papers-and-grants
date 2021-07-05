@@ -11,8 +11,49 @@
 #
 # Google Scholar : https://scholar.google.com/citations?hl=en&user=nnEg7_8AAAAJ&view_op=list_works&authuser=2&sortby=pubdate
 
+  - title: "Mutation in Abl kinase with altered drug binding kinetics indicates a novel mechanism of imatinib resistance"
+    authors: # Use same name in publication
+    - Agatha Lyczek
+    - Benedict Tilman Berger
+    - Aziz M. Rangwala
+    - YiTing Paung
+    - Jessica Tom
+    - Hannah Philipose
+    - Jiaye Guo
+    - Steven K. Albanese
+    - Matthew B. Robers
+    - Stefan Knapp
+    - John D. Chodera
+    - Markus A. Seeliger
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - John D. Chodera
+    - Markus A. Seeliger
+    # Add these other fields are optional; fill in as much information as is available
+    preprint:
+      url: https://www.biorxiv.org/node/1585452.full
+      date: 2021-06-28  
+    # These links may be listed in the choderalab.org/publications/ page
+    links:
+      - action: Download code from GitHub
+        short: GitHub
+        url: https://github.com/choderalab/Abl_kinase_N368S
+    # Thumbnail image URL
+    thumbnail: abl-mutant-resistance
+    # List funding, or none
+    funding:
+    - NIH P30 CA008748
+    - NIH R01 GM121505
+    - NIH R01 GM124270
+    # Two newlines are needed after the description
+    description: >
+      Here, we characterize the biophysical mechanisms underlying mutants of Abl kinase associated with clinical
+      drug resistance to targeted cancer therapies. We uncover a surprising novel mechanism of mutational 
+      resistance to kinase inhibitor therapy in which the off-rate for inhibitor unbinding is increased 
+      without affecting inhibitor affinity.
 
-  - title: "Overview of the SAMPL6 pKa challenge: evaluating small molecule microscopic and macroscopic pKa predictions"
+
+- title: "Overview of the SAMPL6 pKa challenge: evaluating small molecule microscopic and macroscopic pKa predictions"
     authors: # Use same name in publication
     - Mehtap Işık
     - Ariën S. Rustenburg
@@ -51,8 +92,10 @@
     - NIH R01 GM124270
     # Two newlines are needed after the description
     description: >
-      The SAMPL6 pKa challenge assessed the ability of the computational chemistry community to predict macroscopic and microscopic pKas for a set of druglike molecules resembling kinase inhibitors. This paper reports on the overall performance and lessons learned, including the surprising finding that many tools predict reasonably accurate macroscopic pKas corresponding to the wrong microscopic protonation sites.
-
+      The SAMPL6 pKa challenge assessed the ability of the computational chemistry community to predict macroscopic 
+      and microscopic pKas for a set of druglike molecules resembling kinase inhibitors. This paper reports on the 
+      overall performance and lessons learned, including the surprising finding that many tools predict reasonably 
+      accurate macroscopic pKas corresponding to the wrong microscopic protonation sites.
       
       
   # Title should have only initial letter capitalized
@@ -153,7 +196,8 @@
     funding:
     - NIH P30 CA008748
     - NIH R01 GM121505
-    - NIH R01 GM132386
+    - Sloan Kettering Institute
+    - Cycle for Survival
     description: >
       New mutations that enhance the affinity of SARS-CoV-2 spike protein for human ACE2—and potentially pose threats to 
       antibody-based therapeutics and vaccines for COVID-19—are already emerging in the wild. We characterize and describe
@@ -413,7 +457,7 @@
     - Michael R. Shirts
     # Add these other fields are optional; fill in as much information as is available
     preprint:
-      url:
+      url: https://arxiv.org/abs/2008.03067
       date: 2020-08-21
     # These links may be listed in the choderalab.org/publications/ page
     links:
