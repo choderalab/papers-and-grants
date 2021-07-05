@@ -12,6 +12,48 @@
 # Google Scholar : https://scholar.google.com/citations?hl=en&user=nnEg7_8AAAAJ&view_op=list_works&authuser=2&sortby=pubdate
 
   # Title should have only initial letter capitalized
+  - title: "What Markov State Models can and cannot do: Correlation versus path-based observables in protein-folding models"
+    authors: # Use same name in publication
+    - Ernesto Suárez
+    - Rafal P. Wiewiora
+    - Chris Wehmeyer
+    - Frank Noé
+    - John D. Chodera
+    - Daniel M. Zuckerman
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - John D. Chodera
+    - Daniel M. Zuckerman
+    # Add these other fields are optional; fill in as much information as is available
+    preprint:
+      url: https://www.biorxiv.org/node/1626539.full
+      date: 2020-11-09
+    published:
+      doi: https://doi.org/10.1021/acs.jctc.0c01154
+      journal: Journal of Chemical Theory and Computation
+      volume: 17
+      page: 3119 # just first page
+      year: 2021
+      dates:
+        published: 2021-04-27      
+    # These links may be listed in the choderalab.org/publications/ page
+    links:
+      - action: Download code from GitHub
+        short: GitHub
+        url: https://github.com/choderalab/msm-mfpt
+    # Thumbnail image URL
+    thumbnail: what-can-msms-do
+    # Two newlines are needed after the description
+    funding:
+    - NIH P30 CA008748
+    - NIH R01 GM121505
+    description: >
+      Markov state models are now well-established for describing the long-time conformational dynamics
+      of proteins. Here, we take a critical look of what properties can reliably be extracted from 
+      these coarse-grained models.
+      
+      
+  # Title should have only initial letter capitalized
   - title: "Best practices for constructing, preparing, and evaluating protein-ligand binding affinity benchmarks"
     authors: # Use same name in publication
     - David F. Hahn
@@ -317,6 +359,7 @@
       can be much more accurate than predicting changes in potency due to this effect, and
       show how this could lead to large reductions in the number of molecules that must
       be synthesized to achieve a desired selectivity goal.
+
 
   # Title should have only initial letter capitalized
   - title: "SARS-CoV-2 simulations go exascale to predict dramatic spike opening and cryptic pockets across the proteome"
