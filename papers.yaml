@@ -13,7 +13,7 @@
 
 
   # Title should have only initial letter capitalized
-  - title: "Development and benchmarking of Open Force Field v1. 0.0, the Parsley small molecule force field"
+  - title: "Development and benchmarking of Open Force Field v1.0.0, the Parsley small molecule force field"
     authors: # Use same name in publication
     - Yudong Qiu
     - Daniel Smith
