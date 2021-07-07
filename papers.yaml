@@ -11,6 +11,50 @@
 #
 # Google Scholar : https://scholar.google.com/citations?hl=en&user=nnEg7_8AAAAJ&view_op=list_works&authuser=2&sortby=pubdate
 
+- title: "Discovery of SARS-CoV-2 main protease inhibitors using a synthesis-directed de novo design model"
+    authors: # Use same name in publication
+    - Aaron Morris
+    - William McCorkindale
+    - The COVID Moonshot Consortium
+    - Nir Drayman
+    - John D. Chodera
+    - Savaş Tay
+    - Nir London
+    - Alpha A. Lee
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Alpha A. Lee
+    # Add these other fields are optional; fill in as much information as is available
+    published:
+      doi: https://doi.org/10.1007/s10822-020-00362-6
+      journal: Journal of Computer-Aided Molecular Design
+      volume: 35
+      page: 131 # just first page
+      year: 2021
+      dates:
+        received: 2021-01-05
+        accepted: 2021-05-04
+        published: 2021-05-06     
+    # These links may be listed in the choderalab.org/publications/ page
+    links:
+      - action: Try Manifold
+        short: Manifold
+        url: https://postera.ai/manifold
+      - action: Get the COVID Moonshot data
+        short: COVID Moonshot
+        url: www.postera.ai/covid
+    # Thumbnail image URL
+    thumbnail: postera-ml-model
+    # List funding, or none
+    funding:
+    - NIH P30 CA008748
+    - NIH R01 GM124270
+    # Two newlines are needed after the description
+    description: >
+      We show how a machine learning models of ligand affinity can be coupled to synthetic enumeration models
+      to rapidly generate potent inhibitors of the SARS-CoV-2 main viral protease.    
+
+
   - title: "Mutation in Abl kinase with altered drug binding kinetics indicates a novel mechanism of imatinib resistance"
     authors: # Use same name in publication
     - Agatha Lyczek
