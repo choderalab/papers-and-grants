@@ -48,15 +48,15 @@
     # Thumbnail image URL
     thumbnail: parsley
     # Two newlines are needed after the description
-    funding:   
+    funding:
     - NIH P30 CA008748
     - NIH R01 GM121505
     - NIH R01 GM132386
     - NSF CHE 1738979
     - Sloan Kettering Institute
     description: >
-      We present a new, modern small molecule force field for molecular design from the Open Force Field Initiative, 
-      a large industry-academic collaboration that focuses on open science, open data, and modern open source infrastructure. 
+      We present a new, modern small molecule force field for molecular design from the Open Force Field Initiative,
+      a large industry-academic collaboration that focuses on open science, open data, and modern open source infrastructure.
 
 
   # Title should have only initial letter capitalized
@@ -72,14 +72,14 @@
     preprint:
       url: https://www.biorxiv.org/content/10.1101/2020.10.24.353318v4.abstract
       date: 2021-02-26
-    published:
-      doi: none
-      journal: Chemical Science
-      volume: none
-      page: in press # just first page
-      year: 2021
-      dates:
-        accepted: 2021-07-05      
+    #published:
+    #  doi: none
+    #  journal: Chemical Science
+    #  volume: none
+    #  page: in press # just first page
+    #  year: 2021
+    #  dates:
+    #    accepted: 2021-07-05
     # These links may be listed in the choderalab.org/publications/ page
     links:
       - action: Download code
@@ -88,18 +88,18 @@
     # Thumbnail image URL
     thumbnail: neutromeratio-vacuum
     # Two newlines are needed after the description
-    funding:   
+    funding:
     - NIH P30 CA008748
     - NIH R01 GM121505
     - NIH R01 GM132386
     - NSF CHE 1738979
     - Sloan Kettering Institute
     description: >
-      We demonstrate, for the first time, how alchemical free energy calculations can performed on systems simulated entirely 
-      with quantum machine learning potentials and how these potentials can be retrained on experimental free energies to 
+      We demonstrate, for the first time, how alchemical free energy calculations can performed on systems simulated entirely
+      with quantum machine learning potentials and how these potentials can be retrained on experimental free energies to
       generalize to new molecules from limited training data. We apply this approach to a difficult problem in small
       molecule drug discovery: Predicting accurate tautomer ratios in solution.
-      
+
 
   - title: "Antibodies to the SARS-CoV-2 receptor-binding domain that maximize breadth and resistance to viral escape"
     authors: # Use same name in publication
@@ -157,15 +157,15 @@
     # Add these other fields are optional; fill in as much information as is available
     preprint:
       url: https://www.biorxiv.org/content/10.1101/2021.04.06.438709v1.abstract
-      date: 2021-04-08  
-    published:
-      doi: none
-      journal: Nature
-      volume: none
-      page: in press # just first page
-      year: 2021
-      dates:
-        accepted: 2021-07-06
+      date: 2021-04-08
+    #published:
+    #  doi: null
+    #  journal: Nature
+    #  volume: null
+    #  page: in press # just first page
+    #  year: 2021
+    #  dates:
+    #    accepted: 2021-07-06
     # These links may be listed in the choderalab.org/publications/ page
     links:
       - action: Download code and analysis from GitHub
@@ -180,13 +180,13 @@
     - NIH R01 GM132386
     # Two newlines are needed after the description
     description: >
-      We comprehensively characterize escape, breadth, and potency across a panel of SARS-CoV-2 antibodies 
-      targeting the receptor binding domain, including the parent antibody of the recently approved Vir 
-      antibody drug (Sotrovimab), illuminating escape mutations with structural and dynamic insight into 
+      We comprehensively characterize escape, breadth, and potency across a panel of SARS-CoV-2 antibodies
+      targeting the receptor binding domain, including the parent antibody of the recently approved Vir
+      antibody drug (Sotrovimab), illuminating escape mutations with structural and dynamic insight into
       their mechanism of action.
 
 
-- title: "Discovery of SARS-CoV-2 main protease inhibitors using a synthesis-directed de novo design model"
+  - title: "Discovery of SARS-CoV-2 main protease inhibitors using a synthesis-directed de novo design model"
     authors: # Use same name in publication
     - Aaron Morris
     - William McCorkindale
@@ -209,7 +209,7 @@
       dates:
         received: 2021-01-05
         accepted: 2021-05-04
-        published: 2021-05-06     
+        published: 2021-05-06
     # These links may be listed in the choderalab.org/publications/ page
     links:
       - action: Try Manifold
@@ -227,7 +227,7 @@
     # Two newlines are needed after the description
     description: >
       We show how a machine learning models of ligand affinity can be coupled to synthetic enumeration models
-      to rapidly generate potent inhibitors of the SARS-CoV-2 main viral protease.    
+      to rapidly generate potent inhibitors of the SARS-CoV-2 main viral protease.
 
 
   - title: "Mutation in Abl kinase with altered drug binding kinetics indicates a novel mechanism of imatinib resistance"
@@ -251,7 +251,7 @@
     # Add these other fields are optional; fill in as much information as is available
     preprint:
       url: https://www.biorxiv.org/node/1585452.full
-      date: 2021-06-28  
+      date: 2021-06-28
     # These links may be listed in the choderalab.org/publications/ page
     links:
       - action: Download code from GitHub
@@ -267,12 +267,12 @@
     # Two newlines are needed after the description
     description: >
       Here, we characterize the biophysical mechanisms underlying mutants of Abl kinase associated with clinical
-      drug resistance to targeted cancer therapies. We uncover a surprising novel mechanism of mutational 
-      resistance to kinase inhibitor therapy in which the off-rate for inhibitor unbinding is increased 
+      drug resistance to targeted cancer therapies. We uncover a surprising novel mechanism of mutational
+      resistance to kinase inhibitor therapy in which the off-rate for inhibitor unbinding is increased
       without affecting inhibitor affinity.
 
 
-- title: "Overview of the SAMPL6 pKa challenge: evaluating small molecule microscopic and macroscopic pKa predictions"
+  - title: "Overview of the SAMPL6 pKa challenge: evaluating small molecule microscopic and macroscopic pKa predictions"
     authors: # Use same name in publication
     - Mehtap Işık
     - Ariën S. Rustenburg
@@ -296,7 +296,7 @@
       dates:
         received: 2020-10-16
         accepted: 2020-11-17
-        published: 2021-01-04      
+        published: 2021-01-04
     # These links may be listed in the choderalab.org/publications/ page
     links:
       - action: Download code from GitHub
@@ -311,12 +311,12 @@
     - NIH R01 GM124270
     # Two newlines are needed after the description
     description: >
-      The SAMPL6 pKa challenge assessed the ability of the computational chemistry community to predict macroscopic 
-      and microscopic pKas for a set of druglike molecules resembling kinase inhibitors. This paper reports on the 
-      overall performance and lessons learned, including the surprising finding that many tools predict reasonably 
+      The SAMPL6 pKa challenge assessed the ability of the computational chemistry community to predict macroscopic
+      and microscopic pKas for a set of druglike molecules resembling kinase inhibitors. This paper reports on the
+      overall performance and lessons learned, including the surprising finding that many tools predict reasonably
       accurate macroscopic pKas corresponding to the wrong microscopic protonation sites.
-      
-      
+
+
   # Title should have only initial letter capitalized
   - title: "Circulating SARS-CoV-2 spike N439K variants maintain fitness while evading antibody-mediated immunity"
     authors: # Use same name in publication
@@ -331,7 +331,7 @@
     - David J Pascall
     - Josh Dillen
     - Spyros Lytras
-    - Nadine Czudnochowski 
+    - Nadine Czudnochowski
     - Rajiv Shah
     - Marcel Meury
     - Natasha Jesudason
@@ -399,6 +399,7 @@
       journal: Cell
       volume: 184
       page: 1171 # just first page
+      year: 2021
       dates:
         published: 2021-03-04
     # These links may be listed in the choderalab.org/publications/ page
@@ -418,9 +419,9 @@
     - Sloan Kettering Institute
     - Cycle for Survival
     description: >
-      New mutations that enhance the affinity of SARS-CoV-2 spike protein for human ACE2—and potentially pose threats to 
+      New mutations that enhance the affinity of SARS-CoV-2 spike protein for human ACE2—and potentially pose threats to
       antibody-based therapeutics and vaccines for COVID-19—are already emerging in the wild. We characterize and describe
-      sentinel mutations of SARS-CoV-2 in the wild that herald challenges for combatting COVID-19, and use simulations of 
+      sentinel mutations of SARS-CoV-2 in the wild that herald challenges for combatting COVID-19, and use simulations of
       the RBD-ACE2 interface on Folding@home to biophysically characterize why these mutations can lead to enhanced affinity.
 
 
@@ -448,7 +449,7 @@
       page: 3119 # just first page
       year: 2021
       dates:
-        published: 2021-04-27      
+        published: 2021-04-27
     # These links may be listed in the choderalab.org/publications/ page
     links:
       - action: Download code from GitHub
@@ -462,10 +463,10 @@
     - NIH R01 GM121505
     description: >
       Markov state models are now well-established for describing the long-time conformational dynamics
-      of proteins. Here, we take a critical look of what properties can reliably be extracted from 
+      of proteins. Here, we take a critical look of what properties can reliably be extracted from
       these coarse-grained models.
-      
-      
+
+
   # Title should have only initial letter capitalized
   - title: "Best practices for constructing, preparing, and evaluating protein-ligand binding affinity benchmarks"
     authors: # Use same name in publication
@@ -499,9 +500,9 @@
     - NIH R01 GM108889
     - NIH R01 GM132386
     description: >
-      This living best practices paper for the Living Journal of Computational Molecular Sciences 
-      describes the current community consensus in how to curate experimental benchmark data for 
-      assessing predictive affinity models for drug discovery, how to prepare these systems for 
+      This living best practices paper for the Living Journal of Computational Molecular Sciences
+      describes the current community consensus in how to curate experimental benchmark data for
+      assessing predictive affinity models for drug discovery, how to prepare these systems for
       affinity calculations, and how to assess the results to compare performance.
 
 
@@ -529,7 +530,7 @@
     - NIH R01 GM132386
     - Open Force Field Consortium
     description: >
-      Here, we show how Bayesian inference can be used to automatically perform model 
+      Here, we show how Bayesian inference can be used to automatically perform model
       selection and fit parameters for a molecular mechanics force field.
 
 
@@ -563,7 +564,7 @@
     # Two newlines are needed after the description
     description: >
       The COVID Moonshot is an open science effort to discover a direct-acting SARS-CoV-2 oral antiviral.
-      Here, we share lessons from this effort, including the missed opportunity to develop a phase 2 ready 
+      Here, we share lessons from this effort, including the missed opportunity to develop a phase 2 ready
       drug more than a decade ago that could have halted the COVID-19 pandemic in its tracks.
 
 
@@ -588,7 +589,7 @@
     # Thumbnail image URL
     thumbnail: espaloma
     # Two newlines are needed after the description
-    funding:   
+    funding:
     - NIH P30 CA008748
     - NIH R01 GM121505
     - NIH R01 GM132386
@@ -809,7 +810,7 @@
       page: 651 # just first page
       year: 2021
       dates:
-        published: 2021-05-24      
+        published: 2021-05-24
     # These links may be listed in the choderalab.org/publications/ page
     links:
       - action: Download data through the Open Science Framework
@@ -1640,7 +1641,7 @@
     bioRxiv: https://doi.org/10.1101/371724
     github: https://github.com/MobleyLab/SAMPL6/tree/master/host_guest
     # Two newlines are needed after the description
-    funding: none
+    funding: null
     description: >
       We present an overview of the host-guest systems and participant performance for the
       SAMPL6 host-guest blind affinity prediction challenges, assessing how well various
@@ -1777,7 +1778,7 @@
     # These links may be listed in the choderalab.org/publications/ page
     doi: https://doi.org/10.1038/s41586-018-0251-7
     PDF: http://www.choderalab.org/s/idh1-tljz.pdf
-    funding: none
+    funding: null
     description: >
      We probe the biochemical and biophysical mechanisms underlying an unusual set of clinical
      resistance mutations that appeared in trans in the IDH2 dimer interface in cancer patients
@@ -1843,7 +1844,7 @@
     doi: https://doi.org/10.1371/journal.pone.0203224
     bioRxiv: https://doi.org/10.1101/327676
     GitHub: https://github.com/choderalab/bayesian-itc
-    funding: none
+    funding: null
     description: >
      We show how Bayesian inference can produce greatly improved estimates of statistical uncertainty from isothermal
      titration calorimetry (ITC) experiments, allowing the joint distribution of thermodynamic parameter uncertainties
@@ -2284,7 +2285,7 @@
     bioRxiv: http://dx.doi.org/10.1101/018036
     Dryad: http://dx.doi.org/10.5061/dryad.7fg32
     GitHub: http://github.com/choderalab/ensembler
-    funding: none
+    funding: null
     description: >
      We demonstrate a new tool that enables---for the first time---massively parallel molecular
      simulation studies of biomolecular dynamics at the superfamily scale, illustrating its
@@ -2309,7 +2310,7 @@
     bioRxiv: http://dx.doi.org/10.1101/021659
     pymbar.timeseries: http://pymbar.org/
     GitHub: https://github.com/choderalab/automatic-equilibration-detection
-    funding: none
+    funding: null
     description: >
      We present a simple scheme for automatically selecting how much initial simulation data to
      discard to equilibration or burn-in based on maximizing the number of statistically uncorrelated
@@ -2337,7 +2338,7 @@
     bioRxiv: http://dx.doi.org/10.1101/033985
     GitHub: https://github.com/choderalab/dispensing-errors-manuscript/blob/master/notebooks/echo-vs-tips.ipynb
     Pipeline Blog Post: http://blogs.sciencemag.org/pipeline/archives/2013/05/03/drug_assay_numbers_all_over_the_place
-    funding: none
+    funding: null
     description: >
      The drug development community faced a puzzling challenge when a disturbing paper published in PLoS
      One demonstrated results from the same assay performed with different dispensing technologies both
@@ -2370,7 +2371,7 @@
     bioRxiv: http://dx.doi.org/10.1101/023796
     GitHub: https://github.com/choderalab/dispensing-errors-manuscript/blob/master/notebooks/echo-vs-tips.ipynb
     Pipeline Blog Post: http://blogs.sciencemag.org/pipeline/archives/2013/05/03/drug_assay_numbers_all_over_the_place
-    funding: none
+    funding: null
     description: >
      We show how to avoid common accuracy-limiting mistakes in isothermal titration calorimetry, and
      provide a simple spreadsheet to aid in propagating the dominant source of uncertainty
@@ -2404,7 +2405,7 @@
     # These links may be listed in the choderalab.org/publications/ page
     doi: http://dx.doi.org/10.1016/j.cmet.2015.06.023
     PDF: https://choderalab.squarespace.com/s/Hypoxia-induces-production-of-L-2-hyroxyglutarate.pdf
-    funding: none
+    funding: null
     description: >
      None
 

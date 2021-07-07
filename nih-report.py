@@ -12,12 +12,12 @@ Prepare an NIH report
 import datetime
 
 # Start and end date for reporting period
-reporting_period_end = datetime.date.fromisoformat('2020-08-31')
+reporting_period_end = datetime.date.fromisoformat('2021-08-31')
 #reporting_period_start = datetime.date.fromisoformat('2019-09-01')
-reporting_period_start = datetime.date.fromisoformat('2019-07-01')
+reporting_period_start = datetime.date.fromisoformat('2020-07-01')
 
 # Grant ID to report
-grant_id = 'NIH R01 GM121505' # The
+grant_id = 'NIH R01 GM121505' # kinase grant
 
 ################################################################################
 # Helper functions to act as filters
