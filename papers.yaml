@@ -11,6 +11,92 @@
 #
 # Google Scholar : https://scholar.google.com/citations?hl=en&user=nnEg7_8AAAAJ&view_op=list_works&authuser=2&sortby=pubdate
 
+
+  - title: "Antibodies to the SARS-CoV-2 receptor-binding domain that maximize breadth and resistance to viral escape"
+    authors: # Use same name in publication
+    - Tyler N. Starr
+    - Nadine Czudnochowski
+    - Fabrizia Zatta
+    - Young-Jun Park
+    - Zhuoming Liu
+    - Amin Addetia
+    - Dora Pinto
+    - Martina Beltramello
+    - Patrick Hernandez
+    - Allison J. Greaney
+    - Roberta Marzi
+    - William G. Glass
+    - Ivy Zhang
+    - Adam S. Dingens
+    - John E. Bowen
+    - Jason A. Wojcechowskyj
+    - Anna De Marco
+    - Laura E. Rosen
+    - Jiayi Zhou
+    - Martin Montiel-Ruiz
+    - Hannah Kaiser
+    - Heather Tucker
+    - Michael P. Housley
+    - Julia di Iulio
+    - Gloria Lombardo
+    - Maria Agostini
+    - Nicole Sprugasci
+    - Katja Culap
+    - Stefano Jaoni
+    - Marcel Meury
+    - Exequiel Dellota
+    - Elisabetta Cameroni
+    - Tristan I. Croll
+    - Jay C. Nix
+    - Colin Havenar-Daughton
+    - Amalio Telenti
+    - Florian A. Lempp
+    - Matteo S. Pizzuto
+    - John D. Chodera
+    - Christy M. Hebner
+    - Sean P. J. Whelan
+    - Herbert W. Virgin
+    - David Veesler
+    - Davide Corti
+    - Jesse D. Bloom
+    - Gyorgy Snell
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Davide Corti
+    - Jesse D. Bloom
+    - Gyorgy Snell
+    # Add these other fields are optional; fill in as much information as is available
+    preprint:
+      url: https://www.biorxiv.org/content/10.1101/2021.04.06.438709v1.abstract
+      date: 2021-04-08  
+    published:
+      doi: none
+      journal: Nature
+      volume: none
+      page: none # just first page
+      year: 2021
+      dates:
+        accepted: 2021-07-06
+    # These links may be listed in the choderalab.org/publications/ page
+    links:
+      - action: Download code and analysis from GitHub
+        short: GitHub
+        url: https://github.com/choderalab/rbd-ab-contact-analysis
+    # Thumbnail image URL
+    thumbnail: vir-antibodies-escape
+    # List funding, or none
+    funding:
+    - NIH P30 CA008748
+    - NIH R01 GM121505
+    - NIH R01 GM132386
+    # Two newlines are needed after the description
+    description: >
+      We comprehensively characterize escape, breadth, and potency across a panel of SARS-CoV-2 antibodies 
+      targeting the receptor binding domain, including the parent antibody of the recently approved Vir 
+      antibody drug (Sotrovimab), illuminating escape mutations with structural and dynamic insight into 
+      their mechanism of action.
+
+
 - title: "Discovery of SARS-CoV-2 main protease inhibitors using a synthesis-directed de novo design model"
     authors: # Use same name in publication
     - Aaron Morris
