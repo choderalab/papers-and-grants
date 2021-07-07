@@ -25,6 +25,14 @@
     preprint:
       url: https://www.biorxiv.org/content/10.1101/2020.10.24.353318v4.abstract
       date: 2021-02-26
+    published:
+      doi: none
+      journal: Chemical Science
+      volume: none
+      page: in press # just first page
+      year: 2021
+      dates:
+        accepted: 2021-07-05      
     # These links may be listed in the choderalab.org/publications/ page
     links:
       - action: Download code
@@ -107,7 +115,7 @@
       doi: none
       journal: Nature
       volume: none
-      page: none # just first page
+      page: in press # just first page
       year: 2021
       dates:
         accepted: 2021-07-06
