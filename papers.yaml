@@ -13,6 +13,53 @@
 
 
   # Title should have only initial letter capitalized
+  - title: "Development and benchmarking of Open Force Field v1. 0.0, the Parsley small molecule force field"
+    authors: # Use same name in publication
+    - Yudong Qiu
+    - Daniel Smith
+    - Simon Boothroyd
+    - Hyesu Jang
+    - Jeffrey Wagner
+    - Caitlin C Bannan
+    - Trevor Gokey
+    - Victoria T. Lim
+    - Chaya Stern
+    - Andrea Rizzi
+    - Xavier Lucas
+    - Bryon Tjanaka
+    - Michael R. Shirts
+    - Michael Gilson
+    - John D. Chodera
+    - Christopher I. Bayly
+    - David Mobley
+    - Lee-Ping Wang
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Lee-Ping Wang
+    # Add these other fields are optional; fill in as much information as is available
+    preprint:
+      url: https://chemrxiv.org/engage/chemrxiv/article-details/60c7528bf96a0045df288276
+      date: 2020-11-24
+    # These links may be listed in the choderalab.org/publications/ page
+    links:
+      - action: Download force field
+        short: GitHub
+        url: https://github.com/openforcefield/openff-forcefields
+    # Thumbnail image URL
+    thumbnail: parsley
+    # Two newlines are needed after the description
+    funding:   
+    - NIH P30 CA008748
+    - NIH R01 GM121505
+    - NIH R01 GM132386
+    - NSF CHE 1738979
+    - Sloan Kettering Institute
+    description: >
+      We present a new, modern small molecule force field for molecular design from the Open Force Field Initiative, 
+      a large industry-academic collaboration that focuses on open science, open data, and modern open source infrastructure. 
+
+
+  # Title should have only initial letter capitalized
   - title: "Fitting quantum machine learning potentials to experimental free energy data: Predicting tautomer ratios in solution"
     authors: # Use same name in publication
     - Marcus Wieder
