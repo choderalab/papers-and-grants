@@ -1261,7 +1261,7 @@
     links:
       - action: Download code and data from GitHub
         short: GitHub
-        github: https://github.com/MobleyLab/SAMPL6
+        github: https://github.com/samplchallenges/SAMPL6/tree/master/physical_properties/logP
     # Thumbnail
     thumbnail: sampl6-part2-logP
     pdf: https://choderalab.squarespace.com/s/SAMPL6-pKa.pdf
