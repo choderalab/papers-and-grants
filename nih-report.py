@@ -12,9 +12,8 @@ Prepare an NIH report
 import datetime
 
 # Start and end date for reporting period
+reporting_period_start = datetime.date.fromisoformat('2020-09-01')
 reporting_period_end = datetime.date.fromisoformat('2021-08-31')
-#reporting_period_start = datetime.date.fromisoformat('2019-09-01')
-reporting_period_start = datetime.date.fromisoformat('2020-07-01')
 
 # Grant ID to report
 grant_id = 'NIH R01 GM121505' # kinase grant
@@ -24,11 +23,39 @@ grant_id = 'NIH R01 GM121505' # kinase grant
 ################################################################################
 
 def funded_by_grant(paper, grant_id):
-    """Return True if the paper was funded by the specified grant.
+    """
+    Determine whether the paper was funded by the specified grant,
+    and if specified, the rationale behind how the paper aligns with the grant.
+
+    Parameters
+    ----------
+    paper : dict
+        The 'paper' entry from the papers.yaml database.
+    grant_id : str
+        The grant id from grants.yaml to query for
+
+    Returns
+    -------
+    rationale : bool or str
+        If a rationale is provided, a str containing the rationale of how the paper aligns with the grant is provided.
+        If no rationale is provided, True is returned if the paper contains the grant_id as a funding source, False otherwise.
+
     """
     try:
-        if grant_id in paper['funding']:
-            return True
+        # get list of grants
+        for grant in paper['funding']:
+            # key: value entries may have a rationale
+            if type(grant) is dict:
+                if grant['id'] == grant_id:
+                    if 'rationale' in grant:
+                        # Return rationale if provided
+                        return grant['rationale']
+                    else:
+                        return True
+            # If we haven't specified a dict, there can be no rationale
+            elif type(grant) is str:
+                if grant == grant_id:
+                    return True
     except Exception as e:
         pass
 
@@ -68,8 +95,18 @@ def preprinted_during_reporting_period(paper):
 # Rendering function
 ################################################################################
 
-def show_paper(paper):
+def show_paper(paper, show_links=False, grant_id=None):
     """Render the paper as Markdown
+
+    Parameters
+    ----------
+    paper : dict
+        The 'paper' entry from the papers.yaml database.
+    show_links : bool, optional, default=False
+        If True, will display links associated with the paper.
+    grant_id : str, optional, default=None
+        If specified, print the rationale for how the paper aligns with this grant.
+
     """
     try:
         # Title
@@ -93,7 +130,7 @@ def show_paper(paper):
                 print(f", {author}", end='')
 
         # Links
-        if 'links' in paper:
+        if ('links' in paper) and show_links:
             for link in paper['links']:
                 print(f"**{link['action']}:** {link['url']}")
 
@@ -101,11 +138,26 @@ def show_paper(paper):
         if 'description' in paper:
             print(f"*{paper['description'].rstrip()}*")
 
+        if grant_id is not None:
+            rationale = funded_by_grant(paper, grant_id)
+            if type(rationale) is str:
+                print(f"{rationale.rstrip()}")
+
+
     except Exception as e:
         # Give up on rendering if we get stuck
         print(e)
         pass
 
+def show_resources(paper):
+    """Show all resources (links) associated with a given paper.
+    """
+    if ('links' in paper):
+        for link in paper['links']:
+            if 'description' in link:
+                print(f"**{link['description']}:**")
+            print(f"*{link['short']}:* {link['url']}")
+            print('')
 
 ################################################################################
 # Load the databases
@@ -147,6 +199,7 @@ if __name__ == '__main__':
             continue
 
         # Identify papers published in the reporting range
+        # Use a precendence scheme where we prefer published papers to accepted papers to preprints.
         if published_during_reporting_period(paper):
             papers_to_report['papers were published'].append(paper)
         elif accepted_during_reporting_period(paper):
@@ -159,6 +212,18 @@ if __name__ == '__main__':
             print(f'Since the last reporting period, the following {category}, funded by this grant in part or whole:')
             for paper in papers_to_report[category]:
                 print('')
-                show_paper(paper)
+                show_paper(paper, grant_id=grant_id)
 
             print('')
+
+
+    # Report all resources generated in the last reporting period
+    print('------')
+    print('')
+    print('The following resources corresponding to papers that were published, accepted, or preprinted were generated in the reporting period:')
+    print('')
+
+    for category in ['papers were published', 'manuscripts were accepted', 'preprints were posted']:
+        if (category in papers_to_report) and (len(papers_to_report[category]) > 0):
+            for paper in papers_to_report[category]:
+                show_resources(paper)

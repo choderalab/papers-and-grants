@@ -156,7 +156,7 @@
     # Description of the goal of the project (must be followed by two blank lines)
     description: >
       The goal of this project is to develop predictive models for modulating protein-protein interactions with small molecules.
-      
+
 
     # 'id' is the unique identifier by which the grant is referred to in the publications YAML
   - id: "Parker Institute for Cancer Immunotherapy Pilot Grant"

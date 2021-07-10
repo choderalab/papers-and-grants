@@ -44,16 +44,32 @@
     links:
       - action: Download force field
         short: GitHub
+        description: Open Force Field 1.0 ("Parsley") small molecule force fields and code needed to reproduce automated parameterization
         url: https://github.com/openforcefield/openff-forcefields
     # Thumbnail image URL
     thumbnail: parsley
     # Two newlines are needed after the description
     funding:
-    - NIH P30 CA008748
-    - NIH R01 GM121505
-    - NIH R01 GM132386
-    - NSF CHE 1738979
-    - Sloan Kettering Institute
+    - id: NIH P30 CA008748
+      rationale: >
+        This work reports the development of a new generation of small molecule force fields that aim to deliver
+        systematically improvable predictions of protein:ligand interactions and binding affinities, enabling us
+        to systematically increase the accuracy of our predictions of kinase:inhibitor affinities to accelerate the
+        design of targeted cancer therapies.
+    - id: NIH R01 GM121505
+      rationale: >
+        This work reports the development of a new generation of small molecule force fields that aim to deliver
+        systematically improvable predictions of protein:ligand interactions and binding affinities, enabling us
+        to systematically increase the accuracy of our predictions of kinase:inhibitor affinities.
+    - id: NIH R01 GM132386
+      rationale: >
+        This work is the first release of a new generation of biomolecular force fields funded by this effort,
+        illustrating how our scalable infrastructure for force field parameterization can be applied to systematically
+        expanded datasets.
+    - id: NSF CHE 1738979
+      rationale: >
+        This work describes an automated approach to force field parameterization using a loss function formulation,
+        which is the first step toward a fully Bayesian force field parameterization scheme.
     description: >
       We present a new, modern small molecule force field for molecular design from the Open Force Field Initiative,
       a large industry-academic collaboration that focuses on open science, open data, and modern open source infrastructure.
@@ -84,16 +100,32 @@
     links:
       - action: Download code
         short: GitHub
+        description: Python code for fitting quantum machine learning potentials to experimental free energy data for tautomer ratio prediction
         url: https://github.com/choderalab/neutromeratio
     # Thumbnail image URL
     thumbnail: neutromeratio-vacuum
     # Two newlines are needed after the description
     funding:
-    - NIH P30 CA008748
-    - NIH R01 GM121505
-    - NIH R01 GM132386
-    - NSF CHE 1738979
-    - Sloan Kettering Institute
+    - id: NIH P30 CA008748
+    - id: NIH R01 GM121505
+      rationale: >
+        Accurately predicting aqueous populations of protonation and tautomeric states is essential for the accurate prediction
+        of kinase:inhibitor binding free energies. This work is a critical step toward the accurate prediction of these quantities
+        in a manner that can be systematically improved based on experimental data. In addition, this is a simplified demonstration of
+        how more complex kinase:inhibitor binding free energies might be systematically improved by fitting flexible quantum machine learning
+        potentials---which offer significant accuracy improvements beyond molecular mechanics potentials---to free energies of binding.
+    - id: NIH R01 GM132386
+      rationale: >
+        Quantum machine learning (QML) force fields represent an enormous leap in next-generation force fields for molecular simulation
+        since they are highly flexible and can be trained to accurately reproduce quantum chemical data. This work demonstrates a key
+        advance in this area, showing how these flexible QML potentials can also be fit to reproduce experimental measurements
+        such as free energies.
+    - id: NSF CHE 1738979
+      rationale: >
+        Quantum machine learning (QML) force fields represent an enormous leap in next-generation force fields for molecular simulation
+        since they are highly flexible and can be trained to accurately reproduce quantum chemical data. This work demonstrates a key
+        advance in this area, showing how these flexible QML potentials can also be fit to reproduce experimental measurements
+        such as free energies, as a first step toward fully Bayesian inference of flexible QML potentials.
     description: >
       We demonstrate, for the first time, how alchemical free energy calculations can performed on systems simulated entirely
       with quantum machine learning potentials and how these potentials can be retrained on experimental free energies to
@@ -170,14 +202,26 @@
     links:
       - action: Download code and analysis from GitHub
         short: GitHub
+        description: SARS-CoV-2 receptor binding domain (RBD)
         url: https://github.com/choderalab/rbd-ab-contact-analysis
+      # TODO: Check this is the correct link
+      - action: Download Folding@home simulation trajectories
+        short: MolSSI COVID Hub
+        description: Folding@home simulation trajectories
+        url: https://covid.molssi.org//simulations/#foldinghome-simulations-of-the-sars-cov-2-spike-rbd-bound-to-human-ace2
     # Thumbnail image URL
     thumbnail: vir-antibodies-escape
     # List funding, or none
     funding:
-    - NIH P30 CA008748
-    - NIH R01 GM121505
-    - NIH R01 GM132386
+    - id: NIH P30 CA008748
+    - id: NIH R01 GM121505
+      rationale: >
+        This work explores massively parallel distributed simulation and analysis algorithms in SARS-CoV-2 RBD:ACE2 interactions
+        as a timely and relevant model system for the study of long-timescale kinase conformational dynamics and interactions.
+    - id: NIH R01 GM132386
+      rationale: >
+        This work explores massively parallel distributed simulation and analysis algorithms in SARS-CoV-2 RBD:ACE2 interactions
+        as a timely and relevant quantitative benchmark for glycosylated protein interaction affinity prediction.
     # Two newlines are needed after the description
     description: >
       We comprehensively characterize escape, breadth, and potency across a panel of SARS-CoV-2 antibodies
@@ -214,16 +258,23 @@
     links:
       - action: Try Manifold
         short: Manifold
+        description: PostEra's Manifold online CRO synthetic route recommender, used by the COVID Moonshot
         url: https://postera.ai/manifold
       - action: Get the COVID Moonshot data
-        short: COVID Moonshot
-        url: www.postera.ai/covid
+        short: COVID Moonshot data
+        description: Biochemical inhibition data for the SARS-CoV-2 main viral protease (Mpro) for all compounds synthesized by the COVID Moonshot
+        url: http://www.postera.ai/covid
     # Thumbnail image URL
     thumbnail: postera-ml-model
     # List funding, or none
     funding:
-    - NIH P30 CA008748
-    - NIH R01 GM124270
+    - id: NIH P30 CA008748
+    - id: NIH R01 GM124270
+      rationale: >
+        This work reports the development and generation of biophysical protein:ligand affinity and X-ray datasets for
+        a large number of newly synthesized compounds against a model protein system of high interest to drug discovery---the main viral protease.
+        This data can be used to retrospectively benchmark predictive models, and new data can be generated to field blind
+        predictive challenges on a target with high relevance to human health.
     # Two newlines are needed after the description
     description: >
       We show how a machine learning models of ligand affinity can be coupled to synthetic enumeration models
@@ -256,14 +307,25 @@
     links:
       - action: Download code from GitHub
         short: GitHub
+        description: Code for conducting SAMS simulations accelerating activation loop sampling for Abl kinase to examine the impact of the N368S mutation on conformational populations
         url: https://github.com/choderalab/Abl_kinase_N368S
     # Thumbnail image URL
     thumbnail: abl-mutant-resistance
     # List funding, or none
     funding:
-    - NIH P30 CA008748
-    - NIH R01 GM121505
-    - NIH R01 GM124270
+    - id: NIH P30 CA008748
+    - id: NIH R01 GM121505
+      rationale: >
+        This work represents the first major use of NanoBRET to experimentally measure the impact of clinical cancer mutations
+        associated with resistance to clinical kinase inhibitors on the binding affinity and kinetics of these
+        inhibitors. The data collected here provides an incredibly valuable benchmark set for computational approaches
+        to predicting the impact of resistance mutations for kinase inhibitors, and will allow us to contine to refine
+        our computational approaches to mechanism-based prediction of the impact of clinical cancer mutations.
+    - id: NIH R01 GM124270
+      rationale: >
+        This work represents the first major use of NanoBRET to experimentally measure the impact of point mutations
+        on the binding affinity for druglike molecules in an important target class, kinases. Future datasets collected
+        using this approach will be useful for fielding blind predictive challenges.
     # Two newlines are needed after the description
     description: >
       Here, we characterize the biophysical mechanisms underlying mutants of Abl kinase associated with clinical
@@ -299,16 +361,33 @@
         published: 2021-01-04
     # These links may be listed in the choderalab.org/publications/ page
     links:
-      - action: Download code from GitHub
+      - action: Download SAMPL6 challenge data from GitHub
         short: GitHub
-        url: https://github.com/choderalab/msm-mfpt
+        description: The SAMPL6 Challenge blind predictive challenge instructions and datasets
+        url: https://github.com/samplchallenges/SAMPL6
+      - action: Download the manuscript and figure sources
+        short: GitHub
+        description: The SAMPL6 pKa Challenge manuscript and figure sources and analysis scripts
+        url: https://github.com/choderalab/sampl6-pKa-challenge-manuscript
     # Thumbnail image URL
     thumbnail: sampl6-pka-assessment
     # List funding, or none
     funding:
-    - NIH P30 CA008748
-    - NIH R01 GM121505
-    - NIH R01 GM124270
+    - id: NIH P30 CA008748
+    - id: NIH R01 GM121505
+      rationale: >
+        Identification of dominant protonation and tautomer states and accurate prediction of their populations
+        in solution is critical to accurate modeling of kinase:inhibitor binding affinities. This effort assessed the
+        accuracy of a wide variety of quantitative pKa prediction tools at predicting microscopic and macroscopic
+        pKas and state populations for many chemotypes commonly found in kinase inhibitors, providing an assessment
+        of which tools lead to the best current accuracy for kinase:inhibitor interaction modeling.
+    - id: NIH R01 GM124270
+      rationale: >
+        Accurate modeling of protonation and tautomeric states is a significant limiting factor in current-generation
+        predictive modeling tools for structure-enabled drug discovery. This SAMPL blind challenge focused the community
+        on this important accuracy-limiting challenge to predictive modeling, and provided a benchmark of the current state
+        of the art. As this was our first pKa challenge, we describe a number of the lessons we learned from this exercise,
+        providing a blueprint for future pKa challenges that aim to systematically advance the field toward more accurate modeling.
     # Two newlines are needed after the description
     description: >
       The SAMPL6 pKa challenge assessed the ability of the computational chemistry community to predict macroscopic
@@ -406,18 +485,23 @@
     links:
       - action: Download supplementary data from Mendeley Data
         short: Mendeley Data
+        description: 'Supplementary data for "Circulating SARS-CoV-2 spike N439K variants maintain fitness while evading antibody-mediated immunity'
         url: https://data.mendeley.com/datasets/2wrgws3545
       - action: Download Folding@home data
         short: Folding@home
+        description: Folding@home simulation datasets of SARS-CoV-2 RBD:ACE2 interactions, including N439K variants
         url: https://covid.molssi.org//simulations/#foldinghome-simulations-of-the-sars-cov-2-spike-rbd-bound-to-human-ace2
     # Thumbnail image URL
     thumbnail: vir-cell-xray
     # Two newlines are needed after the description
     funding:
-    - NIH P30 CA008748
-    - NIH R01 GM121505
-    - Sloan Kettering Institute
-    - Cycle for Survival
+    - id: NIH P30 CA008748
+    - id: NIH R01 GM121505
+      rationale: >
+        This work explores massively parallel distributed simulation and analysis algorithms in SARS-CoV-2 RBD:ACE2 interactions
+        as a timely and relevant model system for the study of long-timescale kinase conformational dynamics and interactions.
+    - id: Sloan Kettering Institute
+    - id: Cycle for Survival
     description: >
       New mutations that enhance the affinity of SARS-CoV-2 spike protein for human ACE2—and potentially pose threats to
       antibody-based therapeutics and vaccines for COVID-19—are already emerging in the wild. We characterize and describe
@@ -454,13 +538,18 @@
     links:
       - action: Download code from GitHub
         short: GitHub
+        description: 'Reference code for analysis and figure generation for "What Markov State Models can and cannot do: Correlation versus path-based observables in protein-folding models"'
         url: https://github.com/choderalab/msm-mfpt
     # Thumbnail image URL
     thumbnail: what-can-msms-do
     # Two newlines are needed after the description
     funding:
-    - NIH P30 CA008748
-    - NIH R01 GM121505
+    - id: NIH P30 CA008748
+    - id: NIH R01 GM121505
+      rationale: >
+        Markov state models are a key methodology for mapping the conformations accessible to kinases
+        via massively distributed simulation. This work seeks to understand the limitations of these models
+        in accurately describing conformational dynamics and populations using thoroughly-sampled datasets.
     description: >
       Markov state models are now well-established for describing the long-time conformational dynamics
       of proteins. Here, we take a critical look of what properties can reliably be extracted from
@@ -491,14 +580,17 @@
     links:
       - action: Raise an issue on the manuscript source repository
         short: GitHub
+        description: 'Living best practices manuscript GitHub repository for "Best practices for constructing, preparing, and evaluating protein-ligand binding affinity benchmarks"'
         url: https://github.com/openforcefield/FE-Benchmarks-Best-Practices
     # Thumbnail image URL
     thumbnail: affinity-benchmark-best-practices
     # Two newlines are needed after the description
     funding:
-    - NIH P30 CA008748
-    - NIH R01 GM108889
-    - NIH R01 GM132386
+    - id: NIH P30 CA008748
+    - id: NIH R01 GM132386
+      rationale: >
+        This work is a critical part of establishing best practices for benchmarking the accuracy
+        of molecular mechanics force fields for predicting protein:ligand binding affinities.
     description: >
       This living best practices paper for the Living Journal of Computational Molecular Sciences
       describes the current community consensus in how to curate experimental benchmark data for
@@ -526,9 +618,16 @@
     thumbnail: 2CLJQ
     # Two newlines are needed after the description
     funding:
-    - NSF CHE-1738975
-    - NIH R01 GM132386
-    - Open Force Field Consortium
+    - id: NSF CHE-1738975
+      rationale: >
+        This work demonstrates how reversible-jump Monte Carlo can be used to automate the data-driven
+        selection of appropriate functional forms for molecular mechanics force fields using Bayesian inference
+        methods.
+    - id: NIH R01 GM132386
+      rationale: >
+        This work shows how an automated, statistically motivated, data-driven method can be used to identify appropriate
+        functional forms for molecular mechanics force field parameterization.
+    - id: Open Force Field Consortium
     description: >
       Here, we show how Bayesian inference can be used to automatically perform model
       selection and fit parameters for a molecular mechanics force field.
@@ -559,6 +658,11 @@
       year: 2021
       dates:
         published: 2021-06-17
+    links:
+      - action: Get the COVID Moonshot data
+        short: COVID Moonshot data
+        description: Biochemical inhibition data for the SARS-CoV-2 main viral protease (Mpro) for all compounds synthesized by the COVID Moonshot
+        url: http://www.postera.ai/covid
     # Thumbnail image URL
     thumbnail: covid-moonshot-nature-commentary.jpg
     # Two newlines are needed after the description
@@ -585,23 +689,39 @@
     links:
       - action: Download code
         short: GitHub
+        description: Espaloma, an end-to-end differentiable infrastructure for modular molecular mechanics force field construction
         url: https://github.com/choderalab/espaloma
     # Thumbnail image URL
     thumbnail: espaloma
     # Two newlines are needed after the description
     funding:
-    - NIH P30 CA008748
-    - NIH R01 GM121505
-    - NIH R01 GM132386
-    - NSF CHE 1738979
-    - Open Force Field Consortium
+    - id: NIH P30 CA008748
+    - id: NIH R01 GM121505
+      rationale: >
+        This paper describes a new approach to end-to-end parameterization of small molecules that
+        we believe will lead to systematically improvable force fields for predicting kinase:inhibitor
+        binding affinities. Future extensions of this method will also allow us to model post-translational
+        modifications of kinases in a self-consistent manner with ligand parameters.
+    - id: NIH R01 GM132386
+      rationale: >
+        This paper describes a new approach to the data-driven parameterization of molecular mechanics
+        force fields, breaking free of discrete atom or force types and instead providing an end-to-end
+        differentiable scheme for optimizing force field parameter assignment directly in a modular,
+        extensible fashion.
+    - id: NSF CHE 1738979
+      rationale: >
+        This paper describes a new approach to the data-driven parameterization of molecular mechanics
+        force fields, breaking free of discrete atom or force types and instead providing an end-to-end
+        differentiable scheme for optimizing force field parameter assignment directly in a modular,
+        extensible fashion.
+    - id: Open Force Field Consortium
     description: >
-      We show how the Wiberg Bond Order (WBO) can be used to construct small molecule fragmentation
-      schemes that will avoid disrupting the chemical environment around torsions. The resulting
-      fragmentation scheme powers the Open Force Field Initiative QCSubmit tool used to fragment and
-      inject small molecule datasets into the QCFractal computation pipeline for deposition
-      into the QCArchive quantum chemistry archive the Open Force Field Initiative uses for constructing
-      force fields, as well as powering bespoke torsion refitting for individual molecules.
+      Molecular mechanics force fields have been a workhorse for computational chemistry and drug discovery.
+      Here, we propose a new approach to force field parameterization in which graph convolutional networks
+      are used to perceive chemical environments and assign molecular mechanics (MM) force field parameters.
+      The entire process of chemical perception and parameter assignment is differentiable end-to-end with
+      respect to model parameters, allowing new force fields to be easily constructed from MM or QM force fields,
+      extended, and applied to arbitrary biomolecules.
 
 
   # Title should have only initial letter capitalized
@@ -626,23 +746,31 @@
       - action: Download code
         short: GitHub
         url: https://github.com/openforcefield/fragmenter
+        description: Fragmenter, an automated tool for fragmenting small molecules in a manner that preserves chemical environments for quantum chemical torsion scans
       - action: Download data
         short: GitHub
+        description: Quantum chemical datasets for validating small molecule fragmentation schemes for torsion scans
         url: https://github.com/choderalab/fragmenter_data
       - action: Download dataset provenance
         short: GitHub
+        description: Provenance data for quantum chemical datasets submitted to QCArchive from the Open Force Field Initiative
         url: https://github.com/openforcefield/qca-dataset-submission
       - action: Download dataset
         short: Open Science Framework
+        description: 'Small molecule cheminformatic datasets used in "Capturing non-local through-bond effects when fragmenting molecules for quantum chemical torsion scans"'
         url: https://doi.org/gg8w5d
     # Thumbnail image URL
     thumbnail: fragmenter
     # Two newlines are needed after the description
     funding:
-    - NSF GRFP DGE-1257284
-    - NIH R01 GM132386
-    - NIH P30 CA008748
-    - Open Force Field Consortium
+    - id: NIH P30 CA008748
+    - id: NIH R01 GM132386
+      rationale: >
+        This manuscript describes the development of the small molecule fragmentation scheme that is currently used by the
+        Open Force Field Initiative for generating small molecules for quantum chemical torsion scans to use
+        in force field parameterization.
+    - id: NSF GRFP DGE-1257284
+    - id: Open Force Field Consortium
     description: >
       We show how the Wiberg Bond Order (WBO) can be used to construct small molecule fragmentation
       schemes that will avoid disrupting the chemical environment around torsions. The resulting
@@ -683,16 +811,25 @@
     links:
       - action: Raise an issue on the manuscript source repository
         short: GitHub
+        description: 'Living best practices GitHub manuscript repository for "Best practices for alchemical free energy calculations"'
         url: https://github.com/michellab/alchemical-best-practices
     # Thumbnail image URL
-    thumbnail: fragmenter
+    thumbnail: alchemical-best-practices
     # Two newlines are needed after the description
     funding:
-    - NIH P30 CA008748
-    - NIH R01 GM121505
-    - NIH R01 GM132386
+    - id: NIH P30 CA008748
+    - id: NIH R01 GM121505
+      rationale: >
+        This living best practices paper describes our current understanding of the best practices for conducting
+        alchemical free energy calculations of protein:ligand binding free energies, which are essential to assessing
+        the accuracy of molecular mechanics force fields for predicting kinase:inhibitor affinity and selectivity.
+    - id: NIH R01 GM132386
+      rationale: >
+        This living best practices paper describes our current understanding of the best practices for conducting
+        alchemical free energy calculations of protein:ligand binding free energies, which are essential to assessing
+        the accuracy of molecular mechanics force fields for biomolecular simulation.
     description: >
-      This living review for the Living Journal of Computational Molecular Sciences
+      This living best practices review for the Living Journal of Computational Molecular Sciences
       (LiveCoMS) covers the essential considerations for running alchemical free
       energy calculations for rational molecular design for drug discovery.
 
@@ -719,14 +856,29 @@
     links:
       - action: Download code and data
         short: GitHub
+        description: qmlify, code for computing corrections to molecular mechanics (MM) free energy calculations to obtain hybrid quantum machine learning / molecular mechanics (QML/MM) accuracy
         url: https://github.com/choderalab/qmlify
     # Thumbnail image URL
     thumbnail: hybrid-qm-mm
     # Two newlines are needed after the description
     funding:
-    - NIH P30 CA008748
-    - NIH R01 GM121505
-    - NIH R01 GM132386
+    - id: NIH P30 CA008748
+    - id: NIH R01 GM121505
+      rationale: >
+        This manuscript describes a new generation of hybrid quantum machine learning /
+        molecular mechanics (QML/MM) potentials deliver enormous increases in accuracy
+        in computing kinase:inhibitor binding free energies at minimal additional expense.
+        Currently, this is performed as a correction calculation that can be performed in
+        parallel with kinase:inhibitor binding free energy calculations. This accuracy
+        increase could have an enormous impact on the design of new selective kinase inhibitors.
+    - id: NIH R01 GM132386
+      rationale: >
+        This manuscript describes a new generation of hybrid quantum machine learning /
+        molecular mechanics (QML/MM) potentials that can achieve significantly better
+        accuracy in reproducing quantum chemical and physical property data. These QML/MM
+        force fields will ultimately become a new standard for biomolecular simulation
+        as hardware and software technologies advance to close the performance gap with
+        pure MM simulations.
     description: >
       In this first use of hybrid machine learning / molecular mechanics (ML/MM) potentials
       for alchemical free energy calculations, we demonstrate how the improved modeling of
@@ -758,13 +910,20 @@
     links:
       - action: Download code and data
         short: GitHub
+        description: 'Code to perform analyses and generate figures for "Is structure based drug design ready for selectivity optimization?"'
         url: https://github.com/choderalab/selectivity
     # Thumbnail image URL
     thumbnail: kinase-selectivity-paper
     # Two newlines are needed after the description
     funding:
-    - NIH P30 CA008748
-    - NIH R01 GM121505
+    - id: NIH P30 CA008748
+    - id: NIH R01 GM121505
+      rationale: >
+        Surprisingly, though selectivity is critical to selective kinase inhibitor discovery,
+        there has been little work on how accurately free energy calculations can predict
+        selectivity among similar kinase ATP-binding sites. Here, we show that free energy calculations
+        (perhaps nonintuitively) can predict selectivity more accurately than affinity.
+        We also examine how this phenomenon depends on similarity of kinase ATP-binding sites.
     description: >
       We asked whether the similarity of binding sites in related kinases might result
       in a fortuitous cancellation of errors in using alchemical free energy calculations
@@ -815,16 +974,23 @@
     links:
       - action: Download data through the Open Science Framework
         short: OSF
+        description: Molecular simulation datasets for SARS-CoV-2 cryptic pockets from Folding@home
         url: https://osf.io/fs2yv/
       - action: Browse datasets on the MolSSI COVID-19 Molecular Structure and Therapeutics Hub
         short: MolSSI COVID-19 Hub
+        description: Index of molecular simulation datasets for SARS-CoV-2 from Folding@home
         url: http://covid.molssi.org
     # Thumbnail image URL
     thumbnail: foldingathome-covid-cryptic-pockets
     # Two newlines are needed after the description
     funding:
-    - NIH P30 CA008748
-    - NIH R01 GM121505
+    - id: NIH P30 CA008748
+    - id: NIH R01 GM121505
+      rationale: >
+        Folding@home is a critical piece of infrastructure for our mapping of an atlas of kinase conformations
+        and associated energetics. Here, we report infrastructure developments that enabled this resource to become
+        the first exaFLOP/s distributed computing platform in the world, more powerful than the top ten supercomputers
+        combined.
     description: >
       To accelerate a multitude of drug development activities to combat the global threat posed by COVID-19,
       over a million citizen scientists have banded together through the Folding@home distributed computing
@@ -863,6 +1029,7 @@
     links:
       - action: Visit the COVID Moonshot
         short: COVID Moonshot
+        description: Biochemical inhibition data for the SARS-CoV-2 main viral protease (Mpro) for all compounds synthesized by the COVID Moonshot
         url: http://postera.ai/covid
     # Two newlines are needed after the description
     funding: null
@@ -907,6 +1074,8 @@
       date: 2020-08-15
     # Thumbnail image URL
     thumbnail: coarse-graining
+    funding:
+    - id: NIH P30 CA008748
     description: >
       We review the state of the art in applying machine learning to coarse grain force fields in space and time to study mutliscale dynamics.
 
@@ -942,12 +1111,19 @@
     pdf: http://www.choderalab.org/s/SAMPL6-pKa.pdf
     # These links may be listed in the choderalab.org/publications/ page
     links:
-      - action: Download code and data from GitHub
+      - action: Download SAMPL6 challenge data from GitHub
         short: GitHub
-        url: https://github.com/samplchallenges/SAMPL6/
+        description: The SAMPL6 Challenge blind predictive challenge instructions and datasets
+        url: https://github.com/samplchallenges/SAMPL6
     # Two newlines are needed after the description
     funding:
-    - NIH P30 CA008748
+    - id: NIH P30 CA008748
+    - id: NIH R01 GM124270
+      rationale: >
+        This blind challenge focuses the community on assessing the accuracy of predicting
+        free energy differences between aqueous and apolar environments in the absence of
+        pKa and conformational sampling challenges, enabling a critical benchmark of the
+        accuracy of physical models.
     description: >
       We report the performance assessment of the 91 methods that were submitted
       to the SAMPL6 blind challenge for predicting octanol-water partition coefficient
@@ -978,14 +1154,21 @@
     links:
       - action: Download code and plots from GitHub
         short: GitHub
+        description: Utilities for calculating pH titration curves for small molecules
         url: https://github.com/choderalab/titrato
     # Thumbnail
     thumbnail: pka-free-energies
     pdf: https://link.springer.com/content/pdf/10.1007/s10822-020-00280-7.pdf
     # Funding
     funding:
-    - NIH R01 GM124270
-    - NIH P30 CA008748
+    - id: NIH P30 CA008748
+    - id: NIH R01 GM124270
+      rationale: >
+        As part of the first SAMPL6 pKa blind challenge, we realized that there was a much more
+        straightforward approach to capturing all of the essential information about aqueous pKa
+        values for small druglike molecules. This work summarizes our findings, and demonstrates
+        how free energy plots are extremely useful in identifying modeling errors in predicting
+        small molecule aqueous pKas.
     description: >
      Here, we demonstrate how the physical nature of protonation and tautomeric state effects
      means that the standard state free energies of each microscopic protonation/tautomeric
@@ -1035,14 +1218,15 @@
     links:
       - action: Download code and data
         short: GitHub
+        description: Input files for the SAMPL6 SAMPLing Challenge
         url: https://github.com/samplchallenges/SAMPL6/tree/master/host_guest/SAMPLing
     # Thumbnail
     thumbnail: sampl6-sampling
     pdf: https://choderalab.squarespace.com/s/SAMPL6-SAMPLing.pdf
     # These links may be listed in the choderalab.org/publications/ page
     funding:
-    - NIH R01 GM124270
     - NIH P30 CA008748
+    - NIH R01 GM124270
     description: >
       To assess the relative efficiencies of alchemical binding free energy calculations,
       the SAMPL6 SAMPLing challenge asked participants to submit predictions as a function of
