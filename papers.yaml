@@ -11,6 +11,61 @@
 #
 # Google Scholar : https://scholar.google.com/citations?hl=en&user=nnEg7_8AAAAJ&view_op=list_works&authuser=2&sortby=pubdate
 
+  # Title should have only initial letter capitalized
+  - title: "Teaching free energy calculations to learn from experimental data"
+    authors: # Use same name in publication
+    - Marcus Wieder
+    - Josh Fass
+    - John D. Chodera
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - John D. Chodera
+    # Add these other fields are optional; fill in as much information as is available
+    preprint:
+      url: https://www.biorxiv.org/content/10.1101/2021.08.24.457513v1.abstract
+      date: 2021-08-26
+    # These links may be listed in the choderalab.org/publications/ page
+    links:
+      - action: Source code used in this study
+        short: GitHub
+        description: neutromeratio
+        url: https://github.com/choderalab/neutromeratio
+      - action: Data used in this study
+        short: Zenodo
+        description: data
+        url: https://zenodo.org/record/5245934
+    # Thumbnail image URL
+    thumbnail: qml-explicit-free-energy
+    # Two newlines are needed after the description
+    funding:
+    - id: NIH P30 CA008748
+      rationale: >
+        This work reports the development of a new generation of alchemical free energy calculations that can learn from 
+        experimental free energy data collected for related molecules, such as a lead series under investigation, to produce
+        systematically improvable predictions of protein:ligand interactions and binding affinities, enabling us
+        to systematically increase the accuracy of our predictions of kinase:inhibitor affinities to accelerate the
+        design of targeted cancer therapies.
+    - id: NIH R01 GM121505
+      rationale: >
+        This work reports the development of a new generation of alchemical free energy calculations that can learn from 
+        experimental free energy data collected for related molecules, such as a lead series under investigation, to produce
+        systematically improvable predictions of protein:ligand interactions and binding affinities that will enable us
+        to systematically increase the accuracy of our predictions of kinase:inhibitor affinities to accelerate the
+        design of targeted kinase inhibitors.       
+    - id: NIH R01 GM132386
+      rationale: >
+        This work describes a new strategy for systematically improving next-generation molecular mechanics potentials based on
+        quantum chemical data by leveraging experimental measurements---including free energies---to produce substantially improved
+        potential energy functions for biomolecular simulation. In this case, a quantum machine learning potential was used to simulate
+        an entire solvated system, and alchemical free energy calculations were used to systematically improve prediction accuracy
+        of tautomer ratios using a small amount of experimental free energy data.
+    - id: NSF CHE 1738979
+      rationale: >
+        This work describes an automated approach to optimization of a fully machine learned force field that can be systematically
+        improved using both quantum chemical data and experimental free energy data, an obligate first step to fully Bayesian force 
+        field parameterization.
+
+
 
   # Title should have only initial letter capitalized
   - title: "The Open Force Field Evaluator: An automated, efficient, and scalable framework for the estimation of physical properties from molecular simulation"
