@@ -83,10 +83,10 @@
     # 'organization' denotes the organization (federal, industrial, or philanthropic) granting the funds
     organization: "Relay Therapeutics"
     # 'direct_costs' denotes the total direct cost in dollars to the lab
-    direct_costs: 74074
+    direct_costs: 124828
     # project start and end dates in ISO 8601 format (YYYY-MM-DD)
     project_begin: 2018-04-05
-    project_end_date: 2019-04-05
+    project_end_date: 2022-04-05
     # URL to official grant record, if applicable
     url: "https://relaytx.com/"
     # Description of the goal of the project (must be followed by two blank lines)
