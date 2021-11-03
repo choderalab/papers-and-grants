@@ -138,6 +138,28 @@
       point mutations on antibody:antigen affinities.
 
 
+# 'id' is the unique identifier by which the grant is referred to in the publications YAML
+  - id: "Bayer Collaboration"
+    # 'title' is the title of the grant
+    title: "Development of a combined machine learning / alchemical free energy approach to predict the impact of mutations on small molecule kinase inhibitor binding"
+    # 'type' denotes 'federal', 'industry', 'philanthropy'
+    type: industry
+    # 'organization' denotes the organization (federal, industrial, or philanthropic) granting the funds
+    organization: "Bayer"
+    # 'direct_costs' denotes the total direct cost in dollars to the lab
+    direct_costs: 117105
+    # project start and end dates in ISO 8601 format (YYYY-MM-DD)
+    project_begin: 2020-03-01
+    project_end_date: 2022-04-30
+    # URL to official grant record, if applicable
+    url: "https://www.bayer.com"
+    # Description of the goal of the project (must be followed by two blank lines)
+    description: >
+      The goal of this project is to develop open source scalable free energy and machine learning workflows to predict
+      which mutations of kinases small molecule therapeutics may be effective against.
+
+
+
     # 'id' is the unique identifier by which the grant is referred to in the publications YAML
   - id: "Interline Therapeutics Collaboration"
     # 'title' is the title of the grant
