@@ -126,10 +126,10 @@
     # 'organization' denotes the organization (federal, industrial, or philanthropic) granting the funds
     organization: "Vir Biotechnology"
     # 'direct_costs' denotes the total direct cost in dollars to the lab
-    direct_costs: 123750
+    direct_costs: 166668
     # project start and end dates in ISO 8601 format (YYYY-MM-DD)
-    project_begin: 2021-01-15
-    project_end_date: 2023-01-14
+    project_begin: 2019-07-25
+    project_end_date: 2022-07-24
     # URL to official grant record, if applicable
     url: "https://www.vir.bio/"
     # Description of the goal of the project (must be followed by two blank lines)
