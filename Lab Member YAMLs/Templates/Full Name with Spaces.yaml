@@ -1,0 +1,46 @@
+name:
+birthday: MM.DD
+position: (Job Title) (Graduate Student) (Postoctoral Research Scholar/Fellow)
+affiliations: >
+  Weill Cornell Physiology, Biophysics, and Systems Biology PhD Program
+  Weill Cornell Biochemistry and Structural Biology PhD Program
+  Tri-Institutional PhD Program in Computational Biology and Medicine
+  Tri-Institutional PhD Program in Chemical Biology
+  Louis V. Gerstner, Jr. Graduate School of Biomedical Sciences
+  Berlin Institute of Health (BIH) Einstein Foundation - Stiftung Charité Group
+  Joint Mentorship with Name (URL to lab)
+fellowships: >
+ (Any awards you have won) (i.e. MolSSI Investment Fellowship)
+funding: >
+ (list of funding sources)
+status: current
+  start-date: YYYY.MM.DD
+  end-date: YYYY.MM.DD
+email: @choderalab.org
+telephone:
+twitter: handle (NO@)
+linkedin: URL
+ORCID:
+google-scholar: URL
+CV: (URL to PDF)
+project(s): >
+ name
+associations: >
+ perses
+ espaloma
+ pymbar
+ openmmtools
+ folding@home
+ yank
+ rocsalt
+interests: >
+ (List ALL possible buzz words that are interests of yours; below are a few examples)
+ machine learning
+ free energy calculations
+ small molecule
+ SAMPL challenge
+ protein-protein interactions
+ automation
+ force fields
+ folding@home
+ bayesian modeling
