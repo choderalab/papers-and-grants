@@ -12,6 +12,79 @@
 # Google Scholar : https://scholar.google.com/citations?hl=en&user=nnEg7_8AAAAJ&view_op=list_works&authuser=2&sortby=pubdate
 
   # Title should have only initial letter capitalized
+  - title: MEN1 mutations mediate clinical resistance to Menin inhibition
+    authors: # Use same name in publication
+    - Florian Perner
+    - Eytan Stein
+    - Sukrit Singh
+    - Daniela Wenge
+    - Athina Apazidis
+    - Homa Rahnamoun
+    - Disha Anand
+    - Jeonghyeon Kim
+    - Christian Marinaccio
+    - Charles Hatton
+    - Yanhe Wen
+    - David Schaller
+    - Shoron Mowla
+    - Wenbin Xiao
+    - Holly Gamlen
+    - Aaron Stonestrom
+    - Sonali Persaud
+    - Elizabeth Ener
+    - Jevon Cutler
+    - John Doench
+    - Gerard McGeehan
+    - Andrea Volkamer
+    - Radosław Nowak
+    - Eric Fischer
+    - John D. Chodera
+    - Ross Levine
+    - Sheng Cai
+    - Richard Stone
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Scott Armstrong
+    # Add these other fields are optional; fill in as much information as is available
+    published:
+      doi: 
+      journal: Nature
+      volume: in press
+      page:  # just first page
+      year: 
+      dates:
+        submitted: 2022-03-07
+        accepted: 2022-11-30
+    # Add these other fields are optional; fill in as much information as is available
+    # Thumbnail image URL
+    thumbnail: menin-mutations
+    # These links may be listed in the choderalab.org/publications/ page
+    links:
+      - action: Download simulation scripts
+        short: GitHub
+        description: Scripts for structure preparation, docking, and simulation of MEN1 mutants interacting with inhibitors
+        url: https://github.com/choderalab/men1
+      - action: Download the datasets
+        short: OSF
+        description: Data from free energy calculations, Folding@home trajectories, and Markov state models of MEN1 mutants
+        url: https://osf.io/uge5j/
+    # Two newlines are needed after the description
+    funding:
+    - id: NIH P30 CA008748
+      rationale: >
+        This work reports the use of computational methods developed for predicting the impact of clinical mutations
+        in kinases on therapeutic response to another target of cancer therapy, the chromatin adapter protein Menin.
+        To understand observed clinical resistance mutations that arose in a phase I clinical trial in response to 
+        therapy with the Menin inhibitor revumineb, we probe the biophysical origin of the emergence of resistance to therapy.
+    - id: NIH R01 GM121505
+      rationale: >
+        This work reports the use of computational methods developed for predicting the impact of clinical mutations
+        in kinases on therapeutic response to another target of cancer therapy, the chromatin adapter protein Menin.
+        To understand observed clinical resistance mutations that arose in a phase I clinical trial in response to 
+        therapy with the Menin inhibitor revumineb, we probe the biophysical origin of the emergence of resistance to therapy.
+
+
+  # Title should have only initial letter capitalized
   - title: "Death by a thousand cuts---combining kinase inhibitors for selective target inhibition and rational polypharmacology"
     authors: # Use same name in publication
     - Ian R. Outhwaite
@@ -31,7 +104,7 @@
     links:
       - action: Code, datasets, and results used in this study
         short: GitHub
-        description: MMS repository
+        description: Multi-inhibitor, multi-target (MMS) methodology code and data for designing kinase inhibitor mixtures to achieve high selectivity
         url: https://github.com/iouthwaite/inhibitor_combinations
     # Thumbnail image URL
     thumbnail: inhibitor-combinations
@@ -77,13 +150,13 @@
       date: 2022-11-21
     # These links may be listed in the choderalab.org/publications/ page
     links:
-      - action: Code to reproduce training and results
+      - action: Download the code to reproduce training
         short: GitHub
-        description: code
+        description: Code and data for training the OpenFF 2.0.0 ("Sage") small molecule force field
         url: https://github.com/openforcefield/openff-sage
       - action: OpenFF 2.0.0 ("Sage") force field parameters in SMIRNOFF format
         short: GitHub
-        description: force field
+        description: The OpenFF 2.0.0 ("Sage") small molecule force field
         url: https://github.com/openforcefield/openff-forcefields/releases/tag/2.0.0
     # Thumbnail image URL
     thumbnail: openff-2.0.0
@@ -128,15 +201,15 @@
     links:
       - action: Code to reproduce training and results
         short: GitHub
-        description: BespokeFit source code and installation instructions
+        description: OpenFF BespokeFit source code and installation instructions
         url: https://github.com/openforcefield/openff-bespokefit
       - action: Read the BespokeFit documentation
         short: Docs
-        description: BespokeFit documentation
+        description: OpenFF BespokeFit documentation
         url: https://docs.openforcefield.org/projects/bespokefit
       - action: Download the data from the paper
         short: Data
-        description: Raw data and analysis notebooks
+        description: Raw data and analysis notebooks for the BespokeFit paper
         url: https://zenodo.org/record/7062336
     # Thumbnail image URL
     thumbnail: bespokefit
@@ -174,15 +247,15 @@
     links:
       - action: Download the dataset
         short: GitHub release
-        description: BespokeFit source code and installation instructions
+        description: SPICE quantum chemical dataset
         url: https://github.com/openmm/spice-dataset/releases/tag/1.1.2
       - action: Download the dataset generation code
         short: GitHub
-        description: BespokeFit source code and installation instructions
+        description: Source code for curating and generating the SPICE quantum chemical dataset
         url: https://github.com/openmm/spice-dataset
       - action: Download machine learning potential models
         short: Models
-        description: Machine learning potential energy models built from the SPICE dataset
+        description: Equivariant Transformer machine learning potential energy models built from the SPICE quantum chemical dataset
         url: http://github.com/openmm/spice-models
     # Thumbnail image URL
     thumbnail: spice-dataset
@@ -224,7 +297,7 @@
     links:
       - action: Download the scripts to reproduce the study
         short: GitHub
-        description: Scripts to run the simulations and reproduce the results of this study
+        description: Scripts to assess and improve molecular mechanics force fields with condensed phase mixture simulations
         url: https://github.com/SimonBoothroyd/binary-mixture-publication
     # Thumbnail image URL
     thumbnail: openff-evaluator
@@ -264,7 +337,7 @@
     links:
       - action: Download the OpenFF Evaluator
         short: GitHub
-        description: Code for the OpenFF Evaluator
+        description: Source code for the OpenFF Evaluator
         url: https://github.com/openforcefield/openff-evaluator
       - action: Read the documentation
         short: Docs
@@ -314,7 +387,7 @@
     links:
       - action: Download data
         short: GitHub
-        description: All the experimental data, participant submissions, analysis and codes can be found here
+        description: All the experimental data, participant submissions, analysis, and codes for the SAMPL7 PHIPA protein-ligand challenge
         url: https://github.com/samplchallenges/SAMPL7/tree/master/protein_ligand
     # Thumbnail image URL
     thumbnail: sampl7-phip2
@@ -370,9 +443,225 @@
         These blind predictive challenges will assess the accuracy of current generation machine learning and computational
         chemistry tools in identifying new hits for protein targets.
 
+        
+  # Title should have only initial letter capitalized
+  - title: "Bayesian inference-driven model parameterization and model selection for 2CLJQ fluid models"
+    authors: # Use same name in publication
+    - Owen C. Madin
+    - Simon Boothroyd
+    - Richard A. Messerly
+    - Josh Fass
+    - John D. Chodera
+    - Michael R. Shirts
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Michael R. Shirts
+    # Add these other fields are optional; fill in as much information as is available
+    preprint:
+      url: https://arxiv.org/abs/2105.07863
+      date: 2021-09-13
+    published:
+      doi: https://doi.org/10.1021/acs.jcim.1c00829
+      journal: Journal of Chemical Informatics and Modeling
+      volume: 62
+      page: 874 # just first page
+      year: 2022
+      dates:
+        received: 2021-09-21
+        published: 2022-02-07
+    # These links may be listed in the choderalab.org/publications/ page
+    links:
+      - action: Download code and data
+        short: GitHub
+        description: Data sets and code used to generate the results shown in this study
+        url: https://github.com/SimonBoothroyd/bayesiantesting/tree/combined_run
+    # Thumbnail image URL
+    thumbnail: 2CLJQ
+    # Two newlines are needed after the description
+    funding:
+    - id: NIH R01 GM132386
+      rationale: >
+        Here, we show how Bayesian inference can be used to automatically perform model selection and fit parameters for a molecular mechanics force field.
 
 
+  # Title should have only initial letter capitalized
+  - title: "GCN2 kinase activation by ATP-competitive kinase inhibitors"
+    authors: # Use same name in publication
+    - Colin P. Tang
+    - Owen Clark
+    - John R. Ferrarone
+    - Carl Campos
+    - Alshad S. Lalani
+    - John D. Chodera
+    - Andrew M. Intlekofer
+    - Olivier Elemento
+    - Ingo K. Mellinghoff
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Ingo K. Mellinghoff
+    # Add these other fields are optional; fill in as much information as is available
+    published:
+      doi: https://doi.org/10.1038/s41589-021-00947-8
+      journal: Nature Chemical Biology
+      volume: 18
+      page: 207 # just first page
+      year: 2022
+      dates:
+        received: 2021-06-15
+        accepted: 2021-10-28
+        published: 2021-12-23
+    # These links may be listed in the choderalab.org/publications/ page
+    links:
+      - action: Download analysis scripts
+        short: GitHub
+        description: All scripts for downstream analysis of the CRISPR screen and RNA-seq data for assessing GCN2 kinase activation
+        url: https://github.com/cot2005/Tang_et_al_2021
+    # Thumbnail image URL
+    thumbnail: gcn2-activation
+    # Two newlines are needed after the description
+    funding:
+    - id: NIH P30 CA008748
+      rationale: >
+        We describe paradoxical activation of GCN2 kinase activity by the kinase inhibitor neratinib, 
+        and propose a model for how inhibitor-induced dimerization might cause this unusual activity.
+        This work helps us better understand the subtleties of how kinase inhibitors can modulate
+        kinase conformational populations and how modulating these populations can impact kinase activity.
+    - id: NIH R01 GM121505
+      rationale: >
+        We describe paradoxical activation of GCN2 kinase activity by the kinase inhibitor neratinib, 
+        and propose a model for how inhibitor-induced dimerization might cause this unusual activity.
+        This work helps us better understand the subtleties of how kinase inhibitors can modulate
+        kinase conformational populations and how modulating these populations can impact kinase activity.
 
+
+  # Title should have only initial letter capitalized
+  - title: "INK4 Tumor Suppressor Proteins Mediate Resistance to CDK4/6 Kinase Inhibitors"
+    authors: # Use same name in publication
+    - Qing Li
+    - Baishan Jiang
+    - Jiaye Guo
+    - Hong Shao
+    - Isabella S. Del Priore
+    - Qing Chang
+    - Rei Kudo
+    - Zhiqiang Li
+    - Pedram Razavi
+    - Bo Liu
+    - Andrew S. Boghossian
+    - Matthew G. Rees
+    - Melissa M. Ronan
+    - Jennifer A. Roth
+    - Katherine A. Donovan
+    - Marta Palafox
+    - Jorge S. Reis-Filho
+    - Elisa de Stanchina
+    - Eric S. Fischer
+    - Neal Rosen 
+    - Violeta Serra 
+    - Andrew Koff
+    - John D. Chodera 
+    - Nathanael S. Gray
+    - Sarat Chandarlapaty
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Sarat Chandarlapaty
+    # Add these other fields are optional; fill in as much information as is available
+    published:
+      doi: https://doi.org/10.1158/2159-8290.CD-20-1726
+      journal: Cancer Discovery
+      volume: 12
+      page: 356 # just first page
+      year: 2022
+      dates:
+        received: 2020-12-01
+        accepted: 2021-09-15
+        published: 2021-09-20
+    # These links may be listed in the choderalab.org/publications/ page
+    links:
+      - action: Download models and docking results
+        short: GitHub
+        description: Models and docking results for binding partners of human kinases (e.g. p27 for CDK4, p18 for CDK6) affect the binding of ATP, small-molecule kinase inhibitors (e.g. palbociclib), as well as proteolysis-targeting chimeras (PROTACs).
+        url: https://github.com/choderalab/CDK_PROTAC
+    # Thumbnail image URL
+    thumbnail: ink4-cdk4
+    # Two newlines are needed after the description
+    funding:
+    - id: NIH P30 CA008748
+      rationale: >
+        We demonstrate CDK6 causes drug resistance by binding INK4 proteins, 
+        and develop bifunctional degraders conjugating palbociclib with E3 ligands to overcome this mechanism of resistance
+        by exploiting advanced modeling of relevant conformations of CDK6.
+    - id: NIH R01 GM121505
+      rationale: >
+        We demonstrate CDK6 causes drug resistance by binding INK4 proteins, 
+        and develop bifunctional degraders conjugating palbociclib with E3 ligands to overcome this mechanism of resistance
+        by exploiting advanced modeling of relevant conformations of CDK6.
+
+
+  # Title should have only initial letter capitalized
+  - title: "Capturing non-local through-bond effects in molecular mechanics force fields: II. Using fractional bond orders to fit torsion parameters"
+    authors: # Use same name in publication
+    - Chaya D. Stern
+    - Jessica Maat
+    - David L. Dotson
+    - Christopher I. Bayly
+    - Daniel G. A. Smith
+    - David L. Mobley
+    - John D. Chodera
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - John D. Chodera
+    # Add these other fields are optional; fill in as much information as is available
+    preprint:
+      url: https://www.biorxiv.org/content/10.1101/2022.01.17.476653v1.abstract
+      date: 2022-01-18
+    # These links may be listed in the choderalab.org/publications/ page
+    links:
+      - action: Download kinase inhibitor dataset
+        short: Kinase inhibitor dataset
+        description: Scripts and data used to generate and analyze the kinase inhibitor dataset
+        url: https://github.com/choderalab/fragmenter_data/tree/master/wbo-manuscript-figures/kinase_inhibitors_wbos
+      - action: Download substituted phenyl dataset
+        short: Substituted phenyl dataset
+        description: Scripts and data used to generate and analyze the substituted phenyl dataset
+        url: https://github.com/choderalab/fragmenter_data/tree/master/phenyl_benchmark
+      - action: Download scripts used to generate figures
+        short: GitHub
+        description: Scripts used to generate figures for assessing non-local effects in molecular mechanics force fields via Wiberg bond order
+        url: https://github.com/choderalab/fragmenter_data/tree/master/wbo-manuscript-figures
+    # Thumbnail image URL
+    thumbnail: biphenyl-wbo
+    # Two newlines are needed after the description
+    funding:
+    - id: NIH P30 CA008748
+      rationale: >
+        We show how the Wiberg Bond Order (WBO) can be used to accurately interpolate torsional profiles for
+        molecular mechanics force fields, which holts the potential for drastically reducing the complexity 
+        of these force fields while increasing their ability to generalize and accurately treat complex 
+        druglike molecules such as kinase inhibitors.
+    - id: NIH R01 GM132386
+      rationale: >
+        We show how the Wiberg Bond Order (WBO) can be used to accurately interpolate torsional profiles for
+        molecular mechanics force fields, which holts the potential for drastically reducing the complexity 
+        of these force fields while increasing their ability to generalize and accurately treat complex 
+        druglike molecules such as kinase inhibitors.
+    - id: NIH R01 GM121505
+      rationale: >
+        We show how the Wiberg Bond Order (WBO) can be used to accurately interpolate torsional profiles for
+        molecular mechanics force fields, which holts the potential for drastically reducing the complexity 
+        of these force fields while increasing their ability to generalize and accurately treat complex 
+        druglike molecules such as kinase inhibitors.
+    - id: Open Force Field Consortium
+      rationale: >
+        We show how the Wiberg Bond Order (WBO) can be used to accurately interpolate torsional profiles for
+        molecular mechanics force fields, which holts the potential for drastically reducing the complexity 
+        of these force fields while increasing their ability to generalize and accurately treat complex 
+        druglike molecules such as kinase inhibitors.
+    description: >
+      We show how the Wiberg Bond Order (WBO) can be used to accurately interpolate torsional profiles for
+      molecular mechanics force fields, which holts the potential for drastically reducing the complexity 
+      of these force fields while increasing their ability to generalize and accurately treat complex 
+      druglike molecules such as kinase inhibitors.
 
 
 
@@ -601,7 +890,7 @@
       molecule drug discovery: Predicting accurate tautomer ratios in solution.
 
 
-  - title: "Antibodies to the SARS-CoV-2 receptor-binding domain that maximize breadth and resistance to viral escape"
+  - title: "SARS-CoV-2 RBD antibodies that maximize breadth and resistance to escape"
     authors: # Use same name in publication
     - Tyler N. Starr
     - Nadine Czudnochowski
@@ -658,14 +947,16 @@
     preprint:
       url: https://www.biorxiv.org/content/10.1101/2021.04.06.438709v1.abstract
       date: 2021-04-08
-    #published:
-    #  doi: null
-    #  journal: Nature
-    #  volume: null
-    #  page: in press # just first page
-    #  year: 2021
-    #  dates:
-    #    accepted: 2021-07-06
+    published:
+      doi: 10.1038/s41586-021-03807-6
+      journal: Nature
+      volume: 597
+      page: 97 # just first page
+      year: 2021
+      dates:
+        submitted: 2021-03-29
+        accepted: 2021-07-06
+        published: 2021-07-14
     # These links may be listed in the choderalab.org/publications/ page
     links:
       - action: Download code and analysis from GitHub
@@ -771,6 +1062,17 @@
     preprint:
       url: https://www.biorxiv.org/node/1585452.full
       date: 2021-06-28
+    # Add these other fields are optional; fill in as much information as is available
+    published:
+      doi: https://doi.org/10.1073/pnas.2111451118
+      journal: Proceedings of the National Academy of Science
+      volume: 118
+      page: e2111451118 # just first page
+      year: 2021
+      dates:
+        received: 2021-06-24
+        accepted: 2021-09-28
+        published: 2021-11-08
     # These links may be listed in the choderalab.org/publications/ page
     links:
       - action: Download code from GitHub
@@ -787,7 +1089,7 @@
         This work represents the first major use of NanoBRET to experimentally measure the impact of clinical cancer mutations
         associated with resistance to clinical kinase inhibitors on the binding affinity and kinetics of these
         inhibitors. The data collected here provides an incredibly valuable benchmark set for computational approaches
-        to predicting the impact of resistance mutations for kinase inhibitors, and will allow us to contine to refine
+        to predicting the impact of resistance mutations for kinase inhibitors, and will allow us to continue to refine
         our computational approaches to mechanism-based prediction of the impact of clinical cancer mutations.
     - id: NIH R01 GM124270
       rationale: >
@@ -2007,8 +2309,11 @@
       doi: https://doi.org/10.1038/s41467-019-10523-3
       journal: Nature Communications
       volume: 10
+      page: 2691
       year: 2019
       dates:
+        submitted: 2018-11-19
+        accepted: 2019-05-16
         published: 2019-06-19 # use ISO 8601 date format YYYY-MM-DD
     # These links may be listed in the choderalab.org/publications/ page
     links:
@@ -2063,6 +2368,7 @@
       doi: http://doi.org/10.7554/eLife.45403
       journal: eLife
       volume: 8
+      page: e45403
       year: 2019
       dates:
         published: 2019-05-13 # use ISO 8601 date format YYYY-MM-DD

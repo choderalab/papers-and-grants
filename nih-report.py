@@ -12,8 +12,9 @@ Prepare an NIH report
 import datetime
 
 # Start and end date for reporting period
-reporting_period_start = datetime.date.fromisoformat('2020-09-01')
-reporting_period_end = datetime.date.fromisoformat('2021-08-31')
+reporting_period_start = datetime.date.fromisoformat('2021-09-01')
+#reporting_period_end = datetime.date.fromisoformat('2022-08-31')
+reporting_period_end = datetime.date.fromisoformat('2022-12-12')
 
 # Grant ID to report
 grant_id = 'NIH R01 GM121505' # kinase grant
@@ -207,6 +208,14 @@ if __name__ == '__main__':
         elif preprinted_during_reporting_period(paper):
             papers_to_report['preprints were posted'].append(paper)
 
+
+    # count papers
+    for category in ['papers were published', 'manuscripts were accepted', 'preprints were posted']:
+        if (category in papers_to_report) and (len(papers_to_report[category]) > 0):
+            n_papers = sum([1 for _ in papers_to_report[category]])
+            print(f'{category:30} : {n_papers:4} papers')
+
+    # report papers
     for category in ['papers were published', 'manuscripts were accepted', 'preprints were posted']:
         if (category in papers_to_report) and (len(papers_to_report[category]) > 0):
             print(f'Since the last reporting period, the following {category}, funded by this grant in part or whole:')
@@ -227,3 +236,5 @@ if __name__ == '__main__':
         if (category in papers_to_report) and (len(papers_to_report[category]) > 0):
             for paper in papers_to_report[category]:
                 show_resources(paper)
+                show_paper(paper, grant_id=None)
+
