@@ -13,11 +13,15 @@ import datetime
 
 # Start and end date for reporting period
 reporting_period_start = datetime.date.fromisoformat('2021-09-01')
-#reporting_period_end = datetime.date.fromisoformat('2022-08-31')
 reporting_period_end = datetime.date.fromisoformat('2022-12-12')
 
 # Grant ID to report
 grant_id = 'NIH R01 GM121505' # kinase grant
+
+# OpenMM grant report
+reporting_period_start = datetime.date.fromisoformat('2022-04-01')
+reporting_period_end = datetime.date.fromisoformat('2023-03-31')
+grant_id = 'NIH R01 GM140090' # openmm grant
 
 ################################################################################
 # Helper functions to act as filters

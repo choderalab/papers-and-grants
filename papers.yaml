@@ -220,6 +220,48 @@
         This work describes a methodology and generally useful tool for generating high-quality tailored parameters for specific
         small molecules via quantum chemical or machine learning potentials trained with quantum chemical data.
 
+  # Title should have only initial letter capitalized
+  - title: "NNP/MM: Fast molecular dynamics simulations with machine learning potentials and molecular mechanics"
+    authors: # Use same name in publication
+    - Raimondas Galvelis
+    - Alejandro Varela-Rial
+    - Stefan Doerr
+    - Roberto Fino
+    - Peter Eastman
+    - Thomas E. Markland
+    - John D. Chodera
+    - Gianni De Fabritiis
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Gianni De Fabritiis
+    # Add these other fields are optional; fill in as much information as is available
+    preprint:
+      url: https://arxiv.org/abs/2201.08110
+      date: 2022-01-20
+    # These links may be listed in the choderalab.org/publications/ page
+    links:
+      - action: Download the OpenMM pytorch plugin
+        short: GitHub
+        description: Source code for the OpenMM pytorch plugin
+        url: http://github.com/openmm/openmm-torch
+      - action: Download the NNPOps GPU-accelerated ML potential library
+        short: GitHub
+        description: Source code for the NNPOps GPU-accelerated ML potential library
+        url: https://github.com/openmm/nnpops
+    # Thumbnail image URL
+    thumbnail: openmm
+    # Two newlines are needed after the description
+    funding:
+    - id: NIH R01 GM140090
+      rationale: >
+        A major objective of this grant is to develop highly optimized, easy-to-use functionality for deploying machine learning
+        (ML) potential energy functions within the OpenMM ecosystem. This paper demonstrates how we have achieved this with a
+        fast, conda-installable plugin architecture that allows users to simulate hybrid ML/MM biomolecular systems with
+        unprecedented performance.
+    description: >
+      We present the GPU-accelerated NNPOps library for accelerating hybrid machine learning / molecular mechanics (ML/MM)
+      molecular simulations within OpenMM, and demonstrate how protein:ligand ML/MM simulations with the ANI ML potential 
+      used to treat the ligand with high accuracy can reach within 5x of GPU-accelerated pure MM simulation speeds.
 
   # Title should have only initial letter capitalized
   - title: "SPICE, a dataset of drug-like molecules and peptides for training machine learning potentials"
@@ -243,6 +285,16 @@
     preprint:
       url: https://arxiv.org/abs/2209.10702
       date: 2022-11-23
+    published:
+      doi: https://doi.org/10.1038/s41597-022-01882-6
+      journal: Scientific Data
+      volume: 10
+      page: 11 # just first page
+      year: 2023
+      dates:         
+        received: 2022-10-05
+        accepted: 2022-12-01
+        published: 2023-01-04
     # These links may be listed in the choderalab.org/publications/ page
     links:
       - action: Download the dataset
@@ -264,9 +316,13 @@
     - id: NIH R01 GM132386
       rationale: >
         To remedy the lack of large, open quantum chemical datasets for training accurate general machine learning 
-        potentials and molecular mechanics force fields for druglike small molecules and biomolecules, we produce 
+        potentials and molecular mechanics force fields for druglike small molecules and biomolecules, we produced 
         the open SPICE dataset, and show how it can be used to build extremely accurate machine learning potentials.
-
+    - id: NIH R01 GM140090
+      rationale: >
+        To remedy the lack of large, open quantum chemical datasets for training accurate general machine learning 
+        potentials for druglike small molecules and biomolecules, we produced the open SPICE dataset, and show how it 
+        can be used to build extremely accurate machine learning potentials.
 
   # Title should have only initial letter capitalized
   - title: "Improving force field accuracy by training against condensed phase mixture properties"
