@@ -1,0 +1,57 @@
+name: Mike Henry
+birthday: October - 07
+position: Software Scientist
+affiliations:
+- Memorial Sloan Kettering Cancer Center (MSKCC)
+- Open Free Energy https://openfree.energy/
+status: current
+key dates: 
+- start-date: 2021-01-25
+email: mike.henry@choderalab.org
+github: mikemhenry
+twitter: mikehenry42
+linkedin: https://www.linkedin.com/in/mikemhenry/
+ORCID: 0000-0002-3870-9993
+personal webpage: https://www.henrymike.com/
+NIH eRA Commons ID: MIKEHENRY
+google-scholar: https://scholar.google.com/citations?user=RgstaoUAAAAJ
+  #CV: URL to PDF
+projects:
+- End-to-end differentiable fitting of molecular mechanics force fields
+- Alchemical free energy calculations that can learn
+- Machine learning for drug discovery
+contributions:
+- espaloma
+- openmoltools
+- perses
+- pymbar
+- software-development
+- status
+- yank
+interests:
+- Bayesian modeling
+- Bayesian optimisation
+- COVIDmoonshot
+- adaptive sampling
+- api design 
+- automation
+- bioinformatics
+- blind predictive modeling challenges
+- continuous integration
+- de novo drug design
+- drug discovery
+- enhanced sampling
+- folding@home
+- force fields
+- free energy calculations
+- graph neural networks
+- machine learning
+- molecular dynamics
+- molecular interactions
+- packaging
+- python
+- science communication/outreach
+- scientific software development
+- software carpentry
+- structure-based drug discovery 
+- structure-based modeling

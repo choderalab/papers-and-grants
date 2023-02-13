@@ -1,0 +1,64 @@
+# This is a template `.yaml` file that we use to keep our lab webpage up to date.
+# Please fill out as much as possible and Comment out any fields if they don't apply to you/you do not wish to share (e.g. telephone, twitter, linkedin,etc.)
+name: Talia B. Kimber
+birthday: October - 27
+position: Graduate Student
+affiliations:
+- Memorial Sloan Kettering Cancer Center (MSKCC)
+- Charité Universitätsmedizin Berlin
+- Freie Universitätsmedizin Berlin, Department of Mathematics and Computer Science
+- Joint Mentorship with Prof. Dr. Andrea Volkamer (https://volkamerlab.org/)
+- Joint Mentorship with Prof. Dr. Frank Noé (https://www.mi.fu-berlin.de/en/math/groups/ai4s/staff/noe/index.html)
+#awards:
+funding:
+- Berlin Institute of Health (BIH) Einstein Foundation - Stiftung Charité Group
+status: alumni
+# status can be either `current` or `alumni`
+key dates:
+# Please include all key dates. Comment out dates that do not apply to you.
+- start-date: 2019-04-15
+# - ace: YYYY-MM-DD
+- committee-meetings:
+  - 2020-05-12
+  - 2021-06-22
+# - thesis-defense: YYYY-MM-DD
+- end-date: 2022-06-30
+current-position: Senior Data Scientist, Swiss Confederation -- Federal Department of Defense, Civil Protection and Sport
+# This should be your title of your next position if you know what your next venture is going to be
+email: talia.kimber@choderalab.org
+github: t-kimber
+twitter: taliakimber
+# twitter handle (if applicable); do not include '@' (e.g.jchodera)
+linkedin: https://www.linkedin.com/in/taliakimber/
+ORCID: 0000-0002-8881-920X
+personal webpage: http://taliabkimber.com/
+# NIH eRA Commons ID:
+# NIH eRA Commons ID is required. Please make sure you have one; if not ask Admin how to procure one
+google-scholar: https://scholar.google.com/citations?user=i3sMZ-cAAAAJ&hl=en
+research-gate: https://www.researchgate.net/profile/Talia-Kimber
+projects:
+# Brief descriptions of each project you are involved in (to appear on webpage). This should be a list; below are some examples
+- Machine learning for kinase drug discovery
+contributions:
+# Please LIST all of the github repositories you have contributed to/ are associated with; below are some examples
+- kinoml
+- kinodata
+- experiments-binding-affinity
+- teachopencadd
+- maxsmi
+interests:
+# Please LIST ALL possible keywords/buzz words that fall in your scientific interests; below are the currently listed interests of other members. If you would like to add one, go for it! Just let Admin know what you added so we can expand the template list
+- python
+- scientific software development
+# - api design
+- continuous integration
+- packaging
+- small molecule
+- protein-ligand interactions
+- machine learning
+- graph neural networks
+- cats
+- bioinformatics
+- automation
+- structure-based drug discovery
+- drug discovery
