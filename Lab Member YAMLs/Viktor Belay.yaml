@@ -1,0 +1,89 @@
+# This is a template `.yaml` file that we use to keep our lab webpage up to date. 
+# Please fill out as much as possible and Comment out any fields if they don't apply to you/you do not wish to share (e.g. telephone, twitter, linkedin,etc.)
+name: Viktor Belay
+birthday: May - 05
+position: Graduate Student
+# Position can be either your MSKCC Job Title, Graduate Student, Postoctoral Research Scholar, or Postoctoral Research Fellow
+affiliations:
+# Please LIST any/all that apply to you. Comment out any affiliation/program that you do not belong to or add any that are not listed below
+- Memorial Sloan Kettering Cancer Center (MSKCC)
+- Weill Cornell Physiology, Biophysics, and Systems Biology PhD Program (PBSB)
+- Joint Mentorship with Richard Hite (https://www.mskcc.org/research/ski/labs/richard-hite)
+awards: 
+# Please LIST any and all awards you have received
+- Weill Cornell Medicine IMSD award (NIH T32)
+- Well Cornell Medicine MBTP T32 award (NIH T32)
+funding: 
+# Please LIST all of your sources for funding while working in the Chodera lab; below are some examples
+- Weill Cornell Medicine IMSD T32
+- Weill Cornell Medicine MBTP T32
+status: current
+# status can be either `current` or `alumni`
+key dates: 
+# Please include all key dates. Comment out dates that do not apply to you.
+- start-date: 2020-04-01
+- ace: 2021-05-20
+- committee-meetings:
+  - 2022-04-20
+#- thesis-defense: YYYY-MM-DD
+#- end-date: YYYY-MM-DD
+#current-position:
+# This should be your title of your next position if you know what your next venture is going to be 
+email: viktor.belay@choderalab.org
+github: viktorbelay
+telephone: 6782769408
+twitter: @belayviktor
+# twitter handle (if applicable); do not include '@' (e.g.jchodera)
+#linkedin: URL
+#ORCID:
+# ORCID is required. Please make sure you have one; if not ask Admin how to procure one
+#personal webpage: URL
+#science blog: URL
+#NIH eRA Commons ID: viktorbelay
+# NIH eRA Commons ID is required. Please make sure you have one; if not ask Admin how to procure one
+#google-scholar: URL
+#research-gate: URL
+#CV: URL to PDF
+projects:
+# Brief descriptions of each project you are involved in (to appear on webpage). This should be a list; below are some examples
+- Small molecule discovery and research into allosteric activation for TMEM175
+- Understanding the role of nucleotide binding in activation of IP3R
+- Determining the structure and function of CLC6
+contributions:
+# Please LIST all of the github repositories you have contributed to/ are associated with; below are some examples
+- Folding@Home
+- OpenMM
+interests:
+# Please LIST ALL possible keywords/buzz words that fall in your scientific interests; below are the currently listed interests of other members. If you would like to add one, go for it! Just let Admin know what you added so we can expand the template list
+- structure-based modeling
+- ion channels and transporters
+- membrane proteins
+- mutations
+- python
+- scientific software development
+- api design 
+- biomolecular recognition
+- small molecule
+- protein-protein interactions
+- protein-ligand interactions
+- molecular dynamics
+- machine learning
+- free energy calculations
+- science communication/outreach
+- enhanced sampling
+- molecular docking
+- blind predictive modeling challenges
+- cats
+- bioinformatics
+- automation
+- force fields
+- folding@home
+- Bayesian modeling
+- magnets
+- markov state models (MSMs)
+- molecular interactions
+- adaptive sampling
+- drug discovery with protein ensembles
+- structure-based drug discovery 
+- drug discovery
+- de novo drug design
