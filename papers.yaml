@@ -11,6 +11,489 @@
 #
 # Google Scholar : https://scholar.google.com/citations?hl=en&user=nnEg7_8AAAAJ&view_op=list_works&authuser=2&sortby=pubdate
 
+#### Added 2024-12-24
+
+
+  # Title should have only initial letter capitalized
+  - title: "Fine-tuning molecular mechanics force fields to free energies"
+    authors: # Use same name in publication
+    - Dominic Rufa
+    - Joshua Fass
+    - John D. Chodera
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - John D. Chodera
+    # Add these other fields are optional; fill in as much information as is available
+    preprint:
+      url: https://www.biorxiv.org/search/chodera
+      date: 2025-01-08
+    # These links may be listed in the choderalab.org/publications/ page
+    links:
+      - action: Code used in this study
+        short: GitHub
+        description: Timemachine fork used in this study
+        url: https://github.com/dominicrufa/timemachine
+    # Thumbnail image URL
+    thumbnail: fine-tuning-hydration-free-energies
+    # Two newlines are needed after the description
+    funding:
+    - id: NIH R35 GM152017
+      rationale: >
+        This work demonstrates how to fine-tune a molecular mechanics force field using experimental free energy measurement
+        to consistently improve performance on related free energy tasks. This work introduces a novel one-shot fine-tuning approach 
+        that enbales rapid fine-tuning of the electrostatics model for the espaloma graph convolutional molecular mechanics force field 
+        without the need for additional simulation. While we demonstrate this approach in the context of hydration free energies because 
+        of the ease of ensuring these calculations are converged to high precision, this approach can be applied to well-converged 
+        free energy calculations of other properties such as binding free energies.
+    - id: NIH GM132386
+      rationale: >
+        This work demonstrates how to fine-tune a molecular mechanics force field using experimental free energy measurement
+        to consistently improve performance on related free energy tasks. This work introduces a novel one-shot fine-tuning approach 
+        that enbales rapid fine-tuning of the electrostatics model for the espaloma graph convolutional molecular mechanics force field 
+        without the need for additional simulation. While we demonstrate this approach in the context of hydration free energies because 
+        of the ease of ensuring these calculations are converged to high precision, this approach can be applied to well-converged 
+        free energy calculations of other properties such as binding free energies.
+    - id: NIH P30 CA008748
+      rationale: >
+        This work demonstrates how to fine-tune a molecular mechanics force field using experimental free energy measurement
+        to consistently improve performance on related free energy tasks. This work introduces a novel one-shot fine-tuning approach 
+        that enbales rapid fine-tuning of the electrostatics model for the espaloma graph convolutional molecular mechanics force field 
+        without the need for additional simulation. While we demonstrate this approach in the context of hydration free energies because 
+        of the ease of ensuring these calculations are converged to high precision, this approach can be applied to well-converged 
+        free energy calculations of other properties such as binding free energies.
+
+
+  # Title should have only initial letter capitalized
+  - title: "EspalomaCharge: Machine learning-enabled ultrafast partial charge assignment"
+    authors: # Use same name in publication
+    - Yuanqing Wang
+    - Iván Pulido
+    - Kenichiro Takaba
+    - Benjamin Kaminow
+    - Jenke Scheen
+    - Lily Wang
+    - John D. Chodera
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Yuanqing Wang
+    - John D. Chodera
+    # Add these other fields are optional; fill in as much information as is available
+    preprint:
+      url: https://arxiv.org/abs/2302.06758
+      date: 2023-02-16
+    published:
+      doi: 
+      journal: Journal of Chemical Physics
+      volume: 128
+      page: 4160 # just first page
+      year: 2024
+      dates:
+        submitted: 2024-02-27
+        accepted: 2024-04-17
+        published: 2024-05-08
+    # These links may be listed in the choderalab.org/publications/ page
+    links:
+      - action: Code used in this study
+        short: GitHub
+        description: The EspalomaCharge fast graph convolutional charge model, useful as a drop-in replacement for AM1-BCC
+        url: https://github.com/choderalab/espaloma_charge
+    # Thumbnail image URL
+    thumbnail: espaloma-charge
+    # Two newlines are needed after the description
+    funding:
+    - id: NIH R01 GM132386
+      rationale: >
+      We developed EspalomaCharge, a graph convolutional charge model, as a drop-in replacement for generating AM1-BCC ELF10 charges.
+      The approach produces scalable, self-consistent charges and is orders of magnitude faster than AM1-BCC while providing lower error
+      than differences between standard AM1-BCC implementations.
+    - id: NIH R01 GM140090
+      rationale: >
+      We developed EspalomaCharge, a graph convolutional charge model, as a drop-in replacement for generating AM1-BCC ELF10 charges.
+      The approach produces scalable, self-consistent charges and is orders of magnitude faster than AM1-BCC while providing lower error
+      than differences between standard AM1-BCC implementations.
+
+
+  # Title should have only initial letter capitalized
+  - title: "DrugGym: A testbed for the economics of autonomous drug discovery"
+    authors: # Use same name in publication
+    - Michael Retchin
+    - Yuanqing Wang
+    - Kenichiro Takaba
+    - John D. Chodera
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - John D. Chodera
+    # Add these other fields are optional; fill in as much information as is available
+    preprint:
+      url: https://www.biorxiv.org/content/10.1101/2024.05.28.596296v1.abstract
+      date: 2024-06-02
+    # These links may be listed in the choderalab.org/publications/ page
+    links:
+      - action: Code used in this study
+        short: GitHub
+        description: DrugGym codebase and scripts used in this study
+        url: https://github.com/choderalab/drug-gym/
+    # Thumbnail image URL
+    thumbnail: drug-gym
+    # Two newlines are needed after the description
+    funding:
+    - id: NIH R35 GM152017
+      rationale: >
+      We present DrugGym, a sandbox for exploring reinforcement learning strategies and evaluating the economics of decisionmaking strategies and predictive models
+      on small molecule discovery. We use this tool to quantify the value of predictive model accuracy on hit-to-lead programs.
+    - id: NIH P30 CA008748
+      rationale: >
+      We present DrugGym, a sandbox for exploring reinforcement learning strategies and evaluating the economics of decisionmaking strategies and predictive models
+      on small molecule discovery. We use this tool to quantify the value of predictive model accuracy on hit-to-lead programs.
+
+
+  # Title should have only initial letter capitalized
+  - title: "Enhancing protein–ligand binding affinity predictions using neural network potentials"
+    authors: # Use same name in publication
+    - Francesc Sabanés Zariquiey
+    - Raimondas Galvelis
+    - Emilio Gallicchio
+    - John D. Chodera
+    - Thomas E. Markland
+    - Gianni de Fabritiis
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Gianni de Fabritiis
+    # Add these other fields are optional; fill in as much information as is available
+    preprint:
+      url: https://arxiv.org/abs/2401.16062
+      date: 2024-02-14
+    published:
+      doi: https://doi.org/10.1021/acs.jcim.3c02031
+      journal: Journal of Chemical Information and Modeling
+      volume: 64
+      page: 1481 # just first page
+      year: 2024
+      dates:
+        submitted: 2023-12-18
+        accepted: 2024-02-14
+        published: 2024-02-20
+    # These links may be listed in the choderalab.org/publications/ page
+    links:
+      - action: Code used in this study
+        short: GitHub
+        description: The calculated free energy values and ligand and proteinstructures, as well as preparation scripts
+        url: https://github.com/compsciencelab/ATM_benchmark/tree/main/ATM_With_NNPs
+    # Thumbnail image URL
+    thumbnail: de-fabritiis-nnp-free-energy
+    # Two newlines are needed after the description
+    funding:
+    - id: NIH R01 GM140090
+      rationale: >
+      We show that hybrid neural network / molecular mechanics potentials can significantly improve accuracy over molecular
+      mechanics potentials alone in predicting protein-ligand binding affinities.
+    - id: NIH P30 CA008748
+      rationale: >
+      We show that hybrid neural network / molecular mechanics potentials can significantly improve accuracy over molecular
+      mechanics potentials alone in predicting protein-ligand binding affinities.
+
+
+  # Title should have only initial letter capitalized
+  - title: "Prospective evaluation of structure-based simulations reveal their ability to predict the impact of kinase mutations on inhibitor binding"
+    authors: # Use same name in publication
+    - Sukrit Singh
+    - Vytautas Gapsys
+    - Matteo Aldeghi
+    - David Schaller
+    - Aziz M Rangwala
+    - Jessica B White
+    - Joseph P Bluck
+    - Jenke Scheen
+    - William G Glass
+    - Jiaye Guo
+    - Sikander Hayat
+    - Bert L de Groot
+    - Andrea Volkamer
+    - Clara D Christ
+    - Markus A Seeliger
+    - John D Chodera
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Sukrit Singh
+    - John D Chodera
+    # Add these other fields are optional; fill in as much information as is available
+    preprint:
+      url: https://www.biorxiv.org/content/10.1101/2024.11.15.623861v1
+      date: 2024-11-17
+    # These links may be listed in the choderalab.org/publications/ page
+    links:
+      - action: Code used in this study
+        short: GitHub
+        description: Generated structures and scripts for structure preparation are available on github 
+        url: https://github.com/openkinome/study-abl-resistance
+    # Thumbnail image URL
+    thumbnail: prospective-kinase-mutations
+    # Two newlines are needed after the description
+    funding:
+    - id: NIH R35 GM152017
+      rationale: >
+      We show that alchemical free energy calculations have the potential to prospectively predict the impact of clinical kinase mutations on targeted kinase inhibitor binding.
+    - id: NIH P30 CA008748
+      rationale: >
+      We show that alchemical free energy calculations have the potential to prospectively predict the impact of clinical kinase mutations on targeted kinase inhibitor binding.
+
+  # Title should have only initial letter capitalized
+  - title: "Benchmarking Cross-Docking Strategies in Kinase Drug Discovery"
+    authors: # Use same name in publication
+    - David A. Schaller
+    - Clara D. Christ
+    - John D Chodera
+    - Andrea Volkamer
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - John D Chodera
+    - Andrea Volkamer
+    # Add these other fields are optional; fill in as much information as is available
+    preprint:
+      url: https://doi.org/10.1101/2023.09.11.557138
+      date: 2023-09-14
+    # These links may be listed in the choderalab.org/publications/ page
+    links:
+      - action: Code used in this study
+        short: GitHub
+        description: Scripts and modules used for docking benchmark
+        url: https://github.com/openkinome/kinase-docking-benchmark
+    published:
+      doi: https://doi.org/10.1021/acs.jcim.4c00905
+      journal: Journal of Chemical Information and Modeling
+      volume: 64
+      page: 1481 # just first page
+      year: 2024
+      dates:
+        submitted: 2024-05-24
+        accepted: 2024-11-04
+        published: 2024-11-19
+    # Thumbnail image URL
+    thumbnail: kinase-docking-benchmark
+    # Two newlines are needed after the description
+    funding:
+    - id: NIH R01 GM121505
+      rationale: >
+      We show that alchemical free energy calculations have the potential to prospectively predict the impact of clinical kinase mutations on targeted kinase inhibitor binding.
+    - id: NIH P30 CA008748
+      rationale: >
+      We show that alchemical free energy calculations have the potential to prospectively predict the impact of clinical kinase mutations on targeted kinase inhibitor binding.
+
+
+  # Title should have only initial letter capitalized
+  - title: "Nutmeg and SPICE: Models and data for biomolecular machine learning"
+    authors: # Use same name in publication
+    - Peter Eastman
+    - Benjamin P. Pritchard
+    - John D. Chodera
+    - Thomas E. Markland
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Peter Eastman
+    # Add these other fields are optional; fill in as much information as is available
+    preprint:
+      url: https://arxiv.org/abs/2406.13112
+      date: 2023-09-14
+    # These links may be listed in the choderalab.org/publications/ page
+    links:
+      - action: Code used in this study
+        short: GitHub
+        description: SPICE dataset and scripts used to generate it
+        url: https://github.com/openmm/spice-dataset
+    published:
+      doi: https://doi.org/10.1021/acs.jctc.4c00794
+      journal: Journal of Chemical Theory and Computation
+      volume: 20
+      page: 8583 # just first page
+      year: 2024
+      dates:
+        submitted: 2024-06-18
+        accepted: 2024-09-16
+        published: 2024-09-25
+    # Thumbnail image URL
+    thumbnail: nutmeg-spice
+    # Two newlines are needed after the description
+    funding:
+    - id: NIH R35 GM152017
+      rationale: >
+      We present a significant expansion of the SPICE dataset, a large-scale quantum chemical dataset for training machine learning potentials, and show how it can be used to build extremely accurate machine learning potentials.
+    - id: NIH P30 CA008748
+      rationale: >
+      We present a significant expansion of the SPICE dataset, a large-scale quantum chemical dataset for training machine learning potentials, and show how it can be used to build extremely accurate machine learning potentials.
+
+
+  # Title should have only initial letter capitalized
+  - title: "Lessons learned during the journey of data: from experiment to model for predicting kinase affinity, selectivity, polypharmacology, and resistance"
+    authors: # Use same name in publication
+    - Raquel López-Ríos de Castro
+    - Jaime Rodríguez-Guerra Pedregal
+    - David Schaller
+    - Talia B. Kimber
+    - Corey Taylor
+    - Jessica B. White
+    - Michael Backenköhler
+    - Alexander Payne
+    - Ben Kaminow
+    - Iván Pulido
+    - Sukrit Singh
+    - Paula Linh Kramer
+    - Guillermo Pérez-Hernández
+    - Andrea Volkamer
+    - John D. Chodera
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Andrea Volkamer
+    - John D. Chodera
+    # Add these other fields are optional; fill in as much information as is available
+    preprint:
+      url: https://www.biorxiv.org/content/10.1101/2024.09.10.612176v1
+      date: 2024-09-10
+    # These links may be listed in the choderalab.org/publications/ page
+    links:
+      - action: Code used in this study
+        short: GitHub
+        description: KinoML machine learning code package
+        url: https://github.com/openkinome/kinoml
+      - action: Machine learning ready kinase data
+        short: GitHub
+        description: KinoData machine learning ready dataset of kinase:ligand affinities
+        url: https://github.com/openkinome/kinodata
+    # Thumbnail image URL
+    thumbnail: kinoml
+    # Two newlines are needed after the description
+    funding:
+    - id: NIH R01 GM121505
+      rationale: >
+      This best practices paper describes considerations relevant to the use of experimental datasets in structure-based machine learning, using kinase:small molecule interactions as a model system.
+    - id: NIH P30 CA008748
+      rationale: >
+      This best practices paper describes considerations relevant to the use of experimental datasets in structure-based machine learning, using kinase:small molecule interactions as a model system.
+
+
+  # Title should have only initial letter capitalized
+  - title: "Machine-learned molecular mechanics force fields from large-scale quantum chemical data"
+    authors: # Use same name in publication
+    - Kenichiro Takaba
+    - Anika J Friedman
+    - Chapin E Cavender
+    - Pavan Kumar Behara
+    - Iván Pulido
+    - Michael M Henry
+    - Hugo MacDermott-Opeskin
+    - Christopher R Iacovella
+    - Arnav M Nagle
+    - Alexander Matthew Payne
+    - Michael R Shirts
+    - David L Mobley
+    - John D Chodera
+    - Yuanqing Wang
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Kenichiro Takaba
+    - John D Chodera
+    - Yuanqing Wang
+    # Add these other fields are optional; fill in as much information as is available
+    preprint:
+      url: https://arxiv.org/abs/2307.07085
+      date: 2023-12-08
+    # Add these other fields are optional; fill in as much information as is available
+    published:
+      doi: https://doi.org/10.1039/D4SC00690A
+      journal: Chemical Science
+      volume: 15
+      page: 12861 # just first page
+      year: 2024
+      dates:
+        submitted: 2024-01-29
+        accepted: 2024-06-17
+        published: 2024-06-26   
+    # These links may be listed in the choderalab.org/publications/ page
+    links:
+      - action: Code used in this study
+        short: GitHub
+        description: Python code associated with this manuscript        
+        url: https://github.com/choderalab/espaloma-0.3.0-manuscript
+    # Thumbnail image URL
+    thumbnail: espaloma-0.3
+    # Two newlines are needed after the description
+    funding:
+    - id: NIH R01 GM132386
+      rationale: >
+      We present a new machine-learned molecular mechanics force field, espaloma, that is trained on a large-scale quantum chemical dataset and show that it outperforms traditional force fields in predicting quantum mechanical properties.
+    - id: NIH R01 GM121505
+      rationale: >
+      We present a new machine-learned molecular mechanics force field, espaloma, that is trained on a large-scale quantum chemical dataset and show that it outperforms traditional force fields in predicting quantum mechanical properties.
+    - id: NIH P30 CA008748
+      rationale: >
+      We present a new machine-learned molecular mechanics force field, espaloma, that is trained on a large-scale quantum chemical dataset and show that it outperforms traditional force fields in predicting quantum mechanical properties.
+
+
+  # Title should have only initial letter capitalized
+  - title: "OpenMM 8: molecular dynamics simulation with machine learning potentials"
+    authors: # Use same name in publication
+    - Peter Eastman
+    - Raimondas Galvelis
+    - Raúl P Peláez
+    - Charlles RA Abreu
+    - Stephen E Farr
+    - Emilio Gallicchio
+    - Anton Gorenko
+    - Michael M Henry
+    - Frank Hu
+    - Jing Huang
+    - Andreas Krämer
+    - Julien Michel
+    - Joshua A Mitchell
+    - Vijay S Pande
+    - João PGLM Rodrigues
+    - Jaime Rodriguez-Guerra
+    - Andrew C Simmonett
+    - Sukrit Singh
+    - Jason Swails
+    - Philip Turner
+    - Yuanqing Wang
+    - Ivy Zhang
+    - John D Chodera
+    - Gianni De Fabritiis
+    - Thomas E Markland
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Peter Eastman
+    # Add these other fields are optional; fill in as much information as is available
+    preprint:
+      url: https://arxiv.org/abs/2310.03121
+      date: 2023-11-29
+    # Add these other fields are optional; fill in as much information as is available
+    published:
+      doi: https://doi.org/10.1021/acs.jpcb.3c06662
+      journal: Journal of Physical Chemistry B
+      volume: 128
+      page: 109 # just first page
+      year: 2023
+      dates:
+        submitted: 2023-10-06
+        accepted: 2023-12-06
+        published: 2023-12-28
+    # These links may be listed in the choderalab.org/publications/ page
+    links:
+      - action: OpenMM 8 code
+        short: GitHub
+        description: OpenMM 8 code
+        url: http://openmm.org
+    # Thumbnail image URL
+    thumbnail: openmm-logo
+    # Two newlines are needed after the description
+    funding:
+    - id: NIH R01 GM140090
+      rationale: >
+      We present OpenMM 8, which includes GPU-accelerated support for simulating hybrid ML/MM systems that use machine learning (ML) potentials to achieve high accuracy with minimal loss in speed.
+    - id: NIH P30 CA008748
+      rationale: >
+      We present OpenMM 8, which includes GPU-accelerated support for simulating hybrid ML/MM systems that use machine learning (ML) potentials to achieve high accuracy with minimal loss in speed.
+
+
+  ##############################################
+
   # Title should have only initial letter capitalized
   - title: MEN1 mutations mediate clinical resistance to Menin inhibition
     authors: # Use same name in publication
@@ -718,9 +1201,6 @@
       molecular mechanics force fields, which holts the potential for drastically reducing the complexity 
       of these force fields while increasing their ability to generalize and accurately treat complex 
       druglike molecules such as kinase inhibitors.
-
-
-
 
 
   # Title should have only initial letter capitalized

@@ -8,6 +8,30 @@
 # Here is an illustrative entry for grants
 
     # 'id' is the unique identifier by which the grant is referred to in the publications YAML
+  - id: "NIH R35 GM152017"
+    # 'title' is the title of the grant
+    title: "Teaching free energy calculations to learn"
+    # 'pi' is the lead investigator
+    pi: John D. Chodera
+    # 'role' is the role in the grant
+    role: PI
+    # 'type' denotes 'federal', 'industry', 'philanthropy'
+    type: federal
+    # 'organization' denotes the organization (federal, industrial, or philanthropic) granting the funds
+    organization: "National Institutes of Health"
+    # 'direct_costs' denotes the total direct cost in dollars to the lab
+    direct_costs: 1530000
+    # project start and end dates in ISO 8601 format (YYYY-MM-DD)
+    project_begin: 2024-03-01
+    project_end_date: 2029-02-28
+    # URL to official grant record, if applicable
+    url: "https://reporter.nih.gov/search/YrAzMD62YEqc1BLw9OFeRA/project-details/10765274"
+    # Description of the goal of the project (must be followed by two blank lines)
+    description: >
+      The goal of this project is to develop and apply new methods that integrate physical models and machine learning to predict 
+      free energies relevant to drug discovery, such as binding affinities.
+      
+    # 'id' is the unique identifier by which the grant is referred to in the publications YAML
   - id: "NIH P30 CA008748"
     # 'title' is the title of the grant
     title: "Cancer Center Support Grant"
