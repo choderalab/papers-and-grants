@@ -23,6 +23,12 @@ reporting_period_start = datetime.date.fromisoformat('2022-04-01')
 reporting_period_end = datetime.date.fromisoformat('2023-03-31')
 grant_id = 'NIH R01 GM140090' # openmm grant
 
+# NIH R35 GM152017
+reporting_period_start = datetime.date.fromisoformat('2024-03-01')
+reporting_period_end = datetime.date.fromisoformat('2025-02-28')
+grant_id = 'NIH R35 GM152017' # openmm grant
+
+
 ################################################################################
 # Helper functions to act as filters
 ################################################################################
@@ -155,8 +161,12 @@ def show_paper(paper, show_links=False, grant_id=None):
         pass
 
 def show_resources(paper):
-    """Show all resources (links) associated with a given paper.
+    """Show all resources (links) associated with a given paper.    
     """
+    import pprint
+    pp = pprint.PrettyPrinter(indent=4)
+    #pp.pprint(paper)
+
     if ('links' in paper):
         for link in paper['links']:
             if 'description' in link:
@@ -240,5 +250,5 @@ if __name__ == '__main__':
         if (category in papers_to_report) and (len(papers_to_report[category]) > 0):
             for paper in papers_to_report[category]:
                 show_resources(paper)
-                show_paper(paper, grant_id=None)
+                #show_paper(paper, grant_id=None)
 

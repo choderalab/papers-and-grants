@@ -11,8 +11,7 @@
 #
 # Google Scholar : https://scholar.google.com/citations?hl=en&user=nnEg7_8AAAAJ&view_op=list_works&authuser=2&sortby=pubdate
 
-#### Added 2024-12-24
-
+#### Added 2025-01-10
 
   # Title should have only initial letter capitalized
   - title: "Fine-tuning molecular mechanics force fields to free energies"
@@ -25,43 +24,50 @@
     - John D. Chodera
     # Add these other fields are optional; fill in as much information as is available
     preprint:
-      url: https://www.biorxiv.org/search/chodera
+      url: https://www.biorxiv.org/content/10.1101/2025.01.06.631610v1
       date: 2025-01-08
     # These links may be listed in the choderalab.org/publications/ page
     links:
       - action: Code used in this study
         short: GitHub
-        description: Timemachine fork used in this study
-        url: https://github.com/dominicrufa/timemachine
+        description: Timemachine fork and scripts used in this study
+        url: https://github.com/choderalab/timemachine_hydration_paper
     # Thumbnail image URL
     thumbnail: fine-tuning-hydration-free-energies
     # Two newlines are needed after the description
     funding:
     - id: NIH R35 GM152017
       rationale: >
-        This work demonstrates how to fine-tune a molecular mechanics force field using experimental free energy measurement
+        This work demonstrates how to fine-tune a molecular mechanics force field using experimental free energy measurements
         to consistently improve performance on related free energy tasks. This work introduces a novel one-shot fine-tuning approach 
         that enbales rapid fine-tuning of the electrostatics model for the espaloma graph convolutional molecular mechanics force field 
         without the need for additional simulation. While we demonstrate this approach in the context of hydration free energies because 
         of the ease of ensuring these calculations are converged to high precision, this approach can be applied to well-converged 
-        free energy calculations of other properties such as binding free energies.
-    - id: NIH GM132386
+        free energy calculations of other properties such as binding free energies. To our knowledge, this is the first illustration
+        of the fine-tuning of a foundation molecular mechanics simulation model using experimental free energy measurements to produce a
+        fine-tuned model with improved accuracy in predicting experimental free energies tasks of interest.
+    - id: NIH R01 GM132386
       rationale: >
-        This work demonstrates how to fine-tune a molecular mechanics force field using experimental free energy measurement
+        This work demonstrates how to fine-tune a molecular mechanics force field using experimental free energy measurements
         to consistently improve performance on related free energy tasks. This work introduces a novel one-shot fine-tuning approach 
         that enbales rapid fine-tuning of the electrostatics model for the espaloma graph convolutional molecular mechanics force field 
         without the need for additional simulation. While we demonstrate this approach in the context of hydration free energies because 
         of the ease of ensuring these calculations are converged to high precision, this approach can be applied to well-converged 
-        free energy calculations of other properties such as binding free energies.
+        free energy calculations of other properties such as binding free energies. To our knowledge, this is the first illustration
+        of the fine-tuning of a foundation molecular mechanics simulation model using experimental free energy measurements to produce a
+        fine-tuned model with improved accuracy in predicting experimental free energies tasks of interest.
     - id: NIH P30 CA008748
       rationale: >
-        This work demonstrates how to fine-tune a molecular mechanics force field using experimental free energy measurement
+        This work demonstrates how to fine-tune a molecular mechanics force field using experimental free energy measurements
         to consistently improve performance on related free energy tasks. This work introduces a novel one-shot fine-tuning approach 
         that enbales rapid fine-tuning of the electrostatics model for the espaloma graph convolutional molecular mechanics force field 
         without the need for additional simulation. While we demonstrate this approach in the context of hydration free energies because 
         of the ease of ensuring these calculations are converged to high precision, this approach can be applied to well-converged 
-        free energy calculations of other properties such as binding free energies.
+        free energy calculations of other properties such as binding free energies. To our knowledge, this is the first illustration
+        of the fine-tuning of a foundation molecular mechanics simulation model using experimental free energy measurements to produce a
+        fine-tuned model with improved accuracy in predicting experimental free energies tasks of interest.
 
+#### Added 2024-12-24
 
   # Title should have only initial letter capitalized
   - title: "EspalomaCharge: Machine learning-enabled ultrafast partial charge assignment"
@@ -82,7 +88,7 @@
       url: https://arxiv.org/abs/2302.06758
       date: 2023-02-16
     published:
-      doi: 
+      doi: https://doi.org/10.1021/acs.jpca.4c01287
       journal: Journal of Chemical Physics
       volume: 128
       page: 4160 # just first page
@@ -103,14 +109,14 @@
     funding:
     - id: NIH R01 GM132386
       rationale: >
-      We developed EspalomaCharge, a graph convolutional charge model, as a drop-in replacement for generating AM1-BCC ELF10 charges.
-      The approach produces scalable, self-consistent charges and is orders of magnitude faster than AM1-BCC while providing lower error
-      than differences between standard AM1-BCC implementations.
+        We developed EspalomaCharge, a graph convolutional charge model, as a drop-in replacement for generating AM1-BCC ELF10 charges.
+        The approach produces scalable, self-consistent charges and is orders of magnitude faster than AM1-BCC while providing lower error
+        than differences between standard AM1-BCC implementations.
     - id: NIH R01 GM140090
       rationale: >
-      We developed EspalomaCharge, a graph convolutional charge model, as a drop-in replacement for generating AM1-BCC ELF10 charges.
-      The approach produces scalable, self-consistent charges and is orders of magnitude faster than AM1-BCC while providing lower error
-      than differences between standard AM1-BCC implementations.
+        We developed EspalomaCharge, a graph convolutional charge model, as a drop-in replacement for generating AM1-BCC ELF10 charges.
+        The approach produces scalable, self-consistent charges and is orders of magnitude faster than AM1-BCC while providing lower error
+        than differences between standard AM1-BCC implementations.
 
 
   # Title should have only initial letter capitalized
@@ -139,12 +145,12 @@
     funding:
     - id: NIH R35 GM152017
       rationale: >
-      We present DrugGym, a sandbox for exploring reinforcement learning strategies and evaluating the economics of decisionmaking strategies and predictive models
-      on small molecule discovery. We use this tool to quantify the value of predictive model accuracy on hit-to-lead programs.
+        We present DrugGym, a sandbox for exploring reinforcement learning strategies and evaluating the economics of decisionmaking strategies and predictive models
+        on small molecule discovery. We use this tool to quantify the value of predictive model accuracy on hit-to-lead programs.
     - id: NIH P30 CA008748
       rationale: >
-      We present DrugGym, a sandbox for exploring reinforcement learning strategies and evaluating the economics of decisionmaking strategies and predictive models
-      on small molecule discovery. We use this tool to quantify the value of predictive model accuracy on hit-to-lead programs.
+        We present DrugGym, a sandbox for exploring reinforcement learning strategies and evaluating the economics of decisionmaking strategies and predictive models
+        on small molecule discovery. We use this tool to quantify the value of predictive model accuracy on hit-to-lead programs.
 
 
   # Title should have only initial letter capitalized
@@ -185,12 +191,12 @@
     funding:
     - id: NIH R01 GM140090
       rationale: >
-      We show that hybrid neural network / molecular mechanics potentials can significantly improve accuracy over molecular
-      mechanics potentials alone in predicting protein-ligand binding affinities.
+        We show that hybrid neural network / molecular mechanics potentials can significantly improve accuracy over molecular
+        mechanics potentials alone in predicting protein-ligand binding affinities.
     - id: NIH P30 CA008748
       rationale: >
-      We show that hybrid neural network / molecular mechanics potentials can significantly improve accuracy over molecular
-      mechanics potentials alone in predicting protein-ligand binding affinities.
+        We show that hybrid neural network / molecular mechanics potentials can significantly improve accuracy over molecular
+        mechanics potentials alone in predicting protein-ligand binding affinities.
 
 
   # Title should have only initial letter capitalized
@@ -232,10 +238,18 @@
     funding:
     - id: NIH R35 GM152017
       rationale: >
-      We show that alchemical free energy calculations have the potential to prospectively predict the impact of clinical kinase mutations on targeted kinase inhibitor binding.
+        We show that alchemical free energy calculations have the potential to prospectively predict the impact of clinical kinase mutations on targeted kinase inhibitor binding.
+        Using a new NanoBRET approach to quantifying kinase inhibitor binding affinities on clinical kinase mutations observed in patients at MSKCC, we evaluated multiple
+        strategies for alchemical free energy calculations---along with fast structure-based ROSETTA and machine learning methods---to assess their utility in predicting the
+        impact of clinical kinase mutations on inhihbitor affinity for imatinib and dasatinib in a prospective fashion. We find that alchemical free energy calculations show
+        significant promise in prospectively predicting resistance or sensitive mutations for kinase inhibitor therapy.
     - id: NIH P30 CA008748
       rationale: >
-      We show that alchemical free energy calculations have the potential to prospectively predict the impact of clinical kinase mutations on targeted kinase inhibitor binding.
+        We show that alchemical free energy calculations have the potential to prospectively predict the impact of clinical kinase mutations on targeted kinase inhibitor binding.
+        Using a new NanoBRET approach to quantifying kinase inhibitor binding affinities on clinical kinase mutations observed in patients at MSKCC, we evaluated multiple
+        strategies for alchemical free energy calculations---along with fast structure-based ROSETTA and machine learning methods---to assess their utility in predicting the
+        impact of clinical kinase mutations on inhihbitor affinity for imatinib and dasatinib in a prospective fashion. We find that alchemical free energy calculations show
+        significant promise in prospectively predicting resistance or sensitive mutations for kinase inhibitor therapy.
 
   # Title should have only initial letter capitalized
   - title: "Benchmarking Cross-Docking Strategies in Kinase Drug Discovery"
@@ -274,10 +288,10 @@
     funding:
     - id: NIH R01 GM121505
       rationale: >
-      We show that alchemical free energy calculations have the potential to prospectively predict the impact of clinical kinase mutations on targeted kinase inhibitor binding.
+        We show that alchemical free energy calculations have the potential to prospectively predict the impact of clinical kinase mutations on targeted kinase inhibitor binding.
     - id: NIH P30 CA008748
       rationale: >
-      We show that alchemical free energy calculations have the potential to prospectively predict the impact of clinical kinase mutations on targeted kinase inhibitor binding.
+        We show that alchemical free energy calculations have the potential to prospectively predict the impact of clinical kinase mutations on targeted kinase inhibitor binding.
 
 
   # Title should have only initial letter capitalized
@@ -298,7 +312,7 @@
     links:
       - action: Code used in this study
         short: GitHub
-        description: SPICE dataset and scripts used to generate it
+        description: The SPICE quantum chemical dataset and scripts used to generate the dataset
         url: https://github.com/openmm/spice-dataset
     published:
       doi: https://doi.org/10.1021/acs.jctc.4c00794
@@ -316,10 +330,12 @@
     funding:
     - id: NIH R35 GM152017
       rationale: >
-      We present a significant expansion of the SPICE dataset, a large-scale quantum chemical dataset for training machine learning potentials, and show how it can be used to build extremely accurate machine learning potentials.
+        We present a significant expansion of the SPICE dataset, a large-scale quantum chemical dataset for training machine learning potentials, and show how it can be used to build extremely accurate machine learning potentials.
+        This dataset will provide a useful foundation for building highly accurate molecular mechanics and machine learning potentials for tasks such as computing protein:ligand binding free energy calculations.
     - id: NIH P30 CA008748
       rationale: >
-      We present a significant expansion of the SPICE dataset, a large-scale quantum chemical dataset for training machine learning potentials, and show how it can be used to build extremely accurate machine learning potentials.
+        We present a significant expansion of the SPICE dataset, a large-scale quantum chemical dataset for training machine learning potentials, and show how it can be used to build extremely accurate machine learning potentials.
+        This dataset will provide a useful foundation for building highly accurate molecular mechanics and machine learning potentials for tasks such as computing protein:ligand binding free energy calculations.
 
 
   # Title should have only initial letter capitalized
@@ -364,10 +380,10 @@
     funding:
     - id: NIH R01 GM121505
       rationale: >
-      This best practices paper describes considerations relevant to the use of experimental datasets in structure-based machine learning, using kinase:small molecule interactions as a model system.
+        This best practices paper describes considerations relevant to the use of experimental datasets in structure-based machine learning, using kinase:small molecule interactions as a model system.
     - id: NIH P30 CA008748
       rationale: >
-      This best practices paper describes considerations relevant to the use of experimental datasets in structure-based machine learning, using kinase:small molecule interactions as a model system.
+        This best practices paper describes considerations relevant to the use of experimental datasets in structure-based machine learning, using kinase:small molecule interactions as a model system.
 
 
   # Title should have only initial letter capitalized
@@ -419,13 +435,13 @@
     funding:
     - id: NIH R01 GM132386
       rationale: >
-      We present a new machine-learned molecular mechanics force field, espaloma, that is trained on a large-scale quantum chemical dataset and show that it outperforms traditional force fields in predicting quantum mechanical properties.
+        We present a new machine-learned molecular mechanics force field, espaloma, that is trained on a large-scale quantum chemical dataset and show that it outperforms traditional force fields in predicting quantum mechanical properties.
     - id: NIH R01 GM121505
       rationale: >
-      We present a new machine-learned molecular mechanics force field, espaloma, that is trained on a large-scale quantum chemical dataset and show that it outperforms traditional force fields in predicting quantum mechanical properties.
+        We present a new machine-learned molecular mechanics force field, espaloma, that is trained on a large-scale quantum chemical dataset and show that it outperforms traditional force fields in predicting quantum mechanical properties.
     - id: NIH P30 CA008748
       rationale: >
-      We present a new machine-learned molecular mechanics force field, espaloma, that is trained on a large-scale quantum chemical dataset and show that it outperforms traditional force fields in predicting quantum mechanical properties.
+        We present a new machine-learned molecular mechanics force field, espaloma, that is trained on a large-scale quantum chemical dataset and show that it outperforms traditional force fields in predicting quantum mechanical properties.
 
 
   # Title should have only initial letter capitalized
@@ -486,10 +502,10 @@
     funding:
     - id: NIH R01 GM140090
       rationale: >
-      We present OpenMM 8, which includes GPU-accelerated support for simulating hybrid ML/MM systems that use machine learning (ML) potentials to achieve high accuracy with minimal loss in speed.
+        We present OpenMM 8, which includes GPU-accelerated support for simulating hybrid ML/MM systems that use machine learning (ML) potentials to achieve high accuracy with minimal loss in speed.
     - id: NIH P30 CA008748
       rationale: >
-      We present OpenMM 8, which includes GPU-accelerated support for simulating hybrid ML/MM systems that use machine learning (ML) potentials to achieve high accuracy with minimal loss in speed.
+        We present OpenMM 8, which includes GPU-accelerated support for simulating hybrid ML/MM systems that use machine learning (ML) potentials to achieve high accuracy with minimal loss in speed.
 
 
   ##############################################
@@ -3652,7 +3668,7 @@
 
 
   - title: "A water-mediated allosteric network governs activation of Aurora kinase A"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - Cyphers S
     - Ruff E
     - Behr JM
@@ -3679,7 +3695,7 @@
 
 
   - title: "Mechanistically distinct cancer-associated mTOR activation clusters predict sensitivity to rapamycin"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - Xu Jianing
     - Pham CG
     - Albanese SK
@@ -3717,7 +3733,7 @@
 
 
   - title: "Measuring experimental cyclohexane-water distribution coefficients for the SAMPL5 challenge"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - Ariën S. Rustenburg
     - Justin Dancer
     - Baiwei Lin
@@ -3758,7 +3774,7 @@
 
 
   - title: "Ensembler: Enabling high-throughput molecular simulations at the superfamily scale"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - Daniel L. Parton
     - Patrick B. Grinaway
     - Sonya M. Hanson
@@ -3787,7 +3803,7 @@
 
 
   - title: "A simple method for automated equilibration detection in molecular simulations"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - John D. Chodera
    # Corresponding authors have their email addresses listed
     corresponding-authors:
@@ -3813,7 +3829,7 @@
 
 
   - title: "Modeling error in experimental assays using the bootstrap principle: Understanding discrepancies between assays using different dispensing technologies"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - Sonya M. Hanson
     - Sean Ekins
     - John D. Chodera
@@ -3845,7 +3861,7 @@
 
 
   - title: "Avoiding accuracy-limiting pitfalls in the study of protein-ligand interactions with isothermal titration calorimetry"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - Sarah E. Boyce
     - Joel Tellinghuisen
     - John D. Chodera
@@ -3874,7 +3890,7 @@
 
 
   - title: "Hypoxia induces production of L-2-hydroxyglutarate"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - Andrew M. Intlekofer
     - Raymond G. Dematteo
     - Sriram Venneti
@@ -3905,7 +3921,7 @@
 
 
   - title: "Towards Automated Benchmarking of Atomistic Forcefields: Neat Liquid Densities and Static Dielectric Constants from the ThermoML Data Archive"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - Kyle A. Beauchamp
     - Julie M. Behr
     - Ariën S. Rustenburg
@@ -3937,7 +3953,7 @@
 
 
   - title: "Markov state models of biomolecular conformational dynamics"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - John D. Chodera
     - Frank Noé
    # Corresponding authors have their email addresses listed
@@ -3960,7 +3976,7 @@
 
 
   - title: "Spectral rate theory for two-state kinetics"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - Jan-Hendrik Prinz
     - John D. Chodera
     - Frank Noé
@@ -3983,7 +3999,7 @@
 
 
   - title: "Time step rescaling recovers continuous-time dynamical properties for discrete-time Langevin integration of nonequilibrium systems"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - David A. Sivak
     - John D. Chodera
     - Gavin E. Crooks
@@ -4006,7 +4022,7 @@
 
 
   - title: "Identifying ligand binding sites and poses using GPU-accelerated Hamiltonian replica exchange molecular dynamics"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - Kai Wang K
     - John D. Chodera
     - Yanzhi Yang
@@ -4031,7 +4047,7 @@
 
 
   - title: "Systematic improvement of a classical molecular model of water"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - Lee-Ping Wang
     - Teresa L. Head-Gordon
     - Jay W. Ponder
@@ -4059,7 +4075,7 @@
 
 
   - title: "Entropy-enthalpy compensation: Role and ramifications for rational ligand design"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - John D. Chodera
     - David L. Mobley
     # Corresponding authors have their email addresses listed
@@ -4082,7 +4098,7 @@
 
 
   - title: "Using nonequilibrium fluctuation theorems to understand and correct errors in equilibrium and nonequilibrium discrete Langevin dynamics simulations"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - David A. Sivak
     - John D. Chodera
     - Gavin E. Crooks
@@ -4106,7 +4122,7 @@
 
 
   - title: "OpenMM 4: A reusable, extensible, hardware independent library for high performance molecular simulation"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - Peter Eastman
     - Mark S. Friedrichs
     - John D. Chodera
@@ -4141,7 +4157,7 @@
 
 
   - title: "The limitations of constant-force-feedback experiments"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - Phillip J. Elms
     - John D. Chodera
     - Carlos J. Bustamante
@@ -4166,7 +4182,7 @@
 
 
   - title: "On the use of experimental observations to bias simulated ensembles"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - Jed W. Pitera
     - John D. Chodera
     # Corresponding authors have their email addresses listed
@@ -4189,7 +4205,7 @@
 
 
   - title: "The molten globule state is unusually deformable under mechanical force"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - Philip J. Elms
     - John D. Chodera
     - Carlos Bustamante
@@ -4213,7 +4229,7 @@
 
 
   - title: "Replica exchange and expanded ensemble simulations as Gibbs sampling: Simple improvements for enhanced mixing"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - John D. Chodera
     - Michael R. Shirts
     # Corresponding authors have their email addresses listed
@@ -4235,7 +4251,7 @@
 
 
   - title: "The ribosome modulates nascent protein folding"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - Christian M. Kaiser
     - Daniel H. Goldman
     - John D. Chodera
@@ -4260,7 +4276,7 @@
 
 
   - title: "Nonequilibrium candidate Monte Carlo is an efficient tool for equilibrium simulation"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - Jerome P. Nilmeier
     - Gavin E. Crooks
     - David D. L. Minh
@@ -4285,7 +4301,7 @@
 
 
   - title: "Splitting probabilities as a test of reaction coordinate choice in single-molecule experiments"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - John D. Chodera
     - Vijay S. Pande
     # Corresponding authors have their email addresses listed
@@ -4306,7 +4322,7 @@
 
 
   - title: "A robust approach to estimating rates from time-correlation functions"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - John D. Chodera
     - Phillip J. Elms
     - William C. Swope
@@ -4334,7 +4350,7 @@
 
 
   - title: "The Social Network (of protein conformations)"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - John D. Chodera
     - Vijay S. Pande
    # Corresponding authors have their email addresses listed
@@ -4356,7 +4372,7 @@
 
 
   - title: "Bayesian hidden Markov model analysis of single-molecule force spectroscopy: Characterizing kinetics under measurement uncertainty"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - John D. Chodera
     - Phillip Elms
     - Frank Noé
@@ -4384,7 +4400,7 @@
 
 
   - title: "Systematic errors in isothermal titration calorimetry: Concentrations and baselines"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - Joel T. Tellinghuisen
     - John D. Chodera
    # Corresponding authors have their email addresses listed
@@ -4406,7 +4422,7 @@
 
 
   - title: "Dynamical reweighting: Improved estimates for dynamical properties from simulations at multiple temperatures"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - John D. Chodera
     - William C. Swope
     - Frank Noé
@@ -4432,7 +4448,7 @@
 
 
   - title: "Optimal use of data in parallel tempering simulations for the construction of discrete-state Markov models of biomolecular dynamics"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - Jan-Hendrik Prinz
     - John D. Chodera
     - Vijay S. Pande
@@ -4457,7 +4473,7 @@
 
 
   - title: "Markov models of molecular kinetics: Generation and validation"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - Jan-Hendrik Prinz
     - Hao Wu
     - Marco Sarich
@@ -4486,7 +4502,7 @@
 
 
   - title: "Machine learning force fields and coarse-grained variables in molecular dynamics: application to materials and biological systems"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - Paraskevi Gkeka
     - Gabriel Stoltz
     - Amir Barati Farimani
@@ -4529,7 +4545,7 @@
 
 
   - title: "Free energy methods in drug discovery and design: Progress and challenges"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - John D. Chodera
     - David L. Mobley
     - Michael R. Shirts
@@ -4555,7 +4571,7 @@
 
 
   - title: "Dynamical fingerprints: A theoretical framework for understanding biomolecular processes by combination of simulation and kinetic experiments"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - Frank Noé
     - Sören Doose
     - Isabella Daidone
@@ -4583,7 +4599,7 @@
 
 
   - title: "Estimating equilibrium ensemble averages using multiple time slices from driven nonequilibrium processes"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - David D. L. Minh
     - John D. Chodera
     # Corresponding authors have their email addresses listed
@@ -4605,7 +4621,7 @@
 
 
   - title: "Probability distributions of molecular observables computed from Markov models. II. Uncertainties in observables and their time-evolution"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - Frank Noé
     - John D. Chodera
     # Corresponding authors have their email addresses listed
@@ -4628,7 +4644,7 @@
 
 
   - title: "The mechanical properties of PCNA: Implications for the loading and function of a DNA sliding clamp"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - Joshua L. Adelman
     - John D. Chodera
     - I. W. Kuo
@@ -4653,7 +4669,7 @@
 
 
   - title: "Current status of the AMOEBA polarizable force field"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - Jay W. Ponder
     - Chuanjie Wu
     - Pengyu Ren
@@ -4689,7 +4705,7 @@
 
 
   - title: "Optimal estimators and asymptotic variances for nonequilibrium path-ensemble averages"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - David D. D. L. Minh
     - John D. Chodera
     # Corresponding authors have their email addresses listed
@@ -4713,7 +4729,7 @@
 
 
   - title: "Bayesian comparison of Markov models of molecular dynamics with detailed balance constraint"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - Sergio Bacallado
     - John D. Chodera
     - Vijay S. Pande
@@ -4737,7 +4753,7 @@
 
 
   - title: "Statistically optimal analysis of samples from multiple equilibrium states"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - Michael R. Shirts
     - John D. Chodera
     # Corresponding authors have their email addresses listed
@@ -4761,7 +4777,7 @@
 
 
   - title: "Technical Report: Self-consistent definition and computation of the electrostatic field for the Amber and related forcefields with particle-mesh Ewald"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - John D. Chodera
     # Corresponding authors have their email addresses listed
     corresponding-authors:
@@ -4779,7 +4795,7 @@
 
 
   - title: "Predicting small-molecule solvation free energies: A blind challenge test for computational chemistry"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - Anthony Nicholls
     - David L. Mobley
     - J. Peter Guthrie
@@ -4806,7 +4822,7 @@
 
 
   - title: "Treating entropy and conformational changes in implicit solvent simulations of small molecules"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - David L. Mobley
     - John D. Chodera
     - Ken A. Dill
@@ -4829,7 +4845,7 @@
 
 
   - title: "Accurate and efficient corrections for missing dispersion interactions in molecular simulations"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - Michael R. Shirts
     - David L. Mobley
     - John D. Chodera
@@ -4853,7 +4869,7 @@
 
 
   - title: "Alchemical free energy calculations: Ready for prime time?"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - Michael R. Shirts
     - David L. Mobley
     - John D. Chodera
@@ -4878,7 +4894,7 @@
 
 
   - title: "Predicting absolute ligand binding free energies to a simple model site"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - David L. Mobley
     - Alan P. Graves
     - John D. Chodera
@@ -4905,7 +4921,7 @@
 
 
   - title: "The protein folding problem: When will it be solved?"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - Ken A. Dill
     - S. Banu Ozkan
     - Thomas R. Weikl
@@ -4929,7 +4945,7 @@
 
 
   - title: "Confine-and-release method: Obtaining correct binding free energies in the presence of protein conformational change"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - David L. Mobley
     - John D. Chodera
     - Ken A. Dill
@@ -4952,7 +4968,7 @@
 
 
   - title: "Protein Folding by Zipping and Assembly"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - S. Banu Ozkan
     - G. Albert Wu
     - John D. Chodera
@@ -4978,7 +4994,7 @@
 
 
   - title: "Automatic discovery of metastable states for the construction of Markov models of macromolecular conformational dynamics"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - John D. Chodera
     - Nina Singhal
     - William C. Swope
@@ -5007,7 +5023,7 @@
 
 
   - title: "Comparison of charge models for fixed-charge force fields: Small-molecule hydration free energies in explicit solvent"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - David L. Mobley
     - Élise Dumont
     - John D. Chodera
@@ -5034,7 +5050,7 @@
 
 
   - title: "Long-time protein folding dynamics from short-time molecular dynamics simulations"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - John D. Chodera
     - William C. Swope
     - Jed W. Pitera
@@ -5059,7 +5075,7 @@
 
 
   - title: "Use of the weighted histogram analysis method for the analysis of simulated and parallel tempering simulations"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - John D. Chodera
     - William C. Swope
     - Jed W. Pitera
@@ -5085,7 +5101,7 @@
 
 
   - title: "On the use of orientational restraints and symmetry corrections in alchemical free energy calculations"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - David L. Mobley
     - John D. Chodera
     - Ken A. Dill
@@ -5109,7 +5125,7 @@
 
 
   - title: "MOPED: Method for optimizing physical energy parameters using decoys"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - Chaok Seok
     - J. B. Rosen
     - John D. Chodera
@@ -5133,7 +5149,7 @@
 
 
   - title: "An alternative explanation for the catalytic proficiency of orotidine 5'-phosphate decarboxylase"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - Tai-Sung Lee
     - Lillian T. Chong
     - John D. Chodera
@@ -5157,7 +5173,7 @@
 
 
   - title: "Ensemble docking in drug discovery"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - Rommie E Amaro
     - Jerome Baudry
     - John D. Chodera
@@ -5188,7 +5204,7 @@
 
 
   - title: "Results of the 2017 Roadmap survey of the Statistical Assessment of Modeling of Proteins and Ligands (SAMPL) challenge community"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - David L Mobley
     - John D. Chodera
     - Michael K Gilson
@@ -5217,7 +5233,7 @@
 
 
   - title: "Uncertainty Estimation"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - Frank Noé
     - John D. Chodera
     # Corresponding authors have their email addresses listed
@@ -5245,7 +5261,7 @@
 
 
   - title: "Estimation and validation of Markov models"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - Jan-Hendrik Prinz
     - Frank Noé
     - John D. Chodera
@@ -5267,7 +5283,7 @@
 
 
   - title: "Driven Langevin dynamics: heat, work and pseudo-work"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - David A Sivak
     - John D. Chodera
     - Gavin E Crooks
@@ -5296,7 +5312,7 @@
 
 
   - title: "Alchemical free energy methods for drug discovery: progress and challenges"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - John D Chodera
     - David L Mobley
     - Michael R Shirts
@@ -5327,7 +5343,7 @@
 
 
   - title: "Master equation models of macromolecular dynamics from atomistic simulation"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - John D Chodera
     # Corresponding authors have their email addresses listed
     corresponding-authors:
@@ -5356,7 +5372,7 @@
 
 
   - title: "Technical report: An integrated system for executing and analyzing large-scale molecular dynamics simulations"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - John D Chodera
     - David E Eramian
     - Larry Schweitzer
@@ -5380,7 +5396,7 @@
 
 
   - title: "Constructing master equation models of protein folding and dynamics from atomistic simulation"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - JD Chodera
     - KA Dill
     - WC Swope
@@ -5402,7 +5418,7 @@
 
 
   - title: "Constructing master equation models of peptide dynamics from molecular dynamics simulations. I. Simple solvated systems"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - JD Chodera
     - KA Dill
     - WC Swope
@@ -5424,7 +5440,7 @@
 
 
   - title: "Technical Report: Deriving the discrete-state, continuous master equation from classical statistical mechanics: The Mori-Zwanzig projection operator method"
-  - authors: # Use same name in publication
+    authors: # Use same name in publication
     - JD Chodera
     # Corresponding authors have their email addresses listed
     corresponding-authors:
