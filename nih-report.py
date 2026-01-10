@@ -24,9 +24,9 @@ reporting_period_end = datetime.date.fromisoformat('2023-03-31')
 grant_id = 'NIH R01 GM140090' # openmm grant
 
 # NIH R35 GM152017
-reporting_period_start = datetime.date.fromisoformat('2024-03-01')
-reporting_period_end = datetime.date.fromisoformat('2025-02-28')
-grant_id = 'NIH R35 GM152017' # openmm grant
+reporting_period_start = datetime.date.fromisoformat('2025-03-01')
+reporting_period_end = datetime.date.fromisoformat('2026-02-28')
+grant_id = 'NIH R35 GM152017' # NIGMS R35 MIRA grant
 
 
 ################################################################################
@@ -135,7 +135,7 @@ def show_paper(paper, show_links=False, grant_id=None):
         for index, author in enumerate(paper['authors']):
             if index == 0:
                 print(f"{author}", end='')
-            if index == len(paper['authors']) - 1:
+            elif index == len(paper['authors']) - 1:
                 print(f", and {author}")
             else:
                 print(f", {author}", end='')

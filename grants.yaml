@@ -7,6 +7,31 @@
 
 # Here is an illustrative entry for grants
 
+    # 'id' is the unique identifier by which the grant is referred to in the publications YAML    
+  - id: "ARPA-H 1AY1AX000035-01"
+    # 'title' is the title of the grant
+    title: "AVOIDOME: Structurally enabling the avoid-ome to accelerate drug discovery"
+    # 'pi' is the lead investigator
+    pi: James S. Fraser
+    # 'role' is the role in the grant
+    role: Investigator
+    # 'type' denotes 'federal', 'industry', 'philanthropy'
+    type: federal
+    # 'organization' denotes the organization (federal, industrial, or philanthropic) granting the funds
+    organization: "ARPA-H"
+    # 'direct_costs' denotes the total direct cost in dollars to the lab
+    direct_costs: 0
+    # project start and end dates in ISO 8601 format (YYYY-MM-DD)
+    project_begin: 2024-10-01
+    project_end_date: 2027-09-30
+    # URL to official grant record, if applicable
+    url: "https://arpa-h.gov/explore-funding/awardees?page=2"
+    # Description of the goal of the project (must be followed by two blank lines)
+    description: >
+      The goal of this project is to generate structural and high-throughput assay data of small molecules engaged to 
+      ADMET-associated proteins to accelerate the development of predictive models for small molecule ADMET properties
+      for drug discovery.
+
     # 'id' is the unique identifier by which the grant is referred to in the publications YAML
   - id: "NIH R35 GM152017"
     # 'title' is the title of the grant
