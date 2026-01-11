@@ -680,7 +680,7 @@
  
 
   # Title should have only initial letter capitalized
-  - title: "Open-science discovery of DNDI-6510, a compound that addresses genotoxic and metabolic liabilities of the COVID Moonshot SARS-CoV-2 Mpro lead inhibito"
+  - title: "Open-science discovery of DNDI-6510, a compound that addresses genotoxic and metabolic liabilities of the COVID Moonshot SARS-CoV-2 Mpro lead inhibitor"
     authors: # Use same name in publication
     - Ed J. Griffen
     - Daren Fearon
@@ -745,8 +745,140 @@
         We describe the late-stage lead optimization and early preclinical development of DNDI-6510, a novel orally bioavailable antiviral with nanomolar activity against SARS-CoV-
 
 
+# Title should have only initial letter capitalized
+  - title: "Neural network potentials for enabling advanced samll-molecule drug discovery and generative design"
+    authors: # Use same name in publication
+    - Simon Barnett
+    - John Chodera
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Simon Barnett
+    # Add these other fields are optional; fill in as much information as is available
+    published:
+      doi: https://doi.org/10.1089/genbio.2024.0011
+      journal: GEN Biotechnology
+      volume: 3
+      page: 119 # just first page
+      year: 2024
+      dates:
+        published: 2024-06-22
+    # Thumbnail image URL
+    thumbnail: neural-network-potentials-perspective
+    funding: []
+    # Two newlines are needed after the description
+    summary: >
+      This perspective examines the potential for a new generation of molecular simulation models based on neural network potentials to transform small molecule drug discovery.
 
-#### Added 2025-01-10
+
+  # Title should have only initial letter capitalized
+  - title: "Prospective evaluation of structure-based simulations reveal their ability to predict the impact of kinase mutations on inhibitor binding"
+    authors: # Use same name in publication
+    - Sukrit Singh
+    - Vytautas Gapsys
+    - Matteo Aldeghi
+    - David Schaller
+    - Aziz M Rangwala
+    - Jessica B White
+    - Joseph P Bluck
+    - Jenke Scheen
+    - William G Glass
+    - Jiaye Guo
+    - Sikander Hayat
+    - Bert L de Groot
+    - Andrea Volkamer
+    - Clara D Christ
+    - Markus A Seeliger
+    - John D Chodera
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Sukrit Singh
+    - John D Chodera
+    # Add these other fields are optional; fill in as much information as is available
+    preprint:
+      url: https://www.biorxiv.org/content/10.1101/2024.11.15.623861v1
+      date: 2024-11-17
+    preprint:
+      url: https://www.biorxiv.org/content/10.1101/2024.11.15.623861v2
+      date: 2025-03-02
+    published:
+      doi: https://doi.org/10.1021/acs.jpcb.4c07794
+      journal: The Journal of Physical Chemistry B
+      volume: 129
+      page: 2882
+      year: 2025
+      dates:
+        received: 2024-11-18
+        revised: 2025-02-21
+        accepted: 2025-02-28
+        published: 2025-03-07
+    PMCID: 40060600
+    # These links may be listed in the choderalab.org/publications/ page
+    links:
+      - action: Code used in this study
+        short: GitHub
+        description: Scripts and input structures used for assessing the predictive accuracy of mutational free energy calculations on kinase inhibitor binding
+        url: https://github.com/openkinome/study-abl-resistance
+    # Thumbnail image URL
+    thumbnail: prospective-kinase-mutations
+    # Two newlines are needed after the description
+    funding:
+    - id: NIH R35 GM152017
+      rationale: >
+        We show that alchemical free energy calculations have the potential to prospectively predict the impact of clinical kinase mutations on targeted kinase inhibitor binding.
+        Using a new NanoBRET approach to quantifying kinase inhibitor binding affinities on clinical kinase mutations observed in patients at MSKCC, we evaluated multiple
+        strategies for alchemical free energy calculations---along with fast structure-based ROSETTA and machine learning methods---to assess their utility in predicting the
+        impact of clinical kinase mutations on inhihbitor affinity for imatinib and dasatinib in a prospective fashion. We find that alchemical free energy calculations show
+        significant promise in prospectively predicting resistance or sensitive mutations for kinase inhibitor therapy.
+    - id: NIH P30 CA008748
+      rationale: >
+        We show that alchemical free energy calculations have the potential to prospectively predict the impact of clinical kinase mutations on targeted kinase inhibitor binding.
+        Using a new NanoBRET approach to quantifying kinase inhibitor binding affinities on clinical kinase mutations observed in patients at MSKCC, we evaluated multiple
+        strategies for alchemical free energy calculations---along with fast structure-based ROSETTA and machine learning methods---to assess their utility in predicting the
+        impact of clinical kinase mutations on inhihbitor affinity for imatinib and dasatinib in a prospective fashion. We find that alchemical free energy calculations show
+        significant promise in prospectively predicting resistance or sensitive mutations for kinase inhibitor therapy.
+
+
+  # Title should have only initial letter capitalized
+  - title: "The Need for Continuing Blinded Pose- and Activity Prediction Benchmarks"
+    authors: # Use same name in publication
+    - Christian Kramer
+    - John Chodera
+    - Kelly L. Damm-Ganamet
+    - Michael K. Gilson
+    - Judith Günther
+    - Uta Lessel
+    - Richard A. Lewis
+    - David Mobley
+    - Eva Nittinger
+    - Adam Pecina
+    - Matthieu Schapira
+    - W. Patrick Walters
+    # Corresponding authors have their email addresses listed
+    corresponding-authors:
+    - Christian Kramer
+    # Add these other fields are optional; fill in as much information as is available
+    published:
+      doi: https://doi.org/10.1021/acs.jcim.4c02296
+      journal: The Journal of Chemical Information and Modeling
+      volume: 65
+      page: 2180
+      year: 2025
+      dates:
+        received: 2024-12-07
+        revised: 2025-01-24
+        accepted: 2025-01-28
+        published: 2025-02-14
+    PMCID: 39951479
+    # Thumbnail image URL
+    thumbnail: need-for-blind-benchmarks
+    # Two newlines are needed after the description
+    funding: []
+    summary: >
+      In this perspective, we discuss the importance of continuing blinded pose- and activity-prediction benchmarks to drive progress in computational modeling for drug discovery.
+
+
+
+#### Added 2025-01-10 ##########################################################################
 
   # Title should have only initial letter capitalized
   - title: "Fine-tuning molecular mechanics force fields to experimental free energy measurements"
@@ -933,58 +1065,6 @@
         We show that hybrid neural network / molecular mechanics potentials can significantly improve accuracy over molecular
         mechanics potentials alone in predicting protein-ligand binding affinities.
 
-
-  # Title should have only initial letter capitalized
-  - title: "Prospective evaluation of structure-based simulations reveal their ability to predict the impact of kinase mutations on inhibitor binding"
-    authors: # Use same name in publication
-    - Sukrit Singh
-    - Vytautas Gapsys
-    - Matteo Aldeghi
-    - David Schaller
-    - Aziz M Rangwala
-    - Jessica B White
-    - Joseph P Bluck
-    - Jenke Scheen
-    - William G Glass
-    - Jiaye Guo
-    - Sikander Hayat
-    - Bert L de Groot
-    - Andrea Volkamer
-    - Clara D Christ
-    - Markus A Seeliger
-    - John D Chodera
-    # Corresponding authors have their email addresses listed
-    corresponding-authors:
-    - Sukrit Singh
-    - John D Chodera
-    # Add these other fields are optional; fill in as much information as is available
-    preprint:
-      url: https://www.biorxiv.org/content/10.1101/2024.11.15.623861v1
-      date: 2024-11-17
-    # These links may be listed in the choderalab.org/publications/ page
-    links:
-      - action: Code used in this study
-        short: GitHub
-        description: Scripts and input structures used for assessing the predictive accuracy of mutational free energy calculations on kinase inhibitor binding
-        url: https://github.com/openkinome/study-abl-resistance
-    # Thumbnail image URL
-    thumbnail: prospective-kinase-mutations
-    # Two newlines are needed after the description
-    funding:
-    - id: NIH R35 GM152017
-      rationale: >
-        We show that alchemical free energy calculations have the potential to prospectively predict the impact of clinical kinase mutations on targeted kinase inhibitor binding.
-        Using a new NanoBRET approach to quantifying kinase inhibitor binding affinities on clinical kinase mutations observed in patients at MSKCC, we evaluated multiple
-        strategies for alchemical free energy calculations---along with fast structure-based ROSETTA and machine learning methods---to assess their utility in predicting the
-        impact of clinical kinase mutations on inhihbitor affinity for imatinib and dasatinib in a prospective fashion. We find that alchemical free energy calculations show
-        significant promise in prospectively predicting resistance or sensitive mutations for kinase inhibitor therapy.
-    - id: NIH P30 CA008748
-      rationale: >
-        We show that alchemical free energy calculations have the potential to prospectively predict the impact of clinical kinase mutations on targeted kinase inhibitor binding.
-        Using a new NanoBRET approach to quantifying kinase inhibitor binding affinities on clinical kinase mutations observed in patients at MSKCC, we evaluated multiple
-        strategies for alchemical free energy calculations---along with fast structure-based ROSETTA and machine learning methods---to assess their utility in predicting the
-        impact of clinical kinase mutations on inhihbitor affinity for imatinib and dasatinib in a prospective fashion. We find that alchemical free energy calculations show
-        significant promise in prospectively predicting resistance or sensitive mutations for kinase inhibitor therapy.
 
   # Title should have only initial letter capitalized
   - title: "Benchmarking Cross-Docking Strategies in Kinase Drug Discovery"
