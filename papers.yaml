@@ -149,17 +149,13 @@
       date: 2025-12-28
     # These links may be listed in the choderalab.org/publications/ page
     links:
-      - action: Supporting information
-        short: SI
-        description: The SI includes more figures and additional methods.
-        url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/6940accabc44e47cf41a835f/original/supporting-information-for-developing-and-benchmarking-sage-2-3-0-with-the-ash-gc-neural-network-charge-model.pdf
       - action: AshGC code and data
         short: GitHub
-        description: All data are publicly available, along with scripts, environments, and complete details for reproducing the training and benchmarking of AshGC
+        description: Data, scripts, and complete details for reproducing the training and benchmarking of the AshGC neural network charge model.
         url: https://github.com/openforcefield/ashgc-v1.0-fit 
       - action: Sage 2.3.0 code and data
         short: GitHub
-        description: All data are publicly available, along with scripts, environments, and complete details for reproducing the training and benchmarking of Sage 2.3.0
+        description: Code, data, and parameters for training and benchmarking the OpenFF Sage 2.3.0 general small molecule force field based on the AshGC neural network charge model.
         url: https://github.com/openforcefield/ash-sage-rc2
 
     # Thumbnail image URL
@@ -171,7 +167,7 @@
         We present AshGC, a fast new partial charge model that leverages graph neural networks within a physical charge equilibration framework, and Sage 2.3.0, a new general small molecule force field that uses this charge model. AshGC is able to generate AM1-BCC partial charges orders of magnitude faster than implementations based on semiempirical methods, and can parameterize very large molecules or large datasets in practically useful times. This provides a fast, accurate general small molecule force field that can be systematically improved in the future through joint training of the charge model and force field to arbitrary quantum chemical and experimental data targets.
     - id: NIH R35 GM152017
       rationale: >
-        We present AshGC, a fast new partial charge model that leverages graph neural networks within a physical charge equilibration framework, and Sage 2.3.0, a new general small molecule force field that uses this charge model. AshGC is able to generate AM1-BCC partial charges orders of magnitude faster than implementations based on semiempirical methods, and can parameterize very large molecules or large datasets in practically useful times. This provides a fast, accurate general small molecule force field that can be systematically improved in the future through joint training of the charge model and force field to arbitrary quantum chemical and experimental data targets. We demonstrate the accuracy of Saeg 2.3.0 for condensed phase properties and solvation free energies.
+        We present AshGC, a fast new partial charge model that leverages graph neural networks within a physical charge equilibration framework, and Sage 2.3.0, a new general small molecule force field that uses this charge model. AshGC is able to generate AM1-BCC partial charges orders of magnitude faster than implementations based on semiempirical methods, and can parameterize very large molecules or large datasets in practically useful times. This provides a fast, accurate general small molecule force field that can be systematically improved in the future through joint training of the charge model and force field to arbitrary quantum chemical and experimental data targets. We demonstrate the accuracy of Sage 2.3.0 for condensed phase properties and solvation free energies.
 
 
   # Title should have only initial letter capitalized
@@ -228,17 +224,13 @@
       date: 2025-12-18
     # These links may be listed in the choderalab.org/publications/ page
     links:
-      - action: Supporting Information
-        short: SI
-        description: Supplementary figures and tables
-        url: https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/693adaa308e316a05fc0022c/original/supporting-information-large-scale-collaborative-assessment-of-binding-free-energy-calculations-for-drug-discovery-using-open-fe.pdf
       - action: Code and data for the paper
         short: GitHub
-        description: This repository contains input structures, scripts to setup, run and analyze benchmarking calculations, as well as links to the relevant documentation related to the Open Free Energy 2024 Industry Benchmarking Project.
+        description: Input structures, setup scripts, and analysis code for large-scale benchmarking of the OpenFE 1.0 alchemical free energy calculation ecosystem for small molecule drug discovery, as well as links to the relevant documentation related to the Open Free Energy 2024 Industry Benchmarking Project.
         url: https://github.com/OpenFreeEnergy/IndustryBenchmarks2024
       - action: Code and docs
         short: Web
-        description: Code and docs for the Open Free Energy Consortium ecosystem
+        description: Code and docs for the Open Free Energy Consortium alchemical free energy calculation ecosystem for small molecule drug discovery.
         url: http://openfree.energy
 
     # Thumbnail image URL
@@ -247,10 +239,10 @@
     funding:
     - id: NIH P30 CA008748
       rationale: >
-        We demonstrate the OpenFE 1.0 alchemical free energy calculation ecosystem (based on OpenMM) on a large-scale benchmark on both public protein:ligand benchmark sets and internal industry benchmark sets across a number of industrial Open Free Energy Consortium members. For the public benchmark dataset, the RMSE across 58 systems was 1.73 [95\% CI: 1.53, 1.96] kcal/mol, with 10 of the systems reaching sub-kcal/mol accuracy, indicating good overall performance on these highly curated systems. While this indicates OpenFE is ready for use in real-world drug discovery, for the internal industry datasets, the RMSE across 37 systems was 2.44 [95\% CI: 1.94, 3.06] kcal/mol, with only 2 systems reaching sub-kcal/mol accuracy, indicating that significant improvements are still possible to improve accuracy, robustness, and reliability for real-world drug discovery programs.
+        We demonstrate the OpenFE 1.0 alchemical free energy calculation ecosystem (based on OpenMM code developed within our laboratory) on a large-scale benchmark on both public protein:ligand benchmark sets and internal industry benchmark sets across a number of industrial Open Free Energy Consortium members. For the public benchmark dataset, the RMSE across 58 systems was 1.73 [95\% CI: 1.53, 1.96] kcal/mol, with 10 of the systems reaching sub-kcal/mol accuracy, indicating good overall performance on these highly curated systems. While this indicates OpenFE is ready for use in real-world drug discovery, for the internal industry datasets, the RMSE across 37 systems was 2.44 [95\% CI: 1.94, 3.06] kcal/mol, with only 2 systems reaching sub-kcal/mol accuracy, indicating that significant improvements are still possible to improve accuracy, robustness, and reliability for real-world drug discovery programs.
     - id: NIH R35 GM152017
       rationale: >
-        We demonstrate the OpenFE 1.0 alchemical free energy calculation ecosystem (based on OpenMM) on a large-scale benchmark on both public protein:ligand benchmark sets and internal industry benchmark sets across a number of industrial Open Free Energy Consortium members. For the public benchmark dataset, the RMSE across 58 systems was 1.73 [95\% CI: 1.53, 1.96] kcal/mol, with 10 of the systems reaching sub-kcal/mol accuracy, indicating good overall performance on these highly curated systems. While this indicates OpenFE is ready for use in real-world drug discovery, for the internal industry datasets, the RMSE across 37 systems was 2.44 [95\% CI: 1.94, 3.06] kcal/mol, with only 2 systems reaching sub-kcal/mol accuracy, indicating that significant improvements are still possible to improve accuracy, robustness, and reliability for real-world drug discovery programs.
+        We demonstrate the OpenFE 1.0 alchemical free energy calculation ecosystem (based on OpenMM code developed within our laboratory) on a large-scale benchmark on both public protein:ligand benchmark sets and internal industry benchmark sets across a number of industrial Open Free Energy Consortium members. For the public benchmark dataset, the RMSE across 58 systems was 1.73 [95\% CI: 1.53, 1.96] kcal/mol, with 10 of the systems reaching sub-kcal/mol accuracy, indicating good overall performance on these highly curated systems. While this indicates OpenFE is ready for use in real-world drug discovery, for the internal industry datasets, the RMSE across 37 systems was 2.44 [95\% CI: 1.94, 3.06] kcal/mol, with only 2 systems reaching sub-kcal/mol accuracy, indicating that significant improvements are still possible to improve accuracy, robustness, and reliability for real-world drug discovery programs.
 
 
   # Title should have only initial letter capitalized
@@ -574,11 +566,11 @@
         url: https://github.com/choderalab/drugforge
       - action: Download analysis code
         short: GitHub
-        description: Source code repository for analyzing the docking results
+        description: Source code repository for analyzing docking results from multi-structure-assisted docking approaches.
         url: https://github.com/choderalab/harbor
       - action: Reproduce the study
         short: GitHub
-        description: Code needed to reproduce the study
+        description: Code for carrying out a large-scale study of small molecule docking accuracy leveraging large quantities of experimental X-ray structures.
         url: https://github.com/choderalab/sars-cov-2-retro-paper-asap
     # Thumbnail image URL
     thumbnail: asap-docking-study
@@ -587,6 +579,7 @@
     - id: NIH R35 GM152017
       rationale: >
         Using abundant X-ray structure data from real-world discovery programs from the open science COVID Moonshot and ASAP Antiviral Discovery Consortium efforts, we evaluate optimal strategies for leveraging X-ray data in structure-enabled discovery programs to support lead optimization efforts through computational and machine learning pipelines.
+        As reliable docking poses are essential to accurate free energy calculations, this is an essential step in fine-tuning free energy calculations to experimental data, since experimental structures are unavailable for the vast majority of compounds for which protein binding affinity data is available.
     - id: NIH P30 CA008748
       rationale: >
         Using abundant X-ray structure data from real-world discovery programs from the open science COVID Moonshot and ASAP Antiviral Discovery Consortium efforts, we evaluate optimal strategies for leveraging X-ray data in structure-enabled discovery programs to support lead optimization efforts through computational and machine learning pipelines.
@@ -655,11 +648,11 @@
     links:
       - action: Download the code
         short: GitHub
-        description: Source code repository for antiviral spectrum prediction code
+        description: AlphaFold- and co-folding-based antiviral spectrum prediction tools.
         url: https://github.com/choderalab/drugforge
       - action: Download paper code
         short: GitHub
-        description: Source code repository for generating the results presented in this paper
+        description: Code to reproduce the results shown in the AlphaFold- and co-folding-based antiviral spectrum prediction paper.
         url: https://github.com/choderalab/broad-spectrum-asap-paper
     # Thumbnail image URL
     thumbnail: antiviral-spectrum
@@ -667,16 +660,16 @@
     funding:
     - id: NIH R35 GM152017
       rationale: >
-        Alchemical free energy calculations are a promising tool for predicting how to optimize small molecules for desired selectivity and resistance profiles, but require accurate initial small molecule:target complex structures to perform reliably.
-        This work presents a structure-based computational pipeline for leveraging co-folding and docking methods as a first step to predicting selectivity and resistance for small molecule discovery, and assesses which steps are currently limiting in accuracy to downstream computations.
+        This work presents a structure-based computational pipeline for leveraging AlphaFold-based co-folding and docking methods as a first step to predicting selectivity and resistance for small molecule discovery, and assesses which steps are currently limiting in accuracy to downstream computations.
+        While alchemical free energy calculations are a promising tool for predicting how to optimize small molecules for desired selectivity and resistance profiles, but require accurate initial small molecule:target complex structures to perform reliably.
     - id: NIH U19 AI171399
       rationale: >
-        This work presents a structure-based computational pipeline for leveraging co-folding and docking methods to predict antiviral spectrum for small molecule antiviral drug discovery.
+        This work presents a structure-based computational pipeline for leveraging AlphaFold-based co-folding and docking methods to predict antiviral spectrum for small molecule antiviral drug discovery.
         The accuracy of the approach---and various accuracy-limiting steps---are assessed using data from the ASAP Antiviral Discovery Consortium.
     - id: NIH P30 CA008748
       rationale: >
+        This work presents a structure-based computational pipeline for leveraging AlphaFold-based co-folding and docking methods as a first step to predicting selectivity and resistance for small molecule discovery, and assesses which steps are currently limiting in accuracy to downstream computations.
         Alchemical free energy calculations are a promising tool for predicting how to optimize small molecules for desired selectivity and resistance profiles, but require accurate initial small molecule:target complex structures to perform reliably.
-        This work presents a structure-based computational pipeline for leveraging co-folding and docking methods as a first step to predicting selectivity and resistance for small molecule discovery, and assesses which steps are currently limiting in accuracy to downstream computations.
  
 
   # Title should have only initial letter capitalized

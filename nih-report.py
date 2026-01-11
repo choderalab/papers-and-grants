@@ -172,6 +172,11 @@ def show_resources(paper):
             if 'description' in link:
                 print(f"**{link['description']}:**")
             print(f"*{link['short']}:* {link['url']}")
+            print(f"Associated with paper: **{paper['title']}**")
+            if 'published' in paper:
+                print(f"   DOI: {paper['published']['doi']}")
+            elif 'preprint' in paper:
+                print(f"   Preprint: {paper['preprint']['url']}")
             print('')
 
 ################################################################################
