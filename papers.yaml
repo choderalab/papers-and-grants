@@ -557,12 +557,12 @@
     preprint:
       url: https://www.biorxiv.org/content/10.1101/2025.09.19.677428v1
       date: 2025-09-24
-    PMCID: PMC12485767
+      pmcid: PMC12485767
     # These links may be listed in the choderalab.org/publications/ page
     links:
       - action: Download the docking code
         short: GitHub
-        description: Source code repository for the docking code
+        description: DrugForce automated docking tool to leverage multiple receptor structures for lead optimization campaigns
         url: https://github.com/choderalab/drugforge
       - action: Download analysis code
         short: GitHub
@@ -643,7 +643,7 @@
     preprint:
       url: https://www.biorxiv.org/content/10.1101/2025.07.29.667267v1
       date: 2025-07-30
-    PMCID: PMC12324269
+      pmcid: PMC12324269
     # These links may be listed in the choderalab.org/publications/ page
     links:
       - action: Download the code
@@ -722,7 +722,7 @@
     preprint:
       url: https://www.biorxiv.org/content/10.1101/2025.06.16.660018v1
       date: 2025-06-17
-    PMCID: PMC12262575
+      pmcid: PMC12262575
     # These links may be listed in the choderalab.org/publications/ page
     links:
       - action: Visit the COVID Moonshot site
@@ -787,9 +787,9 @@
     - Sukrit Singh
     - John D Chodera
     # Add these other fields are optional; fill in as much information as is available
-    preprint:
-      url: https://www.biorxiv.org/content/10.1101/2024.11.15.623861v1
-      date: 2024-11-17
+    #preprint:
+    #  url: https://www.biorxiv.org/content/10.1101/2024.11.15.623861v1
+    #  date: 2024-11-17
     preprint:
       url: https://www.biorxiv.org/content/10.1101/2024.11.15.623861v2
       date: 2025-03-02
@@ -804,7 +804,7 @@
         revised: 2025-02-21
         accepted: 2025-02-28
         published: 2025-03-07
-    PMCID: 40060600
+      pmcid: PMC12038917
     # These links may be listed in the choderalab.org/publications/ page
     links:
       - action: Code used in this study
@@ -861,7 +861,6 @@
         revised: 2025-01-24
         accepted: 2025-01-28
         published: 2025-02-14
-    PMCID: 39951479
     # Thumbnail image URL
     thumbnail: need-for-blind-benchmarks
     # Two newlines are needed after the description

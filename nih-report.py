@@ -127,6 +127,10 @@ def show_paper(paper, show_links=False, grant_id=None):
             published = paper['published']
             print("*{journal}* {volume}:{page}, {year}".format(**published))
             print(f"DOI: {published['doi']}")
+            if 'pmcid' in published:
+                print(f"PMCID: {published['pmcid']}")
+            else:
+                print(' >>>>>>>>>>>>>>>>> WARNING >>>>>>>>>>>>>> PAPER DOES NOT HAVE A PMCID! <<<<<<<<<<<<<<<< ')
         elif 'preprint' in paper:
             preprint = paper['preprint']
             print(f"Preprint: {preprint['url']}")
@@ -248,7 +252,7 @@ if __name__ == '__main__':
     # Report all resources generated in the last reporting period
     print('------')
     print('')
-    print('The following resources corresponding to papers that were published, accepted, or preprinted were generated in the reporting period:')
+    print('The following resources associated with papers that were published, accepted, or preprinted were generated in the reporting period:')
     print('')
 
     for category in ['papers were published', 'manuscripts were accepted', 'preprints were posted']:
