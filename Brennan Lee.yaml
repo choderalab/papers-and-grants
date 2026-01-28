@@ -1,0 +1,49 @@
+# This is a template `.yaml` file that we use to keep our lab webpage up to date. 
+# Please fill out as much as possible and Comment out any fields if they don't apply to you/you do not wish to share (e.g. telephone, twitter, linkedin,etc.)
+name: Brennan Lee
+# birthday: Month - DD
+position: CBSP Summer Undergraduate Intern
+# Position can be either your MSKCC Job Title, Graduate Student, Postoctoral Research Scholar, or Postoctoral Research Fellow
+affiliations:
+- Memorial Sloan Kettering Cancer Center (MSKCC)
+- Computational Biology Summer Program (CBSP)
+- Massachusetts Institute of Technology (MIT)
+# Please LIST any/all that apply to you. Comment out any affiliation/program that you do not belong to or add any that are not listed below
+# awards: 
+# Please LIST any and all awards you have received; below are some examples
+# funding: 
+# Please LIST all of your sources for funding while working in the Chodera lab; below are some examples\
+status: alumni
+# status can be either `current` or `alumni`
+key dates: 
+# Please include all key dates. Comment out dates that do not apply to you.
+    - start-date: 2018-06
+    # - ace: YYYY-MM-DD
+    # - committee-meetings:
+      # - YYYY-MM-DD
+      # - YYYY-MM-DD
+    # - thesis-defense: YYYY-MM-DD
+    - end-date: 2018-08
+#current-position:
+# This should be your title of your next position if you know what your next venture is going to be 
+#email: firstname.lastname@choderalab.org
+#github: 
+# this should be your github username
+#telephone:
+#twitter: 
+# twitter handle (if applicable); do not include '@' (e.g.jchodera)
+linkedin: https://www.linkedin.com/in/brennan-lee-4a81b9168/
+#ORCID:
+# ORCID is required. Please make sure you have one; if not ask Admin how to procure one
+#NIH eRA Commons ID: 
+# NIH eRA Commons ID is required. Please make sure you have one; if not ask Admin how to procure one
+#google-scholar: URL
+#CV: URL to PDF
+projects:
+- Time-lagged Independent Components Analysis (TICA) Variant
+- Developed a novel dimensionality reduction technique to industry standards for the analysis of protein dynamics simulations
+# Brief descriptions of each project you are involved in (to appear on webpage). This should be a list; below are some examples  
+# contributions:
+# Please LIST all of the github repositories you have contributed to/ are associated with; below are some examples
+# interests:
+# Please LIST ALL possible keywords/buzz words that fall in your scientific interests; below are a few examples

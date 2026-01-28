@@ -1,0 +1,47 @@
+# This is a template `.yaml` file that we use to keep our lab webpage up to date. 
+# Please fill out as much as possible and Comment out any fields if they don't apply to you/you do not wish to share (e.g. telephone, twitter, linkedin,etc.)
+name: Chaya Stern
+birthday: September - 19
+position: Graduate Student
+# Position can be either your MSKCC Job Title, Graduate Student, Postoctoral Research Scholar, or Postoctoral Research Fellow
+affiliations:
+# Please LIST any/all that apply to you. Comment out any affiliation/program that you do not belong to or add any that are not listed below
+# - Weill Cornell Biochemistry, Structural Biology, Cell Biology, Developmental Biology and Molecular Biology (BCMB) PhD Program
+# - Tri-Institutional PhD Program in Computational Biology and Medicine
+- Tri-Institutional PhD Program in Chemical Biology
+# - Louis V. Gerstner, Jr. Graduate School of Biomedical Sciences
+# - Berlin Institute of Health (BIH) Einstein Foundation - Stiftung Charité Group
+# - Joint Mentorship with Name (URL to lab homepage)
+awards: 
+# Please LIST any and all awards you have received; below are some examples
+- NSF Graduate Research Fellow
+status: alumni
+# status can be either `current` or `alumni`
+key dates: 
+# Please include all key dates. Comment out dates that do not apply to you.
+    - start-date: 2013
+    - thesis-defense: 2020-03-30
+    - end-date: 2020-04-01
+current-position: Computational Chemistry Scientist at DeepCure
+# This should be your title of your next position if you know what your next venture is going to be 
+email: chaya.stern@choderalab.org
+github: ChayaSt
+# this should be your github username
+# telephone:
+twitter: SternChaya
+# twitter handle (if applicable); do not include '@' (e.g.jchodera)
+linkedin: https://www.linkedin.com/in/chaya-stern/
+ORCID: 0000-0001-6200-3993
+# ORCID is required. Please make sure you have one; if not ask Admin how to procure one
+# NIH eRA Commons ID: 
+# NIH eRA Commons ID is required. Please make sure you have one; if not ask Admin how to procure one
+google-scholar: https://scholar.google.com/citations?hl=en&oi=ao&user=cPP0ce0AAAAJ
+# CV: URL to PDF
+projects:
+# Brief descriptions of each project you are involved in (to appear on webpage). This should be a list; below are some examples
+- Bayesian forcefield parameterization and error propagation
+- large-scale and single molecule fluorescence data analysis  
+# contributions:
+# Please LIST all of the github repositories you have contributed to/ are associated with; below are some examples
+# interests:
+# Please LIST ALL possible keywords/buzz words that fall in your scientific interests; below are a few examples
